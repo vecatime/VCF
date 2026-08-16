@@ -23,7 +23,7 @@ jobs:
           curl -fsSL \
             --retry 3 \
             --connect-timeout 15 \
-            "https://veca110.m-sedaghat9414.workers.dev/sub/all" \
+            "https://veca1101.m-sedaghat9414.workers.dev/sub/all" \
             -o sub/all.new
 
           test -s sub/all.new
