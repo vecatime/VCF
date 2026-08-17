@@ -288,6 +288,7 @@ hysteria2://84eyebdtl3tcbssn@assets.gateway-stream.com:52060?security=tls&obfs=s
 vless://7968c546-02dc-4f8c-b791-934591a94cb2@millionaire.levikogjgfdd.ir:443?path=%2Fcbasur&security=tls&encryption=none&insecure=0&host=hhvl.hhapp.kdns.fr&type=ws&allowInsecure=0&sni=hhvl.hhapp.kdns.fr#configraygan_10
 vless://326f45c1-0a69-4150-a3b9-42f282a3c34c@185.204.170.235:2053?security=reality&encryption=none&pbk=N2H6Y5aEVwq2yUY1GL5fL6HKaiYUvve-tgImQAIAT0U&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=npav.havray2025.ir&sid=0d77f881#configraygan_13
 vless://29ca503d-e6b8-4509-b666-48133f450857@108.162.192.161:443?path=%2Ffdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#configraygan_15
+vless://b4bc10bf-80f9-40c9-b4e5-29817c2f0992@83.228.197.195:8082?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&type=grpc&serviceName=vless-grpc-reality&sni=id.vk.com#configraygan_16
 vless://431fe973-a43a-4fac-bf83-2a772e0d0625@207.174.133.222:10000?security=&encryption=none&headerType=none&type=tcp#configraygan_21
 vless://657f7fe7-0651-4754-b223-db46c3a576d7@5.75.172.138:8443?mode=auto&path=%2F%3Fed%2F%3F%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2048&security=reality&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=98QqggfyA0qggK8jQDXPPygy7aVI3hhMFsCL2ZOnljg&host=www.speedtest.net&fp=chrome&spx=%2FJM9r2ixfiyqirvB&type=xhttp&sni=aws-us-west-2.amazon.com&sid=13d78e56#configraygan_23
 vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@ad-013.orbitqgr7v.info:8443?path=%2F&security=tls&encryption=none&insecure=0&host=ad-013.orbitqgr7v.info&fp=chrome&type=ws&allowInsecure=0&sni=ad-013.orbitqgr7v.info#configraygan_24
@@ -381,4 +382,3 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.236.85.145:22224?security=&encry
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJWUo1SVMyb1NBczkza0dU@4.231.225.39:443#%F0%9F%94%92%20-%20%40configraygan-16
 vless://41e55ec5-ef82-4787-b9c6-9acb9f680843@92.246.138.69:898?security=&encryption=none&headerType=none&type=tcp#%F0%9F%94%92%20-%20%40configraygan-39
 vless://5eecb34f-c905-4c77-b7fb-d830b451cd11@141.133.172.222:20342?security=&encryption=none&headerType=none&type=tcp#%F0%9F%94%92%20-%20%40configraygan-20
-vless://b4bc10bf-80f9-40c9-b4e5-29817c2f0992@83.228.197.195:8082?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&type=grpc&serviceName=vless-grpc-reality&sni=id.vk.com#configraygan_16
