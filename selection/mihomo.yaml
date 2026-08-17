@@ -8,16 +8,16 @@ proxies:
     tls: true
     type: vless
     udp: true
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
     ws-opts:
       headers:
-        Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /fp
+        Host: josni.hoyes.cloudns.ch
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.110 Safari/537.36
+      path: /sg-melbi/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     xudp: true
     packet-encoding: xudp
-    servername: hhlfy.twiladaphne.ndjp.net
+    servername: josni.hoyes.cloudns.ch
   - client-fingerprint: chrome
     encryption: none
     name: ❓Other_2
@@ -32,13 +32,13 @@ proxies:
       headers:
         Host: josni.hoyes.cloudns.ch
         User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /sg-melbi
     xudp: true
     packet-encoding: xudp
     servername: josni.hoyes.cloudns.ch
   - client-fingerprint: chrome
-    name: 🇫🇷FR_1
+    name: ❓Other_3
     network: ws
     password: humanity
     port: 443
@@ -49,12 +49,34 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/68.0.3440.106 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
     encryption: none
-    name: 🇫🇷FR_2
+    name: 🇩🇪DE_1
+    network: ws
+    port: 443
+    server: 104.26.14.85
+    tls: true
+    type: vless
+    udp: true
+    uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+    ws-opts:
+      headers:
+        Host: rubifen.adaspoloandco.com
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /GOrbEh#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    packet-encoding: xudp
+    servername: rubifen.adaspoloandco.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇫🇷FR_1
     network: ws
     port: 8443
     server: 104.26.14.85
@@ -65,38 +87,58 @@ proxies:
     ws-opts:
       headers:
         Host: chopin.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
       path: /download.php
     xudp: true
     packet-encoding: xudp
     servername: chopin.adaspoloandco.com
   - client-fingerprint: chrome
     encryption: none
-    name: 🇸🇪SE_1
+    name: 🇨🇦CA_1
     network: ws
-    port: 443
-    server: 172.67.149.60
+    port: 2087
+    server: 104.18.1.1
     tls: true
     type: vless
     udp: true
-    uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
+    uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
     ws-opts:
       headers:
-        Host: support.zoom.us.yxls.eu.cc
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/69.0.3497.100 Safari/537.36
-      path: /id-tksi
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+        Host: Amphetamine.aDaspoloandco.com
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /download.php
     xudp: true
     packet-encoding: xudp
-    servername: support.zoom.us.yxls.eu.cc
+    servername: Amphetamine.aDaspoloandco.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇫🇷FR_2
+    network: ws
+    port: 8443
+    server: 188.114.97.4
+    tls: true
+    type: vless
+    udp: true
+    uuid: f798a2c4-c51b-409d-b349-ca8455b36796
+    ws-opts:
+      headers:
+        Host: chopin.adaspoloandco.com
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.79 Safari/537.36
+      path: /download.php#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 512
+    xudp: true
+    packet-encoding: xudp
+    servername: chopin.adaspoloandco.com
   - alpn:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_1
+    name: 🇩🇪DE_2
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -114,7 +156,7 @@ proxies:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇩🇪DE_2
+    name: 🇩🇪DE_3
     network: xhttp
     port: 443
     server: static.lotussec.com
