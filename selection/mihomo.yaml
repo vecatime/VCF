@@ -12,24 +12,38 @@ proxies:
     ws-opts:
       headers:
         Host: lsjaoijji.global.ssl.fastly.neT
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/42.0.2311.90 Safari/537.36
       path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
     xudp: true
     packet-encoding: xudp
     servername: ssl.fastly.com
-  - cipher: chacha20-ietf-poly1305
-    name: 🇨🇦CA_1
-    password: FD3rCuOsxOay
-    port: 8388
-    server: 15.235.75.71
-    type: ss
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 🇩🇪DE_2
+    network: ws
+    port: 443
+    server: 140.248.186.45
+    tls: true
+    type: vless
     udp: true
+    uuid: XpnTeam-13
+    ws-opts:
+      headers:
+        Host: Appxdn.global.ssl.fastly.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: ssl.fastly.com
   - client-fingerprint: firefox
     encryption: none
     grpc-opts:
       grpc-service-name: grpc-reality
-    name: 🇳🇱NL_1
+    name: 🇫🇷FR_1
     network: grpc
     port: 9002
     reality-opts:
@@ -44,10 +58,48 @@ proxies:
     packet-encoding: xudp
     servername: api-maps.yandex.ru
   - alpn:
+      - ""
+    alterId: "0"
+    cipher: auto
+    http-opts:
+      headers:
+        Host:
+          - www.apple.com
+      path:
+        - /
+    name: 🇩🇪DE_3
+    network: http
+    port: 8880
+    server: 159.69.180.75
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 8c0be351-cc26-4c4d-8cb8-147b9b25e50e
+    xudp: true
+    packet-encoding: xudp
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_1
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.201
+    type: ss
+    udp: true
+  - encryption: none
+    name: ❓Other_1
+    network: tcp
+    port: 13131
+    server: 103.118.252.45
+    type: vless
+    udp: true
+    uuid: bc155a59-a4db-45e7-addf-db634b79757b
+    xudp: true
+    packet-encoding: xudp
+  - alpn:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇩🇪DE_2
+    name: 🇩🇪DE_4
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -61,11 +113,31 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: static.lotussec.com
+  - encryption: none
+    name: 🇺🇸US_1
+    network: tcp
+    port: 45647
+    server: 182.16.61.4
+    type: vless
+    udp: true
+    uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    name: ❓Other_2
+    network: tcp
+    port: 45647
+    server: 182.16.61.2
+    type: vless
+    udp: true
+    uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+    xudp: true
+    packet-encoding: xudp
   - alpn:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_3
+    name: 🇩🇪DE_5
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -80,7 +152,7 @@ proxies:
     packet-encoding: xudp
     servername: static.lotussec.com
   - cipher: aes-256-gcm
-    name: ❓Other_1
+    name: 🇮🇹IT_1
     password: d1fa2f4b98a38bc8
     port: 10901
     server: 194.87.47.204
@@ -88,26 +160,7 @@ proxies:
     udp: true
   - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_2
-    network: ws
-    port: 8443
-    server: 104.26.14.85
-    tls: true
-    type: vless
-    udp: true
-    uuid: f798a2c4-c51b-409d-b349-ca8455b36796
-    ws-opts:
-      headers:
-        Host: chopin.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /download.php
-    xudp: true
-    packet-encoding: xudp
-    servername: chopin.adaspoloandco.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_3
+    name: 🇸🇬SG_1
     network: ws
     port: 443
     server: 104.16.79.73
@@ -119,15 +172,37 @@ proxies:
       headers:
         Host: josni.hoyes.cloudns.ch
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
       path: /musiclovers85
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
     xudp: true
     packet-encoding: xudp
     servername: josni.hoyes.cloudns.ch
+  - alpn:
+      - http/1.1
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    name: 🇬🇧GB_1
+    network: ws
+    port: 443
+    server: 104.26.0.7
+    tls: true
+    type: vless
+    udp: true
+    uuid: d171491a-9995-46ce-8719-f64463ca3a45
+    ws-opts:
+      headers:
+        Host: sertraline.adaspoloandco.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /download.php
+    xudp: true
+    packet-encoding: xudp
+    servername: sertraline.adaspoloandco.com
   - client-fingerprint: chrome
-    name: ❓Other_4
+    name: ❓Other_3
     network: ws
     password: humanity
     port: 443
@@ -138,32 +213,48 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: ❓Other_4
+    network: ws
+    password: humanity
+    port: 443
+    server: render.com
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
           Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
     encryption: none
-    name: 🇨🇦CA_2
+    name: 🇫🇷FR_2
     network: ws
-    port: 2087
-    server: 104.18.1.1
+    port: 8443
+    server: 188.114.97.4
     tls: true
     type: vless
     udp: true
-    uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
+    uuid: f798a2c4-c51b-409d-b349-ca8455b36796
     ws-opts:
       headers:
-        Host: Amphetamine.aDaspoloandco.com
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
-          Safari/537.36
-      path: /download.php
+        Host: chopin.adaspoloandco.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/67.0.3396.99 Safari/537.36
+      path: /download.php#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 512
     xudp: true
     packet-encoding: xudp
-    servername: Amphetamine.aDaspoloandco.com
+    servername: chopin.adaspoloandco.com
   - cipher: aes-256-gcm
-    name: 🇩🇪DE_4
+    name: 🇩🇪DE_6
     password: PcOE52lyGO6MFRm6/m5hfuC3NpNockDvcnNYgq18Ni4=
     port: 39880
     server: 79.175.134.49
@@ -173,7 +264,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_5
+    name: 🇩🇪DE_7
     network: xhttp
     port: 443
     server: 89.144.30.154
