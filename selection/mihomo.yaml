@@ -1,11 +1,4 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    name: 🇨🇦CA_1
-    password: FD3rCuOsxOay
-    port: 8388
-    server: 15.235.75.71
-    type: ss
-    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -23,27 +16,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: savesafe.run
-  - client-fingerprint: firefox
-    encryption: none
-    name: 🇺🇸US_1
-    network: ws
-    port: 443
-    server: 129.121.95.159
-    tls: true
-    type: vless
-    udp: true
-    uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-    ws-opts:
-      headers:
-        Host: 129.121.95.159
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.110 Safari/537.36
-      path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 512
-    xudp: true
-    packet-encoding: xudp
-    servername: 129.121.95.159
   - client-fingerprint: qq
     encryption: none
     flow: xtls-rprx-vision
@@ -61,36 +33,47 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: axisvpn.ru
-  - client-fingerprint: chrome
+  - alpn:
+      - h2
+    client-fingerprint: firefox
     encryption: none
-    grpc-opts:
-      grpc-service-name: grpc
-    name: ❓Other_2
-    network: grpc
-    port: 15392
-    reality-opts:
-      public-key: O8yFUnhj9NOtJ2eUVQTwrGk8HrkHq94QAO090azV428
-      short-id: "6a326909"
-    server: 217.69.167.135
+    name: 🇳🇱NL_1
+    network: xhttp
+    port: 443
+    server: dey.lnmarketplace.net
     tls: true
     type: vless
     udp: true
-    uuid: 9e998501-eaae-4d7e-bbe5-6cecfaef8334
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    xhttp-opts:
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      path: /kavir
     xudp: true
     packet-encoding: xudp
-    servername: google.com
+    servername: dey.lnmarketplace.net
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_2
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: kRwY2AAdT6SH4FKFQb-UhnJbyddqbdluKy1xaYPatD8
+      short-id: "b9f8f9772217538f"
+    server: 80.66.78.227
+    tls: true
+    type: vless
+    udp: true
+    uuid: 76f6b7fe-5de8-4637-87a0-6ddd33d67b3e
+    xudp: true
+    packet-encoding: xudp
+    servername: cdn-se.alohaapp.uk
   - cipher: aes-256-gcm
     name: 🇯🇵JP_1
     password: 3eOFeNssde7PYYMv
     port: 80
     server: 84.247.155.196
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_1
-    password: eVC634QvVk5l
-    port: 8388
-    server: 188.116.23.244
     type: ss
     udp: true
   - alpn:
@@ -111,18 +94,26 @@ proxies:
       path: /
     xudp: true
     packet-encoding: xudp
-  - encryption: none
-    name: 🇺🇸US_2
-    network: tcp
-    port: 45647
-    server: 182.16.61.4
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    encryption: none
+    name: 🇩🇪DE_1
+    network: xhttp
+    port: 443
+    server: static.lotussec.com
+    tls: true
     type: vless
     udp: true
-    uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+    xhttp-opts:
+      mode: stream-one
+      path: /Join-JavidnamanIran-on-Telegram
     xudp: true
     packet-encoding: xudp
+    servername: static.lotussec.com
   - encryption: none
-    name: 🇺🇸US_3
+    name: ❓Other_3
     network: tcp
     port: 45647
     server: 182.16.61.2
@@ -131,9 +122,27 @@ proxies:
     uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
     xudp: true
     packet-encoding: xudp
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    name: 🇩🇪DE_2
+    network: xhttp
+    port: 443
+    server: static.lotussec.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+    xhttp-opts:
+      mode: stream-one
+      path: /Join-JavidnamanIran-on-Telegram
+    xudp: true
+    packet-encoding: xudp
+    servername: static.lotussec.com
   - client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_1
+    name: 🇩🇪DE_3
     network: ws
     port: 443
     server: 104.26.14.85
@@ -144,8 +153,8 @@ proxies:
     ws-opts:
       headers:
         Host: rubifen.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
       path: /GOrbEh#TELEGRAM-ICV2RAY
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
@@ -154,7 +163,7 @@ proxies:
     servername: rubifen.adaspoloandco.com
   - client-fingerprint: chrome
     encryption: none
-    name: 🇸🇬SG_1
+    name: 🇩🇪DE_4
     network: ws
     port: 443
     server: 159.112.235.52
@@ -165,36 +174,15 @@ proxies:
     ws-opts:
       headers:
         Host: josni.hoyes.cloudns.ch
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
     xudp: true
     packet-encoding: xudp
     servername: josni.hoyes.cloudns.ch
   - client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_2
-    network: ws
-    port: 443
-    server: 104.21.71.238
-    tls: true
-    type: vless
-    udp: true
-    uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-    ws-opts:
-      headers:
-        Host: rubifen.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /GOrbEh#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 512
-    xudp: true
-    packet-encoding: xudp
-    servername: rubifen.adaspoloandco.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇨🇦CA_2
+    name: 🇨🇦CA_1
     network: ws
     port: 2087
     server: 172.67.74.10
@@ -205,9 +193,8 @@ proxies:
     ws-opts:
       headers:
         Host: amphetamine.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
       path: /download.php#TELEGRAM-MARAMBASHI_MARAMBASHI
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
@@ -216,7 +203,7 @@ proxies:
     servername: amphetamine.adaspoloandco.com
   - client-fingerprint: chrome
     encryption: none
-    name: 🇵🇱PL_1
+    name: 🇫🇷FR_1
     network: ws
     port: 8443
     server: 104.26.14.85
@@ -227,8 +214,8 @@ proxies:
     ws-opts:
       headers:
         Host: chopin.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
           Safari/537.36
       path: /download.php#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
       early-data-header-name: Sec-WebSocket-Protocol
@@ -237,42 +224,8 @@ proxies:
     packet-encoding: xudp
     servername: chopin.adaspoloandco.com
   - client-fingerprint: chrome
-    name: ❓Other_3
-    network: ws
-    password: humanity
-    port: 443
-    server: render.com
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.77 Safari/537.36
-      path: /assignment
-  - client-fingerprint: chrome
     encryption: none
-    name: 🇨🇦CA_3
-    network: ws
-    port: 2087
-    server: 104.18.1.1
-    tls: true
-    type: vless
-    udp: true
-    uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
-    ws-opts:
-      headers:
-        Host: Amphetamine.aDaspoloandco.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.101 Safari/537.36
-      path: /download.php
-    xudp: true
-    packet-encoding: xudp
-    servername: Amphetamine.aDaspoloandco.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇫🇷FR_1
+    name: 🇫🇷FR_2
     network: ws
     port: 8443
     server: 188.114.97.4
@@ -283,8 +236,9 @@ proxies:
     ws-opts:
       headers:
         Host: chopin.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /download.php#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
@@ -293,7 +247,7 @@ proxies:
     servername: chopin.adaspoloandco.com
   - client-fingerprint: chrome
     encryption: none
-    name: 🇵🇱PL_2
+    name: 🇫🇷FR_3
     network: ws
     port: 8443
     server: 104.27.66.214
@@ -304,8 +258,8 @@ proxies:
     ws-opts:
       headers:
         Host: chopin.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: /download.php
     xudp: true
     packet-encoding: xudp
@@ -323,14 +277,35 @@ proxies:
     ws-opts:
       headers:
         Host: sertraline.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /download.php#TELEGRAM-MARAMBASHI_MARAMBASHI
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
     xudp: true
     packet-encoding: xudp
     servername: sertraline.adaspoloandco.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇩🇪DE_5
+    network: ws
+    port: 443
+    server: 188.114.97.4
+    tls: true
+    type: vless
+    udp: true
+    uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+    ws-opts:
+      headers:
+        Host: rubifen.adaspoloandco.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+      path: /GOrbEh#TELEGRAM-MARAMBASHI_MARAMBASHI
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 512
+    xudp: true
+    packet-encoding: xudp
+    servername: rubifen.adaspoloandco.com
   - client-fingerprint: chrome
     encryption: none
     name: ❓Other_4
@@ -344,30 +319,15 @@ proxies:
     ws-opts:
       headers:
         Host: josni.hoyes.cloudns.ch
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
       path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
     xudp: true
     packet-encoding: xudp
     servername: josni.hoyes.cloudns.ch
   - client-fingerprint: chrome
-    name: ❓Other_5
-    network: ws
-    password: humanity
-    port: 443
-    server: 188.114.97.7
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.109 Safari/537.36
-      path: /assignment
-  - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_6
+    name: ❓Other_5
     network: ws
     port: 443
     server: 104.16.117.43
@@ -378,81 +338,43 @@ proxies:
     ws-opts:
       headers:
         Host: josni.hoyes.cloudns.ch
-        User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/42.0.2311.135 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /musiclovers85
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
     xudp: true
     packet-encoding: xudp
     servername: josni.hoyes.cloudns.ch
-  - client-fingerprint: chrome
+  - alpn:
+      - http/1.1
+      - h2
+    client-fingerprint: chrome
     encryption: none
-    name: ❓Other_7
+    name: 🇬🇧GB_2
     network: ws
     port: 443
-    server: 104.16.79.73
+    server: 104.26.0.7
     tls: true
     type: vless
     udp: true
-    uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+    uuid: d171491a-9995-46ce-8719-f64463ca3a45
     ws-opts:
       headers:
-        Host: josni.hoyes.cloudns.ch
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.102 Safari/537.36
-      path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+        Host: sertraline.adaspoloandco.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: /download.php
     xudp: true
     packet-encoding: xudp
-    servername: josni.hoyes.cloudns.ch
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_3
-    network: ws
-    port: 443
-    server: 188.114.97.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-    ws-opts:
-      headers:
-        Host: rubifen.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /GOrbEh#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 512
-    xudp: true
-    packet-encoding: xudp
-    servername: rubifen.adaspoloandco.com
+    servername: sertraline.adaspoloandco.com
   - cipher: aes-256-gcm
-    name: 🇩🇪DE_4
+    name: 🇩🇪DE_6
     password: PcOE52lyGO6MFRm6/m5hfuC3NpNockDvcnNYgq18Ni4=
     port: 39880
     server: 79.175.134.49
     type: ss
     udp: true
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_5
-    network: xhttp
-    port: 443
-    server: 89.144.30.154
-    tls: true
-    type: vless
-    udp: true
-    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-    xhttp-opts:
-      host: static.lotussec.com
-      mode: stream-one
-      path: /Join-JavidnamanIran-on-Telegram
-    xudp: true
-    packet-encoding: xudp
-    servername: static.lotussec.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
