@@ -1,7 +1,7 @@
 proxies:
     - client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_1"
+      name: "\U0001F1FA\U0001F1F8US_1"
       network: ws
       port: "443"
       server: 129.121.95.159
@@ -13,7 +13,7 @@ proxies:
       ws-opts:
         headers:
             Host: 129.121.95.159
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
         path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
       xudp: true
     - encryption: none
@@ -23,7 +23,7 @@ proxies:
                 - play.google.com
         path:
             - /
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: "\U0001F1F3\U0001F1F1NL_1"
       network: http
       port: "20017"
       server: 144.31.157.104
@@ -31,15 +31,50 @@ proxies:
       udp: true
       uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
       xudp: true
+    - alpn:
+        - h2
+      client-fingerprint: firefox
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_2"
+      network: xhttp
+      port: "443"
+      server: dey.lnmarketplace.net
+      servername: dey.lnmarketplace.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+      xhttp-opts:
+        host: dey.lnmarketplace.net
+        mode: stream-one
+        path: /kavir
+      xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_1"
+      name: "\U0001F1F3\U0001F1F1NL_3"
       password: eVC634QvVk5l
       port: "8388"
       server: 188.116.23.244
       type: ss
       udp: true
+    - alpn:
+        - h2
+      client-fingerprint: firefox
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: xhttp
+      port: "443"
+      server: static.lotussec.com
+      servername: static.lotussec.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+      xhttp-opts:
+        mode: stream-one
+        path: /Join-JavidnamanIran-on-Telegram
+      xudp: true
     - encryption: none
-      name: "\U0001F1FA\U0001F1F8US_1"
+      name: ❓Other_1
       network: tcp
       port: "45647"
       server: 182.16.61.2
@@ -47,44 +82,3 @@ proxies:
       udp: true
       uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
       xudp: true
-    - alpn:
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: ❓Other_1
-      network: xhttp
-      port: "443"
-      server: static.lotussec.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-      xhttp-opts:
-        mode: stream-one
-        path: /Join-JavidnamanIran-on-Telegram
-      xudp: true
-    - alpn:
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2"
-      network: xhttp
-      port: "443"
-      server: 89.144.30.154
-      servername: static.lotussec.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-      xhttp-opts:
-        host: static.lotussec.com
-        mode: stream-one
-        path: /Join-JavidnamanIran-on-Telegram
-      xudp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1E9\U0001F1EADE_3"
-      password: PcOE52lyGO6MFRm6/m5hfuC3NpNockDvcnNYgq18Ni4=
-      port: "39880"
-      server: 79.175.134.49
-      type: ss
-      udp: true
