@@ -1,37 +1,45 @@
 proxies:
   - encryption: none
-    name: ❓Other_1
-    network: ws
-    port: 2200
-    server: 194.26.229.220
-    type: vless
-    udp: true
-    uuid: 47947923-49ac-49f8-86ed-2912bcbf2d18
-    ws-opts:
+    http-opts:
       headers:
-        Host: rzd.ru
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /v1
-    xudp: true
-    packet-encoding: xudp
-  - client-fingerprint: qq
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_1
-    network: tcp
-    port: 1244
-    reality-opts:
-      public-key: gHG_cbbi-OJKY2tBQTqz1QryfmmRZEQ7BQgymimukkQ
-      short-id: "6ba85179e30d4fc2"
-    server: 72.35.246.31
-    tls: true
+        Host:
+          - play.google.com
+      path:
+        - /
+    name: 🇳🇱NL_1
+    network: http
+    port: 20017
+    server: 144.31.157.104
     type: vless
     udp: true
-    uuid: 2d96d4d6-a276-4ab5-9f20-8dc5cbf6e902
+    uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
     xudp: true
     packet-encoding: xudp
-    servername: axisvpn.ru
+  - cipher: chacha20-ietf-poly1305
+    name: ❓Other_1
+    password: eVC634QvVk5l
+    port: 8388
+    server: 188.116.23.244
+    type: ss
+    udp: true
+  - alpn:
+      - ""
+    alterId: "0"
+    cipher: auto
+    name: 🇭🇰HK_1
+    network: ws
+    port: 35043
+    server: 156.245.232.239
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+    ws-opts:
+      headers: {}
+      path: /
+    xudp: true
+    packet-encoding: xudp
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
@@ -49,24 +57,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: uk1.panel11.ru
-  - alpn:
-      - h2
-    client-fingerprint: firefox
-    encryption: none
-    name: 🇩🇪DE_1
-    network: xhttp
-    port: 443
-    server: static.lotussec.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-    xhttp-opts:
-      mode: stream-one
-      path: /Join-JavidnamanIran-on-Telegram
-    xudp: true
-    packet-encoding: xudp
-    servername: static.lotussec.com
   - encryption: none
     name: ❓Other_3
     network: tcp
@@ -77,86 +67,6 @@ proxies:
     uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
     xudp: true
     packet-encoding: xudp
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_2
-    network: ws
-    port: 443
-    server: 104.21.71.238
-    tls: true
-    type: vless
-    udp: true
-    uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-    ws-opts:
-      headers:
-        Host: rubifen.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.111 Safari/537.36
-      path: /GOrbEh#TELEGRAM-ICV2RAY
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    packet-encoding: xudp
-    servername: rubifen.adaspoloandco.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_3
-    network: ws
-    port: 443
-    server: 172.67.172.95
-    tls: true
-    type: vless
-    udp: true
-    uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-    ws-opts:
-      headers:
-        Host: rubifen.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-      path: /GOrbEh#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    packet-encoding: xudp
-    servername: rubifen.adaspoloandco.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇵🇱PL_1
-    network: ws
-    port: 8443
-    server: 188.114.97.4
-    tls: true
-    type: vless
-    udp: true
-    uuid: f798a2c4-c51b-409d-b349-ca8455b36796
-    ws-opts:
-      headers:
-        Host: chopin.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /download.php
-    xudp: true
-    packet-encoding: xudp
-    servername: chopin.adaspoloandco.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇨🇦CA_1
-    network: ws
-    port: 2087
-    server: 104.18.1.1
-    tls: true
-    type: vless
-    udp: true
-    uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
-    ws-opts:
-      headers:
-        Host: Amphetamine.aDaspoloandco.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: /download.php
-    xudp: true
-    packet-encoding: xudp
-    servername: Amphetamine.aDaspoloandco.com
   - down: ""
     fingerprint: ""
     name: 🇦🇪AE_1
@@ -170,49 +80,8 @@ proxies:
     type: hysteria2
     up: ""
     udp: true
-  - alpn:
-      - http/1.1
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: 🇬🇧GB_1
-    network: ws
-    port: 443
-    server: 104.26.0.7
-    tls: true
-    type: vless
-    udp: true
-    uuid: d171491a-9995-46ce-8719-f64463ca3a45
-    ws-opts:
-      headers:
-        Host: sertraline.adaspoloandco.com
-        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-          Slackware/Chrome/12.0.742.100 Safari/534.30
-      path: /download.php
-    xudp: true
-    packet-encoding: xudp
-    servername: sertraline.adaspoloandco.com
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_4
-    network: xhttp
-    port: 443
-    server: 89.144.30.154
-    tls: true
-    type: vless
-    udp: true
-    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-    xhttp-opts:
-      host: static.lotussec.com
-      mode: stream-one
-      path: /Join-JavidnamanIran-on-Telegram
-    xudp: true
-    packet-encoding: xudp
-    servername: static.lotussec.com
   - cipher: aes-256-gcm
-    name: 🇩🇪DE_5
+    name: 🇩🇪DE_1
     password: PcOE52lyGO6MFRm6/m5hfuC3NpNockDvcnNYgq18Ni4=
     port: 39880
     server: 79.175.134.49
