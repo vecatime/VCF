@@ -1,35 +1,21 @@
 proxies:
-    - client-fingerprint: firefox
+    - alpn:
+        - h2
+      client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_1"
-      network: ws
+      name: "\U0001F1F3\U0001F1F1NL_1"
+      network: xhttp
       port: "443"
-      server: 129.121.95.159
-      servername: 129.121.95.159
+      server: dey.lnmarketplace.net
+      servername: dey.lnmarketplace.net
       tls: true
       type: vless
       udp: true
-      uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-      ws-opts:
-        headers:
-            Host: 129.121.95.159
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-      xudp: true
-    - encryption: none
-      http-opts:
-        headers:
-            Host:
-                - play.google.com
-        path:
-            - /
-      name: "\U0001F1F3\U0001F1F1NL_1"
-      network: http
-      port: "20017"
-      server: 144.31.157.104
-      type: vless
-      udp: true
-      uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
+      uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+      xhttp-opts:
+        host: dey.lnmarketplace.net
+        mode: stream-one
+        path: /kavir
       xudp: true
     - encryption: none
       http-opts:
@@ -62,15 +48,6 @@ proxies:
       xhttp-opts:
         mode: stream-one
         path: /Join-JavidnamanIran-on-Telegram
-      xudp: true
-    - encryption: none
-      name: ❓Other_1
-      network: tcp
-      port: "45647"
-      server: 182.16.61.2
-      type: vless
-      udp: true
-      uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
       xudp: true
     - alpn:
         - h2

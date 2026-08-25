@@ -1,41 +1,23 @@
 proxies:
-  - client-fingerprint: firefox
+  - alpn:
+      - h2
+    client-fingerprint: firefox
     encryption: none
-    name: 🇺🇸US_1
-    network: ws
+    name: 🇳🇱NL_1
+    network: xhttp
     port: 443
-    server: 129.121.95.159
+    server: dey.lnmarketplace.net
     tls: true
     type: vless
     udp: true
-    uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-    ws-opts:
-      headers:
-        Host: 129.121.95.159
-        User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 512
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    xhttp-opts:
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      path: /kavir
     xudp: true
     packet-encoding: xudp
-    servername: 129.121.95.159
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - play.google.com
-      path:
-        - /
-    name: 🇳🇱NL_1
-    network: http
-    port: 20017
-    server: 144.31.157.104
-    type: vless
-    udp: true
-    uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
-    xudp: true
-    packet-encoding: xudp
+    servername: dey.lnmarketplace.net
   - encryption: none
     http-opts:
       headers:
@@ -70,16 +52,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: static.lotussec.com
-  - encryption: none
-    name: ❓Other_1
-    network: tcp
-    port: 45647
-    server: 182.16.61.2
-    type: vless
-    udp: true
-    uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-    xudp: true
-    packet-encoding: xudp
   - alpn:
       - h2
     client-fingerprint: chrome
