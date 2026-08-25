@@ -1,42 +1,79 @@
 proxies:
-  - alpn:
-      - ""
-    alterId: "0"
-    cipher: auto
-    name: 🇭🇰HK_1
+  - client-fingerprint: firefox
+    encryption: none
+    name: 🇺🇸US_1
     network: ws
-    port: 35043
-    server: 156.245.232.239
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+    port: 443
+    server: 129.121.95.159
+    tls: true
+    type: vless
     udp: true
-    uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+    uuid: f6190ff2-864c-46cf-ac16-93908c069b75
     ws-opts:
-      headers: {}
-      path: /
+      headers:
+        Host: 129.121.95.159
+        User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 512
     xudp: true
     packet-encoding: xudp
+    servername: 129.121.95.159
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - play.google.com
+      path:
+        - /
+    name: 🇩🇪DE_1
+    network: http
+    port: 20017
+    server: 144.31.157.104
+    type: vless
+    udp: true
+    uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
+    xudp: true
+    packet-encoding: xudp
+  - client-fingerprint: qq
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_1
+    network: tcp
+    port: 1244
+    reality-opts:
+      public-key: gHG_cbbi-OJKY2tBQTqz1QryfmmRZEQ7BQgymimukkQ
+      short-id: "6ba85179e30d4fc2"
+    server: 72.35.246.31
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2d96d4d6-a276-4ab5-9f20-8dc5cbf6e902
+    xudp: true
+    packet-encoding: xudp
+    servername: axisvpn.ru
   - alpn:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇩🇪DE_1
+    name: 🇳🇱NL_1
     network: xhttp
     port: 443
-    server: static.lotussec.com
+    server: dey.lnmarketplace.net
     tls: true
     type: vless
     udp: true
-    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
     xhttp-opts:
+      host: dey.lnmarketplace.net
       mode: stream-one
-      path: /Join-JavidnamanIran-on-Telegram
+      path: /kavir
     xudp: true
     packet-encoding: xudp
-    servername: static.lotussec.com
+    servername: dey.lnmarketplace.net
   - encryption: none
-    name: ❓Other_1
+    name: 🇺🇸US_2
     network: tcp
     port: 45647
     server: 182.16.61.2
@@ -49,7 +86,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_2
+    name: ❓Other_2
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -63,30 +100,11 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: static.lotussec.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_2
-    network: ws
-    port: 443
-    server: 104.18.37.228
-    tls: true
-    type: vless
-    udp: true
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-    ws-opts:
-      headers:
-        Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.102 Safari/537.36
-      path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    xudp: true
-    packet-encoding: xudp
-    servername: hhlfy.twiladaphne.ndjp.net
   - alpn:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_3
+    name: 🇩🇪DE_2
     network: xhttp
     port: 443
     server: 89.144.30.154
@@ -102,7 +120,7 @@ proxies:
     packet-encoding: xudp
     servername: static.lotussec.com
   - cipher: aes-256-gcm
-    name: 🇩🇪DE_4
+    name: 🇩🇪DE_3
     password: PcOE52lyGO6MFRm6/m5hfuC3NpNockDvcnNYgq18Ni4=
     port: 39880
     server: 79.175.134.49
