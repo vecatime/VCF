@@ -13,7 +13,7 @@ proxies:
       ws-opts:
         headers:
             Host: 129.121.95.159
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
         path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
       xudp: true
     - encryption: none
@@ -23,7 +23,7 @@ proxies:
                 - play.google.com
         path:
             - /
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: "\U0001F1F3\U0001F1F1NL_1"
       network: http
       port: "20017"
       server: 144.31.157.104
@@ -34,7 +34,7 @@ proxies:
     - client-fingerprint: qq
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_1
+      name: "\U0001F1EB\U0001F1EEFI_1"
       network: tcp
       port: "1244"
       reality-opts:
@@ -51,7 +51,7 @@ proxies:
         - h2
       client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_1"
+      name: "\U0001F1F3\U0001F1F1NL_2"
       network: xhttp
       port: "443"
       server: dey.lnmarketplace.net
@@ -65,18 +65,11 @@ proxies:
         mode: stream-one
         path: /kavir
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_2"
-      password: eVC634QvVk5l
-      port: "8388"
-      server: 188.116.23.244
-      type: ss
-      udp: true
     - alpn:
         - ""
       alterId: "0"
       cipher: auto
-      name: ❓Other_2
+      name: "\U0001F1ED\U0001F1F0HK_1"
       network: ws
       port: "35043"
       server: 156.245.232.239
@@ -88,6 +81,21 @@ proxies:
       ws-opts:
         headers: {}
         path: /
+      xudp: true
+    - encryption: none
+      http-opts:
+        headers:
+            Host:
+                - amp-api-edge.apps.apple.com
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: http
+      port: "80"
+      server: 5.75.193.127
+      type: vless
+      udp: true
+      uuid: 648abb82-c62d-4946-91f3-634a21c706ca
       xudp: true
     - alpn:
         - h2
