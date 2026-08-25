@@ -1,11 +1,4 @@
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E8\U0001F1E6CA_1"
-      password: FD3rCuOsxOay
-      port: "8388"
-      server: 15.235.75.71
-      type: ss
-      udp: true
     - client-fingerprint: firefox
       encryption: none
       name: "\U0001F1FA\U0001F1F8US_1"
@@ -20,7 +13,7 @@ proxies:
       ws-opts:
         headers:
             Host: 129.121.95.159
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
         path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
       xudp: true
     - encryption: none
@@ -37,6 +30,39 @@ proxies:
       type: vless
       udp: true
       uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
+      xudp: true
+    - client-fingerprint: qq
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_1
+      network: tcp
+      port: "1244"
+      reality-opts:
+        public-key: gHG_cbbi-OJKY2tBQTqz1QryfmmRZEQ7BQgymimukkQ
+        short-id: 6ba85179e30d4fc2
+      server: 72.35.246.31
+      servername: axisvpn.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2d96d4d6-a276-4ab5-9f20-8dc5cbf6e902
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc-reality
+      name: "\U0001F1E7\U0001F1ECBG_1"
+      network: grpc
+      port: "9002"
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+        short-id: ""
+      server: 78.159.245.75
+      servername: api-maps.yandex.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
       xudp: true
     - alpn:
         - ""
@@ -55,25 +81,8 @@ proxies:
         headers: {}
         path: /
       xudp: true
-    - alpn:
-        - h2
-      client-fingerprint: firefox
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1"
-      network: xhttp
-      port: "443"
-      server: static.lotussec.com
-      servername: static.lotussec.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-      xhttp-opts:
-        mode: stream-one
-        path: /Join-JavidnamanIran-on-Telegram
-      xudp: true
     - encryption: none
-      name: ❓Other_1
+      name: "\U0001F1FA\U0001F1F8US_2"
       network: tcp
       port: "45647"
       server: 182.16.61.2
@@ -81,54 +90,8 @@ proxies:
       udp: true
       uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
       xudp: true
-    - alpn:
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2"
-      network: xhttp
-      port: "443"
-      server: static.lotussec.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-      xhttp-opts:
-        mode: stream-one
-        path: /Join-JavidnamanIran-on-Telegram
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E6\U0001F1EAAE_1"
-      obfs: salamander
-      obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-      password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-      port: "443"
-      server: 130.49.161.70
-      skip-cert-verify: false
-      sni: hy2.aspidnet.xyz
-      type: hysteria2
-      up: ""
-    - alpn:
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_3"
-      network: xhttp
-      port: "443"
-      server: 89.144.30.154
-      servername: static.lotussec.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-      xhttp-opts:
-        host: static.lotussec.com
-        mode: stream-one
-        path: /Join-JavidnamanIran-on-Telegram
-      xudp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1E9\U0001F1EADE_4"
+      name: "\U0001F1E9\U0001F1EADE_1"
       password: PcOE52lyGO6MFRm6/m5hfuC3NpNockDvcnNYgq18Ni4=
       port: "39880"
       server: 79.175.134.49
