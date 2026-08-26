@@ -1,11 +1,4 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    name: 🇨🇦CA_1
-    password: FD3rCuOsxOay
-    port: 8388
-    server: 15.235.75.71
-    type: ss
-    udp: true
   - client-fingerprint: firefox
     encryption: none
     name: 🇺🇸US_1
@@ -19,9 +12,8 @@ proxies:
     ws-opts:
       headers:
         Host: 129.121.95.159
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36
       path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
@@ -44,23 +36,6 @@ proxies:
     uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
     xudp: true
     packet-encoding: xudp
-  - client-fingerprint: qq
-    encryption: none
-    flow: xtls-rprx-vision
-    name: ❓Other_1
-    network: tcp
-    port: 1244
-    reality-opts:
-      public-key: gHG_cbbi-OJKY2tBQTqz1QryfmmRZEQ7BQgymimukkQ
-      short-id: "6ba85179e30d4fc2"
-    server: 72.35.246.31
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2d96d4d6-a276-4ab5-9f20-8dc5cbf6e902
-    xudp: true
-    packet-encoding: xudp
-    servername: axisvpn.ru
   - alpn:
       - h2
     client-fingerprint: firefox
@@ -81,7 +56,7 @@ proxies:
     packet-encoding: xudp
     servername: dey.lnmarketplace.net
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_3
+    name: ❓Other_1
     password: eVC634QvVk5l
     port: 8388
     server: 188.116.23.244
