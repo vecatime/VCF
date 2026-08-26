@@ -19,34 +19,19 @@ proxies:
     ws-opts:
       headers:
         Host: 129.121.95.159
-        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+        User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
     xudp: true
     packet-encoding: xudp
     servername: 129.121.95.159
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - play.google.com
-      path:
-        - /
-    name: 🇳🇱NL_1
-    network: http
-    port: 20017
-    server: 144.31.157.104
-    type: vless
-    udp: true
-    uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: qq
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_2
+    name: 🇫🇮FI_1
     network: tcp
     port: 1244
     reality-opts:
@@ -64,7 +49,7 @@ proxies:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇳🇱NL_2
+    name: 🇳🇱NL_1
     network: xhttp
     port: 443
     server: dey.lnmarketplace.net
@@ -80,7 +65,7 @@ proxies:
     packet-encoding: xudp
     servername: dey.lnmarketplace.net
   - cipher: chacha20-ietf-poly1305
-    name: ❓Other_1
+    name: 🇳🇱NL_2
     password: eVC634QvVk5l
     port: 8388
     server: 188.116.23.244
@@ -121,7 +106,7 @@ proxies:
     packet-encoding: xudp
     servername: static.lotussec.com
   - encryption: none
-    name: 🇺🇸US_3
+    name: 🇺🇸US_2
     network: tcp
     port: 45647
     server: 182.16.61.2
