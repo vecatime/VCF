@@ -1,4 +1,11 @@
 proxies:
+  - cipher: chacha20-ietf-poly1305
+    name: 🇨🇦CA_1
+    password: FD3rCuOsxOay
+    port: 8388
+    server: 15.235.75.71
+    type: ss
+    udp: true
   - client-fingerprint: firefox
     encryption: none
     name: 🇺🇸US_1
@@ -13,7 +20,7 @@ proxies:
       headers:
         Host: 129.121.95.159
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
+          Gecko) Chrome/48.0.2564.116 Safari/537.36
       path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
@@ -39,7 +46,7 @@ proxies:
   - client-fingerprint: qq
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇫🇮FI_1
+    name: 🇺🇸US_2
     network: tcp
     port: 1244
     reality-opts:
@@ -72,6 +79,13 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: dey.lnmarketplace.net
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_3
+    password: eVC634QvVk5l
+    port: 8388
+    server: 188.116.23.244
+    type: ss
+    udp: true
   - alpn:
       - ""
     alterId: "0"
@@ -125,7 +139,7 @@ proxies:
     packet-encoding: xudp
     servername: static.lotussec.com
   - encryption: none
-    name: 🇺🇸US_2
+    name: 🇺🇸US_3
     network: tcp
     port: 45647
     server: 182.16.61.2
