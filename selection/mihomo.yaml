@@ -1,11 +1,4 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    name: 🇨🇦CA_1
-    password: FD3rCuOsxOay
-    port: 8388
-    server: 15.235.75.71
-    type: ss
-    udp: true
   - client-fingerprint: firefox
     encryption: none
     name: 🇺🇸US_1
@@ -20,17 +13,33 @@ proxies:
       headers:
         Host: 129.121.95.159
         User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.102 Safari/537.36
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
       path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
     xudp: true
     packet-encoding: xudp
     servername: 129.121.95.159
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - play.google.com
+      path:
+        - /
+    name: 🇩🇪DE_1
+    network: http
+    port: 20017
+    server: 144.31.157.104
+    type: vless
+    udp: true
+    uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
+    xudp: true
+    packet-encoding: xudp
   - client-fingerprint: qq
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: 🇫🇮FI_1
     network: tcp
     port: 1244
     reality-opts:
@@ -44,13 +53,43 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: axisvpn.ru
-  - cipher: chacha20-ietf-poly1305
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    encryption: none
     name: 🇳🇱NL_1
-    password: eVC634QvVk5l
-    port: 8388
-    server: 188.116.23.244
-    type: ss
+    network: xhttp
+    port: 443
+    server: dey.lnmarketplace.net
+    tls: true
+    type: vless
     udp: true
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    xhttp-opts:
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      path: /kavir
+    xudp: true
+    packet-encoding: xudp
+    servername: dey.lnmarketplace.net
+  - alpn:
+      - ""
+    alterId: "0"
+    cipher: auto
+    name: 🇭🇰HK_1
+    network: ws
+    port: 35043
+    server: 156.245.232.239
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+    ws-opts:
+      headers: {}
+      path: /
+    xudp: true
+    packet-encoding: xudp
   - encryption: none
     http-opts:
       headers:
@@ -58,7 +97,7 @@ proxies:
           - amp-api-edge.apps.apple.com
       path:
         - /
-    name: 🇩🇪DE_1
+    name: 🇩🇪DE_2
     network: http
     port: 80
     server: 5.75.193.127
@@ -71,7 +110,7 @@ proxies:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇩🇪DE_2
+    name: ❓Other_1
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -99,7 +138,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_3
+    name: ❓Other_2
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -108,25 +147,6 @@ proxies:
     udp: true
     uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
     xhttp-opts:
-      mode: stream-one
-      path: /Join-JavidnamanIran-on-Telegram
-    xudp: true
-    packet-encoding: xudp
-    servername: static.lotussec.com
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_4
-    network: xhttp
-    port: 443
-    server: 89.144.30.154
-    tls: true
-    type: vless
-    udp: true
-    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-    xhttp-opts:
-      host: static.lotussec.com
       mode: stream-one
       path: /Join-JavidnamanIran-on-Telegram
     xudp: true
