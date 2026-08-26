@@ -1,4 +1,11 @@
 proxies:
+  - cipher: chacha20-ietf-poly1305
+    name: 🇨🇦CA_1
+    password: FD3rCuOsxOay
+    port: 8388
+    server: 15.235.75.71
+    type: ss
+    udp: true
   - client-fingerprint: firefox
     encryption: none
     name: 🇺🇸US_1
@@ -12,74 +19,38 @@ proxies:
     ws-opts:
       headers:
         Host: 129.121.95.159
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.111 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
       path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
     xudp: true
     packet-encoding: xudp
     servername: 129.121.95.159
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - play.google.com
-      path:
-        - /
-    name: 🇳🇱NL_1
-    network: http
-    port: 20017
-    server: 144.31.157.104
-    type: vless
-    udp: true
-    uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
-    xudp: true
-    packet-encoding: xudp
-  - alpn:
-      - h2
-    client-fingerprint: firefox
+  - client-fingerprint: qq
     encryption: none
-    name: 🇳🇱NL_2
-    network: xhttp
-    port: 443
-    server: dey.lnmarketplace.net
+    flow: xtls-rprx-vision
+    name: ❓Other_1
+    network: tcp
+    port: 1244
+    reality-opts:
+      public-key: gHG_cbbi-OJKY2tBQTqz1QryfmmRZEQ7BQgymimukkQ
+      short-id: "6ba85179e30d4fc2"
+    server: 72.35.246.31
     tls: true
     type: vless
     udp: true
-    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-    xhttp-opts:
-      host: dey.lnmarketplace.net
-      mode: stream-one
-      path: /kavir
+    uuid: 2d96d4d6-a276-4ab5-9f20-8dc5cbf6e902
     xudp: true
     packet-encoding: xudp
-    servername: dey.lnmarketplace.net
+    servername: axisvpn.ru
   - cipher: chacha20-ietf-poly1305
-    name: ❓Other_1
+    name: 🇳🇱NL_1
     password: eVC634QvVk5l
     port: 8388
     server: 188.116.23.244
     type: ss
     udp: true
-  - alpn:
-      - ""
-    alterId: "0"
-    cipher: auto
-    name: 🇭🇰HK_1
-    network: ws
-    port: 35043
-    server: 156.245.232.239
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
-    packet-encoding: xudp
   - encryption: none
     http-opts:
       headers:
@@ -115,7 +86,7 @@ proxies:
     packet-encoding: xudp
     servername: static.lotussec.com
   - encryption: none
-    name: ❓Other_2
+    name: 🇺🇸US_2
     network: tcp
     port: 45647
     server: 182.16.61.2
