@@ -19,8 +19,8 @@ proxies:
     ws-opts:
       headers:
         Host: 129.121.95.159
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
@@ -79,6 +79,13 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: dey.lnmarketplace.net
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_3
+    password: eVC634QvVk5l
+    port: 8388
+    server: 188.116.23.244
+    type: ss
+    udp: true
   - alpn:
       - ""
     alterId: "0"
