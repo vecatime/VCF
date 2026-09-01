@@ -18,7 +18,7 @@ proxies:
         path: /kavir
       xudp: true
     - encryption: none
-      name: ❓Other_1
+      name: "\U0001F1FA\U0001F1F8US_1"
       network: tcp
       port: "45647"
       server: 182.16.61.2
@@ -26,25 +26,43 @@ proxies:
       udp: true
       uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
       xudp: true
-    - client-fingerprint: chrome
-      name: ❓Other_2
+    - encryption: none
+      name: ❓Other_1
       network: ws
-      password: humanity
-      port: "443"
-      server: 188.114.97.7
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
+      port: "2082"
+      server: 172.64.150.28
+      type: vless
       udp: true
+      uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
       ws-opts:
         headers:
+            Host: hhlfy.twiladaphne.ndjp.net
             User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /assignment
+        path: /fp
+      xudp: true
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: xhttp
+      port: "443"
+      server: 89.144.30.154
+      servername: static.lotussec.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+      xhttp-opts:
+        host: static.lotussec.com
+        mode: stream-one
+        path: /Join-JavidnamanIran-on-Telegram
+      xudp: true
     - alpn:
         - h2
       client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: "\U0001F1E9\U0001F1EADE_2"
       network: xhttp
       port: "443"
       server: static.lotussec.com
@@ -62,7 +80,7 @@ proxies:
         - h2
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2"
+      name: "\U0001F1E9\U0001F1EADE_3"
       network: xhttp
       port: "443"
       server: static.lotussec.com
