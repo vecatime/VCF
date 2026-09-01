@@ -1,151 +1,69 @@
 proxies:
-  - encryption: none
-    name: 🇯🇵JP_1
-    network: tcp
-    port: 24477
-    server: 43.163.241.110
-    type: vless
-    udp: true
-    uuid: 2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d
-    xudp: true
-    packet-encoding: xudp
-  - client-fingerprint: firefox
-    encryption: none
-    name: 🇺🇸US_1
-    network: ws
-    port: 443
-    server: 129.121.95.159
-    tls: true
-    type: vless
-    udp: true
-    uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-    ws-opts:
-      headers:
-        Host: 129.121.95.159
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: /connect#TELEGRAM-MARAMBASHI_MARAMBASHI
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 512
-    xudp: true
-    packet-encoding: xudp
-    servername: 129.121.95.159
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - play.google.com
-      path:
-        - /
-    name: ❓Other_1
-    network: http
-    port: 20017
-    server: 144.31.157.104
-    type: vless
-    udp: true
-    uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
-    xudp: true
-    packet-encoding: xudp
-  - alpn:
-      - ""
-    alterId: "0"
-    cipher: auto
-    name: ❓Other_2
-    network: ws
-    port: 35043
-    server: 156.245.232.239
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
-    packet-encoding: xudp
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - amp-api-edge.apps.apple.com
-      path:
-        - /
-    name: 🇩🇪DE_1
-    network: http
-    port: 80
-    server: 5.75.193.127
-    type: vless
-    udp: true
-    uuid: 648abb82-c62d-4946-91f3-634a21c706ca
-    xudp: true
-    packet-encoding: xudp
   - alpn:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇩🇪DE_2
+    name: 🇳🇱NL_1
     network: xhttp
     port: 443
-    server: static.lotussec.com
+    server: dey.lnmarketplace.net
     tls: true
     type: vless
     udp: true
-    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
     xhttp-opts:
+      host: dey.lnmarketplace.net
       mode: stream-one
-      path: /Join-JavidnamanIran-on-Telegram
+      path: /kavir
     xudp: true
     packet-encoding: xudp
-    servername: static.lotussec.com
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_3
-    network: xhttp
-    port: 443
-    server: static.lotussec.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-    xhttp-opts:
-      mode: stream-one
-      path: /Join-JavidnamanIran-on-Telegram
-    xudp: true
-    packet-encoding: xudp
-    servername: static.lotussec.com
+    servername: dey.lnmarketplace.net
   - encryption: none
-    name: 🇩🇪DE_3
+    name: ❓Other_1
     network: tcp
-    port: 8443
-    server: 195.133.84.198
+    port: 45647
+    server: 182.16.61.2
     type: vless
     udp: true
-    uuid: 263bae3e-f51c-4946-9c1f-2585347a3dd1
+    uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    name: ❓Other_2
+    network: ws
+    port: 2082
+    server: 172.64.150.28
+    type: vless
+    udp: true
+    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    ws-opts:
+      headers:
+        Host: hhlfy.twiladaphne.ndjp.net
+        User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
+      path: /fp
     xudp: true
     packet-encoding: xudp
   - client-fingerprint: chrome
-    name: ❓Other_4
+    name: ❓Other_3
     network: ws
     password: humanity
     port: 443
-    server: render.com
+    server: 172.67.149.60
     skip-cert-verify: false
     sni: www.ignitelimit.com
     type: trojan
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-          like Gecko) Chrome/5.0.342.1 Safari/533.2
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36
       path: /assignment
   - alpn:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_4
+    name: 🇩🇪DE_1
     network: xhttp
     port: 443
     server: 89.144.30.154
