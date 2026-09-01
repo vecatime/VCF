@@ -17,38 +17,29 @@ proxies:
         mode: stream-one
         path: /kavir
       xudp: true
-    - client-fingerprint: chrome
+    - encryption: none
       name: ❓Other_1
+      network: tcp
+      port: "45647"
+      server: 182.16.61.2
+      type: vless
+      udp: true
+      uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+      xudp: true
+    - client-fingerprint: chrome
+      name: ❓Other_2
       network: ws
       password: humanity
       port: "443"
-      server: render.com
+      server: 188.114.97.7
       skip-cert-verify: false
       sni: www.ignitelimit.com
       type: trojan
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /assignment
-    - alpn:
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: ❓Other_2
-      network: xhttp
-      port: "443"
-      server: 89.144.30.154
-      servername: static.lotussec.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-      xhttp-opts:
-        host: static.lotussec.com
-        mode: stream-one
-        path: /Join-JavidnamanIran-on-Telegram
-      xudp: true
     - alpn:
         - h2
       client-fingerprint: firefox
