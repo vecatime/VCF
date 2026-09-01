@@ -29,7 +29,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
         path: /assignment
     - client-fingerprint: chrome
       name: ❓Other_3
@@ -43,49 +43,27 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      name: ❓Other_4
+      network: ws
+      password: humanity
+      port: "443"
+      server: render.com
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
         path: /assignment
     - alpn:
         - h2
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1"
-      network: xhttp
-      port: "443"
-      server: 89.144.30.154
-      servername: static.lotussec.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-      xhttp-opts:
-        host: static.lotussec.com
-        mode: stream-one
-        path: /Join-JavidnamanIran-on-Telegram
-      xudp: true
-    - alpn:
-        - h2
-      client-fingerprint: firefox
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2"
-      network: xhttp
-      port: "443"
-      server: static.lotussec.com
-      servername: static.lotussec.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-      xhttp-opts:
-        host: static.lotussec.com
-        mode: stream-one
-        path: /Join-JavidnamanIran-on-Telegram
-      xudp: true
-    - alpn:
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_3"
+      name: ❓Other_5
       network: xhttp
       port: "443"
       server: static.lotussec.com
