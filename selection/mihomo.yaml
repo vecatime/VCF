@@ -1,33 +1,25 @@
 proxies:
-  - encryption: none
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    encryption: none
     name: ❓Other_1
-    network: tcp
-    port: 45647
-    server: 182.16.61.2
+    network: xhttp
+    port: 443
+    server: dey.lnmarketplace.net
+    tls: true
     type: vless
     udp: true
-    uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    xhttp-opts:
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      path: /kavir
     xudp: true
     packet-encoding: xudp
-  - encryption: none
-    name: ❓Other_2
-    network: ws
-    port: 2082
-    server: 172.64.150.28
-    type: vless
-    udp: true
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-    ws-opts:
-      headers:
-        Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: /fp
-    xudp: true
-    packet-encoding: xudp
+    servername: dey.lnmarketplace.net
   - client-fingerprint: chrome
-    name: ❓Other_3
+    name: ❓Other_2
     network: ws
     password: humanity
     port: 443
@@ -38,29 +30,69 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.101 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
-    name: ❓Other_4
+    name: ❓Other_3
     network: ws
     password: humanity
     port: 443
-    server: render.com
+    server: 172.67.149.60
     skip-cert-verify: false
     sni: www.ignitelimit.com
     type: trojan
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
       path: /assignment
   - alpn:
       - h2
     client-fingerprint: chrome
     encryption: none
     name: 🇩🇪DE_1
+    network: xhttp
+    port: 443
+    server: 89.144.30.154
+    tls: true
+    type: vless
+    udp: true
+    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+    xhttp-opts:
+      host: static.lotussec.com
+      mode: stream-one
+      path: /Join-JavidnamanIran-on-Telegram
+    xudp: true
+    packet-encoding: xudp
+    servername: static.lotussec.com
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    encryption: none
+    name: 🇩🇪DE_2
+    network: xhttp
+    port: 443
+    server: static.lotussec.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+    xhttp-opts:
+      host: static.lotussec.com
+      mode: stream-one
+      path: /Join-JavidnamanIran-on-Telegram
+    xudp: true
+    packet-encoding: xudp
+    servername: static.lotussec.com
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    name: 🇩🇪DE_3
     network: xhttp
     port: 443
     server: static.lotussec.com
