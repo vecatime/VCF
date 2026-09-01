@@ -19,7 +19,7 @@ proxies:
     packet-encoding: xudp
     servername: dey.lnmarketplace.net
   - encryption: none
-    name: 🇺🇸US_1
+    name: ❓Other_1
     network: tcp
     port: 45647
     server: 182.16.61.2
@@ -29,7 +29,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
   - encryption: none
-    name: ❓Other_1
+    name: ❓Other_2
     network: ws
     port: 2082
     server: 172.64.150.28
@@ -39,12 +39,57 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
+  - client-fingerprint: chrome
+    name: ❓Other_3
+    network: ws
+    password: humanity
+    port: 443
+    server: 188.114.97.7
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: ❓Other_4
+    network: ws
+    password: humanity
+    port: 443
+    server: 172.67.149.60
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile
+          Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: ❓Other_5
+    network: ws
+    password: humanity
+    port: 443
+    server: render.com
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/42.0.2311.90 Safari/537.36
+      path: /assignment
   - alpn:
       - h2
     client-fingerprint: chrome
