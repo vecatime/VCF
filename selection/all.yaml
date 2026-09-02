@@ -1,6 +1,24 @@
 proxies:
-    - encryption: none
+    - alpn:
+        - h2
+      client-fingerprint: firefox
+      encryption: none
       name: ❓Other_1
+      network: xhttp
+      port: "443"
+      server: dey.lnmarketplace.net
+      servername: dey.lnmarketplace.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+      xhttp-opts:
+        host: dey.lnmarketplace.net
+        mode: stream-one
+        path: /kavir
+      xudp: true
+    - encryption: none
+      name: ❓Other_2
       network: ws
       port: "2082"
       server: 172.64.150.28
@@ -10,34 +28,20 @@ proxies:
       ws-opts:
         headers:
             Host: hhlfy.twiladaphne.ndjp.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
         path: /fp
       xudp: true
-    - client-fingerprint: chrome
-      name: ❓Other_2
-      network: ws
-      password: humanity
-      port: "443"
-      server: 188.114.97.7
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: /assignment
     - client-fingerprint: chrome
       name: ❓Other_3
       network: ws
       password: humanity
       port: "443"
-      server: render.com
+      server: 172.67.149.60
       skip-cert-verify: false
       sni: www.ignitelimit.com
       type: trojan
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
         path: /assignment
