@@ -52,7 +52,7 @@ proxies:
       ws-opts:
         headers:
             Host: server14.peekconf.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
         path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
       xudp: true
     - client-fingerprint: chrome
@@ -67,7 +67,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
         path: /assignment
     - alpn:
         - h2
@@ -89,19 +89,17 @@ proxies:
       xudp: true
     - alpn:
         - h2
-      client-fingerprint: firefox
+      client-fingerprint: chrome
       encryption: none
-      name: ❓Other_3
+      name: "\U0001F1E9\U0001F1EADE_3"
       network: xhttp
       port: "443"
       server: static.lotussec.com
-      servername: static.lotussec.com
       tls: true
       type: vless
       udp: true
       uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
       xhttp-opts:
-        host: static.lotussec.com
         mode: stream-one
         path: /Join-JavidnamanIran-on-Telegram
       xudp: true
