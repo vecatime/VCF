@@ -1,32 +1,6 @@
 proxies:
   - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - amp-api-edge.apps.apple.com
-      path:
-        - /
-    name: 🇩🇪DE_1
-    network: http
-    port: 28112
-    server: tp.paydar.site
-    type: vless
-    udp: true
-    uuid: bf888993-0769-4e3f-86be-0f738ccf6422
-    xudp: true
-    packet-encoding: xudp
-  - encryption: none
     name: ❓Other_1
-    network: tcp
-    port: 45647
-    server: 182.16.61.2
-    type: vless
-    udp: true
-    uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-    xudp: true
-    packet-encoding: xudp
-  - encryption: none
-    name: 🇦🇿AZ_1
     network: ws
     port: 2082
     server: 172.64.150.28
@@ -37,7 +11,7 @@ proxies:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
+          Gecko) Chrome/32.0.1700.107 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
@@ -46,15 +20,30 @@ proxies:
     network: ws
     password: humanity
     port: 443
-    server: 172.67.149.60
+    server: 188.114.97.7
     skip-cert-verify: false
     sni: www.ignitelimit.com
     type: trojan
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: ❓Other_3
+    network: ws
+    password: humanity
+    port: 443
+    server: render.com
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
       path: /assignment
 proxy-groups:
   - name: 🚀 节点选择
