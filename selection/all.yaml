@@ -1,15 +1,38 @@
 proxies:
-    - encryption: none
-      name: ❓Other_1
-      network: tcp
-      port: "45647"
-      server: 182.16.61.2
+    - alpn:
+        - h2
+      client-fingerprint: firefox
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_1"
+      network: xhttp
+      port: "443"
+      server: dey.lnmarketplace.net
+      servername: dey.lnmarketplace.net
+      tls: true
       type: vless
       udp: true
-      uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+      uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+      xhttp-opts:
+        host: dey.lnmarketplace.net
+        mode: stream-one
+        path: /kavir
+      xudp: true
+    - encryption: none
+      name: "\U0001F1E6\U0001F1FFAZ_1"
+      network: ws
+      port: "2082"
+      server: 172.64.150.28
+      type: vless
+      udp: true
+      uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+      ws-opts:
+        headers:
+            Host: hhlfy.twiladaphne.ndjp.net
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /fp
       xudp: true
     - client-fingerprint: chrome
-      name: ❓Other_2
+      name: ❓Other_1
       network: ws
       password: humanity
       port: "443"
@@ -20,19 +43,19 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
         path: /assignment
     - client-fingerprint: chrome
-      name: ❓Other_3
+      name: ❓Other_2
       network: ws
       password: humanity
       port: "443"
-      server: 172.67.149.60
+      server: render.com
       skip-cert-verify: false
       sni: www.ignitelimit.com
       type: trojan
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
         path: /assignment
