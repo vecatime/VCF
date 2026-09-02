@@ -18,7 +18,22 @@ proxies:
         path: /kavir
       xudp: true
     - encryption: none
-      name: ❓Other_1
+      http-opts:
+        headers:
+            Host:
+                - amp-api-edge.apps.apple.com
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: http
+      port: "28113"
+      server: tp.paydar.site
+      type: vless
+      udp: true
+      uuid: 5197ce92-7791-461d-8efc-470217008e96
+      xudp: true
+    - encryption: none
+      name: "\U0001F1FA\U0001F1F8US_1"
       network: tcp
       port: "45647"
       server: 182.16.61.2
@@ -27,7 +42,7 @@ proxies:
       uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
       xudp: true
     - encryption: none
-      name: ❓Other_2
+      name: ❓Other_1
       network: ws
       port: "2082"
       server: 172.64.150.28
@@ -37,9 +52,23 @@ proxies:
       ws-opts:
         headers:
             Host: hhlfy.twiladaphne.ndjp.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
         path: /fp
       xudp: true
+    - client-fingerprint: chrome
+      name: ❓Other_2
+      network: ws
+      password: humanity
+      port: "443"
+      server: 188.114.97.7
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /assignment
     - client-fingerprint: chrome
       name: ❓Other_3
       network: ws
@@ -52,19 +81,5 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /assignment
-    - client-fingerprint: chrome
-      name: ❓Other_4
-      network: ws
-      password: humanity
-      port: "443"
-      server: render.com
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
         path: /assignment
