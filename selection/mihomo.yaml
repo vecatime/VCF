@@ -19,29 +19,13 @@ proxies:
     packet-encoding: xudp
     servername: dey.lnmarketplace.net
   - encryption: none
-    name: 🇺🇸US_1
+    name: ❓Other_1
     network: tcp
     port: 45647
     server: 182.16.61.2
     type: vless
     udp: true
     uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-    xudp: true
-    packet-encoding: xudp
-  - encryption: none
-    name: ❓Other_1
-    network: ws
-    port: 2082
-    server: 172.64.150.28
-    type: vless
-    udp: true
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-    ws-opts:
-      headers:
-        Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-          Gecko) Chrome/26.0.1410.64 Safari/537.31
-      path: /fp
     xudp: true
     packet-encoding: xudp
   - client-fingerprint: chrome
@@ -56,8 +40,8 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
     name: ❓Other_3
@@ -71,8 +55,8 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
       path: /assignment
 proxy-groups:
   - name: 🚀 节点选择
