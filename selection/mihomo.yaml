@@ -45,7 +45,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
   - encryption: none
-    name: 🇮🇳IN_1
+    name: ❓Other_1
     network: ws
     port: 2082
     server: 172.64.150.28
@@ -55,13 +55,13 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
   - client-fingerprint: chrome
-    name: ❓Other_1
+    name: ❓Other_2
     network: ws
     password: humanity
     port: 443
@@ -72,11 +72,11 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
-    name: ❓Other_2
+    name: ❓Other_3
     network: ws
     password: humanity
     port: 443
@@ -88,7 +88,22 @@ proxies:
     ws-opts:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: ❓Other_4
+    network: ws
+    password: humanity
+    port: 443
+    server: render.com
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
       path: /assignment
   - alpn:
       - h2
