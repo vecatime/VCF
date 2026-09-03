@@ -28,65 +28,57 @@ proxies:
     uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
     xudp: true
     packet-encoding: xudp
-  - encryption: none
-    name: 🇦🇿AZ_1
+  - client-fingerprint: chrome
+    name: ❓Other_2
     network: ws
-    port: 2082
-    server: 172.64.150.28
-    type: vless
+    password: humanity
+    port: 443
+    server: 172.67.149.60
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
     udp: true
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
     ws-opts:
       headers:
-        Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.79 Safari/537.36
-      path: /fp
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: ❓Other_3
+    network: ws
+    password: humanity
+    port: 443
+    server: render.com
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /assignment
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - amp-api-edge.apps.apple.com
+      path:
+        - /
+    name: 🇩🇪DE_1
+    network: http
+    port: 7575
+    server: tp.paydar.site
+    type: vless
+    udp: true
+    uuid: 2efb2d33-673c-4fa0-b606-61760774a884
     xudp: true
     packet-encoding: xudp
   - alpn:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: ❓Other_2
-    network: xhttp
-    port: 443
-    server: 89.144.30.154
-    tls: true
-    type: vless
-    udp: true
-    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-    xhttp-opts:
-      host: static.lotussec.com
-      mode: stream-one
-      path: /Join-JavidnamanIran-on-Telegram
-    xudp: true
-    packet-encoding: xudp
-    servername: static.lotussec.com
-  - alpn:
-      - h2
-    client-fingerprint: firefox
-    encryption: none
-    name: 🇳🇱NL_2
-    network: xhttp
-    port: 443
-    server: static.lotussec.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-    xhttp-opts:
-      host: static.lotussec.com
-      mode: stream-one
-      path: /Join-JavidnamanIran-on-Telegram
-    xudp: true
-    packet-encoding: xudp
-    servername: static.lotussec.com
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: 🇳🇱NL_3
+    name: 🇩🇪DE_2
     network: xhttp
     port: 443
     server: static.lotussec.com
