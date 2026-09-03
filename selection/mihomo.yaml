@@ -19,7 +19,7 @@ proxies:
     packet-encoding: xudp
     servername: dey.lnmarketplace.net
   - encryption: none
-    name: 🇺🇸US_1
+    name: ❓Other_1
     network: tcp
     port: 45647
     server: 182.16.61.2
@@ -29,7 +29,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
   - encryption: none
-    name: 🇦🇿AZ_1
+    name: ❓Other_2
     network: ws
     port: 2082
     server: 172.64.150.28
@@ -39,27 +39,25 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
   - client-fingerprint: chrome
-    name: ❓Other_1
+    name: ❓Other_3
     network: ws
     password: humanity
     port: 443
-    server: 172.67.149.60
+    server: render.com
     skip-cert-verify: false
     sni: www.ignitelimit.com
     type: trojan
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/68.0.3440.75 Safari/537.36
       path: /assignment
   - encryption: none
     http-opts:
