@@ -3,7 +3,7 @@ proxies:
         - h2
       client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_1"
+      name: ❓Other_1
       network: xhttp
       port: "443"
       server: dey.lnmarketplace.net
@@ -18,7 +18,7 @@ proxies:
         path: /kavir
       xudp: true
     - encryption: none
-      name: ❓Other_1
+      name: ❓Other_2
       network: tcp
       port: "45647"
       server: 182.16.61.2
@@ -27,7 +27,7 @@ proxies:
       uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
       xudp: true
     - encryption: none
-      name: "\U0001F1E6\U0001F1FFAZ_1"
+      name: "\U0001F1F8\U0001F1ECSG_1"
       network: ws
       port: "2082"
       server: 172.64.150.28
@@ -37,11 +37,11 @@ proxies:
       ws-opts:
         headers:
             Host: hhlfy.twiladaphne.ndjp.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
         path: /fp
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_1"
+      name: ❓Other_3
       network: ws
       password: humanity
       port: "443"
@@ -52,21 +52,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
-        path: /assignment
-    - client-fingerprint: chrome
-      name: ❓Other_2
-      network: ws
-      password: humanity
-      port: "443"
-      server: 172.67.149.60
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
         path: /assignment
     - alpn:
         - h2
