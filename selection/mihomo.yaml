@@ -19,17 +19,39 @@ proxies:
     packet-encoding: xudp
     servername: dey.lnmarketplace.net
   - encryption: none
-    name: ❓Other_1
-    network: tcp
-    port: 45647
-    server: 182.16.61.2
+    http-opts:
+      headers:
+        Host:
+          - amp-api-edge.apps.apple.com
+      path:
+        - /
+    name: 🇩🇪DE_1
+    network: http
+    port: 7070
+    server: tp.paydar.site
     type: vless
     udp: true
-    uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+    uuid: b8f991d5-37fd-4bde-a23b-adca1fb4723e
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    name: 🇮🇳IN_1
+    network: ws
+    port: 2082
+    server: 172.64.150.28
+    type: vless
+    udp: true
+    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    ws-opts:
+      headers:
+        Host: hhlfy.twiladaphne.ndjp.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      path: /fp
     xudp: true
     packet-encoding: xudp
   - client-fingerprint: chrome
-    name: ❓Other_2
+    name: ❓Other_1
     network: ws
     password: humanity
     port: 443
@@ -40,12 +62,11 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.110 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
-    name: ❓Other_3
+    name: ❓Other_2
     network: ws
     password: humanity
     port: 443
@@ -56,14 +77,14 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
       path: /assignment
   - alpn:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇳🇱NL_2
+    name: 🇩🇪DE_2
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -82,7 +103,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇳🇱NL_3
+    name: 🇩🇪DE_3
     network: xhttp
     port: 443
     server: static.lotussec.com
