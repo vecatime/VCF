@@ -1,36 +1,12 @@
 proxies:
-    - alpn:
-        - h2
-      client-fingerprint: firefox
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_1"
-      network: xhttp
-      port: "443"
-      server: dey.lnmarketplace.net
-      servername: dey.lnmarketplace.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-      xhttp-opts:
-        host: dey.lnmarketplace.net
-        mode: stream-one
-        path: /kavir
-      xudp: true
     - encryption: none
-      http-opts:
-        headers:
-            Host:
-                - amp-api-edge.apps.apple.com
-        path:
-            - /
       name: ❓Other_1
-      network: http
-      port: "7070"
-      server: tp.paydar.site
+      network: tcp
+      port: "45647"
+      server: 182.16.61.2
       type: vless
       udp: true
-      uuid: b8f991d5-37fd-4bde-a23b-adca1fb4723e
+      uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
       xudp: true
     - encryption: none
       name: "\U0001F1EE\U0001F1F3IN_1"
@@ -43,7 +19,7 @@ proxies:
       ws-opts:
         headers:
             Host: hhlfy.twiladaphne.ndjp.net
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+            User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
         path: /fp
       xudp: true
     - client-fingerprint: chrome
@@ -51,28 +27,14 @@ proxies:
       network: ws
       password: humanity
       port: "443"
-      server: 188.114.97.7
+      server: render.com
       skip-cert-verify: false
       sni: www.ignitelimit.com
       type: trojan
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /assignment
-    - client-fingerprint: chrome
-      name: ❓Other_3
-      network: ws
-      password: humanity
-      port: "443"
-      server: 172.67.149.60
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
         path: /assignment
     - alpn:
         - h2
@@ -96,7 +58,7 @@ proxies:
         - h2
       client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2"
+      name: "\U0001F1F3\U0001F1F1NL_1"
       network: xhttp
       port: "443"
       server: static.lotussec.com
@@ -114,7 +76,7 @@ proxies:
         - h2
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_3"
+      name: "\U0001F1F3\U0001F1F1NL_2"
       network: xhttp
       port: "443"
       server: static.lotussec.com
