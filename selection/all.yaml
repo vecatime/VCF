@@ -1,24 +1,6 @@
 proxies:
-    - alpn:
-        - h2
-      client-fingerprint: firefox
-      encryption: none
-      name: ❓Other_1
-      network: xhttp
-      port: "443"
-      server: dey.lnmarketplace.net
-      servername: dey.lnmarketplace.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-      xhttp-opts:
-        host: dey.lnmarketplace.net
-        mode: stream-one
-        path: /kavir
-      xudp: true
     - encryption: none
-      name: ❓Other_2
+      name: ❓Other_1
       network: tcp
       port: "45647"
       server: 182.16.61.2
@@ -26,22 +8,8 @@ proxies:
       udp: true
       uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
       xudp: true
-    - encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_1"
-      network: ws
-      port: "2082"
-      server: 172.64.150.28
-      type: vless
-      udp: true
-      uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-      ws-opts:
-        headers:
-            Host: hhlfy.twiladaphne.ndjp.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /fp
-      xudp: true
     - client-fingerprint: chrome
-      name: ❓Other_3
+      name: ❓Other_2
       network: ws
       password: humanity
       port: "443"
@@ -52,7 +20,21 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      name: ❓Other_3
+      network: ws
+      password: humanity
+      port: "443"
+      server: 172.67.149.60
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
         path: /assignment
     - alpn:
         - h2
