@@ -1,23 +1,14 @@
 proxies:
-  - alpn:
-      - h2
-    client-fingerprint: firefox
-    encryption: none
-    name: 🇳🇱NL_1
-    network: xhttp
-    port: 443
-    server: dey.lnmarketplace.net
-    tls: true
+  - encryption: none
+    name: ❓Other_1
+    network: tcp
+    port: 45647
+    server: 182.16.61.2
     type: vless
     udp: true
-    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-    xhttp-opts:
-      host: dey.lnmarketplace.net
-      mode: stream-one
-      path: /kavir
+    uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
     xudp: true
     packet-encoding: xudp
-    servername: dey.lnmarketplace.net
   - encryption: none
     name: 🇮🇳IN_1
     network: ws
@@ -29,13 +20,13 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
       path: /fp
     xudp: true
     packet-encoding: xudp
   - client-fingerprint: chrome
-    name: ❓Other_1
+    name: ❓Other_2
     network: ws
     password: humanity
     port: 443
@@ -46,23 +37,8 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /assignment
-  - client-fingerprint: chrome
-    name: ❓Other_2
-    network: ws
-    password: humanity
-    port: 443
-    server: render.com
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
       path: /assignment
   - alpn:
       - h2
@@ -87,7 +63,7 @@ proxies:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇳🇱NL_2
+    name: 🇩🇪DE_2
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -106,7 +82,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇳🇱NL_3
+    name: 🇩🇪DE_3
     network: xhttp
     port: 443
     server: static.lotussec.com
