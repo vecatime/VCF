@@ -1,6 +1,25 @@
 proxies:
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    encryption: none
+    name: 🇳🇱NL_1
+    network: xhttp
+    port: 443
+    server: dey.lnmarketplace.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    xhttp-opts:
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      path: /kavir
+    xudp: true
+    packet-encoding: xudp
+    servername: dey.lnmarketplace.net
   - encryption: none
-    name: ❓Other_1
+    name: 🇮🇳IN_1
     network: ws
     port: 2082
     server: 172.64.150.28
@@ -10,13 +29,14 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195
+          Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5
+          Chrome/28.0.1500.94 Mobile Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
   - client-fingerprint: chrome
-    name: ❓Other_2
+    name: ❓Other_1
     network: ws
     password: humanity
     port: 443
@@ -27,17 +47,17 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.167 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
       path: /assignment
   - alpn:
       - h2
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     encryption: none
     name: 🇩🇪DE_1
     network: xhttp
     port: 443
-    server: static.lotussec.com
+    server: 89.144.30.154
     tls: true
     type: vless
     udp: true
@@ -51,7 +71,7 @@ proxies:
     servername: static.lotussec.com
   - alpn:
       - h2
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     encryption: none
     name: 🇩🇪DE_2
     network: xhttp
@@ -62,6 +82,7 @@ proxies:
     udp: true
     uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
     xhttp-opts:
+      host: static.lotussec.com
       mode: stream-one
       path: /Join-JavidnamanIran-on-Telegram
     xudp: true
