@@ -18,7 +18,7 @@ proxies:
         path: /kavir
       xudp: true
     - encryption: none
-      name: "\U0001F1EE\U0001F1F3IN_1"
+      name: "\U0001F1E6\U0001F1FFAZ_1"
       network: ws
       port: "2082"
       server: 172.64.150.28
@@ -28,7 +28,7 @@ proxies:
       ws-opts:
         headers:
             Host: hhlfy.twiladaphne.ndjp.net
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
         path: /fp
       xudp: true
     - client-fingerprint: chrome
@@ -43,7 +43,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
         path: /assignment
     - alpn:
         - h2
@@ -78,6 +78,22 @@ proxies:
       uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
       xhttp-opts:
         host: static.lotussec.com
+        mode: stream-one
+        path: /Join-JavidnamanIran-on-Telegram
+      xudp: true
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_3"
+      network: xhttp
+      port: "443"
+      server: static.lotussec.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+      xhttp-opts:
         mode: stream-one
         path: /Join-JavidnamanIran-on-Telegram
       xudp: true
