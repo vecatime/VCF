@@ -1,22 +1,4 @@
 proxies:
-    - alpn:
-        - h2
-      client-fingerprint: firefox
-      encryption: none
-      name: ❓Other_1
-      network: xhttp
-      port: "443"
-      server: dey.lnmarketplace.net
-      servername: dey.lnmarketplace.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-      xhttp-opts:
-        host: dey.lnmarketplace.net
-        mode: stream-one
-        path: /kavir
-      xudp: true
     - encryption: none
       http-opts:
         headers:
@@ -32,6 +14,20 @@ proxies:
       udp: true
       uuid: 7c3fcbab-324a-4c06-840a-f32c9ece4f2a
       xudp: true
+    - encryption: none
+      name: ❓Other_1
+      network: ws
+      port: "2082"
+      server: 172.64.150.28
+      type: vless
+      udp: true
+      uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+      ws-opts:
+        headers:
+            Host: hhlfy.twiladaphne.ndjp.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /fp
+      xudp: true
     - client-fingerprint: chrome
       name: ❓Other_2
       network: ws
@@ -44,10 +40,24 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
         path: /assignment
     - client-fingerprint: chrome
       name: ❓Other_3
+      network: ws
+      password: humanity
+      port: "443"
+      server: 172.67.149.60
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      name: ❓Other_4
       network: ws
       password: humanity
       port: "443"
@@ -58,13 +68,31 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
         path: /assignment
+    - alpn:
+        - h2
+      client-fingerprint: firefox
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_2"
+      network: xhttp
+      port: "443"
+      server: static.lotussec.com
+      servername: static.lotussec.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+      xhttp-opts:
+        host: static.lotussec.com
+        mode: stream-one
+        path: /Join-JavidnamanIran-on-Telegram
+      xudp: true
     - alpn:
         - h2
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_1"
+      name: "\U0001F1E9\U0001F1EADE_3"
       network: xhttp
       port: "443"
       server: static.lotussec.com
