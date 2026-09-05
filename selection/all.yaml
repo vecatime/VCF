@@ -18,7 +18,7 @@ proxies:
         path: /kavir
       xudp: true
     - encryption: none
-      name: ❓Other_1
+      name: "\U0001F1EE\U0001F1F3IN_1"
       network: ws
       port: "2082"
       server: 172.64.150.28
@@ -28,11 +28,11 @@ proxies:
       ws-opts:
         headers:
             Host: hhlfy.twiladaphne.ndjp.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /fp
       xudp: true
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: ❓Other_1
       network: ws
       port: "8080"
       server: 172.67.132.85
@@ -42,7 +42,7 @@ proxies:
       ws-opts:
         headers:
             Host: server14.peekconf.workers.dev
-            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
       xudp: true
     - client-fingerprint: chrome
@@ -57,13 +57,13 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
         path: /assignment
     - alpn:
         - h2
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2"
+      name: "\U0001F1E9\U0001F1EADE_1"
       network: xhttp
       port: "443"
       server: 89.144.30.154
@@ -81,7 +81,7 @@ proxies:
         - h2
       client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_3"
+      name: "\U0001F1E9\U0001F1EADE_2"
       network: xhttp
       port: "443"
       server: static.lotussec.com
@@ -99,7 +99,7 @@ proxies:
         - h2
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_4"
+      name: "\U0001F1E9\U0001F1EADE_3"
       network: xhttp
       port: "443"
       server: static.lotussec.com
