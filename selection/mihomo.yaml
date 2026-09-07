@@ -1,21 +1,35 @@
 proxies:
-  - client-fingerprint: chrome
-    name: ❓Other_1
-    network: ws
-    password: humanity
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    encryption: none
+    name: 🇳🇱NL_1
+    network: xhttp
     port: 443
-    server: 188.114.97.7
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
+    server: dey.lnmarketplace.net
+    tls: true
+    type: vless
     udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /assignment
-  - cipher: aes-256-gcm
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    xhttp-opts:
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      path: /kavir
+    xudp: true
+    packet-encoding: xudp
+    servername: dey.lnmarketplace.net
+  - encryption: none
     name: 🇩🇪DE_1
+    network: tcp
+    port: 8443
+    server: 49.13.168.128
+    type: vless
+    udp: true
+    uuid: 4db42a40-9de3-499f-ab5f-85073abb9a46
+    xudp: true
+    packet-encoding: xudp
+  - cipher: aes-256-gcm
+    name: 🇩🇪DE_2
     password: PcOE52lyGO6MFRm6/m5hfuC3NpNockDvcnNYgq18Ni4=
     port: 39880
     server: 79.175.134.49
@@ -25,7 +39,7 @@ proxies:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇳🇱NL_1
+    name: ❓Other_1
     network: xhttp
     port: 443
     server: static.lotussec.com
