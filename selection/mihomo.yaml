@@ -1,25 +1,45 @@
 proxies:
   - client-fingerprint: chrome
+    encryption: none
+    name: 🇳🇱NL_1
+    network: ws
+    port: 443
+    server: 199.232.78.159
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4fe00c41-a1d0-4d98-8a05-cab09db9faaf
+    ws-opts:
+      headers:
+        Host: pane2.global.ssl.fastly.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2053
+    xudp: true
+    packet-encoding: xudp
+    servername: ssl.fastly.com
+  - client-fingerprint: chrome
     name: ❓Other_1
     network: ws
     password: humanity
     port: 443
-    server: 188.114.97.7
+    server: render.com
     skip-cert-verify: false
     sni: www.ignitelimit.com
     type: trojan
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
       path: /assignment
   - alpn:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇳🇱NL_1
+    name: ❓Other_2
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -38,7 +58,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇳🇱NL_2
+    name: ❓Other_3
     network: xhttp
     port: 443
     server: static.lotussec.com
