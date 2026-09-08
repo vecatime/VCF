@@ -1,5 +1,26 @@
 proxies:
   - client-fingerprint: chrome
+    encryption: none
+    name: 🇳🇱NL_1
+    network: ws
+    port: 443
+    server: 199.232.78.159
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4fe00c41-a1d0-4d98-8a05-cab09db9faaf
+    ws-opts:
+      headers:
+        Host: pane2.global.ssl.fastly.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2053
+    xudp: true
+    packet-encoding: xudp
+    servername: ssl.fastly.com
+  - client-fingerprint: chrome
     name: ❓Other_1
     network: ws
     password: humanity
@@ -11,9 +32,46 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /assignment
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    encryption: none
+    name: ❓Other_2
+    network: xhttp
+    port: 443
+    server: static.lotussec.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+    xhttp-opts:
+      host: static.lotussec.com
+      mode: stream-one
+      path: /Join-JavidnamanIran-on-Telegram
+    xudp: true
+    packet-encoding: xudp
+    servername: static.lotussec.com
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_3
+    network: xhttp
+    port: 443
+    server: static.lotussec.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+    xhttp-opts:
+      mode: stream-one
+      path: /Join-JavidnamanIran-on-Telegram
+    xudp: true
+    packet-encoding: xudp
+    servername: static.lotussec.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
