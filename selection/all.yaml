@@ -1,4 +1,22 @@
 proxies:
+    - alpn:
+        - h2
+      client-fingerprint: firefox
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_1"
+      network: xhttp
+      port: "443"
+      server: dey.lnmarketplace.net
+      servername: dey.lnmarketplace.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+      xhttp-opts:
+        host: dey.lnmarketplace.net
+        mode: stream-one
+        path: /kavir
+      xudp: true
     - encryption: none
       name: "\U0001F1E9\U0001F1EADE_1"
       network: tcp
@@ -8,8 +26,22 @@ proxies:
       udp: true
       uuid: 4db42a40-9de3-499f-ab5f-85073abb9a46
       xudp: true
-    - client-fingerprint: chrome
+    - encryption: none
       name: ❓Other_1
+      network: ws
+      port: "8080"
+      server: 172.67.132.85
+      type: vless
+      udp: true
+      uuid: 3a701524-30c8-45f3-8922-d7af5d024af0
+      ws-opts:
+        headers:
+            Host: server14.peekconf.workers.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
+      xudp: true
+    - client-fingerprint: chrome
+      name: ❓Other_2
       network: ws
       password: humanity
       port: "443"
@@ -20,7 +52,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /assignment
     - cipher: aes-256-gcm
       name: "\U0001F1E9\U0001F1EADE_2"
