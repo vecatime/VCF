@@ -1,7 +1,7 @@
 proxies:
   - client-fingerprint: chrome
     encryption: none
-    name: 🇳🇱NL_1
+    name: ❓Other_1
     network: ws
     port: 443
     server: 199.232.78.159
@@ -12,35 +12,16 @@ proxies:
     ws-opts:
       headers:
         Host: pane2.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2053
     xudp: true
     packet-encoding: xudp
     servername: ssl.fastly.com
-  - alpn:
-      - h2
-    client-fingerprint: firefox
-    encryption: none
-    name: 🇳🇱NL_2
-    network: xhttp
-    port: 443
-    server: dey.lnmarketplace.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-    xhttp-opts:
-      host: dey.lnmarketplace.net
-      mode: stream-one
-      path: /kavir
-    xudp: true
-    packet-encoding: xudp
-    servername: dey.lnmarketplace.net
   - encryption: none
-    name: ❓Other_1
+    name: 🇷🇴RO_1
     network: ws
     port: 2082
     server: 172.64.150.28
@@ -50,16 +31,66 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/68.0.3440.106 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
+  - client-fingerprint: chrome
+    name: ❓Other_2
+    network: ws
+    password: humanity
+    port: 443
+    server: 188.114.97.7
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
+          Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: ❓Other_3
+    network: ws
+    password: humanity
+    port: 443
+    server: render.com
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /assignment
+  - client-fingerprint: edge
+    encryption: none
+    name: 🇩🇪DE_1
+    network: xhttp
+    port: 443
+    reality-opts:
+      public-key: ZBv1jOEHziWtQQoThg63_1gm4zIPyk_cfVmNJ1SOZSk
+      short-id: "a88550765b9956ee"
+    server: de-2.starsping.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1577b744-8004-4eef-862c-8cae0cd27ab9
+    xhttp-opts:
+      mode: auto
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: www.icloud.com
   - alpn:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇩🇪DE_1
+    name: ❓Other_4
     network: xhttp
     port: 443
     server: static.lotussec.com
