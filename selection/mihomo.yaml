@@ -12,8 +12,8 @@ proxies:
     ws-opts:
       headers:
         Host: pane2.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+        User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
       path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2053
@@ -21,7 +21,7 @@ proxies:
     packet-encoding: xudp
     servername: ssl.fastly.com
   - encryption: none
-    name: 🇦🇿AZ_1
+    name: 🇸🇬SG_1
     network: ws
     port: 2082
     server: 172.64.150.28
@@ -31,13 +31,13 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-          Chrome/v1.0.0 Safari/538.1
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
   - encryption: none
-    name: 🇸🇬SG_1
+    name: 🇺🇸US_1
     network: ws
     port: 8080
     server: 172.67.132.85
@@ -47,8 +47,8 @@ proxies:
     ws-opts:
       headers:
         Host: server14.peekconf.workers.dev
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/43.0.2357.65 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
       path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
     xudp: true
     packet-encoding: xudp
@@ -64,8 +64,9 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/44.0.2403.157 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
       path: /assignment
   - client-fingerprint: edge
     encryption: none
