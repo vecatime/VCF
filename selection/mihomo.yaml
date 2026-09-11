@@ -14,9 +14,8 @@ proxies:
     ws-opts:
       headers:
         Host: Appxdn.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -37,7 +36,7 @@ proxies:
       headers:
         Host: Appxdn.global.ssl.fastly.net
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
+          Gecko) Chrome/43.0.2357.65 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -54,8 +53,8 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
     name: ❓Other_2
@@ -69,29 +68,9 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/39.0.2171.95 Safari/537.36
       path: /assignment
-  - client-fingerprint: edge
-    encryption: none
-    name: ❓Other_3
-    network: xhttp
-    port: 443
-    reality-opts:
-      public-key: ZBv1jOEHziWtQQoThg63_1gm4zIPyk_cfVmNJ1SOZSk
-      short-id: "a88550765b9956ee"
-    server: de-2.starsping.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1577b744-8004-4eef-862c-8cae0cd27ab9
-    xhttp-opts:
-      mode: auto
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: www.icloud.com
   - alpn:
       - h2
     client-fingerprint: firefox
