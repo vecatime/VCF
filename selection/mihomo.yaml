@@ -12,8 +12,8 @@ proxies:
     ws-opts:
       headers:
         Host: pane2.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/69.0.3497.100 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2053
@@ -24,7 +24,7 @@ proxies:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇳🇱NL_2
+    name: ❓Other_1
     network: xhttp
     port: 443
     server: dey.lnmarketplace.net
@@ -40,7 +40,7 @@ proxies:
     packet-encoding: xudp
     servername: dey.lnmarketplace.net
   - encryption: none
-    name: 🇦🇿AZ_1
+    name: 🇬🇧GB_1
     network: ws
     port: 8080
     server: 172.67.132.85
@@ -50,27 +50,11 @@ proxies:
     ws-opts:
       headers:
         Host: server14.peekconf.workers.dev
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
     xudp: true
     packet-encoding: xudp
-  - client-fingerprint: chrome
-    name: ❓Other_1
-    network: ws
-    password: humanity
-    port: 443
-    server: 188.114.97.7
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
-          Safari/537.36
-      path: /assignment
   - client-fingerprint: chrome
     name: ❓Other_2
     network: ws
@@ -83,13 +67,13 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
           Safari/537.36
       path: /assignment
   - client-fingerprint: edge
     encryption: none
-    name: ❓Other_3
+    name: 🇩🇪DE_1
     network: xhttp
     port: 443
     reality-opts:
@@ -110,7 +94,7 @@ proxies:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇩🇪DE_1
+    name: 🇳🇱NL_2
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -129,7 +113,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_2
+    name: 🇳🇱NL_3
     network: xhttp
     port: 443
     server: static.lotussec.com
