@@ -14,8 +14,8 @@ proxies:
     ws-opts:
       headers:
         Host: Appxdn.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-          Gecko) Chrome/11.0.696.3 Safari/534.24
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+          Gecko) Chrome/26.0.1410.64 Safari/537.31
       path: /
     xudp: true
     packet-encoding: xudp
@@ -35,8 +35,8 @@ proxies:
     ws-opts:
       headers:
         Host: Appxdn.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -54,10 +54,25 @@ proxies:
     ws-opts:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
     name: ❓Other_2
+    network: ws
+    password: humanity
+    port: 443
+    server: 172.67.149.60
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: ❓Other_3
     network: ws
     password: humanity
     port: 443
@@ -68,8 +83,8 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
       path: /assignment
   - client-fingerprint: edge
     encryption: none
@@ -94,7 +109,7 @@ proxies:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: ❓Other_3
+    name: 🇩🇪DE_4
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -113,7 +128,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_4
+    name: 🇩🇪DE_5
     network: xhttp
     port: 443
     server: static.lotussec.com
