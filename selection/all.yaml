@@ -29,13 +29,31 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
         path: /assignment
+    - alpn:
+        - h2
+      client-fingerprint: firefox
+      encryption: none
+      name: ❓Other_2
+      network: xhttp
+      port: "443"
+      server: static.lotussec.com
+      servername: static.lotussec.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+      xhttp-opts:
+        host: static.lotussec.com
+        mode: stream-one
+        path: /Join-JavidnamanIran-on-Telegram
+      xudp: true
     - alpn:
         - h2
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_2"
+      name: "\U0001F1E9\U0001F1EADE_1"
       network: xhttp
       port: "443"
       server: static.lotussec.com
