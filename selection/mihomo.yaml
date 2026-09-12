@@ -1,25 +1,21 @@
 proxies:
-  - alpn:
-      - h2
-    client-fingerprint: firefox
-    encryption: none
-    name: 🇳🇱NL_1
-    network: xhttp
-    port: 443
-    server: dey.lnmarketplace.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-    xhttp-opts:
-      host: dey.lnmarketplace.net
-      mode: stream-one
-      path: /kavir
-    xudp: true
-    packet-encoding: xudp
-    servername: dey.lnmarketplace.net
   - client-fingerprint: chrome
     name: ❓Other_1
+    network: ws
+    password: humanity
+    port: 443
+    server: 188.114.97.7
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: ❓Other_2
     network: ws
     password: humanity
     port: 443
@@ -30,14 +26,15 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
       path: /assignment
   - alpn:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: ❓Other_2
+    name: 🇩🇪DE_1
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -56,7 +53,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_1
+    name: 🇩🇪DE_2
     network: xhttp
     port: 443
     server: static.lotussec.com
