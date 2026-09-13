@@ -26,8 +26,8 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
@@ -43,33 +43,14 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
       path: /assignment
-  - client-fingerprint: edge
-    encryption: none
-    name: 🇩🇪DE_2
-    network: xhttp
-    port: 443
-    reality-opts:
-      public-key: ZBv1jOEHziWtQQoThg63_1gm4zIPyk_cfVmNJ1SOZSk
-      short-id: "a88550765b9956ee"
-    server: de-2.starsping.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1577b744-8004-4eef-862c-8cae0cd27ab9
-    xhttp-opts:
-      mode: auto
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: www.icloud.com
   - alpn:
       - h2
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     encryption: none
-    name: ❓Other_3
+    name: 🇩🇪DE_2
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -78,6 +59,7 @@ proxies:
     udp: true
     uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
     xhttp-opts:
+      host: static.lotussec.com
       mode: stream-one
       path: /Join-JavidnamanIran-on-Telegram
     xudp: true
