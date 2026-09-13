@@ -1,9 +1,43 @@
 proxies:
+  - client-fingerprint: chrome
+    name: ❓Other_1
+    network: ws
+    password: humanity
+    port: 443
+    server: 188.114.97.7
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.63 Safari/537.36
+      path: /assignment
+  - client-fingerprint: edge
+    encryption: none
+    name: 🇩🇪DE_1
+    network: xhttp
+    port: 443
+    reality-opts:
+      public-key: ZBv1jOEHziWtQQoThg63_1gm4zIPyk_cfVmNJ1SOZSk
+      short-id: "a88550765b9956ee"
+    server: de-2.starsping.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1577b744-8004-4eef-862c-8cae0cd27ab9
+    xhttp-opts:
+      mode: auto
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: www.icloud.com
   - alpn:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇩🇪DE_1
+    name: 🇳🇱NL_1
     network: xhttp
     port: 443
     server: static.lotussec.com
@@ -22,7 +56,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_2
+    name: 🇳🇱NL_2
     network: xhttp
     port: 443
     server: static.lotussec.com
