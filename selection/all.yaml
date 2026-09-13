@@ -1,24 +1,20 @@
 proxies:
-    - alpn:
-        - h2
-      client-fingerprint: firefox
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_1"
-      network: xhttp
-      port: "443"
-      server: dey.lnmarketplace.net
-      servername: dey.lnmarketplace.net
-      tls: true
+    - encryption: none
+      name: ❓Other_1
+      network: ws
+      port: "2082"
+      server: 172.64.150.28
       type: vless
       udp: true
-      uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-      xhttp-opts:
-        host: dey.lnmarketplace.net
-        mode: stream-one
-        path: /kavir
+      uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+      ws-opts:
+        headers:
+            Host: hhlfy.twiladaphne.ndjp.net
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /fp
       xudp: true
     - client-fingerprint: chrome
-      name: ❓Other_1
+      name: ❓Other_2
       network: ws
       password: humanity
       port: "443"
@@ -29,10 +25,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
         path: /assignment
     - client-fingerprint: chrome
-      name: ❓Other_2
+      name: ❓Other_3
       network: ws
       password: humanity
       port: "443"
@@ -43,13 +39,31 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
         path: /assignment
+    - client-fingerprint: edge
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: xhttp
+      port: "443"
+      reality-opts:
+        public-key: ZBv1jOEHziWtQQoThg63_1gm4zIPyk_cfVmNJ1SOZSk
+        short-id: a88550765b9956ee
+      server: de-2.starsping.com
+      servername: www.icloud.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1577b744-8004-4eef-862c-8cae0cd27ab9
+      xhttp-opts:
+        mode: auto
+        path: /
+      xudp: true
     - alpn:
         - h2
       client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: "\U0001F1F3\U0001F1F1NL_1"
       network: xhttp
       port: "443"
       server: static.lotussec.com
@@ -67,7 +81,7 @@ proxies:
         - h2
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2"
+      name: "\U0001F1F3\U0001F1F1NL_2"
       network: xhttp
       port: "443"
       server: static.lotussec.com
