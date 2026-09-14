@@ -30,46 +30,10 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
       path: /assignment
-  - alpn:
-      - h2
-    client-fingerprint: firefox
-    encryption: none
-    name: 🇩🇪DE_1
-    network: xhttp
-    port: 443
-    server: static.lotussec.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-    xhttp-opts:
-      host: static.lotussec.com
-      mode: stream-one
-      path: /Join-JavidnamanIran-on-Telegram
-    xudp: true
-    packet-encoding: xudp
-    servername: static.lotussec.com
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_2
-    network: xhttp
-    port: 443
-    server: static.lotussec.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-    xhttp-opts:
-      mode: stream-one
-      path: /Join-JavidnamanIran-on-Telegram
-    xudp: true
-    packet-encoding: xudp
-    servername: static.lotussec.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
