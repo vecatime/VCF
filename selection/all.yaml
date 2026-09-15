@@ -3,7 +3,7 @@ proxies:
         - h2
       client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: "\U0001F1F3\U0001F1F1NL_1"
       network: xhttp
       port: "443"
       server: static.lotussec.com
@@ -14,22 +14,6 @@ proxies:
       uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
       xhttp-opts:
         host: static.lotussec.com
-        mode: stream-one
-        path: /Join-JavidnamanIran-on-Telegram
-      xudp: true
-    - alpn:
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2"
-      network: xhttp
-      port: "443"
-      server: static.lotussec.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
-      xhttp-opts:
         mode: stream-one
         path: /Join-JavidnamanIran-on-Telegram
       xudp: true
