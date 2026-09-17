@@ -3,7 +3,7 @@ proxies:
         - h2
       client-fingerprint: firefox
       encryption: none
-      name: ❓Other_1
+      name: "\U0001F1F3\U0001F1F1NL_1"
       network: xhttp
       port: "443"
       server: dey.lnmarketplace.net
@@ -16,4 +16,35 @@ proxies:
         host: dey.lnmarketplace.net
         mode: stream-one
         path: /kavir
+      xudp: true
+    - encryption: none
+      http-opts:
+        headers:
+            Host:
+                - www.google.com
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: http
+      port: "28114"
+      server: 49.13.19.156
+      type: vless
+      udp: true
+      uuid: e59f08e0-da52-4ee5-8780-4bb253ffce82
+      xudp: true
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_1
+      network: xhttp
+      port: "443"
+      server: static.lotussec.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 14b48651-3738-4926-bc09-4c04e87ff80b
+      xhttp-opts:
+        mode: stream-one
+        path: /Join-JavidnamanIran-on-Telegram
       xudp: true
