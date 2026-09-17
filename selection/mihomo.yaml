@@ -3,7 +3,7 @@ proxies:
       - h2
     client-fingerprint: firefox
     encryption: none
-    name: 🇳🇱NL_1
+    name: ❓Other_1
     network: xhttp
     port: 443
     server: dey.lnmarketplace.net
