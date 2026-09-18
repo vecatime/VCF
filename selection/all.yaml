@@ -1,16 +1,15 @@
 proxies:
     - encryption: none
-      http-opts:
-        headers:
-            Host:
-                - www.google.com
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EADE_1"
-      network: http
-      port: "8443"
-      server: 167.233.219.27
+      name: ❓Other_1
+      network: ws
+      port: "2082"
+      server: 172.64.150.28
       type: vless
       udp: true
-      uuid: 62e659a0-897b-4fac-bdc2-de3115f31646
+      uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+      ws-opts:
+        headers:
+            Host: hhlfy.twiladaphne.ndjp.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
+        path: /fp
       xudp: true
