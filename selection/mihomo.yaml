@@ -1,17 +1,19 @@
 proxies:
-  - alpn:
-      - ""
-    alterId: "0"
-    cipher: auto
-    name: 🇺🇸US_1
-    network: tcp
-    port: 8443
-    server: 45.39.33.10
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+  - encryption: none
+    name: ❓Other_1
+    network: ws
+    port: 2082
+    server: 172.64.150.28
+    type: vless
     udp: true
-    uuid: 4d6997cf-7856-4aab-85e5-f22169e56e65
+    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    ws-opts:
+      headers:
+        Host: hhlfy.twiladaphne.ndjp.net
+        User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
+          Safari/537.36
+      path: /fp
     xudp: true
     packet-encoding: xudp
 proxy-groups:
