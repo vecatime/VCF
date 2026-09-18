@@ -1,18 +1,18 @@
 proxies:
   - encryption: none
-    name: ❓Other_1
-    network: ws
-    port: 2082
-    server: 172.64.150.28
+    http-opts:
+      headers:
+        Host:
+          - www.google.com
+      path:
+        - /
+    name: 🇩🇪DE_1
+    network: http
+    port: 28110
+    server: 167.233.219.27
     type: vless
     udp: true
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-    ws-opts:
-      headers:
-        Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.186 Safari/537.36
-      path: /fp
+    uuid: 16692abf-2c14-4eb6-bd1f-ca95db436800
     xudp: true
     packet-encoding: xudp
 proxy-groups:
