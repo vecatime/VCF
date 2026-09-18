@@ -14,6 +14,22 @@ proxies:
     uuid: 4d6997cf-7856-4aab-85e5-f22169e56e65
     xudp: true
     packet-encoding: xudp
+  - encryption: none
+    name: ❓Other_1
+    network: ws
+    port: 2082
+    server: 172.64.150.28
+    type: vless
+    udp: true
+    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    ws-opts:
+      headers:
+        Host: hhlfy.twiladaphne.ndjp.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /fp
+    xudp: true
+    packet-encoding: xudp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
