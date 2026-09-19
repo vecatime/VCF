@@ -58,21 +58,6 @@ proxies:
       udp: true
       uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
       xudp: true
-    - encryption: none
-      http-opts:
-        headers:
-            Host:
-                - www.google.com
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EADE_2"
-      network: http
-      port: "28110"
-      server: 49.13.2.132
-      type: vless
-      udp: true
-      uuid: 16692abf-2c14-4eb6-bd1f-ca95db436800
-      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F5\U0001F1F1PL_1"
       password: U9YAoqBgg5VyGBc6vQv1sN
@@ -96,6 +81,13 @@ proxies:
       udp: true
       uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_3"
+      password: 9tqhMdIrTkgQ46PvhyAtMH
+      port: "443"
+      server: 92.112.126.90
+      type: ss
+      udp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -216,7 +208,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
         path: /assignment
     - client-fingerprint: chrome
       name: "\U0001F1EB\U0001F1F7FR_5"
@@ -230,7 +222,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
         path: /assignment
     - client-fingerprint: chrome
       name: "\U0001F1EB\U0001F1F7FR_6"
@@ -244,5 +236,5 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
         path: /assignment
