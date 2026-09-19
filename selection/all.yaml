@@ -1,15 +1,248 @@
 proxies:
-    - encryption: none
-      name: ❓Other_1
-      network: ws
-      port: "2082"
-      server: 172.64.150.28
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_1"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: "8080"
+      server: 82.38.31.201
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_2"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: "443"
+      server: 82.38.31.162
+      type: ss
+      udp: true
+    - client-fingerprint: firefox
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: tcp
+      port: "40443"
+      reality-opts:
+        public-key: VG-FwQBMFzPcemJ_JqtkbO-2WKLmQp2h0CmAj-DfLkA
+        short-id: 5b97
+      server: 93.152.217.41
+      servername: deepl.com
+      tls: true
       type: vless
       udp: true
-      uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+      uuid: 969bcce0-de8a-4b02-8cf8-d00d2d2ca7a5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_1"
+      network: tcp
+      port: "40443"
+      reality-opts:
+        public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+        short-id: a8ae
+      server: 194.76.154.31
+      servername: deepl.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_2"
+      network: tcp
+      port: "40443"
+      reality-opts:
+        public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
+        short-id: aae8
+      server: 194.55.189.249
+      servername: deepl.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
+      xudp: true
+    - encryption: none
+      http-opts:
+        headers:
+            Host:
+                - www.google.com
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EADE_2"
+      network: http
+      port: "28110"
+      server: 49.13.2.132
+      type: vless
+      udp: true
+      uuid: 16692abf-2c14-4eb6-bd1f-ca95db436800
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F5\U0001F1F1PL_1"
+      password: U9YAoqBgg5VyGBc6vQv1sN
+      port: "7538"
+      server: 194.61.121.93
+      type: ss
+      udp: true
+    - client-fingerprint: ios
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_1"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+        short-id: c39cc7310a
+      server: 169.40.42.179
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_2"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+        short-id: c39cc7310a
+      server: 169.40.42.212
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_3"
+      password: eDfN7SODQceIOmIAbtJJtK
+      port: "443"
+      server: 198.98.53.130
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_4"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 15.204.97.206
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_1"
+      network: ws
+      port: "35043"
+      server: 156.245.232.239
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+      ws-opts:
+        headers: {}
+        path: /
+      xudp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EF\U0001F1F5JP_1"
+      password: 3eOFeNssde7PYYMv
+      port: "80"
+      server: 84.247.155.196
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EB\U0001F1F7FR_3"
+      password: BqnqToih0PbU
+      port: "8388"
+      server: 51.255.13.232
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6CA_1"
+      password: FD3rCuOsxOay
+      port: "8388"
+      server: 15.235.75.71
+      type: ss
+      udp: true
+    - client-fingerprint: qq
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F3IN_1"
+      network: tcp
+      port: "40443"
+      reality-opts:
+        public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+        short-id: 88b6
+      server: 5.253.30.99
+      servername: deepl.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_1"
+      network: tcp
+      port: "448"
+      reality-opts:
+        public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
+        short-id: cd21e552537c7c0b
+      server: 185.79.138.71
+      servername: www.samsung.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_4"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 188.114.97.7
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
       ws-opts:
         headers:
-            Host: hhlfy.twiladaphne.ndjp.net
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /fp
-      xudp: true
+            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_5"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 172.67.149.60
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_6"
+      network: ws
+      password: humanity
+      port: "443"
+      server: render.com
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+        path: /assignment
