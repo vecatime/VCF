@@ -43,6 +43,21 @@ proxies:
       udp: true
       uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
       xudp: true
+    - encryption: none
+      http-opts:
+        headers:
+            Host:
+                - www.google.com
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: http
+      port: "28110"
+      server: 49.13.2.132
+      type: vless
+      udp: true
+      uuid: 16692abf-2c14-4eb6-bd1f-ca95db436800
+      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F5\U0001F1F1PL_1"
       password: U9YAoqBgg5VyGBc6vQv1sN
@@ -193,7 +208,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
         path: /assignment
     - client-fingerprint: chrome
       name: "\U0001F1EB\U0001F1F7FR_5"
@@ -207,7 +222,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
         path: /assignment
     - client-fingerprint: chrome
       name: "\U0001F1EB\U0001F1F7FR_6"
@@ -221,5 +236,5 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
         path: /assignment

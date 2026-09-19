@@ -45,6 +45,22 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: deepl.com
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - www.google.com
+      path:
+        - /
+    name: 🇩🇪DE_1
+    network: http
+    port: 28110
+    server: 49.13.2.132
+    type: vless
+    udp: true
+    uuid: 16692abf-2c14-4eb6-bd1f-ca95db436800
+    xudp: true
+    packet-encoding: xudp
   - cipher: chacha20-ietf-poly1305
     name: 🇵🇱PL_1
     password: U9YAoqBgg5VyGBc6vQv1sN
@@ -201,8 +217,8 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.63 Safari/537.36
+        User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/44.0.2403.157 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
     name: 🇫🇷FR_5
@@ -216,8 +232,8 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/49.0.2623.112 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
     name: 🇫🇷FR_6
@@ -232,7 +248,7 @@ proxies:
     ws-opts:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
       path: /assignment
 proxy-groups:
   - name: 🚀 节点选择
