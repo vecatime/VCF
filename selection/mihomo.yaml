@@ -1,20 +1,25 @@
 proxies:
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - www.google.com
-      path:
-        - /
-    name: 🇩🇪DE_1
-    network: http
-    port: 28110
-    server: 49.13.2.132
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 🇫🇷FR_1
+    network: ws
+    port: 443
+    server: 140.248.186.45
+    tls: true
     type: vless
     udp: true
-    uuid: 16692abf-2c14-4eb6-bd1f-ca95db436800
+    uuid: XpnTeam-9
+    ws-opts:
+      headers:
+        Host: Appxdn.global.ssl.fastly.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.110 Safari/537.36
+      path: /
     xudp: true
     packet-encoding: xudp
+    servername: ssl.fastly.com
   - encryption: none
     name: ❓Other_1
     network: ws
@@ -26,8 +31,8 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/56.0.2924.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
