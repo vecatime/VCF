@@ -1,39 +1,30 @@
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_1"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: "443"
-      server: 82.38.31.162
-      type: ss
-      udp: true
-    - client-fingerprint: ios
-      encryption: none
-      flow: xtls-rprx-vision
-      name: ❓Other_1
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-        short-id: c39cc7310a
-      server: 169.40.42.179
-      servername: yahoo.com
-      tls: true
+    - encryption: none
+      http-opts:
+        headers:
+            Host:
+                - www.google.com
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: http
+      port: "28110"
+      server: 49.13.2.132
       type: vless
       udp: true
-      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+      uuid: 16692abf-2c14-4eb6-bd1f-ca95db436800
       xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: ❓Other_2
-      network: tcp
-      port: "448"
-      reality-opts:
-        public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-        short-id: cd21e552537c7c0b
-      server: 185.79.138.71
-      servername: www.samsung.com
-      tls: true
+    - encryption: none
+      name: ❓Other_1
+      network: ws
+      port: "2082"
+      server: 172.64.150.28
       type: vless
       udp: true
-      uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+      uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+      ws-opts:
+        headers:
+            Host: hhlfy.twiladaphne.ndjp.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /fp
       xudp: true
