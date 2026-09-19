@@ -15,6 +15,6 @@ proxies:
       ws-opts:
         headers:
             Host: Appxdn.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
         path: /
       xudp: true
