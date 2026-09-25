@@ -1,6 +1,69 @@
 proxies:
-    - encryption: none
+    - client-fingerprint: safari
+      encryption: none
+      flow: xtls-rprx-vision
       name: "\U0001F1F3\U0001F1F1NL_1"
+      network: tcp
+      port: "5432"
+      server: 195.200.18.214
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6caa9944-1c60-48db-bee1-7d7a8239364b
+      xudp: true
+    - client-fingerprint: safari
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_2"
+      network: xhttp
+      port: "443"
+      reality-opts:
+        public-key: --pxBStu9Lk1PFAsYbzTg5vBZKXtzdcOlmrpw9pen1s
+        short-id: 0812e28665a36091
+      server: 147.45.225.24
+      servername: ads.x5.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: cb9bc521-77a2-4c23-9bbf-b8d5318e717d
+      xhttp-opts:
+        host: ads.x5.ru
+        mode: auto
+        path: /
+      xudp: true
+    - client-fingerprint: safari
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1PL_1"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: AcuvO982QLzf76fVydfSuJIiF5520rmj7AxpaxyRwUg
+        short-id: d345ad4657adeef9
+      server: 83.168.95.145
+      servername: google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f28e0ce1-ed75-4e90-b069-5215a80dfb4a
+      xudp: true
+    - client-fingerprint: safari
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E8\U0001F1FFCZ_1"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: QfdR5yEjdbaqSet3-XrkDdVjPO9VTRGlUI-MV-b4p38
+        short-id: ""
+      server: 13.143.181.220
+      servername: msk1.maxtelemost.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7a8d2c3f-d6dd-0004-81d8-cff23d8364ee
+      xudp: true
+    - encryption: none
+      name: ❓Other_1
       network: ws
       port: "8080"
       server: 172.67.132.85
@@ -10,6 +73,6 @@ proxies:
       ws-opts:
         headers:
             Host: server14.peekconf.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
       xudp: true
