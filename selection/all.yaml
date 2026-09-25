@@ -15,3 +15,19 @@ proxies:
       udp: true
       uuid: f28e0ce1-ed75-4e90-b069-5215a80dfb4a
       xudp: true
+    - client-fingerprint: safari
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E8\U0001F1FFCZ_1"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: QfdR5yEjdbaqSet3-XrkDdVjPO9VTRGlUI-MV-b4p38
+        short-id: ""
+      server: 13.143.181.220
+      servername: msk1.maxtelemost.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7a8d2c3f-d6dd-0004-81d8-cff23d8364ee
+      xudp: true
