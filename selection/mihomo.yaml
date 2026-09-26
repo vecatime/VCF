@@ -1,7 +1,7 @@
 proxies:
   - client-fingerprint: chrome
     encryption: mlkem768x25519plus.native.0rtt.17u4qaPFcnulP_fBssar8_VftjzTzxbXGA_FdoMkqz8
-    name: 🇩🇪DE_1
+    name: ❓Other_1
     network: tcp
     port: 57216
     reality-opts:
