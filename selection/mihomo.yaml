@@ -1,21 +1,20 @@
 proxies:
-  - client-fingerprint: safari
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇨🇿CZ_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: QfdR5yEjdbaqSet3-XrkDdVjPO9VTRGlUI-MV-b4p38
-      short-id: ""
-    server: 13.143.181.220
-    tls: true
+  - encryption: none
+    name: ❓Other_1
+    network: ws
+    port: 8080
+    server: 172.67.132.85
     type: vless
     udp: true
-    uuid: 7a8d2c3f-d6dd-0004-81d8-cff23d8364ee
+    uuid: 3a701524-30c8-45f3-8922-d7af5d024af0
+    ws-opts:
+      headers:
+        Host: server14.peekconf.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
     xudp: true
     packet-encoding: xudp
-    servername: msk1.maxtelemost.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
