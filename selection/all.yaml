@@ -20,6 +20,23 @@ proxies:
       encryption: none
       grpc-opts:
         grpc-service-name: grpc-tunnel
+      name: "\U0001F1F5\U0001F1F1PL_1"
+      network: grpc
+      port: "9844"
+      reality-opts:
+        public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+        short-id: aabb
+      server: 176.108.247.31
+      servername: dl.google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+      xudp: true
+    - client-fingerprint: qq
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc-tunnel
       name: "\U0001F1E9\U0001F1EADE_2"
       network: grpc
       port: "9881"
@@ -32,4 +49,19 @@ proxies:
       type: vless
       udp: true
       uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+      xudp: true
+    - encryption: none
+      http-opts:
+        headers:
+            Host:
+                - play.google.com
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EADE_3"
+      network: http
+      port: "7443"
+      server: 91.107.174.119
+      type: vless
+      udp: true
+      uuid: b933673c-9d0b-4326-bbde-42923bc866d3
       xudp: true

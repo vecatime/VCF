@@ -21,6 +21,24 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc-tunnel
+    name: 🇵🇱PL_1
+    network: grpc
+    port: 9844
+    reality-opts:
+      public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+      short-id: "aabb"
+    server: 176.108.247.31
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+    xudp: true
+    packet-encoding: xudp
+    servername: dl.google.com
+  - client-fingerprint: qq
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
     name: 🇩🇪DE_2
     network: grpc
     port: 9881
@@ -35,6 +53,22 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: dl.google.com
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - play.google.com
+      path:
+        - /
+    name: 🇩🇪DE_3
+    network: http
+    port: 7443
+    server: 91.107.174.119
+    type: vless
+    udp: true
+    uuid: b933673c-9d0b-4326-bbde-42923bc866d3
+    xudp: true
+    packet-encoding: xudp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
