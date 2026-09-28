@@ -3,13 +3,13 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc-tunnel
-    name: 🇵🇱PL_1
+    name: 🇩🇪DE_1
     network: grpc
-    port: 9844
+    port: 9881
     reality-opts:
-      public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+      public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
       short-id: "aabb"
-    server: 176.108.247.31
+    server: 176.108.244.38
     tls: true
     type: vless
     udp: true
