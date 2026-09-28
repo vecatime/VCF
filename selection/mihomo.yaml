@@ -15,6 +15,22 @@ proxies:
     uuid: d9365fed-f9bb-4b23-ab83-5d7c48e5ddbe
     xudp: true
     packet-encoding: xudp
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - play.google.com
+      path:
+        - /
+    name: 🇩🇪DE_2
+    network: http
+    port: 8881
+    server: 178.104.219.134
+    type: vless
+    udp: true
+    uuid: 9b1062f6-3c63-4c98-917e-d228f5df9e20
+    xudp: true
+    packet-encoding: xudp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
