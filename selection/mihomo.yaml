@@ -3,24 +3,6 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc-tunnel
-    name: 🇵🇱PL_1
-    network: grpc
-    port: 9844
-    reality-opts:
-      public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-      short-id: "aabb"
-    server: 176.108.247.31
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-    xudp: true
-    packet-encoding: xudp
-    servername: dl.google.com
-  - client-fingerprint: qq
-    encryption: none
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
     name: 🇩🇪DE_1
     network: grpc
     port: 9881
