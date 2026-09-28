@@ -3,6 +3,23 @@ proxies:
       encryption: none
       grpc-opts:
         grpc-service-name: grpc-tunnel
+      name: ❓Other_1
+      network: grpc
+      port: "9881"
+      reality-opts:
+        public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
+        short-id: aa
+      server: 176.108.244.178
+      servername: dl.google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+      xudp: true
+    - client-fingerprint: qq
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc-tunnel
       name: "\U0001F1E9\U0001F1EADE_1"
       network: grpc
       port: "9881"
