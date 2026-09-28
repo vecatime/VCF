@@ -3,7 +3,7 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc-tunnel
-    name: ❓Other_1
+    name: 🇩🇪DE_1
     network: grpc
     port: 9881
     reality-opts:
@@ -21,7 +21,7 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc-tunnel
-    name: 🇩🇪DE_1
+    name: 🇩🇪DE_2
     network: grpc
     port: 9881
     reality-opts:
