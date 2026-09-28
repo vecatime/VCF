@@ -1,22 +1,20 @@
 proxies:
-  - client-fingerprint: qq
-    encryption: none
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - play.google.com
+      path:
+        - /
     name: 🇩🇪DE_1
-    network: grpc
-    port: 9881
-    reality-opts:
-      public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-      short-id: "aa"
-    server: 176.108.244.178
-    tls: true
+    network: http
+    port: 8880
+    server: 91.107.174.119
     type: vless
     udp: true
-    uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+    uuid: cd37aa8e-11c0-45e6-972b-ef13c416dff8
     xudp: true
     packet-encoding: xudp
-    servername: dl.google.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
