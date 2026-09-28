@@ -35,22 +35,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: dl.google.com
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - play.google.com
-      path:
-        - /
-    name: ❓Other_1
-    network: http
-    port: 8880
-    server: 178.104.219.134
-    type: vless
-    udp: true
-    uuid: e9938bd6-4ee5-4ec1-a3b4-1b212406a8f0
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: qq
     encryption: none
     grpc-opts:
@@ -69,22 +53,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: dl.google.com
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - play.google.com
-      path:
-        - /
-    name: 🇩🇪DE_3
-    network: http
-    port: 8880
-    server: 91.107.174.119
-    type: vless
-    udp: true
-    uuid: cd37aa8e-11c0-45e6-972b-ef13c416dff8
-    xudp: true
-    packet-encoding: xudp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
