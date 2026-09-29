@@ -6,7 +6,7 @@ proxies:
                 - play.google.com
         path:
             - /
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: ❓Other_1
       network: http
       port: "9443"
       server: 178.104.219.134
@@ -21,25 +21,11 @@ proxies:
                 - play.google.com
         path:
             - /
-      name: "\U0001F1E9\U0001F1EADE_2"
+      name: "\U0001F1E9\U0001F1EADE_1"
       network: http
       port: "7443"
       server: 91.107.174.119
       type: vless
       udp: true
       uuid: b933673c-9d0b-4326-bbde-42923bc866d3
-      xudp: true
-    - encryption: none
-      name: ❓Other_1
-      network: ws
-      port: "8080"
-      server: 172.67.132.85
-      type: vless
-      udp: true
-      uuid: 3a701524-30c8-45f3-8922-d7af5d024af0
-      ws-opts:
-        headers:
-            Host: server14.peekconf.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
-        path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
       xudp: true
