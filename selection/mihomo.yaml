@@ -1,20 +1,21 @@
 proxies:
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - play.google.com
-      path:
-        - /
-    name: 🇩🇪DE_1
-    network: http
-    port: 9443
-    server: 178.104.219.134
+  - client-fingerprint: safari
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇵🇱PL_1
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: AcuvO982QLzf76fVydfSuJIiF5520rmj7AxpaxyRwUg
+      short-id: "d345ad4657adeef9"
+    server: 83.168.95.145
+    tls: true
     type: vless
     udp: true
-    uuid: 6b1c48bc-55d3-43ee-90d4-7b8404e05e52
+    uuid: f28e0ce1-ed75-4e90-b069-5215a80dfb4a
     xudp: true
     packet-encoding: xudp
+    servername: google.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
