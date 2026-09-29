@@ -6,7 +6,23 @@ proxies:
           - play.google.com
       path:
         - /
-    name: ❓Other_1
+    name: 🇩🇪DE_1
+    network: http
+    port: 7443
+    server: 91.107.174.119
+    type: vless
+    udp: true
+    uuid: b933673c-9d0b-4326-bbde-42923bc866d3
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - play.google.com
+      path:
+        - /
+    name: 🇩🇪DE_2
     network: http
     port: 9443
     server: 178.104.219.134
