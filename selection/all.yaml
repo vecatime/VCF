@@ -16,40 +16,6 @@ proxies:
       udp: true
       uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
       xudp: true
-    - client-fingerprint: qq
-      encryption: none
-      grpc-opts:
-        grpc-service-name: grpc-tunnel
-      name: "\U0001F1F5\U0001F1F1PL_1"
-      network: grpc
-      port: "9844"
-      reality-opts:
-        public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-        short-id: aabb
-      server: 176.108.247.31
-      servername: dl.google.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-      xudp: true
-    - client-fingerprint: qq
-      encryption: none
-      grpc-opts:
-        grpc-service-name: grpc-tunnel
-      name: "\U0001F1E9\U0001F1EADE_2"
-      network: grpc
-      port: "9881"
-      reality-opts:
-        public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-        short-id: aabb
-      server: 176.108.244.38
-      servername: dl.google.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-      xudp: true
     - encryption: none
       http-opts:
         headers:
@@ -57,7 +23,7 @@ proxies:
                 - play.google.com
         path:
             - /
-      name: "\U0001F1E9\U0001F1EADE_3"
+      name: "\U0001F1E9\U0001F1EADE_2"
       network: http
       port: "7443"
       server: 91.107.174.119
@@ -72,11 +38,25 @@ proxies:
                 - play.google.com
         path:
             - /
-      name: "\U0001F1E9\U0001F1EADE_4"
+      name: "\U0001F1E9\U0001F1EADE_3"
       network: http
       port: "9443"
       server: 178.104.219.134
       type: vless
       udp: true
       uuid: 6b1c48bc-55d3-43ee-90d4-7b8404e05e52
+      xudp: true
+    - encryption: none
+      name: ❓Other_1
+      network: ws
+      port: "8080"
+      server: 172.67.132.85
+      type: vless
+      udp: true
+      uuid: 3a701524-30c8-45f3-8922-d7af5d024af0
+      ws-opts:
+        headers:
+            Host: server14.peekconf.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
       xudp: true
