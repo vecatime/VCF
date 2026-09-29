@@ -8,21 +8,6 @@ proxies:
             - /
       name: "\U0001F1E9\U0001F1EADE_1"
       network: http
-      port: "9443"
-      server: 178.104.219.134
-      type: vless
-      udp: true
-      uuid: 6b1c48bc-55d3-43ee-90d4-7b8404e05e52
-      xudp: true
-    - encryption: none
-      http-opts:
-        headers:
-            Host:
-                - play.google.com
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EADE_2"
-      network: http
       port: "7443"
       server: 91.107.174.119
       type: vless
