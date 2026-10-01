@@ -1,4 +1,24 @@
 proxies:
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇬🇧GB_1
+    network: ws
+    port: 443
+    server: 199.232.78.159
+    tls: true
+    type: vless
+    udp: true
+    uuid: aa7c2760-e4c3-4034-9455-40a8a584f64c
+    ws-opts:
+      headers:
+        Host: pannn1.global.ssl.fastly.net
+        User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: ssl.fastly.com
   - client-fingerprint: firefox
     encryption: none
     name: ❓Other_1
@@ -17,16 +37,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: amd.com
-  - encryption: none
-    name: 🇺🇸US_1
-    network: tcp
-    port: 49433
-    server: 31.14.123.220
-    type: vless
-    udp: true
-    uuid: e0ff8a9b-dad3-4671-baf4-c8d466d1eb48
-    xudp: true
-    packet-encoding: xudp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
