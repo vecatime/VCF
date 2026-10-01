@@ -1,18 +1,30 @@
 proxies:
-  - encryption: none
+  - client-fingerprint: firefox
+    encryption: none
     name: ❓Other_1
-    network: ws
-    port: 8080
-    server: 172.67.132.85
+    network: xhttp
+    port: 25395
+    reality-opts:
+      public-key: NPeupAuDrIhrFEXxPXUnsmuT0zSOkSQByegy5DPJQhU
+      short-id: "b4"
+    server: 143.246.41.6
+    tls: true
     type: vless
     udp: true
-    uuid: 3a701524-30c8-45f3-8922-d7af5d024af0
-    ws-opts:
-      headers:
-        Host: server14.peekconf.workers.dev
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-      path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
+    uuid: 900e2cca-4798-47f6-b972-5288a77c8093
+    xhttp-opts:
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: amd.com
+  - encryption: none
+    name: 🇺🇸US_1
+    network: tcp
+    port: 49433
+    server: 31.14.123.220
+    type: vless
+    udp: true
+    uuid: e0ff8a9b-dad3-4671-baf4-c8d466d1eb48
     xudp: true
     packet-encoding: xudp
 proxy-groups:
