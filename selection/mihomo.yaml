@@ -1,6 +1,6 @@
 proxies:
   - encryption: none
-    name: ❓Other_1
+    name: 🇺🇸US_1
     network: tcp
     port: 49433
     server: 31.14.123.220
