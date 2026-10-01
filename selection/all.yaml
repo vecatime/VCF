@@ -1,6 +1,6 @@
 proxies:
     - encryption: none
-      name: "\U0001F1FA\U0001F1F8US_1"
+      name: ❓Other_1
       network: tcp
       port: "49433"
       server: 31.14.123.220
