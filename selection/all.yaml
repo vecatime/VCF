@@ -1,7 +1,7 @@
 proxies:
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_1"
+      name: "\U0001F1F3\U0001F1F1NL_1"
       network: ws
       port: "443"
       server: 199.232.78.159
@@ -13,7 +13,7 @@ proxies:
       ws-opts:
         headers:
             Host: pan2e.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
@@ -30,7 +30,7 @@ proxies:
       ws-opts:
         headers:
             Host: pokerrr.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - client-fingerprint: firefox
@@ -63,6 +63,23 @@ proxies:
       udp: true
       uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
       xudp: true
+    - client-fingerprint: ios
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc-tunnel
+      name: "\U0001F1E9\U0001F1EADE_2"
+      network: grpc
+      port: "9881"
+      reality-opts:
+        public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+        short-id: aabbccdd
+      server: 176.123.165.25
+      servername: dl.google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+      xudp: true
     - client-fingerprint: firefox
       encryption: none
       name: ❓Other_1
@@ -78,9 +95,18 @@ proxies:
       udp: true
       uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
       xudp: true
+    - encryption: none
+      name: "\U0001F1FA\U0001F1F8US_2"
+      network: tcp
+      port: "49433"
+      server: 31.14.123.220
+      type: vless
+      udp: true
+      uuid: e0ff8a9b-dad3-4671-baf4-c8d466d1eb48
+      xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_2"
+      name: "\U0001F1FA\U0001F1F8US_3"
       obfs: salamander
       obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
       password: 033dc6b532
