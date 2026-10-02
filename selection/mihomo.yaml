@@ -1,25 +1,6 @@
 proxies:
   - client-fingerprint: chrome
     encryption: none
-    name: 🇳🇱NL_1
-    network: ws
-    port: 443
-    server: 199.232.78.159
-    tls: true
-    type: vless
-    udp: true
-    uuid: bfb1ec97-a326-4cf3-adcf-d2a0e2dc49f8
-    ws-opts:
-      headers:
-        Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: ssl.fastly.com
-  - client-fingerprint: chrome
-    encryption: none
     name: 🇩🇪DE_1
     network: ws
     port: 443
@@ -31,9 +12,29 @@ proxies:
     ws-opts:
       headers:
         Host: pokerrr.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    xudp: true
+    packet-encoding: xudp
+    servername: ssl.fastly.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇬🇧GB_1
+    network: ws
+    port: 443
+    server: 199.232.78.159
+    tls: true
+    type: vless
+    udp: true
+    uuid: bfb1ec97-a326-4cf3-adcf-d2a0e2dc49f8
+    ws-opts:
+      headers:
+        Host: pan2e.global.ssl.fastly.net
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
     xudp: true
     packet-encoding: xudp
     servername: ssl.fastly.com
@@ -103,19 +104,9 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: example.org
-  - encryption: none
-    name: 🇺🇸US_2
-    network: tcp
-    port: 49433
-    server: 31.14.123.220
-    type: vless
-    udp: true
-    uuid: e0ff8a9b-dad3-4671-baf4-c8d466d1eb48
-    xudp: true
-    packet-encoding: xudp
   - down: ""
     fingerprint: ""
-    name: 🇺🇸US_3
+    name: 🇺🇸US_2
     obfs: salamander
     obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
     password: 033dc6b532
