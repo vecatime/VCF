@@ -13,25 +13,8 @@ proxies:
       ws-opts:
         headers:
             Host: pan2e.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
         path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1"
-      network: ws
-      port: "443"
-      server: 199.232.78.159
-      servername: ssl.fastly.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2e8cd1fa-0dcc-4402-bb99-be3d623fc1d5
-      ws-opts:
-        headers:
-            Host: pokerrr.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - client-fingerprint: firefox
       encryption: none
@@ -51,7 +34,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2"
+      name: ❓Other_2
       network: tcp
       port: "443"
       reality-opts:
@@ -67,7 +50,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_3"
+      name: "\U0001F1E9\U0001F1EADE_1"
       network: tcp
       port: "443"
       reality-opts:
@@ -83,7 +66,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_4"
+      name: "\U0001F1E9\U0001F1EADE_2"
       network: tcp
       port: "443"
       reality-opts:
@@ -99,7 +82,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_5"
+      name: "\U0001F1E9\U0001F1EADE_3"
       network: tcp
       port: "443"
       reality-opts:
@@ -127,9 +110,26 @@ proxies:
       udp: true
       uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
       xudp: true
+    - client-fingerprint: ios
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc-tunnel
+      name: "\U0001F1E9\U0001F1EADE_4"
+      network: grpc
+      port: "9881"
+      reality-opts:
+        public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+        short-id: aabbccdd
+      server: 176.123.165.25
+      servername: dl.google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+      xudp: true
     - client-fingerprint: firefox
       encryption: none
-      name: ❓Other_2
+      name: ❓Other_3
       network: tcp
       port: "443"
       reality-opts:
@@ -143,7 +143,7 @@ proxies:
       uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
       xudp: true
     - encryption: none
-      name: ❓Other_3
+      name: ❓Other_4
       network: tcp
       port: "49433"
       server: 31.14.123.220
