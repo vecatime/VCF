@@ -12,28 +12,10 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/55.0.2883.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
       path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: ssl.fastly.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_1
-    network: ws
-    port: 443
-    server: 199.232.78.159
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2e8cd1fa-0dcc-4402-bb99-be3d623fc1d5
-    ws-opts:
-      headers:
-        Host: pokerrr.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.86 Safari/537.36
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: ssl.fastly.com
@@ -69,24 +51,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: example.org
-  - client-fingerprint: ios
-    encryption: none
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-    name: 🇩🇪DE_2
-    network: grpc
-    port: 9881
-    reality-opts:
-      public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-      short-id: "aabbccdd"
-    server: 176.123.165.25
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-    xudp: true
-    packet-encoding: xudp
-    servername: dl.google.com
   - client-fingerprint: firefox
     encryption: none
     name: ❓Other_1
@@ -103,19 +67,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: example.org
-  - down: ""
-    fingerprint: ""
-    name: 🇺🇸US_2
-    obfs: salamander
-    obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
-    password: 033dc6b532
-    port: 11592
-    server: 77.232.139.128
-    skip-cert-verify: false
-    sni: srv-8718e6.frd21.ru
-    type: hysteria2
-    up: ""
-    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
