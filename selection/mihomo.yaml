@@ -1,7 +1,7 @@
 proxies:
   - client-fingerprint: chrome
     encryption: none
-    name: 🇳🇱NL_1
+    name: 🇬🇧GB_1
     network: ws
     port: 443
     server: 199.232.78.159
@@ -12,10 +12,28 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
       path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: ssl.fastly.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇩🇪DE_1
+    network: ws
+    port: 443
+    server: 199.232.78.159
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2e8cd1fa-0dcc-4402-bb99-be3d623fc1d5
+    ws-opts:
+      headers:
+        Host: pokerrr.global.ssl.fastly.net
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: ssl.fastly.com
@@ -67,6 +85,19 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: example.org
+  - down: ""
+    fingerprint: ""
+    name: 🇺🇸US_2
+    obfs: salamander
+    obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
+    password: 033dc6b532
+    port: 11592
+    server: 77.232.139.128
+    skip-cert-verify: false
+    sni: srv-8718e6.frd21.ru
+    type: hysteria2
+    up: ""
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
