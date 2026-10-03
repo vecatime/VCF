@@ -1,20 +1,4 @@
 proxies:
-    - client-fingerprint: random
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: mYtQrGiR9EkOpUsvsI7E18AWnFZZqfOPXUdpzE3luz8
-        short-id: da4d87fa
-      server: 177.3.209.165
-      servername: owkd.pashalloh.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: a5dd2dd9-0995-449e-be67-4a409890dc42
-      xudp: true
     - alpn:
         - http/1.1
       client-fingerprint: chrome
@@ -31,6 +15,6 @@ proxies:
       ws-opts:
         headers:
             Host: fbsv6.guardora.pro
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /ws
       xudp: true
