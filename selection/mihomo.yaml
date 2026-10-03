@@ -12,15 +12,15 @@ proxies:
     ws-opts:
       headers:
         Host: pokerrr.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: ssl.fastly.com
   - client-fingerprint: chrome
     encryption: none
-    name: 🇬🇧GB_1
+    name: 🇳🇱NL_1
     network: ws
     port: 443
     server: 199.232.78.159
@@ -31,9 +31,8 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/67.0.3396.99 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -74,7 +73,7 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc-tunnel
-    name: 🇩🇪DE_2
+    name: 🇫🇮FI_1
     network: grpc
     port: 9881
     reality-opts:
@@ -104,9 +103,19 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: example.org
+  - encryption: none
+    name: 🇺🇸US_2
+    network: tcp
+    port: 49433
+    server: 31.14.123.220
+    type: vless
+    udp: true
+    uuid: e0ff8a9b-dad3-4671-baf4-c8d466d1eb48
+    xudp: true
+    packet-encoding: xudp
   - down: ""
     fingerprint: ""
-    name: 🇺🇸US_2
+    name: 🇺🇸US_3
     obfs: salamander
     obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
     password: 033dc6b532
@@ -117,6 +126,22 @@ proxies:
     type: hysteria2
     up: ""
     udp: true
+  - encryption: none
+    name: ❓Other_2
+    network: ws
+    port: 8080
+    server: 172.67.132.85
+    type: vless
+    udp: true
+    uuid: 3a701524-30c8-45f3-8922-d7af5d024af0
+    ws-opts:
+      headers:
+        Host: server14.peekconf.workers.dev
+        User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
+    xudp: true
+    packet-encoding: xudp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
