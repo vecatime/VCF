@@ -12,15 +12,15 @@ proxies:
     ws-opts:
       headers:
         Host: pokerrr.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/55.0.2883.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: ssl.fastly.com
   - client-fingerprint: chrome
     encryption: none
-    name: 🇳🇱NL_1
+    name: 🇬🇧GB_1
     network: ws
     port: 443
     server: 199.232.78.159
@@ -31,29 +31,12 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: ssl.fastly.com
-  - client-fingerprint: firefox
-    encryption: none
-    name: 🇺🇸US_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
-      short-id: ""
-    server: 78.153.155.149
-    tls: true
-    type: vless
-    udp: true
-    uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
-    xudp: true
-    packet-encoding: xudp
-    servername: example.org
   - client-fingerprint: firefox
     encryption: none
     name: 🇮🇹IT_1
@@ -70,24 +53,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: example.org
-  - client-fingerprint: ios
-    encryption: none
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-    name: 🇩🇪DE_2
-    network: grpc
-    port: 9881
-    reality-opts:
-      public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-      short-id: "aabbccdd"
-    server: 176.123.165.25
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-    xudp: true
-    packet-encoding: xudp
-    servername: dl.google.com
   - client-fingerprint: firefox
     encryption: none
     name: ❓Other_1
@@ -105,7 +70,7 @@ proxies:
     packet-encoding: xudp
     servername: example.org
   - encryption: none
-    name: 🇺🇸US_2
+    name: 🇺🇸US_1
     network: tcp
     port: 49433
     server: 31.14.123.220
@@ -125,8 +90,8 @@ proxies:
     ws-opts:
       headers:
         Host: server14.peekconf.workers.dev
-        User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
       path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
     xudp: true
     packet-encoding: xudp
