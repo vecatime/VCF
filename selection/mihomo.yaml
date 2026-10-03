@@ -1,25 +1,21 @@
 proxies:
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
+  - client-fingerprint: firefox
     encryption: none
+    flow: xtls-rprx-vision
     name: ❓Other_1
-    network: ws
+    network: tcp
     port: 443
-    server: 78.159.246.110
+    reality-opts:
+      public-key: vwwHjxmmRYqdtVvLKkMDKXi5LPVKpoLaJaA6X3OZXSI
+      short-id: ""
+    server: 141.98.235.200
     tls: true
     type: vless
     udp: true
-    uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
-    ws-opts:
-      headers:
-        Host: fbsv6.guardora.pro
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /ws
+    uuid: f811a2e8-08ed-4b30-b44c-449a7cab54d8
     xudp: true
     packet-encoding: xudp
-    servername: fbsv6.guardora.pro
+    servername: nlafterdate.live
 proxy-groups:
   - name: 🚀 节点选择
     type: select
