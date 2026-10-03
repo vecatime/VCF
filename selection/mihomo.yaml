@@ -12,15 +12,32 @@ proxies:
     ws-opts:
       headers:
         Host: pokerrr.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: ssl.fastly.com
+  - client-fingerprint: random
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE_2
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: mYtQrGiR9EkOpUsvsI7E18AWnFZZqfOPXUdpzE3luz8
+      short-id: "da4d87fa"
+    server: 177.3.209.165
+    tls: true
+    type: vless
+    udp: true
+    uuid: a5dd2dd9-0995-449e-be67-4a409890dc42
+    xudp: true
+    packet-encoding: xudp
+    servername: owkd.pashalloh.org
   - client-fingerprint: firefox
     encryption: none
-    name: ❓Other_1
+    name: 🇧🇷BR_1
     network: tcp
     port: 443
     reality-opts:
@@ -34,22 +51,22 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: br.monkora.org
-  - client-fingerprint: firefox
-    encryption: none
-    name: ❓Other_2
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
-      short-id: ""
-    server: 85.159.228.223
-    tls: true
+  - encryption: none
+    name: ❓Other_1
+    network: ws
+    port: 8080
+    server: 172.67.132.85
     type: vless
     udp: true
-    uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
+    uuid: 3a701524-30c8-45f3-8922-d7af5d024af0
+    ws-opts:
+      headers:
+        Host: server14.peekconf.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.94 Safari/537.36
+      path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
     xudp: true
     packet-encoding: xudp
-    servername: example.org
 proxy-groups:
   - name: 🚀 节点选择
     type: select
