@@ -2,7 +2,7 @@ proxies:
   - client-fingerprint: random
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: 🇩🇪DE_1
     network: tcp
     port: 443
     reality-opts:
@@ -16,27 +16,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: owkd.pashalloh.org
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_2
-    network: ws
-    port: 443
-    server: 78.159.246.110
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
-    ws-opts:
-      headers:
-        Host: fbsv6.guardora.pro
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/69.0.3497.100 Safari/537.36
-      path: /ws
-    xudp: true
-    packet-encoding: xudp
-    servername: fbsv6.guardora.pro
 proxy-groups:
   - name: 🚀 节点选择
     type: select
