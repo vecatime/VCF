@@ -13,8 +13,24 @@ proxies:
       ws-opts:
         headers:
             Host: pokerrr.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+      xudp: true
+    - client-fingerprint: random
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_2"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: mYtQrGiR9EkOpUsvsI7E18AWnFZZqfOPXUdpzE3luz8
+        short-id: da4d87fa
+      server: 177.3.209.165
+      servername: owkd.pashalloh.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: a5dd2dd9-0995-449e-be67-4a409890dc42
       xudp: true
     - client-fingerprint: firefox
       encryption: none
@@ -31,17 +47,37 @@ proxies:
       udp: true
       uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
       xudp: true
-    - encryption: none
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
       name: ❓Other_2
       network: ws
-      port: "8080"
-      server: 172.67.132.85
+      port: "443"
+      server: 78.159.246.110
+      servername: fbsv6.guardora.pro
+      tls: true
       type: vless
       udp: true
-      uuid: 3a701524-30c8-45f3-8922-d7af5d024af0
+      uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
       ws-opts:
         headers:
-            Host: server14.peekconf.workers.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
-        path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
+            Host: fbsv6.guardora.pro
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      name: ❓Other_3
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
+        short-id: ""
+      server: 85.159.228.223
+      servername: example.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
       xudp: true
