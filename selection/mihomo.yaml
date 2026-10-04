@@ -1,59 +1,23 @@
 proxies:
-  - client-fingerprint: safari
+  - client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
-    name: 🇷🇺RU_1
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: VDZdbh_RzDDZsHpYF58yUuuvXh93XnmkvpSqb50qG2U
-      short-id: "1be482b8e08aa0ef"
-    server: 172.93.122.4
-    tls: true
-    type: vless
-    udp: true
-    uuid: b812a4e0-c90a-4864-8ffb-2af71d69d4f4
-    xudp: true
-    packet-encoding: xudp
-    servername: nl2.reddotcorp.org
-  - client-fingerprint: safari
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇫🇮FI_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
-      short-id: "29455a3a790acbd0"
-    server: 131.123.13.93
-    tls: true
-    type: vless
-    udp: true
-    uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
-    xudp: true
-    packet-encoding: xudp
-    servername: 1mcfn.67resserv67.info
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_1
+    name: 🇳🇱NL_1
     network: ws
     port: 443
-    server: 78.159.246.110
+    server: 199.232.78.159
     tls: true
     type: vless
     udp: true
-    uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+    uuid: 8453bdb7-dd58-419d-b002-9456dd2e73d7
     ws-opts:
       headers:
-        Host: fbsv6.guardora.pro
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36
-      path: /ws
+        Host: pan2e.global.ssl.fastly.net
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /
     xudp: true
     packet-encoding: xudp
-    servername: fbsv6.guardora.pro
+    servername: ssl.fastly.com
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
@@ -74,7 +38,41 @@ proxies:
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_2
+    name: 🇸🇬SG_1
+    network: tcp
+    port: 31094
+    reality-opts:
+      public-key: BTVKTYNHnuv3850vXEU15GVgfp5S0Dz20jueg-FSgAQ
+      short-id: "c761f990d786f2"
+    server: 39.109.110.12
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    xudp: true
+    packet-encoding: xudp
+    servername: www.lamer.com.sg
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇸🇬SG_2
+    network: tcp
+    port: 31094
+    reality-opts:
+      public-key: BTVKTYNHnuv3850vXEU15GVgfp5S0Dz20jueg-FSgAQ
+      short-id: "c761f990d786f2"
+    server: 43.255.156.166
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    xudp: true
+    packet-encoding: xudp
+    servername: www.lamer.com.sg
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_1
     network: tcp
     port: 21263
     reality-opts:
