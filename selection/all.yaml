@@ -1,7 +1,7 @@
 proxies:
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_1"
+      name: "\U0001F1F3\U0001F1F1NL_1"
       network: ws
       port: "443"
       server: 199.232.78.159
@@ -13,7 +13,7 @@ proxies:
       ws-opts:
         headers:
             Host: pan2e.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: safari
@@ -31,41 +31,6 @@ proxies:
       type: vless
       udp: true
       uuid: b812a4e0-c90a-4864-8ffb-2af71d69d4f4
-      xudp: true
-    - client-fingerprint: safari
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
-        short-id: 29455a3a790acbd0
-      server: 131.123.13.93
-      servername: 1mcfn.67resserv67.info
-      tls: true
-      type: vless
-      udp: true
-      uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
-      xudp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      name: ❓Other_1
-      network: ws
-      port: "443"
-      server: 78.159.246.110
-      servername: fbsv6.guardora.pro
-      tls: true
-      type: vless
-      udp: true
-      uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
-      ws-opts:
-        headers:
-            Host: fbsv6.guardora.pro
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /ws
       xudp: true
     - client-fingerprint: firefox
       encryption: none
@@ -86,14 +51,14 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_2
+      name: ❓Other_1
       network: tcp
-      port: "21263"
+      port: "31094"
       reality-opts:
-        public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
-        short-id: 3d31326f95
-      server: 45.153.130.119
-      servername: us1p1.xn--ghq880n3na965a.com
+        public-key: BTVKTYNHnuv3850vXEU15GVgfp5S0Dz20jueg-FSgAQ
+        short-id: c761f990d786f2
+      server: 43.255.156.166
+      servername: www.lamer.com.sg
       tls: true
       type: vless
       udp: true
@@ -114,4 +79,19 @@ proxies:
       type: vless
       udp: true
       uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: mlkem768x25519plus.native.0rtt.JDYZ4e8_tG2z6YYKAVN4iML9xyBBVHdfNhS9TaUYZkY
+      name: ❓Other_2
+      network: tcp
+      port: "15329"
+      reality-opts:
+        public-key: SrV7pMnlp2jszuqXq90kMFVzfWHeOsXXxmvJe6CZkDE
+        short-id: 239ef5f8f9fbb629
+      server: ljbzb288i.paslanmaz.ir
+      servername: play.google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ebaac78a-64f7-4d6a-8897-a4b420069378
       xudp: true
