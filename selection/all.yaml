@@ -15,28 +15,40 @@ proxies:
       udp: true
       uuid: b812a4e0-c90a-4864-8ffb-2af71d69d4f4
       xudp: true
-    - client-fingerprint: chrome
+    - client-fingerprint: safari
       encryption: none
-      name: ❓Other_1
-      network: xhttp
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI_1"
+      network: tcp
       port: "443"
       reality-opts:
-        public-key: K2NClSEHTD1h4GyW7I9vGtyhFZcxiCyc8K9_2rQyiis
-        short-id: 90b1161b547655ce
-      server: 179.254.170.86
-      servername: mpstats.store
+        public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
+        short-id: 29455a3a790acbd0
+      server: 131.123.13.93
+      servername: 1mcfn.67resserv67.info
       tls: true
       type: vless
       udp: true
-      uuid: 3512b589-e803-43a7-8701-dcbda4bedfd1
-      xhttp-opts:
-        mode: packet-up
-        path: /assets/v1/sync
-        reuse-settings:
-            c-max-reuse-times: 36-96
-            h-max-request-times: 320-640
-            h-max-reusable-secs: 720-1800
-            max-concurrency: "16"
+      uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_1
+      network: ws
+      port: "443"
+      server: 78.159.246.110
+      servername: fbsv6.guardora.pro
+      tls: true
+      type: vless
+      udp: true
+      uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+      ws-opts:
+        headers:
+            Host: fbsv6.guardora.pro
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: /ws
       xudp: true
     - client-fingerprint: firefox
       encryption: none
@@ -65,6 +77,54 @@ proxies:
         short-id: c761f990d786f2
       server: 39.109.110.12
       servername: www.lamer.com.sg
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_2"
+      network: tcp
+      port: "31094"
+      reality-opts:
+        public-key: BTVKTYNHnuv3850vXEU15GVgfp5S0Dz20jueg-FSgAQ
+        short-id: c761f990d786f2
+      server: 43.255.156.166
+      servername: www.lamer.com.sg
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_2"
+      network: tcp
+      port: "21263"
+      reality-opts:
+        public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+        short-id: 3d31326f95
+      server: 45.153.130.119
+      servername: us1p1.xn--ghq880n3na965a.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_3"
+      network: tcp
+      port: "21263"
+      reality-opts:
+        public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+        short-id: 3d31326f95
+      server: 103.214.173.39
+      servername: us1p1.xn--ghq880n3na965a.com
       tls: true
       type: vless
       udp: true
