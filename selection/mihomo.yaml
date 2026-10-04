@@ -12,8 +12,8 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/65.0.3325.181 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -35,23 +35,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: nl2.reddotcorp.org
-  - client-fingerprint: safari
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇫🇮FI_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
-      short-id: "29455a3a790acbd0"
-    server: 131.123.13.93
-    tls: true
-    type: vless
-    udp: true
-    uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
-    xudp: true
-    packet-encoding: xudp
-    servername: 1mcfn.67resserv67.info
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
