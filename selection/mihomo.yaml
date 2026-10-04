@@ -16,6 +16,23 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: nl2.reddotcorp.org
+  - client-fingerprint: safari
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇫🇮FI_1
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
+      short-id: "29455a3a790acbd0"
+    server: 131.123.13.93
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+    xudp: true
+    packet-encoding: xudp
+    servername: 1mcfn.67resserv67.info
   - alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -31,8 +48,8 @@ proxies:
     ws-opts:
       headers:
         Host: fbsv6.guardora.pro
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
       path: /ws
     xudp: true
     packet-encoding: xudp
@@ -40,20 +57,54 @@ proxies:
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_2
+    name: 🇺🇸US_1
     network: tcp
-    port: 31094
+    port: 21263
     reality-opts:
-      public-key: BTVKTYNHnuv3850vXEU15GVgfp5S0Dz20jueg-FSgAQ
-      short-id: "c761f990d786f2"
-    server: 43.255.156.166
+      public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+      short-id: "3d31326f95"
+    server: 45.153.130.43
     tls: true
     type: vless
     udp: true
     uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
     xudp: true
     packet-encoding: xudp
-    servername: www.lamer.com.sg
+    servername: us1p1.xn--ghq880n3na965a.com
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_2
+    network: tcp
+    port: 21263
+    reality-opts:
+      public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+      short-id: "3d31326f95"
+    server: 45.153.130.119
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    xudp: true
+    packet-encoding: xudp
+    servername: us1p1.xn--ghq880n3na965a.com
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_2
+    network: tcp
+    port: 21263
+    reality-opts:
+      public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+      short-id: "3d31326f95"
+    server: 103.214.173.39
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    xudp: true
+    packet-encoding: xudp
+    servername: us1p1.xn--ghq880n3na965a.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
