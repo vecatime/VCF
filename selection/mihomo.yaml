@@ -1,4 +1,23 @@
 proxies:
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇳🇱NL_1
+    network: ws
+    port: 443
+    server: 199.232.78.159
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6ead3f4c-023f-4322-b5c4-ac4e327d259d
+    ws-opts:
+      headers:
+        Host: pannn1.global.ssl.fastly.net
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: ssl.fastly.com
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
@@ -84,6 +103,23 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: us1p1.xn--ghq880n3na965a.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_2
+    network: tcp
+    port: 40443
+    reality-opts:
+      public-key: w4AYHvQnQS6olDqoG9ptLOtgehaWOsv9HQhDax5bLA4
+      short-id: "db46e2946fc466fd"
+    server: arcturus.yokkastars.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54
+    xudp: true
+    packet-encoding: xudp
+    servername: deepl.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
