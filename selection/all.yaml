@@ -1,7 +1,7 @@
 proxies:
     - client-fingerprint: chrome
       encryption: none
-      name: ❓Other_1
+      name: "\U0001F1F3\U0001F1F1NL_1"
       network: ws
       port: "443"
       server: 199.232.78.159
@@ -9,12 +9,12 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: 6ead3f4c-023f-4322-b5c4-ac4e327d259d
+      uuid: 8453bdb7-dd58-419d-b002-9456dd2e73d7
       ws-opts:
         headers:
-            Host: pannn1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /
+            Host: pan2e.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+        path: ?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - client-fingerprint: safari
       encryption: none
@@ -35,7 +35,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1"
+      name: "\U0001F1E9\U0001F1EADE_1"
       network: tcp
       port: "443"
       reality-opts:
