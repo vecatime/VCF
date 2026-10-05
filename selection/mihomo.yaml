@@ -1,7 +1,7 @@
 proxies:
   - client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_1
+    name: 🇳🇱NL_1
     network: ws
     port: 443
     server: 199.232.78.159
@@ -12,8 +12,8 @@ proxies:
     ws-opts:
       headers:
         Host: pannn1.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.102 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -21,7 +21,7 @@ proxies:
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇩🇪DE_2
+    name: ❓Other_1
     network: tcp
     port: 443
     reality-opts:
@@ -52,57 +52,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.lamer.com.sg
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_1
-    network: tcp
-    port: 21263
-    reality-opts:
-      public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
-      short-id: "3d31326f95"
-    server: 45.153.130.43
-    tls: true
-    type: vless
-    udp: true
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    xudp: true
-    packet-encoding: xudp
-    servername: us1p1.xn--ghq880n3na965a.com
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: ❓Other_1
-    network: tcp
-    port: 21263
-    reality-opts:
-      public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
-      short-id: "3d31326f95"
-    server: 45.153.130.119
-    tls: true
-    type: vless
-    udp: true
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    xudp: true
-    packet-encoding: xudp
-    servername: us1p1.xn--ghq880n3na965a.com
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_2
-    network: tcp
-    port: 21263
-    reality-opts:
-      public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
-      short-id: "3d31326f95"
-    server: 103.214.173.39
-    tls: true
-    type: vless
-    udp: true
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    xudp: true
-    packet-encoding: xudp
-    servername: us1p1.xn--ghq880n3na965a.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
