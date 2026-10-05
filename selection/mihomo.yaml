@@ -12,8 +12,8 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -45,40 +45,6 @@ proxies:
       public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
       short-id: "3d31326f95"
     server: 45.153.130.43
-    tls: true
-    type: vless
-    udp: true
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    xudp: true
-    packet-encoding: xudp
-    servername: us1p1.xn--ghq880n3na965a.com
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇸🇬SG_1
-    network: tcp
-    port: 31094
-    reality-opts:
-      public-key: BTVKTYNHnuv3850vXEU15GVgfp5S0Dz20jueg-FSgAQ
-      short-id: "c761f990d786f2"
-    server: 43.255.156.166
-    tls: true
-    type: vless
-    udp: true
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    xudp: true
-    packet-encoding: xudp
-    servername: www.lamer.com.sg
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: ❓Other_1
-    network: tcp
-    port: 21263
-    reality-opts:
-      public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
-      short-id: "3d31326f95"
-    server: 45.153.130.119
     tls: true
     type: vless
     udp: true
