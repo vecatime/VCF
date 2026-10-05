@@ -12,8 +12,8 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/49.0.2623.112 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -35,6 +35,27 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 1mcfn.67resserv67.info
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_1
+    network: ws
+    port: 443
+    server: 78.159.246.110
+    tls: true
+    type: vless
+    udp: true
+    uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+    ws-opts:
+      headers:
+        Host: fbsv6.guardora.pro
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: fbsv6.guardora.pro
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
@@ -61,23 +82,6 @@ proxies:
     reality-opts:
       public-key: BTVKTYNHnuv3850vXEU15GVgfp5S0Dz20jueg-FSgAQ
       short-id: "c761f990d786f2"
-    server: 39.109.110.12
-    tls: true
-    type: vless
-    udp: true
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    xudp: true
-    packet-encoding: xudp
-    servername: www.lamer.com.sg
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇸🇬SG_2
-    network: tcp
-    port: 31094
-    reality-opts:
-      public-key: BTVKTYNHnuv3850vXEU15GVgfp5S0Dz20jueg-FSgAQ
-      short-id: "c761f990d786f2"
     server: 43.255.156.166
     tls: true
     type: vless
@@ -89,7 +93,7 @@ proxies:
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: ❓Other_2
     network: tcp
     port: 21263
     reality-opts:
@@ -121,7 +125,7 @@ proxies:
     packet-encoding: xudp
     servername: us1p1.xn--ghq880n3na965a.com
   - encryption: none
-    name: ❓Other_2
+    name: ❓Other_3
     network: ws
     port: 8080
     server: 172.67.132.85
@@ -131,8 +135,8 @@ proxies:
     ws-opts:
       headers:
         Host: server14.peekconf.workers.dev
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
       path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
     xudp: true
     packet-encoding: xudp
