@@ -12,29 +12,48 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.111 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
       path: /?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: ssl.fastly.com
-  - client-fingerprint: safari
+  - client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
-    name: 🇫🇮FI_1
-    network: tcp
+    name: ❓Other_1
+    network: ws
     port: 443
-    reality-opts:
-      public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
-      short-id: "29455a3a790acbd0"
-    server: 131.123.13.93
+    server: 199.232.78.159
     tls: true
     type: vless
     udp: true
-    uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+    uuid: 6ead3f4c-023f-4322-b5c4-ac4e327d259d
+    ws-opts:
+      headers:
+        Host: pannn1.global.ssl.fastly.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.110 Safari/537.36
+      path: /
     xudp: true
     packet-encoding: xudp
-    servername: 1mcfn.67resserv67.info
+    servername: ssl.fastly.com
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇳🇱NL_2
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+      short-id: "051f20c2344a2dfd"
+    server: 104.245.103.36
+    tls: true
+    type: vless
+    udp: true
+    uuid: 30141a8e-1b78-4f4b-88d3-1b0c90042256
+    xudp: true
+    packet-encoding: xudp
+    servername: portal.citygrainla.com
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
@@ -52,6 +71,34 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: po.skfv-mirror.ru
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 🇩🇪DE_2
+    network: xhttp
+    port: 443
+    server: gigx.rpbu.electrocitymarket.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8a180a9e-3218-4140-bfd3-56cf230d27f8
+    xhttp-opts:
+      mode: packet-up
+      no-grpc-header: true
+      path: /assets
+      sc-max-each-post-bytes: 2000000
+      seq-key: offset
+      seq-placement: query
+      session-key: auth
+      session-length: 16-32
+      session-placement: query
+      session-table: Base62
+      uplink-data-placement: body
+    xudp: true
+    packet-encoding: xudp
+    servername: gigx.rpbu.electrocitymarket.ru
 proxy-groups:
   - name: 🚀 节点选择
     type: select
