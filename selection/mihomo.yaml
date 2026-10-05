@@ -12,8 +12,8 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2228.0 Safari/537.36
       path: /?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
@@ -31,29 +31,13 @@ proxies:
     ws-opts:
       headers:
         Host: pannn1.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: ssl.fastly.com
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: ❓Other_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-      short-id: "a8"
-    server: 189.74.114.148
-    tls: true
-    type: vless
-    udp: true
-    uuid: 84c9ff14-75b9-420b-8a5c-dc25e19ec11a
-    xudp: true
-    packet-encoding: xudp
-    servername: api.mediagavan.cc
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
@@ -74,7 +58,7 @@ proxies:
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_2
+    name: 🇳🇱NL_4
     network: tcp
     port: 443
     reality-opts:
@@ -107,23 +91,8 @@ proxies:
     servername: 1mcfn.67resserv67.info
   - client-fingerprint: firefox
     encryption: none
-    grpc-opts:
-      grpc-service-name: content.v1.Feed
-    name: 🇩🇪DE_1
-    network: grpc
-    port: 443
-    server: 163.245.43.50
-    tls: true
-    type: vless
-    udp: true
-    uuid: 203d434a-2a92-45df-8973-ca80434ecf73
-    xudp: true
-    packet-encoding: xudp
-    servername: se-twitch.global-cdn.org
-  - client-fingerprint: firefox
-    encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_4
+    name: 🇩🇪DE_1
     network: tcp
     port: 443
     reality-opts:
@@ -137,6 +106,34 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: po.skfv-mirror.ru
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_1
+    network: xhttp
+    port: 443
+    server: gigx.rpbu.electrocitymarket.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8a180a9e-3218-4140-bfd3-56cf230d27f8
+    xhttp-opts:
+      mode: packet-up
+      no-grpc-header: true
+      path: /assets
+      sc-max-each-post-bytes: 2000000
+      seq-key: offset
+      seq-placement: query
+      session-key: auth
+      session-length: 16-32
+      session-placement: query
+      session-table: Base62
+      uplink-data-placement: body
+    xudp: true
+    packet-encoding: xudp
+    servername: gigx.rpbu.electrocitymarket.ru
 proxy-groups:
   - name: 🚀 节点选择
     type: select
