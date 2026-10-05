@@ -1,20 +1,4 @@
 proxies:
-    - client-fingerprint: safari
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
-        short-id: 29455a3a790acbd0
-      server: 131.123.13.93
-      servername: 1mcfn.67resserv67.info
-      tls: true
-      type: vless
-      udp: true
-      uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
-      xudp: true
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
@@ -26,6 +10,22 @@ proxies:
         short-id: 3d31326f95
       server: 45.153.130.43
       servername: us1p1.xn--ghq880n3na965a.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_1"
+      network: tcp
+      port: "31094"
+      reality-opts:
+        public-key: BTVKTYNHnuv3850vXEU15GVgfp5S0Dz20jueg-FSgAQ
+        short-id: c761f990d786f2
+      server: 43.255.156.166
+      servername: www.lamer.com.sg
       tls: true
       type: vless
       udp: true
@@ -74,6 +74,6 @@ proxies:
       ws-opts:
         headers:
             Host: server14.peekconf.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
         path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
       xudp: true
