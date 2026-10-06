@@ -2,7 +2,7 @@ proxies:
   - client-fingerprint: safari
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: 🇫🇮FI_1
     network: tcp
     port: 443
     reality-opts:
