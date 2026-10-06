@@ -1,17 +1,4 @@
 proxies:
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: ❓Other_1
-      network: tcp
-      port: "8443"
-      server: 196.240.125.3
-      servername: vusr-6ac431f4.adhil.uk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 20ef7310-0b50-4943-98a6-3d0856b383b1
-      xudp: true
     - client-fingerprint: safari
       encryption: none
       flow: xtls-rprx-vision
@@ -43,4 +30,20 @@ proxies:
       type: vless
       udp: true
       uuid: a2bbb4ba-6d21-4ae0-9682-dacfbea98ae9
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 9Pg_ecqFPMfzOvJrmxE05FmLUDXbY9Mo1r2MgxFzYEQ
+        short-id: cd57a927f6b72d81
+      server: 2.27.211.38
+      servername: po.skfv-mirror.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 86037609-3790-4901-bd2f-c698092fb1fc
       xudp: true
