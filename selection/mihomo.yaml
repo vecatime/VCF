@@ -2,7 +2,7 @@ proxies:
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: 🇩🇪DE_1
     network: tcp
     port: 443
     reality-opts:
@@ -49,6 +49,34 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 1mcfn.67resserv67.info
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_1
+    network: xhttp
+    port: 443
+    server: gigx.rpbu.electrocitymarket.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8a180a9e-3218-4140-bfd3-56cf230d27f8
+    xhttp-opts:
+      mode: packet-up
+      no-grpc-header: true
+      path: /assets
+      sc-max-each-post-bytes: 2000000
+      seq-key: offset
+      seq-placement: query
+      session-key: auth
+      session-length: 16-32
+      session-placement: query
+      session-table: Base62
+      uplink-data-placement: body
+    xudp: true
+    packet-encoding: xudp
+    servername: gigx.rpbu.electrocitymarket.ru
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision

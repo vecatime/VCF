@@ -2,7 +2,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_1
+      name: "\U0001F1E9\U0001F1EADE_1"
       network: tcp
       port: "443"
       reality-opts:
@@ -45,6 +45,33 @@ proxies:
       type: vless
       udp: true
       uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+      xudp: true
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_1
+      network: xhttp
+      port: "443"
+      server: gigx.rpbu.electrocitymarket.ru
+      servername: gigx.rpbu.electrocitymarket.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8a180a9e-3218-4140-bfd3-56cf230d27f8
+      xhttp-opts:
+        mode: packet-up
+        no-grpc-header: true
+        path: /assets
+        sc-max-each-post-bytes: 2000000
+        seq-key: offset
+        seq-placement: query
+        session-key: auth
+        session-length: 16-32
+        session-placement: query
+        session-table: Base62
+        uplink-data-placement: body
       xudp: true
     - client-fingerprint: chrome
       encryption: none
