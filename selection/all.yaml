@@ -2,7 +2,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_1
+      name: "\U0001F1E9\U0001F1EADE_1"
       network: tcp
       port: "443"
       reality-opts:
@@ -14,20 +14,4 @@ proxies:
       type: vless
       udp: true
       uuid: 86037609-3790-4901-bd2f-c698092fb1fc
-      xudp: true
-    - client-fingerprint: safari
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
-        short-id: 29455a3a790acbd0
-      server: 131.123.13.93
-      servername: 1mcfn.67resserv67.info
-      tls: true
-      type: vless
-      udp: true
-      uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
       xudp: true
