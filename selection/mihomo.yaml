@@ -30,6 +30,23 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cdp.x5.ru
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_2
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 9Pg_ecqFPMfzOvJrmxE05FmLUDXbY9Mo1r2MgxFzYEQ
+      short-id: "cd57a927f6b72d81"
+    server: 2.27.211.38
+    tls: true
+    type: vless
+    udp: true
+    uuid: 86037609-3790-4901-bd2f-c698092fb1fc
+    xudp: true
+    packet-encoding: xudp
+    servername: po.skfv-mirror.ru
 proxy-groups:
   - name: 🚀 节点选择
     type: select
