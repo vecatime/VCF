@@ -1,23 +1,4 @@
 proxies:
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇳🇱NL_1
-    network: ws
-    port: 443
-    server: 199.232.78.159
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6ead3f4c-023f-4322-b5c4-ac4e327d259d
-    ws-opts:
-      headers:
-        Host: pannn1.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: ssl.fastly.com
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
@@ -35,8 +16,25 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: po.skfv-mirror.ru
-  - encryption: none
+  - client-fingerprint: safari
+    encryption: none
+    flow: xtls-rprx-vision
     name: ❓Other_1
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
+      short-id: "29455a3a790acbd0"
+    server: 131.123.13.93
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+    xudp: true
+    packet-encoding: xudp
+    servername: 1mcfn.67resserv67.info
+  - encryption: none
+    name: ❓Other_2
     network: ws
     port: 8080
     server: 172.67.132.85
@@ -46,8 +44,8 @@ proxies:
     ws-opts:
       headers:
         Host: server14.peekconf.workers.dev
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/41.0.2272.101 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
       path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
     xudp: true
     packet-encoding: xudp
