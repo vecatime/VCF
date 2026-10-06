@@ -1,21 +1,18 @@
 proxies:
-  - client-fingerprint: safari
+  - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇫🇮FI_1
+    name: ❓Other_1
     network: tcp
-    port: 443
-    reality-opts:
-      public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
-      short-id: "29455a3a790acbd0"
-    server: 131.123.13.93
+    port: 8443
+    server: 196.240.125.3
     tls: true
     type: vless
     udp: true
-    uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+    uuid: 20ef7310-0b50-4943-98a6-3d0856b383b1
     xudp: true
     packet-encoding: xudp
-    servername: 1mcfn.67resserv67.info
+    servername: vusr-6ac431f4.adhil.uk
   - client-fingerprint: qq
     encryption: none
     flow: xtls-rprx-vision
@@ -33,23 +30,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: cdp.x5.ru
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇩🇪DE_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 9Pg_ecqFPMfzOvJrmxE05FmLUDXbY9Mo1r2MgxFzYEQ
-      short-id: "cd57a927f6b72d81"
-    server: 2.27.211.38
-    tls: true
-    type: vless
-    udp: true
-    uuid: 86037609-3790-4901-bd2f-c698092fb1fc
-    xudp: true
-    packet-encoding: xudp
-    servername: po.skfv-mirror.ru
 proxy-groups:
   - name: 🚀 节点选择
     type: select
