@@ -2,7 +2,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: ❓Other_1
       network: tcp
       port: "443"
       reality-opts:
