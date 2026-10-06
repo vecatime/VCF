@@ -1,4 +1,35 @@
 proxies:
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_1
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 9Pg_ecqFPMfzOvJrmxE05FmLUDXbY9Mo1r2MgxFzYEQ
+        short-id: cd57a927f6b72d81
+      server: 2.27.211.38
+      servername: po.skfv-mirror.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 86037609-3790-4901-bd2f-c698092fb1fc
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_1"
+      network: tcp
+      port: "4040"
+      reality-opts:
+        public-key: _OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk
+        short-id: 73693dea6faae051
+      server: 89.208.97.84
+      servername: www.actionvfx.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 59ab9bbf-3f08-4992-bbf3-4faddceb8e49
+      xudp: true
     - client-fingerprint: safari
       encryption: none
       flow: xtls-rprx-vision
@@ -14,4 +45,20 @@ proxies:
       type: vless
       udp: true
       uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_2
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: PhOIlEfiYVUhkWKIfX_IOwJ6zz_Zk0QEj4sfcZyuShY
+        short-id: abcddb0c38896b8b
+      server: 13.212.248.1
+      servername: cs.a8game.vip
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
       xudp: true
