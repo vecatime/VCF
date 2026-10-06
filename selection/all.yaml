@@ -9,12 +9,12 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: 8453bdb7-dd58-419d-b002-9456dd2e73d7
+      uuid: 6ead3f4c-023f-4322-b5c4-ac4e327d259d
       ws-opts:
         headers:
-            Host: pan2e.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-        path: ?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+            Host: pannn1.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+        path: /
       xudp: true
     - client-fingerprint: chrome
       encryption: none
@@ -26,11 +26,11 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: 6ead3f4c-023f-4322-b5c4-ac4e327d259d
+      uuid: 8453bdb7-dd58-419d-b002-9456dd2e73d7
       ws-opts:
         headers:
-            Host: pannn1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+            Host: pan2e.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: firefox
@@ -49,6 +49,22 @@ proxies:
       udp: true
       uuid: 30141a8e-1b78-4f4b-88d3-1b0c90042256
       xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 9Pg_ecqFPMfzOvJrmxE05FmLUDXbY9Mo1r2MgxFzYEQ
+        short-id: cd57a927f6b72d81
+      server: 2.27.211.38
+      servername: po.skfv-mirror.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 86037609-3790-4901-bd2f-c698092fb1fc
+      xudp: true
     - client-fingerprint: safari
       encryption: none
       flow: xtls-rprx-vision
@@ -65,36 +81,6 @@ proxies:
       udp: true
       uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
       xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      grpc-opts:
-        grpc-service-name: content.v1.Feed
-      name: "\U0001F1E9\U0001F1EADE_1"
-      network: grpc
-      port: "443"
-      server: 163.245.43.50
-      servername: se-twitch.global-cdn.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 203d434a-2a92-45df-8973-ca80434ecf73
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 9Pg_ecqFPMfzOvJrmxE05FmLUDXbY9Mo1r2MgxFzYEQ
-        short-id: cd57a927f6b72d81
-      server: 2.27.211.38
-      servername: po.skfv-mirror.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 86037609-3790-4901-bd2f-c698092fb1fc
-      xudp: true
     - encryption: none
       name: ❓Other_2
       network: ws
@@ -106,6 +92,6 @@ proxies:
       ws-opts:
         headers:
             Host: server14.peekconf.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
         path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
       xudp: true
