@@ -1,37 +1,43 @@
 proxies:
   - client-fingerprint: firefox
     encryption: none
-    name: 🇫🇷FR_1
-    network: tcp
-    port: 4040
-    reality-opts:
-      public-key: _OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk
-      short-id: "73693dea6faae051"
-    server: 89.208.97.84
-    tls: true
-    type: vless
-    udp: true
-    uuid: 59ab9bbf-3f08-4992-bbf3-4faddceb8e49
-    xudp: true
-    packet-encoding: xudp
-    servername: www.actionvfx.com
-  - client-fingerprint: safari
-    encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: 🇩🇪DE_1
     network: tcp
     port: 443
     reality-opts:
-      public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
-      short-id: "29455a3a790acbd0"
-    server: 131.123.13.93
+      public-key: 9Pg_ecqFPMfzOvJrmxE05FmLUDXbY9Mo1r2MgxFzYEQ
+      short-id: "cd57a927f6b72d81"
+    server: 2.27.211.38
     tls: true
     type: vless
     udp: true
-    uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+    uuid: 86037609-3790-4901-bd2f-c698092fb1fc
     xudp: true
     packet-encoding: xudp
-    servername: 1mcfn.67resserv67.info
+    servername: po.skfv-mirror.ru
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_1
+    network: ws
+    port: 443
+    server: 78.159.246.110
+    tls: true
+    type: vless
+    udp: true
+    uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+    ws-opts:
+      headers:
+        Host: fbsv6.guardora.pro
+        User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: fbsv6.guardora.pro
 proxy-groups:
   - name: 🚀 节点选择
     type: select
