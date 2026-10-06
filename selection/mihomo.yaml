@@ -1,23 +1,6 @@
 proxies:
   - client-fingerprint: firefox
     encryption: none
-    flow: xtls-rprx-vision
-    name: 🇩🇪DE_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 9Pg_ecqFPMfzOvJrmxE05FmLUDXbY9Mo1r2MgxFzYEQ
-      short-id: "cd57a927f6b72d81"
-    server: 2.27.211.38
-    tls: true
-    type: vless
-    udp: true
-    uuid: 86037609-3790-4901-bd2f-c698092fb1fc
-    xudp: true
-    packet-encoding: xudp
-    servername: po.skfv-mirror.ru
-  - client-fingerprint: firefox
-    encryption: none
     name: 🇫🇷FR_1
     network: tcp
     port: 4040
@@ -35,7 +18,7 @@ proxies:
   - client-fingerprint: safari
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇫🇮FI_1
+    name: ❓Other_1
     network: tcp
     port: 443
     reality-opts:
@@ -49,51 +32,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 1mcfn.67resserv67.info
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_1
-    network: xhttp
-    port: 443
-    server: gigx.rpbu.electrocitymarket.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8a180a9e-3218-4140-bfd3-56cf230d27f8
-    xhttp-opts:
-      mode: packet-up
-      no-grpc-header: true
-      path: /assets
-      sc-max-each-post-bytes: 2000000
-      seq-key: offset
-      seq-placement: query
-      session-key: auth
-      session-length: 16-32
-      session-placement: query
-      session-table: Base62
-      uplink-data-placement: body
-    xudp: true
-    packet-encoding: xudp
-    servername: gigx.rpbu.electrocitymarket.ru
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: ❓Other_2
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: PhOIlEfiYVUhkWKIfX_IOwJ6zz_Zk0QEj4sfcZyuShY
-      short-id: "abcddb0c38896b8b"
-    server: 13.212.248.1
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
-    xudp: true
-    packet-encoding: xudp
-    servername: cs.a8game.vip
 proxy-groups:
   - name: 🚀 节点选择
     type: select
