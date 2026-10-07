@@ -1,8 +1,22 @@
 proxies:
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_1
+    network: tcp
+    port: 8443
+    server: 196.240.125.3
+    tls: true
+    type: vless
+    udp: true
+    uuid: 20ef7310-0b50-4943-98a6-3d0856b383b1
+    xudp: true
+    packet-encoding: xudp
+    servername: vusr-6ac431f4.adhil.uk
   - client-fingerprint: qq
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇵🇱PL_1
+    name: ❓Other_2
     network: tcp
     port: 8448
     reality-opts:
@@ -19,7 +33,7 @@ proxies:
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_1
+    name: 🇩🇪DE_1
     network: tcp
     port: 443
     reality-opts:
@@ -33,6 +47,23 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: po.skfv-mirror.ru
+  - encryption: none
+    name: ❓Other_3
+    network: ws
+    port: 8080
+    server: 172.67.132.85
+    type: vless
+    udp: true
+    uuid: 3a701524-30c8-45f3-8922-d7af5d024af0
+    ws-opts:
+      headers:
+        Host: server14.peekconf.workers.dev
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
+      path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
+    xudp: true
+    packet-encoding: xudp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
