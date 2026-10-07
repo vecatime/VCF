@@ -1,15 +1,18 @@
 proxies:
-    - encryption: none
-      name: ❓Other_1
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_1"
       network: ws
-      port: "8080"
-      server: 172.67.132.85
+      port: "443"
+      server: 199.232.78.159
+      servername: default.ssl.fastly.net
+      tls: true
       type: vless
       udp: true
-      uuid: 3a701524-30c8-45f3-8922-d7af5d024af0
+      uuid: 6ead3f4c-023f-4322-b5c4-ac4e327d259d
       ws-opts:
         headers:
-            Host: server14.peekconf.workers.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
+            Host: pannn1.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: ""
       xudp: true
