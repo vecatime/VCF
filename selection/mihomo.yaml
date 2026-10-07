@@ -1,20 +1,23 @@
 proxies:
   - client-fingerprint: chrome
-    encryption: mlkem768x25519plus.native.0rtt.-TAR5JMIn9DPMg8UBYkg5xK_yp4v2p7Mp4yKpjIpZAw
-    name: ❓Other_1
-    network: tcp
-    port: 42567
-    reality-opts:
-      public-key: TZw3WVFqA26KTW_dVE7ulcMdjaxjbDKNGGqJdm_DoFQ
-      short-id: "3982d627211a2d1f"
-    server: olanbb1w.paslanmaz.ir
+    encryption: none
+    name: 🇳🇱NL_1
+    network: ws
+    port: 443
+    server: 199.232.78.159
     tls: true
     type: vless
     udp: true
-    uuid: ebaac78a-64f7-4d6a-8897-a4b420069378
+    uuid: 6ead3f4c-023f-4322-b5c4-ac4e327d259d
+    ws-opts:
+      headers:
+        Host: pannn1.global.ssl.fastly.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/56.0.2924.87 Safari/537.36
+      path: /
     xudp: true
     packet-encoding: xudp
-    servername: play.google.com
+    servername: default.ssl.fastly.net
 proxy-groups:
   - name: 🚀 节点选择
     type: select
