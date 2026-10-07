@@ -1,24 +1,8 @@
 proxies:
-    - client-fingerprint: qq
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_1"
-      network: tcp
-      port: "8448"
-      reality-opts:
-        public-key: jOBo4R259-p0H2EcHMPO_R1uPZ8hyM_Yj1K5Nejch2U
-        short-id: d681ac08
-      server: 217.19.122.214
-      servername: cdp.x5.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: a2bbb4ba-6d21-4ae0-9682-dacfbea98ae9
-      xudp: true
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: ❓Other_1
       network: tcp
       port: "443"
       reality-opts:
