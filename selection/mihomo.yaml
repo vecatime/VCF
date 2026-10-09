@@ -15,13 +15,6 @@ proxies:
     uuid: f6b808ed-0695-46af-9c00-812823225c4c
     xudp: true
     packet-encoding: xudp
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_1
-    password: y7KeRTzmH0vXT2kp
-    port: 443
-    server: c3.nastuh.link
-    type: ss
-    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
