@@ -2,7 +2,7 @@ proxies:
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇩🇪DE_1
+    name: ❓Other_1
     network: tcp
     port: 443
     reality-opts:
@@ -16,6 +16,23 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: baget.puffixhosting.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_2
+    network: xhttp
+    port: 443
+    server: 89.208.230.123
+    tls: true
+    type: vless
+    udp: true
+    uuid: d1004cfe-c279-e865-d865-71964dbdf85d
+    xhttp-opts:
+      host: vimdes.save-files.online
+      mode: auto
+      path: /_next/data/content/b9e14c7a
+    xudp: true
+    packet-encoding: xudp
+    servername: vimdes.save-files.online
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_1
     password: y7KeRTzmH0vXT2kp

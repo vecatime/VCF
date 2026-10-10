@@ -2,7 +2,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: ❓Other_1
       network: tcp
       port: "443"
       reality-opts:
@@ -14,6 +14,22 @@ proxies:
       type: vless
       udp: true
       uuid: e937b92c-701f-420e-a621-3eb3b75de467
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_2
+      network: xhttp
+      port: "443"
+      server: 89.208.230.123
+      servername: vimdes.save-files.online
+      tls: true
+      type: vless
+      udp: true
+      uuid: d1004cfe-c279-e865-d865-71964dbdf85d
+      xhttp-opts:
+        host: vimdes.save-files.online
+        mode: auto
+        path: /_next/data/content/b9e14c7a
       xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_1"
