@@ -1,17 +1,8 @@
 proxies:
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: ❓Other_1
-      network: tcp
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_1"
+      password: y7KeRTzmH0vXT2kp
       port: "443"
-      reality-opts:
-        public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-        short-id: 64c1fe36c7846400
-      server: tgfree.rush-server.com
-      servername: anyfile2file.com
-      tls: true
-      type: vless
+      server: c3.nastuh.link
+      type: ss
       udp: true
-      uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
-      xudp: true
