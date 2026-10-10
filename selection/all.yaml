@@ -15,6 +15,22 @@ proxies:
         mode: auto
         path: /_next/data/content/b9e14c7a
       xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_1"
+      network: tcp
+      port: "1891"
+      reality-opts:
+        public-key: z6wAS22cWD7Sx0w9Ib5ya7JBL4rDs4qraPMYELTG0Ss
+        short-id: 8378f267
+      server: sin-a-01.auuas.com
+      servername: www.npmjs.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
+      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_1"
       password: y7KeRTzmH0vXT2kp
