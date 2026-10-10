@@ -35,13 +35,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: ads.x5.ru
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_1
-    password: y7KeRTzmH0vXT2kp
-    port: 443
-    server: c3.nastuh.link
-    type: ss
-    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
