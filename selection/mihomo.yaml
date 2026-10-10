@@ -1,38 +1,4 @@
 proxies:
-  - client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_1
-    network: xhttp
-    port: 443
-    server: 89.208.230.123
-    tls: true
-    type: vless
-    udp: true
-    uuid: d1004cfe-c279-e865-d865-71964dbdf85d
-    xhttp-opts:
-      host: vimdes.save-files.online
-      mode: auto
-      path: /_next/data/content/b9e14c7a
-    xudp: true
-    packet-encoding: xudp
-    servername: vimdes.save-files.online
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇸🇬SG_1
-    network: tcp
-    port: 1891
-    reality-opts:
-      public-key: z6wAS22cWD7Sx0w9Ib5ya7JBL4rDs4qraPMYELTG0Ss
-      short-id: "8378f267"
-    server: sin-a-01.auuas.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
-    xudp: true
-    packet-encoding: xudp
-    servername: www.npmjs.com
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_1
     password: y7KeRTzmH0vXT2kp

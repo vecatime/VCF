@@ -1,35 +1,8 @@
 proxies:
-    - encryption: none
-      http-opts:
-        headers:
-            Host:
-                - play.google.com
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EADE_1"
-      network: http
-      port: "35696"
-      server: 88.198.108.26
-      type: vless
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_1"
+      password: y7KeRTzmH0vXT2kp
+      port: "443"
+      server: c3.nastuh.link
+      type: ss
       udp: true
-      uuid: 89238afb-0166-4ff0-85de-f7bec650a818
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: ❓Other_1
-      network: xhttp
-      port: "29870"
-      reality-opts:
-        public-key: 6ylQnvHKj9JnxJc0u2RdzI2HekMGnBopPlQUXISbG3k
-        short-id: 7236f35848395394
-      server: 88.198.108.26
-      servername: play.google.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 54abd374-612d-4bee-b469-f28ec3ba5632
-      xhttp-opts:
-        host: play.google.com
-        mode: auto
-        path: /
-      xudp: true
