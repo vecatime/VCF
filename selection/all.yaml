@@ -15,21 +15,3 @@ proxies:
       udp: true
       uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
       xudp: true
-    - client-fingerprint: random
-      encryption: none
-      name: ❓Other_2
-      network: xhttp
-      port: "8468"
-      reality-opts:
-        public-key: mLNQ8cirYSUCtYa5485RnCPzrmp2OfkI0ENmweDxJQc
-        short-id: 6ba85179e30d4fc2
-      server: 188.225.77.143
-      servername: ads.x5.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 40c12ce6-b1c6-424e-862e-010a4585ff52
-      xhttp-opts:
-        mode: auto
-        path: /xh
-      xudp: true
