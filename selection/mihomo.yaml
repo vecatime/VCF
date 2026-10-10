@@ -1,47 +1,8 @@
 proxies:
-  - alpn:
-      - http/1.1
-    client-fingerprint: random
-    encryption: none
-    name: 🇩🇪DE_1
-    network: ws
-    port: 2083
-    server: 140.225.208.50
-    tls: true
-    type: vless
-    udp: true
-    uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-    ws-opts:
-      headers:
-        Host: ""
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/60.0.3112.116 Mobile Safari/537.36
-      path: /vless-ws
-    xudp: true
-    packet-encoding: xudp
-    servername: speedtestmark.com
-  - client-fingerprint: random
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇳🇱NL_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-      short-id: "051f20c2344a2dfd"
-    server: c20s5.portablesubmarines.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 85fe968d-fbb5-40dc-8422-30635eccb149
-    xudp: true
-    packet-encoding: xudp
-    servername: portal.citygrainla.com
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: 🇩🇪DE_1
     network: tcp
     port: 443
     reality-opts:
@@ -56,7 +17,7 @@ proxies:
     packet-encoding: xudp
     servername: baget.puffixhosting.com
   - cipher: chacha20-ietf-poly1305
-    name: ❓Other_2
+    name: 🇳🇱NL_1
     password: y7KeRTzmH0vXT2kp
     port: 443
     server: c3.nastuh.link
