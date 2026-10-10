@@ -15,8 +15,24 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
         path: /vless-ws
+      xudp: true
+    - client-fingerprint: random
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_1"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+        short-id: 051f20c2344a2dfd
+      server: c20s5.portablesubmarines.com
+      servername: portal.citygrainla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 85fe968d-fbb5-40dc-8422-30635eccb149
       xudp: true
     - client-fingerprint: firefox
       encryption: none
@@ -66,10 +82,3 @@ proxies:
       udp: true
       uuid: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_1"
-      password: y7KeRTzmH0vXT2kp
-      port: "443"
-      server: c3.nastuh.link
-      type: ss
-      udp: true
