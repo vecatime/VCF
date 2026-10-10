@@ -1,8 +1,35 @@
 proxies:
-    - cipher: chacha20-ietf-poly1305
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
       name: "\U0001F1F3\U0001F1F1NL_1"
-      password: y7KeRTzmH0vXT2kp
+      network: tcp
       port: "443"
-      server: c3.nastuh.link
-      type: ss
+      reality-opts:
+        public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+        short-id: 051f20c2344a2dfd
+      server: c20s5.portablesubmarines.com
+      servername: portal.citygrainla.com
+      tls: true
+      type: vless
       udp: true
+      uuid: 85fe968d-fbb5-40dc-8422-30635eccb149
+      xudp: true
+    - client-fingerprint: random
+      encryption: none
+      name: ❓Other_1
+      network: xhttp
+      port: "8468"
+      reality-opts:
+        public-key: mLNQ8cirYSUCtYa5485RnCPzrmp2OfkI0ENmweDxJQc
+        short-id: 6ba85179e30d4fc2
+      server: 188.225.77.143
+      servername: ads.x5.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 40c12ce6-b1c6-424e-862e-010a4585ff52
+      xhttp-opts:
+        mode: auto
+        path: /xh
+      xudp: true
