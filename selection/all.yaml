@@ -15,7 +15,7 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
         path: /vless-ws
       xudp: true
     - client-fingerprint: random
@@ -66,8 +66,26 @@ proxies:
         mode: auto
         path: /_next/data/content/b9e14c7a
       xudp: true
+    - client-fingerprint: random
+      encryption: none
+      name: ❓Other_1
+      network: xhttp
+      port: "8468"
+      reality-opts:
+        public-key: mLNQ8cirYSUCtYa5485RnCPzrmp2OfkI0ENmweDxJQc
+        short-id: 6ba85179e30d4fc2
+      server: 188.225.77.143
+      servername: ads.x5.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 40c12ce6-b1c6-424e-862e-010a4585ff52
+      xhttp-opts:
+        mode: auto
+        path: /xh
+      xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_2"
+      name: ❓Other_2
       password: y7KeRTzmH0vXT2kp
       port: "443"
       server: c3.nastuh.link
