@@ -16,25 +16,13 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: portal.citygrainla.com
-  - client-fingerprint: random
-    encryption: none
-    name: ❓Other_1
-    network: xhttp
-    port: 8468
-    reality-opts:
-      public-key: mLNQ8cirYSUCtYa5485RnCPzrmp2OfkI0ENmweDxJQc
-      short-id: "6ba85179e30d4fc2"
-    server: 188.225.77.143
-    tls: true
-    type: vless
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_2
+    password: y7KeRTzmH0vXT2kp
+    port: 443
+    server: c3.nastuh.link
+    type: ss
     udp: true
-    uuid: 40c12ce6-b1c6-424e-862e-010a4585ff52
-    xhttp-opts:
-      mode: auto
-      path: /xh
-    xudp: true
-    packet-encoding: xudp
-    servername: ads.x5.ru
 proxy-groups:
   - name: 🚀 节点选择
     type: select
