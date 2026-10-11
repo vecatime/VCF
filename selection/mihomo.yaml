@@ -12,8 +12,8 @@ proxies:
     ws-opts:
       headers:
         Host: pannn1.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
@@ -21,7 +21,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-    name: 🇩🇪DE_2
+    name: 🇳🇱NL_1
     network: ws
     port: 443
     server: 199.232.78.159
@@ -32,33 +32,34 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/55.0.2883.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: google.com
-  - client-fingerprint: random
+  - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
     name: ❓Other_1
     network: tcp
-    port: 43000
+    port: 443
     reality-opts:
-      public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
-      short-id: "7887c27d"
-    server: 94.249.188.202
+      public-key: BzXQPqKb1waqaBR4b2GGyE6VWX4LGd9iCOkyuMc8IGs
+      short-id: "14aa9b370c30c55d"
+    server: 89.125.100.59
     tls: true
     type: vless
     udp: true
-    uuid: f8842728-bf43-47e2-83bf-283e21f33664
+    uuid: 86096188-0ece-41af-922d-792c5f96c3ad
     xudp: true
     packet-encoding: xudp
-    servername: 94.249.188.202
+    servername: anime.caloribro.uno
   - client-fingerprint: random
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇩🇪DE_3
+    name: 🇩🇪DE_2
     network: tcp
     port: 443
     reality-opts:
@@ -75,7 +76,7 @@ proxies:
   - client-fingerprint: random
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇩🇪DE_4
+    name: 🇩🇪DE_3
     network: tcp
     port: 443
     reality-opts:
@@ -89,27 +90,27 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.lovelive-anime.jp
-  - client-fingerprint: random
+  - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇩🇪DE_5
+    name: 🇳🇱NL_2
     network: tcp
     port: 443
     reality-opts:
-      public-key: 4EUWyCLFjgb-cDwj8ws2nC82mCY_L5VvoCia7mHPH2o
-      short-id: "adbbecad"
-    server: 84.200.62.56
+      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+      short-id: "051f20c2344a2dfd"
+    server: c20s5.portablesubmarines.com
     tls: true
     type: vless
     udp: true
-    uuid: 249cce58-48ab-49a0-8aa1-fb8cd68a1104
+    uuid: 85fe968d-fbb5-40dc-8422-30635eccb149
     xudp: true
     packet-encoding: xudp
-    servername: de2.my-cdn.org
+    servername: portal.citygrainla.com
   - client-fingerprint: random
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_1
+    name: 🇳🇱NL_3
     network: tcp
     port: 43000
     reality-opts:
@@ -126,7 +127,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_2
+    name: 🇳🇱NL_4
     network: tcp
     port: 443
     reality-opts:
