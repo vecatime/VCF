@@ -12,8 +12,8 @@ proxies:
     ws-opts:
       headers:
         Host: pannn1.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.186 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
@@ -33,11 +33,28 @@ proxies:
       headers:
         Host: pan2e.global.ssl.fastly.net
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
+          Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: google.com
+  - client-fingerprint: random
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_1
+    network: tcp
+    port: 43000
+    reality-opts:
+      public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
+      short-id: "7887c27d"
+    server: 94.249.188.202
+    tls: true
+    type: vless
+    udp: true
+    uuid: f8842728-bf43-47e2-83bf-283e21f33664
+    xudp: true
+    packet-encoding: xudp
+    servername: 94.249.188.202
   - client-fingerprint: random
     encryption: none
     flow: xtls-rprx-vision
@@ -72,23 +89,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.lovelive-anime.jp
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇳🇱NL_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-      short-id: "051f20c2344a2dfd"
-    server: c20s5.portablesubmarines.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 85fe968d-fbb5-40dc-8422-30635eccb149
-    xudp: true
-    packet-encoding: xudp
-    servername: portal.citygrainla.com
   - client-fingerprint: random
     encryption: none
     flow: xtls-rprx-vision
@@ -109,7 +109,7 @@ proxies:
   - client-fingerprint: random
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: 🇳🇱NL_1
     network: tcp
     port: 43000
     reality-opts:
@@ -157,13 +157,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fi.pythonsetupbib.online
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_3
-    password: y7KeRTzmH0vXT2kp
-    port: 443
-    server: c3.nastuh.link
-    type: ss
-    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
