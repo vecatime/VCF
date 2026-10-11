@@ -79,21 +79,24 @@ proxies:
       udp: true
       uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
       xudp: true
-    - client-fingerprint: firefox
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2"
-      network: tcp
+      name: ❓Other_1
+      network: ws
       port: "443"
-      reality-opts:
-        public-key: Ego9_BM1Sy20swG1UaGOucL_o94l3F6uw8TOTH2jYRI
-        short-id: 5347d9d0b588c111
-      server: de1.manticore-vpn.lol
-      servername: www.lovelive-anime.jp
+      server: gadfather.zovip2.ir
+      servername: gadfather.zovip2.ir
       tls: true
       type: vless
       udp: true
-      uuid: b1936288-a353-4ff1-89b3-edaead599c6b
+      uuid: 9f9b66ba-e964-4e0e-be38-293134868a67
+      ws-opts:
+        headers:
+            Host: gadfather.zovip2.ir
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /gropcdn?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_4"
