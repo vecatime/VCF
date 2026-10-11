@@ -13,13 +13,13 @@ proxies:
       ws-opts:
         headers:
             Host: pannn1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-      name: "\U0001F1F3\U0001F1F1NL_1"
+      name: "\U0001F1E9\U0001F1EADE_2"
       network: ws
       port: "443"
       server: 199.232.78.159
@@ -31,13 +31,13 @@ proxies:
       ws-opts:
         headers:
             Host: pan2e.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_1
+      name: "\U0001F1F3\U0001F1F1NL_1"
       network: tcp
       port: "443"
       reality-opts:
@@ -53,7 +53,23 @@ proxies:
     - client-fingerprint: random
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2"
+      name: ❓Other_1
+      network: tcp
+      port: "43000"
+      reality-opts:
+        public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
+        short-id: 7887c27d
+      server: 94.249.188.202
+      servername: 94.249.188.202
+      tls: true
+      type: vless
+      udp: true
+      uuid: f8842728-bf43-47e2-83bf-283e21f33664
+      xudp: true
+    - client-fingerprint: random
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_3"
       network: tcp
       port: "443"
       reality-opts:
@@ -69,7 +85,7 @@ proxies:
     - client-fingerprint: random
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_3"
+      name: "\U0001F1E9\U0001F1EADE_4"
       network: tcp
       port: "443"
       reality-opts:
@@ -82,26 +98,26 @@ proxies:
       udp: true
       uuid: b1936288-a353-4ff1-89b3-edaead599c6b
       xudp: true
-    - client-fingerprint: chrome
+    - client-fingerprint: random
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_2"
+      name: ❓Other_2
       network: tcp
       port: "443"
       reality-opts:
-        public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-        short-id: 051f20c2344a2dfd
-      server: c20s5.portablesubmarines.com
-      servername: portal.citygrainla.com
+        public-key: 4EUWyCLFjgb-cDwj8ws2nC82mCY_L5VvoCia7mHPH2o
+        short-id: adbbecad
+      server: 84.200.62.56
+      servername: de2.my-cdn.org
       tls: true
       type: vless
       udp: true
-      uuid: 85fe968d-fbb5-40dc-8422-30635eccb149
+      uuid: 249cce58-48ab-49a0-8aa1-fb8cd68a1104
       xudp: true
     - client-fingerprint: random
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_3"
+      name: "\U0001F1F3\U0001F1F1NL_2"
       network: tcp
       port: "43000"
       reality-opts:
@@ -117,7 +133,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_4"
+      name: "\U0001F1F3\U0001F1F1NL_3"
       network: tcp
       port: "443"
       reality-opts:
@@ -146,3 +162,10 @@ proxies:
       udp: true
       uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
       xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_4"
+      password: y7KeRTzmH0vXT2kp
+      port: "443"
+      server: c3.nastuh.link
+      type: ss
+      udp: true
