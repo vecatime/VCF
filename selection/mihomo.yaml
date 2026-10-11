@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: azdddaiji5.global.ssl.fastly.net.
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/57.0.2987.133 Safari/537.36
+          Gecko) Chrome/37.0.2062.120 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
@@ -22,7 +22,24 @@ proxies:
   - client-fingerprint: random
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: 🇩🇪DE_2
+    network: tcp
+    port: 43000
+    reality-opts:
+      public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
+      short-id: "7887c27d"
+    server: 94.249.188.202
+    tls: true
+    type: vless
+    udp: true
+    uuid: f8842728-bf43-47e2-83bf-283e21f33664
+    xudp: true
+    packet-encoding: xudp
+    servername: 94.249.188.202
+  - client-fingerprint: random
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE_3
     network: tcp
     port: 443
     reality-opts:
@@ -36,23 +53,23 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.lovelive-anime.jp
-  - client-fingerprint: random
+  - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_2
+    name: ❓Other_1
     network: tcp
-    port: 43000
+    port: 443
     reality-opts:
-      public-key: NXN75t-gk0tpVh74Thc7nPBXM4fytgMOZafDzSe8xAk
-      short-id: "353fdd95"
-    server: 217.69.167.125
+      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+      short-id: "051f20c2344a2dfd"
+    server: c20s5.portablesubmarines.com
     tls: true
     type: vless
     udp: true
-    uuid: ebdf3268-2bd2-4608-875f-82f6a5efac69
+    uuid: 85fe968d-fbb5-40dc-8422-30635eccb149
     xudp: true
     packet-encoding: xudp
-    servername: 217.69.167.125
+    servername: portal.citygrainla.com
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -70,13 +87,40 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: nl3.nztvpn.com
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_2
-    password: y7KeRTzmH0vXT2kp
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇫🇮FI_1
+    network: tcp
     port: 443
-    server: c3.nastuh.link
-    type: ss
+    reality-opts:
+      public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg
+      short-id: "bdf5852d1423e694"
+    server: fi.pythonsetupbib.online
+    tls: true
+    type: vless
     udp: true
+    uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+    xudp: true
+    packet-encoding: xudp
+    servername: fi.pythonsetupbib.online
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_2
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: Ego9_BM1Sy20swG1UaGOucL_o94l3F6uw8TOTH2jYRI
+      short-id: "5347d9d0b588c111"
+    server: de1.manticore-vpn.lol
+    tls: true
+    type: vless
+    udp: true
+    uuid: b1936288-a353-4ff1-89b3-edaead599c6b
+    xudp: true
+    packet-encoding: xudp
+    servername: www.lovelive-anime.jp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
