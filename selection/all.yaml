@@ -2,22 +2,6 @@ proxies:
     - client-fingerprint: random
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_1
-      network: tcp
-      port: "43000"
-      reality-opts:
-        public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
-        short-id: 7887c27d
-      server: 94.249.188.202
-      servername: 94.249.188.202
-      tls: true
-      type: vless
-      udp: true
-      uuid: f8842728-bf43-47e2-83bf-283e21f33664
-      xudp: true
-    - client-fingerprint: random
-      encryption: none
-      flow: xtls-rprx-vision
       name: "\U0001F1E9\U0001F1EADE_1"
       network: tcp
       port: "443"
