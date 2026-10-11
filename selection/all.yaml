@@ -4,16 +4,16 @@ proxies:
       flow: xtls-rprx-vision
       name: "\U0001F1E9\U0001F1EADE_1"
       network: tcp
-      port: "443"
+      port: "43000"
       reality-opts:
-        public-key: Ego9_BM1Sy20swG1UaGOucL_o94l3F6uw8TOTH2jYRI
-        short-id: 5347d9d0b588c111
-      server: 144.31.165.102
-      servername: www.lovelive-anime.jp
+        public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
+        short-id: 7887c27d
+      server: 94.249.188.202
+      servername: 94.249.188.202
       tls: true
       type: vless
       udp: true
-      uuid: b1936288-a353-4ff1-89b3-edaead599c6b
+      uuid: f8842728-bf43-47e2-83bf-283e21f33664
       xudp: true
     - client-fingerprint: chrome
       encryption: none
