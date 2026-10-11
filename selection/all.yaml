@@ -1,38 +1,35 @@
 proxies:
     - client-fingerprint: chrome
       encryption: none
+      flow: xtls-rprx-vision
       name: "\U0001F1F3\U0001F1F1NL_1"
-      network: ws
+      network: tcp
       port: "443"
-      server: 199.232.78.159
-      servername: safa.fastly.com
+      reality-opts:
+        public-key: BzXQPqKb1waqaBR4b2GGyE6VWX4LGd9iCOkyuMc8IGs
+        short-id: 14aa9b370c30c55d
+      server: 89.125.100.59
+      servername: anime.caloribro.uno
       tls: true
       type: vless
       udp: true
-      uuid: 5abd299c-59e8-46e1-98ec-fec6ea20bec3
-      ws-opts:
-        headers:
-            Host: pannn1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
-        path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+      uuid: 86096188-0ece-41af-922d-792c5f96c3ad
       xudp: true
-    - client-fingerprint: chrome
+    - client-fingerprint: random
       encryption: none
-      fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-      name: "\U0001F1E9\U0001F1EADE_1"
-      network: ws
-      port: "443"
-      server: 199.232.78.159
-      servername: google.com
+      flow: xtls-rprx-vision
+      name: ❓Other_1
+      network: tcp
+      port: "43000"
+      reality-opts:
+        public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
+        short-id: 7887c27d
+      server: 94.249.188.202
+      servername: 94.249.188.202
       tls: true
       type: vless
       udp: true
-      uuid: 5abd299c-59e8-46e1-98ec-fec6ea20bec3
-      ws-opts:
-        headers:
-            Host: pan2e.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /
+      uuid: f8842728-bf43-47e2-83bf-283e21f33664
       xudp: true
     - client-fingerprint: chrome
       encryption: none
@@ -53,7 +50,7 @@ proxies:
     - client-fingerprint: random
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_3"
+      name: ❓Other_2
       network: tcp
       port: "43000"
       reality-opts:
@@ -65,22 +62,6 @@ proxies:
       type: vless
       udp: true
       uuid: ebdf3268-2bd2-4608-875f-82f6a5efac69
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_4"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: noszGxmy754-TNyz9eM8EyHiaCRF2T4cu3El6GKb6n0
-        short-id: 0da7e14db353e7d0
-      server: 188.253.26.216
-      servername: nl3.nztvpn.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ee18d188-14cc-417e-beb1-70e4add6d023
       xudp: true
     - client-fingerprint: chrome
       encryption: none
@@ -98,10 +79,3 @@ proxies:
       udp: true
       uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_5"
-      password: y7KeRTzmH0vXT2kp
-      port: "443"
-      server: c3.nastuh.link
-      type: ss
-      udp: true
