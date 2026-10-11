@@ -13,7 +13,7 @@ proxies:
       ws-opts:
         headers:
             Host: pannn1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - client-fingerprint: chrome
@@ -31,7 +31,7 @@ proxies:
       ws-opts:
         headers:
             Host: pan2e.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
@@ -53,22 +53,6 @@ proxies:
     - client-fingerprint: random
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_1
-      network: tcp
-      port: "43000"
-      reality-opts:
-        public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
-        short-id: 7887c27d
-      server: 94.249.188.202
-      servername: 94.249.188.202
-      tls: true
-      type: vless
-      udp: true
-      uuid: f8842728-bf43-47e2-83bf-283e21f33664
-      xudp: true
-    - client-fingerprint: random
-      encryption: none
-      flow: xtls-rprx-vision
       name: "\U0001F1E9\U0001F1EADE_3"
       network: tcp
       port: "443"
@@ -82,26 +66,26 @@ proxies:
       udp: true
       uuid: 249cce58-48ab-49a0-8aa1-fb8cd68a1104
       xudp: true
-    - client-fingerprint: random
+    - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_4"
+      name: "\U0001F1F3\U0001F1F1NL_2"
       network: tcp
       port: "443"
       reality-opts:
-        public-key: Ego9_BM1Sy20swG1UaGOucL_o94l3F6uw8TOTH2jYRI
-        short-id: 5347d9d0b588c111
-      server: 144.31.165.102
-      servername: www.lovelive-anime.jp
+        public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+        short-id: 051f20c2344a2dfd
+      server: c20s5.portablesubmarines.com
+      servername: portal.citygrainla.com
       tls: true
       type: vless
       udp: true
-      uuid: b1936288-a353-4ff1-89b3-edaead599c6b
+      uuid: 85fe968d-fbb5-40dc-8422-30635eccb149
       xudp: true
     - client-fingerprint: random
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_2
+      name: "\U0001F1E9\U0001F1EADE_4"
       network: tcp
       port: "443"
       reality-opts:
@@ -117,7 +101,7 @@ proxies:
     - client-fingerprint: random
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_2"
+      name: "\U0001F1F3\U0001F1F1NL_3"
       network: tcp
       port: "43000"
       reality-opts:
@@ -133,7 +117,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_3"
+      name: "\U0001F1F3\U0001F1F1NL_4"
       network: tcp
       port: "443"
       reality-opts:
@@ -162,10 +146,3 @@ proxies:
       udp: true
       uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_4"
-      password: y7KeRTzmH0vXT2kp
-      port: "443"
-      server: c3.nastuh.link
-      type: ss
-      udp: true
