@@ -83,7 +83,7 @@ proxies:
         - http/1.1
       client-fingerprint: chrome
       encryption: none
-      name: ❓Other_1
+      name: "\U0001F1E9\U0001F1EADE_2"
       network: ws
       port: "443"
       server: gadfather.zovip2.ir
@@ -95,7 +95,7 @@ proxies:
       ws-opts:
         headers:
             Host: gadfather.zovip2.ir
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
         path: /gropcdn?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - cipher: chacha20-ietf-poly1305
