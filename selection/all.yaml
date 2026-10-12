@@ -18,7 +18,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_1
+      name: "\U0001F1F3\U0001F1F1NL_2"
       network: tcp
       port: "443"
       reality-opts:
@@ -63,3 +63,10 @@ proxies:
       udp: true
       uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
       xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_3"
+      password: y7KeRTzmH0vXT2kp
+      port: "443"
+      server: c3.nastuh.link
+      type: ss
+      udp: true
