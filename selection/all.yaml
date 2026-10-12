@@ -1,20 +1,4 @@
 proxies:
-    - client-fingerprint: random
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1"
-      network: tcp
-      port: "43000"
-      reality-opts:
-        public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
-        short-id: 7887c27d
-      server: 94.249.188.202
-      servername: 94.249.188.202
-      tls: true
-      type: vless
-      udp: true
-      uuid: f8842728-bf43-47e2-83bf-283e21f33664
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -66,6 +50,22 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1PL_1"
+      network: tcp
+      port: "33891"
+      reality-opts:
+        public-key: HXXIkFRPeRpluXJ7SOoUGf9EOq4Lw-oJpvg1W0UPbEw
+        short-id: 5bd7b68ca4c04443
+      server: 144.31.101.196
+      servername: browser.yandex.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1c794e75-bcd4-4a65-9f69-ed0a10f33d60
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
       name: "\U0001F1EB\U0001F1EEFI_1"
       network: tcp
       port: "443"
@@ -82,7 +82,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_1
+      name: "\U0001F1F8\U0001F1ECSG_1"
       network: tcp
       port: "1891"
       reality-opts:
