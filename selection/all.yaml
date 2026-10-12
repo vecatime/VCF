@@ -1,20 +1,4 @@
 proxies:
-    - client-fingerprint: random
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1"
-      network: tcp
-      port: "43000"
-      reality-opts:
-        public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
-        short-id: 7887c27d
-      server: 94.249.188.202
-      servername: 94.249.188.202
-      tls: true
-      type: vless
-      udp: true
-      uuid: f8842728-bf43-47e2-83bf-283e21f33664
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -79,8 +63,43 @@ proxies:
       udp: true
       uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
       xudp: true
-    - encryption: none
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
       name: ❓Other_1
+      network: tcp
+      port: "1891"
+      reality-opts:
+        public-key: z6wAS22cWD7Sx0w9Ib5ya7JBL4rDs4qraPMYELTG0Ss
+        short-id: 8378f267
+      server: sin-a-01.auuas.com
+      servername: www.npmjs.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_2
+      network: ws
+      port: "443"
+      server: gadfather.zovip2.ir
+      servername: gadfather.zovip2.ir
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9f9b66ba-e964-4e0e-be38-293134868a67
+      ws-opts:
+        headers:
+            Host: gadfather.zovip2.ir
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /gropcdn?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+      xudp: true
+    - encryption: none
+      name: ❓Other_3
       network: ws
       port: "8080"
       server: 172.67.132.85
@@ -90,7 +109,7 @@ proxies:
       ws-opts:
         headers:
             Host: server14.peekconf.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
         path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
       xudp: true
     - cipher: chacha20-ietf-poly1305
