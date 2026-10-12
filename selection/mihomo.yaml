@@ -2,24 +2,24 @@ proxies:
   - client-fingerprint: random
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: 🇳🇱NL_1
     network: tcp
     port: 43000
     reality-opts:
-      public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
-      short-id: "7887c27d"
-    server: 94.249.188.202
+      public-key: NXN75t-gk0tpVh74Thc7nPBXM4fytgMOZafDzSe8xAk
+      short-id: "353fdd95"
+    server: 217.69.167.125
     tls: true
     type: vless
     udp: true
-    uuid: f8842728-bf43-47e2-83bf-283e21f33664
+    uuid: ebdf3268-2bd2-4608-875f-82f6a5efac69
     xudp: true
     packet-encoding: xudp
-    servername: 94.249.188.202
+    servername: 217.69.167.125
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_1
+    name: 🇳🇱NL_2
     network: tcp
     port: 443
     reality-opts:
@@ -68,7 +68,7 @@ proxies:
     packet-encoding: xudp
     servername: fi.pythonsetupbib.online
   - encryption: none
-    name: ❓Other_2
+    name: ❓Other_1
     network: ws
     port: 8080
     server: 172.67.132.85
@@ -78,13 +78,14 @@ proxies:
     ws-opts:
       headers:
         Host: server14.peekconf.workers.dev
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.102 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile
+          Safari/537.36
       path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
     xudp: true
     packet-encoding: xudp
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_2
+    name: ❓Other_2
     password: y7KeRTzmH0vXT2kp
     port: 443
     server: c3.nastuh.link
