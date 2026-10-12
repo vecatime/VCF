@@ -1,4 +1,21 @@
 proxies:
+  - client-fingerprint: random
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE_1
+    network: tcp
+    port: 43000
+    reality-opts:
+      public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
+      short-id: "7887c27d"
+    server: 94.249.188.202
+    tls: true
+    type: vless
+    udp: true
+    uuid: f8842728-bf43-47e2-83bf-283e21f33664
+    xudp: true
+    packet-encoding: xudp
+    servername: 94.249.188.202
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -67,6 +84,23 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fi.pythonsetupbib.online
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_1
+    network: tcp
+    port: 1891
+    reality-opts:
+      public-key: z6wAS22cWD7Sx0w9Ib5ya7JBL4rDs4qraPMYELTG0Ss
+      short-id: "8378f267"
+    server: sin-a-01.auuas.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
+    xudp: true
+    packet-encoding: xudp
+    servername: www.npmjs.com
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_4
     password: y7KeRTzmH0vXT2kp
