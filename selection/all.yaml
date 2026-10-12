@@ -47,26 +47,3 @@ proxies:
       udp: true
       uuid: 1c794e75-bcd4-4a65-9f69-ed0a10f33d60
       xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg
-        short-id: bdf5852d1423e694
-      server: fi.pythonsetupbib.online
-      servername: fi.pythonsetupbib.online
-      tls: true
-      type: vless
-      udp: true
-      uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_3"
-      password: y7KeRTzmH0vXT2kp
-      port: "443"
-      server: c3.nastuh.link
-      type: ss
-      udp: true

@@ -50,30 +50,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: browser.yandex.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇫🇮FI_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg
-      short-id: "bdf5852d1423e694"
-    server: fi.pythonsetupbib.online
-    tls: true
-    type: vless
-    udp: true
-    uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-    xudp: true
-    packet-encoding: xudp
-    servername: fi.pythonsetupbib.online
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_3
-    password: y7KeRTzmH0vXT2kp
-    port: 443
-    server: c3.nastuh.link
-    type: ss
-    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
