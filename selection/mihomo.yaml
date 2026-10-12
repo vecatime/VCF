@@ -1,21 +1,11 @@
 proxies:
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
+  - cipher: chacha20-ietf-poly1305
     name: ❓Other_1
-    network: tcp
+    password: y7KeRTzmH0vXT2kp
     port: 443
-    reality-opts:
-      public-key: noszGxmy754-TNyz9eM8EyHiaCRF2T4cu3El6GKb6n0
-      short-id: "0da7e14db353e7d0"
-    server: 188.253.26.216
-    tls: true
-    type: vless
+    server: c3.nastuh.link
+    type: ss
     udp: true
-    uuid: ee18d188-14cc-417e-beb1-70e4add6d023
-    xudp: true
-    packet-encoding: xudp
-    servername: nl3.nztvpn.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
