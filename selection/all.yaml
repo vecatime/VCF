@@ -2,6 +2,22 @@ proxies:
     - client-fingerprint: random
       encryption: none
       flow: xtls-rprx-vision
+      name: ❓Other_1
+      network: tcp
+      port: "43000"
+      reality-opts:
+        public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
+        short-id: 7887c27d
+      server: 94.249.188.202
+      servername: 94.249.188.202
+      tls: true
+      type: vless
+      udp: true
+      uuid: f8842728-bf43-47e2-83bf-283e21f33664
+      xudp: true
+    - client-fingerprint: random
+      encryption: none
+      flow: xtls-rprx-vision
       name: "\U0001F1F3\U0001F1F1NL_1"
       network: tcp
       port: "43000"
@@ -64,7 +80,7 @@ proxies:
       uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
       xudp: true
     - encryption: none
-      name: ❓Other_1
+      name: ❓Other_2
       network: ws
       port: "8080"
       server: 172.67.132.85
@@ -74,7 +90,7 @@ proxies:
       ws-opts:
         headers:
             Host: server14.peekconf.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
         path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0
       xudp: true
     - cipher: chacha20-ietf-poly1305
