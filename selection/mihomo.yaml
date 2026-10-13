@@ -13,8 +13,9 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
@@ -36,13 +37,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: de1.balancer.vbuste-bot.com
-  - cipher: 2022-blake3-aes-256-gcm
-    name: 🇹🇷TR_1
-    password: f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:dQ6WYcPpGX5xIxUVPAR8w1A9eY6kEVoKKW3HleJ6o8Y=
-    port: 8086
-    server: frr.drwrdoh.org
-    type: ss
-    udp: true
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_1
     password: y7KeRTzmH0vXT2kp
