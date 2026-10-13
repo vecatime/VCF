@@ -13,32 +13,14 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: google.com
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_1
-    network: tcp
-    port: 9443
-    reality-opts:
-      public-key: ELJzJkc4SiCeCn6OF-8V9oeoJqXcD1y9WUntP3It53g
-      short-id: "649ab61e575fdbc9"
-    server: 213.165.50.44
-    tls: true
-    type: vless
-    udp: true
-    uuid: c3db7657-88ce-42a6-b998-1e0364b277ac
-    xudp: true
-    packet-encoding: xudp
-    servername: usa.edgeses.org
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_1
+    name: ❓Other_1
     password: y7KeRTzmH0vXT2kp
     port: 443
     server: c3.nastuh.link
