@@ -13,19 +13,30 @@ proxies:
     ws-opts:
       headers:
         Host: azdddaiji5.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: play.google.com
-  - cipher: chacha20-ietf-poly1305
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
     name: 🇳🇱NL_1
-    password: y7KeRTzmH0vXT2kp
+    network: tcp
     port: 443
-    server: c3.nastuh.link
-    type: ss
+    reality-opts:
+      public-key: noszGxmy754-TNyz9eM8EyHiaCRF2T4cu3El6GKb6n0
+      short-id: "0da7e14db353e7d0"
+    server: 188.253.26.216
+    tls: true
+    type: vless
     udp: true
+    uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+    xudp: true
+    packet-encoding: xudp
+    servername: nl3.nztvpn.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
