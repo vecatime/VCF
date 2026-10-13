@@ -14,7 +14,7 @@ proxies:
       ws-opts:
         headers:
             Host: pan2e.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - cipher: chacha20-ietf-poly1305
