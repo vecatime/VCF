@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: pan2e.global.ssl.fastly.net
         User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
@@ -36,13 +36,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: usa.edgeses.org
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_1
-    password: y7KeRTzmH0vXT2kp
-    port: 443
-    server: c3.nastuh.link
-    type: ss
-    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
