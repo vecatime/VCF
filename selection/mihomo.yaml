@@ -1,28 +1,41 @@
 proxies:
   - client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
-    name: 🇳🇱NL_1
-    network: tcp
+    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+    name: 🇩🇪DE_1
+    network: ws
     port: 443
-    reality-opts:
-      public-key: noszGxmy754-TNyz9eM8EyHiaCRF2T4cu3El6GKb6n0
-      short-id: "0da7e14db353e7d0"
-    server: 188.253.26.216
+    server: 199.232.78.159
     tls: true
     type: vless
     udp: true
-    uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+    uuid: e0ef0fb4-f18a-4284-bcf3-f5b3e738c594
+    ws-opts:
+      headers:
+        Host: pan2e.global.ssl.fastly.net
+        User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/44.0.2403.157 Safari/537.36
+      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
-    servername: nl3.nztvpn.com
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_2
-    password: y7KeRTzmH0vXT2kp
-    port: 443
-    server: c3.nastuh.link
-    type: ss
+    servername: google.com
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_1
+    network: tcp
+    port: 9443
+    reality-opts:
+      public-key: ELJzJkc4SiCeCn6OF-8V9oeoJqXcD1y9WUntP3It53g
+      short-id: "649ab61e575fdbc9"
+    server: 213.165.50.44
+    tls: true
+    type: vless
     udp: true
+    uuid: c3db7657-88ce-42a6-b998-1e0364b277ac
+    xudp: true
+    packet-encoding: xudp
+    servername: usa.edgeses.org
 proxy-groups:
   - name: 🚀 节点选择
     type: select
