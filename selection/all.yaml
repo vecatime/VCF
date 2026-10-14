@@ -1,21 +1,22 @@
 proxies:
-    - client-fingerprint: chrome
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
       encryption: none
-      fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: ❓Other_1
       network: ws
-      port: "443"
-      server: 199.232.78.159
-      servername: google.com
+      port: "2087"
+      server: ops4asfseretuiyk.localip.ir
+      servername: ops4asfseretuiyk.localip.ir
       tls: true
       type: vless
       udp: true
-      uuid: e0ef0fb4-f18a-4284-bcf3-f5b3e738c594
+      uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
       ws-opts:
         headers:
-            Host: pan2e.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+            Host: ""
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+        path: /hokm
       xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_1"
