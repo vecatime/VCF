@@ -15,3 +15,29 @@ proxies:
       udp: true
       uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
       xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_2
+      network: ws
+      port: "2087"
+      server: ops4asfseretuiyk.localip.ir
+      servername: ops4asfseretuiyk.localip.ir
+      tls: true
+      type: vless
+      udp: true
+      uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+      ws-opts:
+        headers:
+            Host: ""
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /hokm
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: ❓Other_3
+      password: y7KeRTzmH0vXT2kp
+      port: "443"
+      server: c3.nastuh.link
+      type: ss
+      udp: true
