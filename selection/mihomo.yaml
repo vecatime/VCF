@@ -1,4 +1,21 @@
 proxies:
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE_1
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+      short-id: "4be4110078ebed4a"
+    server: de1.balancer.vbuste-bot.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+    xudp: true
+    packet-encoding: xudp
+    servername: de1.balancer.vbuste-bot.com
   - alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -14,24 +31,18 @@ proxies:
     ws-opts:
       headers:
         Host: ""
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
       path: /hokm
     xudp: true
     packet-encoding: xudp
     servername: ops4asfseretuiyk.localip.ir
-  - down: ""
-    fingerprint: ""
-    name: ❓Other_2
-    obfs: salamander
-    obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
-    password: 033dc6b532
-    port: 11592
-    server: 77.232.139.128
-    skip-cert-verify: false
-    sni: srv-8718e6.frd21.ru
-    type: hysteria2
-    up: ""
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_1
+    password: y7KeRTzmH0vXT2kp
+    port: 443
+    server: c3.nastuh.link
+    type: ss
     udp: true
 proxy-groups:
   - name: 🚀 节点选择
