@@ -2,22 +2,6 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_1
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-        short-id: 4be4110078ebed4a
-      server: de1.balancer.vbuste-bot.com
-      servername: de1.balancer.vbuste-bot.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
       name: "\U0001F1F5\U0001F1F1PL_1"
       network: tcp
       port: "4510"
@@ -31,3 +15,10 @@ proxies:
       udp: true
       uuid: c3db7657-88ce-42a6-b998-1e0364b277ac
       xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: ❓Other_1
+      password: y7KeRTzmH0vXT2kp
+      port: "443"
+      server: c3.nastuh.link
+      type: ss
+      udp: true
