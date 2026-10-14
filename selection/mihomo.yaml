@@ -2,7 +2,7 @@ proxies:
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇩🇪DE_1
+    name: ❓Other_1
     network: tcp
     port: 443
     reality-opts:
@@ -20,7 +20,7 @@ proxies:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: ❓Other_1
+    name: ❓Other_2
     network: ws
     port: 2087
     server: ops4asfseretuiyk.localip.ir
@@ -31,19 +31,13 @@ proxies:
     ws-opts:
       headers:
         Host: ""
-        User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/49.0.2623.112 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /hokm
     xudp: true
     packet-encoding: xudp
     servername: ops4asfseretuiyk.localip.ir
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_1
-    password: y7KeRTzmH0vXT2kp
-    port: 443
-    server: c3.nastuh.link
-    type: ss
-    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
