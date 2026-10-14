@@ -18,7 +18,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_2
+      name: "\U0001F1F5\U0001F1F1PL_1"
       network: tcp
       port: "4510"
       reality-opts:
@@ -35,7 +35,7 @@ proxies:
         - http/1.1
       client-fingerprint: chrome
       encryption: none
-      name: ❓Other_3
+      name: ❓Other_2
       network: ws
       port: "2087"
       server: ops4asfseretuiyk.localip.ir
@@ -47,6 +47,6 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
         path: /hokm
       xudp: true
