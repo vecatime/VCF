@@ -13,30 +13,12 @@ proxies:
     ws-opts:
       headers:
         Host: pan2e.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: google.com
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇩🇪DE_2
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-      short-id: "4be4110078ebed4a"
-    server: de1.balancer.vbuste-bot.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-    xudp: true
-    packet-encoding: xudp
-    servername: de1.balancer.vbuste-bot.com
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_1
     password: y7KeRTzmH0vXT2kp
