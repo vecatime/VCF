@@ -1,22 +1,19 @@
 proxies:
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
+    - client-fingerprint: firefox
       encryption: none
+      flow: xtls-rprx-vision
       name: ❓Other_1
-      network: ws
-      port: "2087"
-      server: ops4asfseretuiyk.localip.ir
-      servername: ops4asfseretuiyk.localip.ir
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+        short-id: 4be4110078ebed4a
+      server: de1.balancer.vbuste-bot.com
+      servername: de1.balancer.vbuste-bot.com
       tls: true
       type: vless
       udp: true
-      uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /hokm
+      uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
       xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_1"
