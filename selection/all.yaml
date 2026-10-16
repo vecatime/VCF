@@ -1,6 +1,6 @@
 proxies:
     - cipher: chacha20-ietf-poly1305
-      name: ❓Other_1
+      name: "\U0001F1F3\U0001F1F1NL_1"
       password: y7KeRTzmH0vXT2kp
       port: "443"
       server: c3.nastuh.link
