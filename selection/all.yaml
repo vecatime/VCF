@@ -10,21 +10,9 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
-    - down: ""
-      fingerprint: ""
-      name: ❓Other_1
-      obfs: salamander
-      obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
-      password: 033dc6b532
-      port: "11592"
-      server: 77.232.139.128
-      skip-cert-verify: false
-      sni: srv-8718e6.frd21.ru
-      type: hysteria2
-      up: ""
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_1"
       password: y7KeRTzmH0vXT2kp
