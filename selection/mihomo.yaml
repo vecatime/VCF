@@ -12,12 +12,29 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/39.0.2171.95 Safari/537.36
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: ccc.010304.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇫🇮FI_1
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
+      short-id: "baf023e1026a"
+    server: webdisk.jaggyslawa.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 75113671-63e3-452d-87d3-261a37e8b472
+    xudp: true
+    packet-encoding: xudp
+    servername: www.mozilla.org
 proxy-groups:
   - name: 🚀 节点选择
     type: select
