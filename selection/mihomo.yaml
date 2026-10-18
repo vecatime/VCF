@@ -1,21 +1,23 @@
 proxies:
-  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: 🇩🇪DE_1
+  - client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_1
     network: ws
-    port: 8180
-    server: dnld.chaqalli.com
+    port: 443
+    server: 43.174.193.1
+    tls: true
     type: vless
     udp: true
-    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+    uuid: d342d11e-d224-4463-b982-532309285094
     ws-opts:
       headers:
-        Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+        Host: ccc.010304.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.77 Safari/537.36
+      path: /
     xudp: true
     packet-encoding: xudp
+    servername: ccc.010304.xyz
 proxy-groups:
   - name: 🚀 节点选择
     type: select
