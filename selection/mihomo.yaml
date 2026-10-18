@@ -13,11 +13,27 @@ proxies:
       headers:
         Host: ccc.010304.xyz
         User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.77 Safari/537.36
+          Chrome/69.0.3497.100 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: ccc.010304.xyz
+  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
+    name: ❓Other_2
+    network: ws
+    port: 8180
+    server: dnld.chaqalli.com
+    type: vless
+    udp: true
+    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+    ws-opts:
+      headers:
+        Host: dnld.chaqalli.com
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    xudp: true
+    packet-encoding: xudp
 proxy-groups:
   - name: 🚀 节点选择
     type: select
