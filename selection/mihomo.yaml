@@ -4,7 +4,7 @@ proxies:
     name: ❓Other_1
     network: ws
     port: 443
-    server: 43.174.193.1
+    server: cf.877774.xyz
     tls: true
     type: vless
     udp: true
@@ -13,7 +13,7 @@ proxies:
       headers:
         Host: ccc.010304.xyz
         User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
