@@ -1,23 +1,24 @@
 proxies:
     - client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1"
-      network: tcp
+      name: ❓Other_1
+      network: ws
       port: "443"
-      reality-opts:
-        public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
-        short-id: baf023e1026a
-      server: webdisk.jaggyslawa.org
-      servername: www.mozilla.org
+      server: 43.174.193.1
+      servername: ccc.010304.xyz
       tls: true
       type: vless
       udp: true
-      uuid: 75113671-63e3-452d-87d3-261a37e8b472
+      uuid: d342d11e-d224-4463-b982-532309285094
+      ws-opts:
+        headers:
+            Host: ccc.010304.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
+        path: /
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: ❓Other_1
+      name: ❓Other_2
       network: ws
       port: "443"
       server: cf.877774.xyz
@@ -29,6 +30,6 @@ proxies:
       ws-opts:
         headers:
             Host: ccc.010304.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
         path: /
       xudp: true
