@@ -1,6 +1,23 @@
 proxies:
     - client-fingerprint: chrome
       encryption: none
+      name: ❓Other_1
+      network: ws
+      port: "443"
+      server: 43.174.193.1
+      servername: ccc.010304.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d224-4463-b982-532309285094
+      ws-opts:
+        headers:
+            Host: ccc.010304.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
       flow: xtls-rprx-vision
       name: "\U0001F1EB\U0001F1EEFI_1"
       network: tcp
@@ -17,7 +34,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: ❓Other_1
+      name: ❓Other_2
       network: ws
       port: "443"
       server: cf.877774.xyz
@@ -29,6 +46,6 @@ proxies:
       ws-opts:
         headers:
             Host: ccc.010304.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
         path: /
       xudp: true
