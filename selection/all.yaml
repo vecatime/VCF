@@ -13,20 +13,24 @@ proxies:
       ws-opts:
         headers:
             Host: ccc.010304.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /
       xudp: true
-    - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
+    - client-fingerprint: chrome
+      encryption: none
+      fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
       name: "\U0001F1E9\U0001F1EADE_1"
       network: ws
-      port: "8180"
-      server: dnld.chaqalli.com
+      port: "443"
+      server: 146.75.59.186
+      servername: firefox.com
+      tls: true
       type: vless
       udp: true
-      uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+      uuid: eccc053a-7196-47cb-a4b5-f4b8bfd743d9
       ws-opts:
         headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+            Host: copy_az_channel_NUFiLTER_5i.global.ssl.fastly.net.
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
