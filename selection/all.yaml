@@ -1,16 +1,38 @@
 proxies:
-    - client-fingerprint: chrome
+    - alpn:
+        - h2
+      client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_1"
-      network: tcp
-      port: "42924"
-      reality-opts:
-        public-key: woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU
-        short-id: ca4134a0ed2592b6
-      server: tun2.w-ert.org
-      servername: www.aparat.com
+      fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+      name: ❓Other_1
+      network: ws
+      port: "443"
+      server: 199.232.239.239
+      servername: www.firefox.com
       tls: true
       type: vless
       udp: true
-      uuid: a9aed6a7-0295-4df4-8d29-c66677d7ea08
+      uuid: 434f0115-bf40-44ac-cf80-5c14f4b6f6b3
+      ws-opts:
+        headers:
+            Host: mpkoe7ypcibr80p102020.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /?ed=2056/?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_2
+      network: ws
+      port: "443"
+      server: cf.877774.xyz
+      servername: ccc.010304.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d224-4463-b982-532309285094
+      ws-opts:
+        headers:
+            Host: ccc.010304.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /
       xudp: true
