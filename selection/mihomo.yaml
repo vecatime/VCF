@@ -1,20 +1,20 @@
 proxies:
-  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: 🇩🇪DE_1
-    network: ws
-    port: 8180
-    server: dnld.chaqalli.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇫🇷FR_1
+    network: tcp
+    port: 42924
+    reality-opts:
+      public-key: woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU
+      short-id: "ca4134a0ed2592b6"
+    server: tun2.w-ert.org
+    tls: true
     type: vless
     udp: true
-    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-    ws-opts:
-      headers:
-        Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    uuid: a9aed6a7-0295-4df4-8d29-c66677d7ea08
     xudp: true
     packet-encoding: xudp
+    servername: www.aparat.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
