@@ -1,39 +1,24 @@
 proxies:
   - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_1
+    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+    name: 🇩🇪DE_1
     network: ws
     port: 443
-    server: 43.174.193.1
+    server: 146.75.59.186
     tls: true
     type: vless
     udp: true
-    uuid: d342d11e-d224-4463-b982-532309285094
+    uuid: eccc053a-7196-47cb-a4b5-f4b8bfd743d9
     ws-opts:
       headers:
-        Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: ccc.010304.xyz
-  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: 🇩🇪DE_1
-    network: ws
-    port: 8180
-    server: dnld.chaqalli.com
-    type: vless
-    udp: true
-    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-    ws-opts:
-      headers:
-        Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        Host: copy_az_channel_NUFiLTER_5i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Slackware/Chrome/12.0.742.100 Safari/534.30
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
+    servername: firefox.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
