@@ -38,28 +38,28 @@ proxies:
     name: 🇮🇹IT_2
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.54
+    server: 202.50.253.81
     type: ss
     udp: true
   - cipher: aes-256-gcm
     name: 🇮🇹IT_3
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.81
+    server: 202.50.253.99
     type: ss
     udp: true
   - cipher: aes-256-gcm
     name: 🇮🇹IT_4
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.99
+    server: 202.50.253.45
     type: ss
     udp: true
   - cipher: aes-256-gcm
     name: 🇮🇹IT_5
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.45
+    server: 202.50.253.18
     type: ss
     udp: true
   - cipher: aes-256-gcm
@@ -69,6 +69,22 @@ proxies:
     server: 202.50.253.63
     type: ss
     udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_2
+    network: tcp
+    port: 2035
+    reality-opts:
+      public-key: tjlpmcWwDiXnVu2Wc8v8wxwmiYWtnoUNeHmXPtL5vyk
+      short-id: "75faac3a588f5160"
+    server: irnamh.g44mozgh.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 65c91ab7-a503-4b73-9f8e-e1c0b6377dc2
+    xudp: true
+    packet-encoding: xudp
+    servername: play.google.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
