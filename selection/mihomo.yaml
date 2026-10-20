@@ -44,6 +44,22 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     name: ❓Other_2
+    network: tcp
+    port: 2035
+    reality-opts:
+      public-key: tjlpmcWwDiXnVu2Wc8v8wxwmiYWtnoUNeHmXPtL5vyk
+      short-id: "75faac3a588f5160"
+    server: irnamh.g44mozgh.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 65c91ab7-a503-4b73-9f8e-e1c0b6377dc2
+    xudp: true
+    packet-encoding: xudp
+    servername: play.google.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_3
     network: ws
     port: 443
     server: cf.877774.xyz
@@ -54,8 +70,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
