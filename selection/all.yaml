@@ -1,6 +1,6 @@
 proxies:
     - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-      name: ❓Other_1
+      name: "\U0001F1E9\U0001F1EADE_1"
       network: ws
       port: "8180"
       server: dnld.chaqalli.com
@@ -10,6 +10,6 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
