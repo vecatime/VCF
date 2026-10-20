@@ -1,12 +1,5 @@
 proxies:
   - cipher: aes-256-gcm
-    name: 🇬🇧GB_1
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 185.176.206.9
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
     name: 🇩🇪DE_1
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
@@ -42,28 +35,12 @@ proxies:
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: 🇺🇸US_1
+    name: 🇮🇹IT_4
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.63
     type: ss
     udp: true
-  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: 🇩🇪DE_2
-    network: ws
-    port: 8180
-    server: dnld.chaqalli.com
-    type: vless
-    udp: true
-    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-    ws-opts:
-      headers:
-        Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     name: ❓Other_2
@@ -77,9 +54,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
