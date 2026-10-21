@@ -2,7 +2,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-    name: ❓Other_1
+    name: 🇩🇪DE_1
     network: ws
     port: 443
     server: 146.75.59.186
@@ -13,31 +13,32 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_a1i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: firefox.com
   - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_2
+    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+    name: 🇺🇸US_1
     network: ws
     port: 443
-    server: cf.877774.xyz
+    server: wwww.qarvian.ir
     tls: true
     type: vless
     udp: true
-    uuid: d342d11e-d224-4463-b982-532309285094
+    uuid: dc7d45c9-c942-41e3-b880-9a7fd5b64e2f
     ws-opts:
       headers:
-        Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.110 Safari/537.36
+        Host: copy_az_channel_NUFiLTER_a11ia.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
-    servername: ccc.010304.xyz
+    servername: firefox.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
