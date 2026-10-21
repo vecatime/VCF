@@ -14,7 +14,7 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_a1i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - cipher: aes-256-gcm
@@ -38,21 +38,6 @@ proxies:
       server: 202.50.253.81
       type: ss
       udp: true
-    - encryption: none
-      http-opts:
-        headers:
-            Host:
-                - play.googleapis.com/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-        path:
-            - /
-      name: ❓Other_2
-      network: http
-      port: "443"
-      server: 35.176.16.196
-      type: vless
-      udp: true
-      uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-      xudp: true
     - cipher: aes-256-gcm
       name: "\U0001F1EE\U0001F1F9IT_2"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -74,24 +59,8 @@ proxies:
       server: 202.50.253.63
       type: ss
       udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_3"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: wYnBI1xzD8pqAN7xyI8OKotC_Eo2Vz-z08fI5suWQFU
-        short-id: 54f1c973
-      server: 89.127.210.40
-      servername: onlycats.photos
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4HqptXtMlj8IT2
-      xudp: true
     - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-      name: "\U0001F1E9\U0001F1EADE_4"
+      name: "\U0001F1E9\U0001F1EADE_3"
       network: ws
       port: "8180"
       server: dnld.chaqalli.com
@@ -101,13 +70,13 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-      name: "\U0001F1E9\U0001F1EADE_5"
+      name: "\U0001F1E9\U0001F1EADE_4"
       network: ws
       port: "443"
       server: wwww.qarvian.ir
@@ -119,12 +88,12 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_a11ia.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: ""
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_6"
+      name: "\U0001F1E9\U0001F1EADE_5"
       network: tcp
       port: "2035"
       reality-opts:
@@ -137,10 +106,20 @@ proxies:
       udp: true
       uuid: 65c91ab7-a503-4b73-9f8e-e1c0b6377dc2
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EE\U0001F1EAIE_1"
-      password: UUjphkQAh5BkOdbf
+    - client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_2
+      network: ws
       port: "443"
-      server: 4.210.68.244
-      type: ss
+      server: cf.877774.xyz
+      servername: ccc.010304.xyz
+      tls: true
+      type: vless
       udp: true
+      uuid: d342d11e-d224-4463-b982-532309285094
+      ws-opts:
+        headers:
+            Host: ccc.010304.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+        path: /
+      xudp: true
