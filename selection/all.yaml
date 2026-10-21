@@ -1,21 +1,7 @@
 proxies:
-    - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-      name: ❓Other_1
-      network: ws
-      port: "8180"
-      server: dnld.chaqalli.com
-      type: vless
-      udp: true
-      uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: ❓Other_2
+      name: ❓Other_1
       network: ws
       port: "443"
       server: cf.877774.xyz
@@ -27,6 +13,6 @@ proxies:
       ws-opts:
         headers:
             Host: ccc.010304.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
         path: /
       xudp: true
