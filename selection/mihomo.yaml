@@ -13,8 +13,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_a1i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
@@ -58,9 +58,8 @@ proxies:
     ws-opts:
       headers:
         Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
@@ -78,9 +77,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_a11ia.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -101,25 +99,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: play.google.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_1
-    network: ws
-    port: 443
-    server: cf.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: d342d11e-d224-4463-b982-532309285094
-    ws-opts:
-      headers:
-        Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/32.0.1700.107 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: ccc.010304.xyz
 proxy-groups:
   - name: 🚀 节点选择
     type: select
