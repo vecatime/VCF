@@ -13,51 +13,44 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_a1i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: firefox.com
-  - client-fingerprint: chrome
-    encryption: none
-    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-    name: 🇺🇸US_1
+  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
+    name: 🇩🇪DE_2
     network: ws
-    port: 443
-    server: wwww.qarvian.ir
-    tls: true
+    port: 8180
+    server: dnld.chaqalli.com
     type: vless
     udp: true
-    uuid: dc7d45c9-c942-41e3-b880-9a7fd5b64e2f
+    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
     ws-opts:
       headers:
-        Host: copy_az_channel_NUFiLTER_a11ia.global.ssl.fastly.net.
+        Host: dnld.chaqalli.com
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /
+          Gecko) Chrome/53.0.2785.143 Safari/537.36
+      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
-    servername: firefox.com
   - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_1
-    network: ws
-    port: 443
-    server: cf.877774.xyz
+    name: 🇩🇪DE_3
+    network: tcp
+    port: 2035
+    reality-opts:
+      public-key: tjlpmcWwDiXnVu2Wc8v8wxwmiYWtnoUNeHmXPtL5vyk
+      short-id: "75faac3a588f5160"
+    server: irnamh.g44mozgh.ir
     tls: true
     type: vless
     udp: true
-    uuid: d342d11e-d224-4463-b982-532309285094
-    ws-opts:
-      headers:
-        Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
-      path: /
+    uuid: 65c91ab7-a503-4b73-9f8e-e1c0b6377dc2
     xudp: true
     packet-encoding: xudp
-    servername: ccc.010304.xyz
+    servername: play.google.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
