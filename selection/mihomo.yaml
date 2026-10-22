@@ -6,13 +6,25 @@ proxies:
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
+    server: de5.dedushka.top
+    skip-cert-verify: false
+    sni: de5.dedushka.top
+    type: trojan
+    udp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: firefox
+    name: ❓Other_1
+    network: tcp
+    password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+    port: 443
     server: de3.dedushka.top
     skip-cert-verify: false
     type: trojan
     udp: true
     sni: de3.dedushka.top
   - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: 🇩🇪DE_2
+    name: ❓Other_2
     network: ws
     port: 8180
     server: dnld.chaqalli.com
@@ -22,48 +34,16 @@ proxies:
     ws-opts:
       headers:
         Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.86 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
-  - client-fingerprint: ios
-    encryption: none
-    name: 🇨🇭CH_1
-    network: tcp
-    port: 1350
-    reality-opts:
-      public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
-      short-id: "9b60d3"
-    server: p2real5.greewebservices.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2582857a-632b-4c4e-9b67-96213cbaf58c
-    xudp: true
-    packet-encoding: xudp
-    servername: play.googleapis.com
-  - client-fingerprint: edge
-    encryption: none
-    name: ❓Other_1
-    network: tcp
-    port: 8446
-    reality-opts:
-      public-key: 7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04
-      short-id: "73da8baa63f8d537"
-    server: sable56.fars-remen.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 633c1bb0-60d5-41fb-a9c4-11f408b264ec
-    xudp: true
-    packet-encoding: xudp
-    servername: storage-p2.googleapis.com
   - alpn:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: ❓Other_2
+    name: ❓Other_3
     network: ws
     port: 443
     server: 188.114.98.0
@@ -74,15 +54,15 @@ proxies:
     ws-opts:
       headers:
         Host: ccs2g.pai50288.uk
-        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
       path: /pai50288
     xudp: true
     packet-encoding: xudp
     servername: ccs2g.pai50288.uk
   - client-fingerprint: chrome
     encryption: none
-    name: 🇸🇬SG_1
+    name: ❓Other_4
     network: ws
     port: 443
     server: cf.877774.xyz
@@ -94,7 +74,7 @@ proxies:
       headers:
         Host: ccc.010304.xyz
         User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.102 Safari/537.36
+          Gecko) Chrome/54.0.2840.99 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
