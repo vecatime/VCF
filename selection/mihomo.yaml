@@ -2,19 +2,19 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-    name: 🇩🇪DE_1
+    name: 🇺🇸US_1
     network: ws
     port: 443
-    server: wwww.qarvian.ir
+    server: 146.75.59.186
     tls: true
     type: vless
     udp: true
     uuid: 153900df-5824-4b55-98c4-418c5baea523
     ws-opts:
       headers:
-        Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/69.0.3497.100 Safari/537.36
+        Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/42.0.2311.135 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -22,7 +22,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: firefox
-    name: ❓Other_1
+    name: 🇩🇪DE_1
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
@@ -34,7 +34,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: firefox
-    name: ❓Other_2
+    name: ❓Other_1
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
@@ -43,22 +43,6 @@ proxies:
     type: trojan
     udp: true
     sni: de3.dedushka.top
-  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: ❓Other_3
-    network: ws
-    port: 8180
-    server: dnld.chaqalli.com
-    type: vless
-    udp: true
-    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-    ws-opts:
-      headers:
-        Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     name: 🇵🇱PL_1
@@ -77,7 +61,7 @@ proxies:
     servername: www.samsung.com
   - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_4
+    name: ❓Other_2
     network: ws
     port: 443
     server: cf.877774.xyz
@@ -88,14 +72,15 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.77 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: ccc.010304.xyz
   - client-fingerprint: chrome
-    name: ❓Other_5
+    name: ❓Other_3
     network: ws
     password: mitivpn
     port: 443
@@ -106,8 +91,9 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.93 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
       path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 proxy-groups:
   - name: 🚀 节点选择
