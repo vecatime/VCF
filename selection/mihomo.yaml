@@ -1,8 +1,29 @@
 proxies:
+  - client-fingerprint: chrome
+    encryption: none
+    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+    name: 🇺🇸US_1
+    network: ws
+    port: 443
+    server: 146.75.59.186
+    tls: true
+    type: vless
+    udp: true
+    uuid: 153900df-5824-4b55-98c4-418c5baea523
+    ws-opts:
+      headers:
+        Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: firefox.com
   - alpn:
       - http/1.1
     client-fingerprint: firefox
-    name: 🇩🇪DE_1
+    name: ❓Other_1
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
@@ -14,7 +35,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: firefox
-    name: 🇩🇪DE_2
+    name: 🇩🇪DE_1
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
@@ -25,7 +46,24 @@ proxies:
     sni: de3.dedushka.top
   - client-fingerprint: chrome
     encryption: none
-    name: 🇵🇱PL_1
+    flow: xtls-rprx-vision
+    name: 🇹🇭TH_1
+    network: tcp
+    port: 56415
+    reality-opts:
+      public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+      short-id: "cbd39bea0805e2"
+    server: funagfrdfs.alixxplay.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    xudp: true
+    packet-encoding: xudp
+    servername: www.kaidee.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_2
     network: tcp
     port: 27591
     reality-opts:
@@ -39,21 +77,22 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.samsung.com
-  - client-fingerprint: chrome
-    name: ❓Other_1
-    network: ws
-    password: mitivpn
-    port: 443
-    server: b2n.ir
-    skip-cert-verify: false
-    sni: de.mitivpn.in.net
-    type: trojan
+  - client-fingerprint: edge
+    encryption: none
+    name: ❓Other_3
+    network: tcp
+    port: 8446
+    reality-opts:
+      public-key: 7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04
+      short-id: "73da8baa63f8d537"
+    server: sable56.fars-remen.ir
+    tls: true
+    type: vless
     udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
-      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    uuid: 633c1bb0-60d5-41fb-a9c4-11f408b264ec
+    xudp: true
+    packet-encoding: xudp
+    servername: storage-p2.googleapis.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
