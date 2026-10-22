@@ -2,6 +2,18 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: firefox
+    name: ❓Other_1
+    network: tcp
+    password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+    port: 443
+    server: de5.dedushka.top
+    skip-cert-verify: false
+    sni: de5.dedushka.top
+    type: trojan
+    udp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: firefox
     name: 🇩🇪DE_1
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
@@ -22,20 +34,20 @@ proxies:
     ws-opts:
       headers:
         Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: 🇹🇭TH_1
     network: tcp
-    port: 35544
+    port: 56415
     reality-opts:
-      public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
-      short-id: "25c79e5856c7"
+      public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+      short-id: "cbd39bea0805e2"
     server: funagfrdfs.alixxplay.com
     tls: true
     type: vless
@@ -43,7 +55,55 @@ proxies:
     uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
     xudp: true
     packet-encoding: xudp
-    servername: iosapps.itunes.apple.com
+    servername: www.kaidee.com
+  - encryption: mlkem768x25519plus.native.0rtt.lP8_9ZFjOlVDAt1gqie0PnqPKOz_HsYUrzhlyV8T4C8
+    http-opts:
+      headers:
+        Host:
+          - netmeli.korluma.ir
+      path:
+        - /
+    name: 🇩🇪DE_3
+    network: http
+    port: 14256
+    server: vip-tun.korluma.ir
+    type: vless
+    udp: true
+    uuid: e7e1e726-b30f-477a-a308-3138e62a8d21
+    xudp: true
+    packet-encoding: xudp
+  - encryption: mlkem768x25519plus.native.0rtt.cvVZFxCx1D3ly-0N5EXakc6tYVadDChlE35mpu3MvwU
+    http-opts:
+      headers:
+        Host:
+          - netmeli.korluma.ir
+      path:
+        - /
+    name: 🇬🇧GB_1
+    network: http
+    port: 15088
+    server: vip-tun.korluma.ir
+    type: vless
+    udp: true
+    uuid: e7e1e726-b30f-477a-a308-3138e62a8d21
+    xudp: true
+    packet-encoding: xudp
+  - encryption: mlkem768x25519plus.native.0rtt.Qu4km2yZ6QAhjFVVooUz7HaqfY01CIucSDrRPJY4rBw
+    http-opts:
+      headers:
+        Host:
+          - netmeli.korluma.ir
+      path:
+        - /
+    name: 🇳🇱NL_1
+    network: http
+    port: 8010
+    server: vip-tun.korluma.ir
+    type: vless
+    udp: true
+    uuid: e7e1e726-b30f-477a-a308-3138e62a8d21
+    xudp: true
+    packet-encoding: xudp
   - alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -59,46 +119,12 @@ proxies:
     ws-opts:
       headers:
         Host: ccs2g.pai50288.uk
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
       path: /pai50288
     xudp: true
     packet-encoding: xudp
     servername: ccs2g.pai50288.uk
-  - client-fingerprint: chrome
-    name: ❓Other_3
-    network: ws
-    password: mitivpn
-    port: 443
-    server: b2n.ir
-    skip-cert-verify: false
-    sni: de.mitivpn.in.net
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/39.0.2171.95 Safari/537.36
-      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-  - client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_4
-    network: ws
-    port: 443
-    server: cf.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: d342d11e-d224-4463-b982-532309285094
-    ws-opts:
-      headers:
-        Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: ccc.010304.xyz
 proxy-groups:
   - name: 🚀 节点选择
     type: select
