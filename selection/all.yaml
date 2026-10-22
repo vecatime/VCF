@@ -2,18 +2,6 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: firefox
-      name: ❓Other_1
-      network: tcp
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      port: "443"
-      server: de5.dedushka.top
-      skip-cert-verify: false
-      sni: de5.dedushka.top
-      type: trojan
-      udp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: firefox
       name: "\U0001F1E9\U0001F1EADE_1"
       network: tcp
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
@@ -22,17 +10,22 @@ proxies:
       skip-cert-verify: false
       type: trojan
       udp: true
-    - client-fingerprint: chrome
-      name: ❓Other_2
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_1
       network: ws
-      password: mitivpn
       port: "443"
-      server: b2n.ir
-      skip-cert-verify: false
-      sni: de.mitivpn.in.net
-      type: trojan
+      server: 188.114.98.0
+      servername: ccs2g.pai50288.uk
+      tls: true
+      type: vless
       udp: true
+      uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+            Host: ccs2g.pai50288.uk
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /pai50288
+      xudp: true
