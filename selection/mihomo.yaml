@@ -1,46 +1,6 @@
 proxies:
   - encryption: none
-    name: 🇬🇧GB_1
-    network: tcp
-    port: 22223
-    server: 18.169.214.179
-    type: vless
-    udp: true
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    xudp: true
-    packet-encoding: xudp
-  - encryption: none
-    name: 🇬🇧GB_2
-    network: tcp
-    port: 22222
-    server: 18.169.214.179
-    type: vless
-    udp: true
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    xudp: true
-    packet-encoding: xudp
-  - encryption: none
-    name: 🇬🇧GB_3
-    network: tcp
-    port: 22224
-    server: 18.169.214.179
-    type: vless
-    udp: true
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    xudp: true
-    packet-encoding: xudp
-  - encryption: none
     name: 🇫🇷FR_1
-    network: tcp
-    port: 22223
-    server: 13.37.140.13
-    type: vless
-    udp: true
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    xudp: true
-    packet-encoding: xudp
-  - encryption: none
-    name: ❓Other_1
     network: tcp
     port: 22222
     server: 51.44.38.228
@@ -63,27 +23,7 @@ proxies:
     name: 🇫🇷FR_3
     network: tcp
     port: 22224
-    server: 13.37.140.13
-    type: vless
-    udp: true
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    xudp: true
-    packet-encoding: xudp
-  - encryption: none
-    name: 🇫🇷FR_4
-    network: tcp
-    port: 22224
     server: 51.44.38.228
-    type: vless
-    udp: true
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    xudp: true
-    packet-encoding: xudp
-  - encryption: none
-    name: 🇫🇷FR_5
-    network: tcp
-    port: 22222
-    server: 13.37.140.13
     type: vless
     udp: true
     uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
@@ -92,34 +32,18 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: firefox
-    name: ❓Other_2
+    name: 🇩🇪DE_1
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
-    server: de3.dedushka.top
+    server: de5.dedushka.top
     skip-cert-verify: false
+    sni: de5.dedushka.top
     type: trojan
     udp: true
-    sni: de3.dedushka.top
-  - client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_3
-    network: tcp
-    port: 27591
-    reality-opts:
-      public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-      short-id: "6c5c7900406a1ae7"
-    server: pl1.h1cloud.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-    xudp: true
-    packet-encoding: xudp
-    servername: www.samsung.com
   - client-fingerprint: edge
     encryption: none
-    name: ❓Other_4
+    name: ❓Other_1
     network: tcp
     port: 8446
     reality-opts:
@@ -137,25 +61,25 @@ proxies:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: ❓Other_5
+    name: ❓Other_2
     network: ws
     port: 443
     server: 188.114.98.0
     tls: true
     type: vless
     udp: true
-    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
     ws-opts:
       headers:
-        Host: ccs2g.pai50288.uk
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.181 Safari/537.36
-      path: /pai50288
+        Host: server5.9966338.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /drsukitgreiusweqa9otrh983
     xudp: true
     packet-encoding: xudp
-    servername: ccs2g.pai50288.uk
+    servername: server5.9966338.xyz
   - client-fingerprint: chrome
-    name: ❓Other_6
+    name: ❓Other_3
     network: ws
     password: mitivpn
     port: 443
@@ -167,7 +91,7 @@ proxies:
     ws-opts:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.87 Safari/537.36
+          Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
   - cipher: chacha20-ietf-poly1305
     name: 🇮🇪IE_1
