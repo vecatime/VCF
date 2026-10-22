@@ -1,4 +1,24 @@
 proxies:
+  - client-fingerprint: chrome
+    encryption: none
+    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+    name: ❓Other_1
+    network: ws
+    port: 443
+    server: 199.232.78.159
+    tls: true
+    type: vless
+    udp: true
+    uuid: 153900df-5824-4b55-98c4-418c5baea523
+    ws-opts:
+      headers:
+        Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: firefox.com
   - encryption: none
     name: 🇫🇷FR_1
     network: tcp
@@ -12,16 +32,6 @@ proxies:
   - encryption: none
     name: 🇫🇷FR_2
     network: tcp
-    port: 22223
-    server: 51.44.38.228
-    type: vless
-    udp: true
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    xudp: true
-    packet-encoding: xudp
-  - encryption: none
-    name: 🇫🇷FR_3
-    network: tcp
     port: 22224
     server: 51.44.38.228
     type: vless
@@ -29,22 +39,30 @@ proxies:
     uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
     xudp: true
     packet-encoding: xudp
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    name: ❓Other_1
-    network: tcp
-    password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  - client-fingerprint: chrome
+    encryption: none
+    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+    name: 🇺🇸US_1
+    network: ws
     port: 443
-    server: de5.dedushka.top
-    skip-cert-verify: false
-    sni: de5.dedushka.top
-    type: trojan
+    server: wwww.qarvian.ir
+    tls: true
+    type: vless
     udp: true
+    uuid: 153900df-5824-4b55-98c4-418c5baea523
+    ws-opts:
+      headers:
+        Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: firefox.com
   - alpn:
       - http/1.1
     client-fingerprint: firefox
-    name: 🇩🇪DE_1
+    name: ❓Other_2
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
@@ -53,25 +71,9 @@ proxies:
     type: trojan
     udp: true
     sni: de3.dedushka.top
-  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: 🇩🇪DE_2
-    network: ws
-    port: 8180
-    server: dnld.chaqalli.com
-    type: vless
-    udp: true
-    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-    ws-opts:
-      headers:
-        Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.167 Safari/537.36
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: edge
     encryption: none
-    name: ❓Other_2
+    name: ❓Other_3
     network: tcp
     port: 8446
     reality-opts:
@@ -87,7 +89,7 @@ proxies:
     servername: storage-p2.googleapis.com
   - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_3
+    name: ❓Other_4
     network: ws
     port: 443
     server: cf.877774.xyz
@@ -98,35 +100,27 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-          wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/62.0.3202.84 Mobile Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: ccc.010304.xyz
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_4
+  - client-fingerprint: chrome
+    name: ❓Other_5
     network: ws
+    password: mitivpn
     port: 443
-    server: 188.114.98.0
-    tls: true
-    type: vless
+    server: b2n.ir
+    skip-cert-verify: false
+    sni: de.mitivpn.in.net
+    type: trojan
     udp: true
-    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
     ws-opts:
       headers:
-        Host: ccs2g.pai50288.uk
-        User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
-      path: /pai50288
-    xudp: true
-    packet-encoding: xudp
-    servername: ccs2g.pai50288.uk
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
   - cipher: chacha20-ietf-poly1305
     name: 🇮🇪IE_1
     password: LVMlhvK82To1FGsy
