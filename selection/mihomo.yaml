@@ -5,16 +5,16 @@ proxies:
     name: 🇺🇸US_1
     network: ws
     port: 443
-    server: 146.75.59.186
+    server: 199.232.78.159
     tls: true
     type: vless
     udp: true
     uuid: 153900df-5824-4b55-98c4-418c5baea523
     ws-opts:
       headers:
-        Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/42.0.2311.135 Safari/537.36
+        Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -22,7 +22,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: firefox
-    name: 🇩🇪DE_1
+    name: ❓Other_1
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
@@ -34,7 +34,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: firefox
-    name: ❓Other_1
+    name: ❓Other_2
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
@@ -43,44 +43,24 @@ proxies:
     type: trojan
     udp: true
     sni: de3.dedushka.top
-  - client-fingerprint: chrome
+  - client-fingerprint: edge
     encryption: none
-    name: 🇵🇱PL_1
-    network: tcp
-    port: 27591
-    reality-opts:
-      public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-      short-id: "6c5c7900406a1ae7"
-    server: pl1.h1cloud.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-    xudp: true
-    packet-encoding: xudp
-    servername: www.samsung.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_2
-    network: ws
-    port: 443
-    server: cf.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: d342d11e-d224-4463-b982-532309285094
-    ws-opts:
-      headers:
-        Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: ccc.010304.xyz
-  - client-fingerprint: chrome
     name: ❓Other_3
+    network: tcp
+    port: 8446
+    reality-opts:
+      public-key: 7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04
+      short-id: "73da8baa63f8d537"
+    server: sable56.fars-remen.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 633c1bb0-60d5-41fb-a9c4-11f408b264ec
+    xudp: true
+    packet-encoding: xudp
+    servername: storage-p2.googleapis.com
+  - client-fingerprint: chrome
+    name: ❓Other_4
     network: ws
     password: mitivpn
     port: 443
@@ -91,10 +71,28 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.125 Safari/537.36
       path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  - client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_5
+    network: ws
+    port: 443
+    server: cf.877774.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d224-4463-b982-532309285094
+    ws-opts:
+      headers:
+        Host: ccc.010304.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: ccc.010304.xyz
 proxy-groups:
   - name: 🚀 节点选择
     type: select
