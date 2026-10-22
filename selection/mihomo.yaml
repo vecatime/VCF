@@ -6,11 +6,27 @@ proxies:
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
-    server: de3.dedushka.top
+    server: de5.dedushka.top
     skip-cert-verify: false
+    sni: de5.dedushka.top
     type: trojan
     udp: true
-    sni: de3.dedushka.top
+  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
+    name: ❓Other_2
+    network: ws
+    port: 8180
+    server: dnld.chaqalli.com
+    type: vless
+    udp: true
+    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+    ws-opts:
+      headers:
+        Host: dnld.chaqalli.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    xudp: true
+    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -28,6 +44,22 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.kaidee.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_3
+    network: tcp
+    port: 27591
+    reality-opts:
+      public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
+      short-id: "6c5c7900406a1ae7"
+    server: pl1.h1cloud.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+    xudp: true
+    packet-encoding: xudp
+    servername: www.samsung.com
   - client-fingerprint: ios
     encryption: none
     name: 🇨🇭CH_1
@@ -46,7 +78,7 @@ proxies:
     servername: play.googleapis.com
   - client-fingerprint: edge
     encryption: none
-    name: ❓Other_2
+    name: ❓Other_4
     network: tcp
     port: 8446
     reality-opts:
@@ -60,21 +92,27 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: storage-p2.googleapis.com
-  - client-fingerprint: chrome
-    name: ❓Other_3
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_5
     network: ws
-    password: mitivpn
     port: 443
-    server: b2n.ir
-    skip-cert-verify: false
-    sni: de.mitivpn.in.net
-    type: trojan
+    server: 188.114.98.0
+    tls: true
+    type: vless
     udp: true
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
     ws-opts:
       headers:
+        Host: ccs2g.pai50288.uk
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
-      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+          Gecko) Chrome/40.0.2214.111 Safari/537.36
+      path: /pai50288
+    xudp: true
+    packet-encoding: xudp
+    servername: ccs2g.pai50288.uk
 proxy-groups:
   - name: 🚀 节点选择
     type: select
