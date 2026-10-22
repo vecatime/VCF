@@ -2,7 +2,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: firefox
-    name: 🇩🇪DE_1
+    name: ❓Other_1
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
@@ -11,27 +11,70 @@ proxies:
     type: trojan
     udp: true
     sni: de3.dedushka.top
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
+  - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_1
-    network: ws
-    port: 443
-    server: 188.114.98.0
+    flow: xtls-rprx-vision
+    name: 🇹🇭TH_1
+    network: tcp
+    port: 56415
+    reality-opts:
+      public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+      short-id: "cbd39bea0805e2"
+    server: funagfrdfs.alixxplay.com
     tls: true
     type: vless
     udp: true
-    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
-    ws-opts:
-      headers:
-        Host: ccs2g.pai50288.uk
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /pai50288
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
     xudp: true
     packet-encoding: xudp
-    servername: ccs2g.pai50288.uk
+    servername: www.kaidee.com
+  - client-fingerprint: ios
+    encryption: none
+    name: 🇨🇭CH_1
+    network: tcp
+    port: 1350
+    reality-opts:
+      public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
+      short-id: "9b60d3"
+    server: p2real5.greewebservices.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2582857a-632b-4c4e-9b67-96213cbaf58c
+    xudp: true
+    packet-encoding: xudp
+    servername: play.googleapis.com
+  - client-fingerprint: edge
+    encryption: none
+    name: ❓Other_2
+    network: tcp
+    port: 8446
+    reality-opts:
+      public-key: 7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04
+      short-id: "73da8baa63f8d537"
+    server: sable56.fars-remen.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 633c1bb0-60d5-41fb-a9c4-11f408b264ec
+    xudp: true
+    packet-encoding: xudp
+    servername: storage-p2.googleapis.com
+  - client-fingerprint: chrome
+    name: ❓Other_3
+    network: ws
+    password: mitivpn
+    port: 443
+    server: b2n.ir
+    skip-cert-verify: false
+    sni: de.mitivpn.in.net
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 proxy-groups:
   - name: 🚀 节点选择
     type: select
