@@ -1,26 +1,20 @@
 proxies:
-    - client-fingerprint: chrome
-      encryption: none
-      fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-      name: "\U0001F1E9\U0001F1EADE_1"
-      network: ws
-      port: "443"
-      server: 199.232.78.159
-      servername: firefox.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 153900df-5824-4b55-98c4-418c5baea523
-      ws-opts:
-        headers:
-            Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: ""
-      xudp: true
     - alpn:
         - http/1.1
       client-fingerprint: firefox
-      name: "\U0001F1E9\U0001F1EADE_2"
+      name: ❓Other_1
+      network: tcp
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      port: "443"
+      server: de5.dedushka.top
+      skip-cert-verify: false
+      sni: de5.dedushka.top
+      type: trojan
+      udp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: firefox
+      name: "\U0001F1E9\U0001F1EADE_1"
       network: tcp
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       port: "443"
@@ -29,72 +23,7 @@ proxies:
       type: trojan
       udp: true
     - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1EDTH_1"
-      network: tcp
-      port: "56415"
-      reality-opts:
-        public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-        short-id: cbd39bea0805e2
-      server: funagfrdfs.alixxplay.com
-      servername: www.kaidee.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: ❓Other_1
-      network: tcp
-      port: "1222"
-      reality-opts:
-        public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
-        short-id: a25d0f
-      server: mci1.amir12.ir
-      servername: play.google.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-      xudp: true
-    - client-fingerprint: edge
-      encryption: none
       name: ❓Other_2
-      network: tcp
-      port: "8446"
-      reality-opts:
-        public-key: 7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04
-        short-id: 73da8baa63f8d537
-      server: sable56.fars-remen.ir
-      servername: storage-p2.googleapis.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 633c1bb0-60d5-41fb-a9c4-11f408b264ec
-      xudp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_1"
-      network: ws
-      port: "443"
-      server: 188.114.98.0
-      servername: ccs2g.pai50288.uk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
-      ws-opts:
-        headers:
-            Host: ccs2g.pai50288.uk
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-        path: /pai50288
-      xudp: true
-    - client-fingerprint: chrome
-      name: ❓Other_3
       network: ws
       password: mitivpn
       port: "443"
@@ -105,5 +34,5 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
