@@ -14,7 +14,7 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
         path: ""
       xudp: true
     - client-fingerprint: chrome
@@ -32,7 +32,7 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
         path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
       xudp: true
     - client-fingerprint: chrome
@@ -50,7 +50,7 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
         path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
       xudp: true
     - alpn:
@@ -70,7 +70,7 @@ proxies:
       ws-opts:
         headers:
             Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
         path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel?ed=2056
       xudp: true
     - client-fingerprint: firefox
@@ -109,8 +109,23 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+      xudp: true
+    - client-fingerprint: random
+      encryption: none
+      name: ❓Other_2
+      network: xhttp
+      port: "443"
+      server: tg1.cdnphotos.org
+      servername: tg1.cdnphotos.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: f04cc810-aaf2-4a7b-8cad-356cdd30d394
+      xhttp-opts:
+        mode: auto
+        path: /api/v1/
       xudp: true
     - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
       name: "\U0001F1E9\U0001F1EADE_1"
@@ -123,55 +138,23 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1EDTH_1"
+      name: ❓Other_3
       network: tcp
-      port: "56415"
+      port: "1222"
       reality-opts:
-        public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-        short-id: cbd39bea0805e2
-      server: funagfrdfs.alixxplay.com
-      servername: www.kaidee.com
+        public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
+        short-id: a25d0f
+      server: mci1.amir12.ir
+      servername: play.google.com
       tls: true
       type: vless
       udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F5\U0001F1F1PL_1"
-      network: tcp
-      port: "27591"
-      reality-opts:
-        public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-        short-id: 6c5c7900406a1ae7
-      server: pl1.h1cloud.net
-      servername: www.samsung.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1"
-      network: tcp
-      port: "35544"
-      reality-opts:
-        public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
-        short-id: 25c79e5856c7
-      server: funagfrdfs.alixxplay.com
-      servername: iosapps.itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
       xudp: true
     - alpn:
         - h2
@@ -193,7 +176,7 @@ proxies:
         - http/1.1
       client-fingerprint: chrome
       encryption: none
-      name: ❓Other_2
+      name: ❓Other_4
       network: ws
       port: "443"
       server: 188.114.98.0
@@ -205,6 +188,20 @@ proxies:
       ws-opts:
         headers:
             Host: ccs2g.pai50288.uk
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
         path: /pai50288
       xudp: true
+    - client-fingerprint: chrome
+      name: ❓Other_5
+      network: ws
+      password: mitivpn
+      port: "443"
+      server: b2n.ir
+      skip-cert-verify: false
+      sni: de.mitivpn.in.net
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
