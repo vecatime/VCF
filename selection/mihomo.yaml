@@ -26,18 +26,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.apple.com
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    name: ❓Other_2
-    network: tcp
-    password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-    port: 443
-    server: de5.dedushka.top
-    skip-cert-verify: false
-    sni: de5.dedushka.top
-    type: trojan
-    udp: true
   - encryption: none
     name: 🇳🇱NL_1
     network: tcp
@@ -51,7 +39,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: ❓Other_3
+    name: ❓Other_2
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
@@ -80,7 +68,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: firefox
-    name: ❓Other_4
+    name: ❓Other_3
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
@@ -100,11 +88,45 @@ proxies:
     ws-opts:
       headers:
         Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.186 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_1
+    network: tcp
+    port: 34379
+    reality-opts:
+      public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+      short-id: "e51285e3"
+    server: funagfrdfs.alixxplay.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    xudp: true
+    packet-encoding: xudp
+    servername: us1p1.xn--ghq880n3na965a.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇹🇭TH_1
+    network: tcp
+    port: 56415
+    reality-opts:
+      public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+      short-id: "cbd39bea0805e2"
+    server: funagfrdfs.alixxplay.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    xudp: true
+    packet-encoding: xudp
+    servername: www.kaidee.com
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -124,7 +146,7 @@ proxies:
     servername: iosapps.itunes.apple.com
   - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_5
+    name: ❓Other_4
     network: tcp
     port: 1222
     reality-opts:
@@ -153,27 +175,29 @@ proxies:
     uuid: c9eab439-53bf-46e4-ba58-fc368ae1ee8c
     xudp: true
     packet-encoding: xudp
-  - client-fingerprint: chrome
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
     encryption: none
-    name: ❓Other_6
+    name: ❓Other_5
     network: ws
     port: 443
-    server: cf.877774.xyz
+    server: 188.114.98.0
     tls: true
     type: vless
     udp: true
-    uuid: d342d11e-d224-4463-b982-532309285094
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
     ws-opts:
       headers:
-        Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
-      path: /
+        Host: ccs2g.pai50288.uk
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /pai50288
     xudp: true
     packet-encoding: xudp
-    servername: ccc.010304.xyz
+    servername: ccs2g.pai50288.uk
   - client-fingerprint: chrome
-    name: ❓Other_7
+    name: ❓Other_6
     network: ws
     password: mitivpn
     port: 443
@@ -184,8 +208,8 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/40.0.2214.111 Safari/537.36
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
       path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 proxy-groups:
   - name: 🚀 节点选择
