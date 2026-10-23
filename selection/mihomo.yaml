@@ -26,6 +26,18 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.apple.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: firefox
+    name: ❓Other_2
+    network: tcp
+    password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+    port: 443
+    server: de5.dedushka.top
+    skip-cert-verify: false
+    sni: de5.dedushka.top
+    type: trojan
+    udp: true
   - encryption: none
     name: 🇳🇱NL_1
     network: tcp
@@ -39,7 +51,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: ❓Other_2
+    name: ❓Other_3
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
@@ -51,7 +63,7 @@ proxies:
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇬🇧GB_1
+    name: ❓Other_4
     network: tcp
     port: 443
     reality-opts:
@@ -68,7 +80,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: firefox
-    name: ❓Other_3
+    name: ❓Other_5
     network: tcp
     password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
     port: 443
@@ -88,8 +100,8 @@ proxies:
     ws-opts:
       headers:
         Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/39.0.2171.95 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
@@ -113,23 +125,6 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇹🇭TH_1
-    network: tcp
-    port: 56415
-    reality-opts:
-      public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-      short-id: "cbd39bea0805e2"
-    server: funagfrdfs.alixxplay.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    xudp: true
-    packet-encoding: xudp
-    servername: www.kaidee.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
     name: 🇯🇵JP_1
     network: tcp
     port: 35544
@@ -146,7 +141,7 @@ proxies:
     servername: iosapps.itunes.apple.com
   - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_4
+    name: ❓Other_6
     network: tcp
     port: 1222
     reality-opts:
@@ -160,6 +155,22 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: play.google.com
+  - client-fingerprint: edge
+    encryption: none
+    name: ❓Other_7
+    network: tcp
+    port: 8446
+    reality-opts:
+      public-key: 7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04
+      short-id: "73da8baa63f8d537"
+    server: sable56.fars-remen.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 633c1bb0-60d5-41fb-a9c4-11f408b264ec
+    xudp: true
+    packet-encoding: xudp
+    servername: storage-p2.googleapis.com
   - alpn:
       - ""
     alterId: "0"
@@ -179,7 +190,7 @@ proxies:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: ❓Other_5
+    name: ❓Other_8
     network: ws
     port: 443
     server: 188.114.98.0
@@ -190,14 +201,15 @@ proxies:
     ws-opts:
       headers:
         Host: ccs2g.pai50288.uk
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /pai50288
     xudp: true
     packet-encoding: xudp
     servername: ccs2g.pai50288.uk
   - client-fingerprint: chrome
-    name: ❓Other_6
+    name: ❓Other_9
     network: ws
     password: mitivpn
     port: 443
@@ -208,8 +220,8 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
       path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 proxy-groups:
   - name: 🚀 节点选择
