@@ -30,7 +30,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1"
+      name: ❓Other_2
       network: tcp
       port: "443"
       reality-opts:
@@ -46,7 +46,7 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: firefox
-      name: ❓Other_2
+      name: "\U0001F1E9\U0001F1EADE_1"
       network: tcp
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       port: "443"
@@ -54,6 +54,20 @@ proxies:
       skip-cert-verify: false
       type: trojan
       udp: true
+    - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
+      name: "\U0001F1E9\U0001F1EADE_2"
+      network: ws
+      port: "8180"
+      server: dnld.chaqalli.com
+      type: vless
+      udp: true
+      uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+      ws-opts:
+        headers:
+            Host: ""
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -69,21 +83,6 @@ proxies:
       type: vless
       udp: true
       uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: ❓Other_3
-      network: tcp
-      port: "27591"
-      reality-opts:
-        public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-        short-id: 6c5c7900406a1ae7
-      server: pl1.h1cloud.net
-      servername: www.samsung.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
       xudp: true
     - client-fingerprint: ios
       encryption: none
@@ -102,7 +101,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: ❓Other_4
+      name: ❓Other_3
       network: ws
       port: "443"
       server: cf.877774.xyz
@@ -114,30 +113,11 @@ proxies:
       ws-opts:
         headers:
             Host: ccc.010304.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
         path: /
       xudp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      name: ❓Other_5
-      network: ws
-      port: "443"
-      server: 188.114.98.0
-      servername: ccs2g.pai50288.uk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
-      ws-opts:
-        headers:
-            Host: ccs2g.pai50288.uk
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /pai50288
-      xudp: true
     - client-fingerprint: chrome
-      name: ❓Other_6
+      name: ❓Other_4
       network: ws
       password: mitivpn
       port: "443"
@@ -148,5 +128,5 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
