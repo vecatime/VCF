@@ -1,8 +1,33 @@
 proxies:
+    - encryption: none
+      name: ❓Other_1
+      network: tcp
+      port: "22224"
+      server: 15.224.143.133
+      type: vless
+      udp: true
+      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_1"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: f3Ooz7Yxw4QqQNxddxYG0zOewK8zullgKVTBZxR1a0Y
+        short-id: cc981b746a300649
+      server: 5.129.252.150
+      servername: www.samsung.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8cd87f70-5be4-402b-9dd0-603b6a6bf59c
+      xudp: true
     - alpn:
         - http/1.1
       client-fingerprint: firefox
-      name: ❓Other_1
+      name: ❓Other_2
       network: tcp
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       port: "443"
@@ -11,10 +36,35 @@ proxies:
       sni: de5.dedushka.top
       type: trojan
       udp: true
+    - encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_2"
+      network: tcp
+      port: "443"
+      server: ilya.itissia.shop
+      type: vless
+      udp: true
+      uuid: 789acc45-af2f-428b-9f06-8ff5447d00be
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_3
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 9GEc6lOjnGQyyE1951OZSBMWt4uCXsOjKyj9fysxHH0
+        short-id: d30f9d846a7c8cba
+      server: gb.srv.dvzh.net
+      servername: gb.srv.dvzh.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ab3a362-1518-496d-b08d-eced45cec936
+      xudp: true
     - alpn:
         - http/1.1
       client-fingerprint: firefox
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: ❓Other_4
       network: tcp
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       port: "443"
@@ -23,7 +73,7 @@ proxies:
       type: trojan
       udp: true
     - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-      name: "\U0001F1E9\U0001F1EADE_2"
+      name: "\U0001F1E9\U0001F1EADE_1"
       network: ws
       port: "8180"
       server: dnld.chaqalli.com
@@ -33,23 +83,24 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F5\U0001F1F1PL_1"
+      flow: xtls-rprx-vision
+      name: ❓Other_5
       network: tcp
-      port: "27591"
+      port: "56415"
       reality-opts:
-        public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-        short-id: 6c5c7900406a1ae7
-      server: pl1.h1cloud.net
-      servername: www.samsung.com
+        public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+        short-id: cbd39bea0805e2
+      server: funagfrdfs.alixxplay.com
+      servername: www.kaidee.com
       tls: true
       type: vless
       udp: true
-      uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
       xudp: true
     - encryption: mlkem768x25519plus.native.0rtt.Bu8yO8-6D_u_FmDErot6eFF0r-mdLO4d5dtUReMad3k
       http-opts:
@@ -68,23 +119,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1"
-      network: tcp
-      port: "35544"
-      reality-opts:
-        public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
-        short-id: 25c79e5856c7
-      server: funagfrdfs.alixxplay.com
-      servername: iosapps.itunes.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: ❓Other_2
+      name: ❓Other_6
       network: tcp
       port: "1222"
       reality-opts:
@@ -104,7 +139,7 @@ proxies:
                 - netmeli.korluma.ir
         path:
             - /
-      name: "\U0001F1E9\U0001F1EADE_3"
+      name: "\U0001F1E9\U0001F1EADE_2"
       network: http
       port: "14256"
       server: vip-tun.korluma.ir
@@ -127,9 +162,24 @@ proxies:
       udp: true
       uuid: e7e1e726-b30f-477a-a308-3138e62a8d21
       xudp: true
+    - encryption: mlkem768x25519plus.native.0rtt.Qu4km2yZ6QAhjFVVooUz7HaqfY01CIucSDrRPJY4rBw
+      http-opts:
+        headers:
+            Host:
+                - netmeli.korluma.ir
+        path:
+            - /
+      name: "\U0001F1F3\U0001F1F1NL_3"
+      network: http
+      port: "8010"
+      server: vip-tun.korluma.ir
+      type: vless
+      udp: true
+      uuid: e7e1e726-b30f-477a-a308-3138e62a8d21
+      xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: ❓Other_3
+      name: ❓Other_7
       network: ws
       port: "443"
       server: cf.877774.xyz
@@ -141,14 +191,14 @@ proxies:
       ws-opts:
         headers:
             Host: ccc.010304.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /
       xudp: true
     - alpn:
         - http/1.1
       client-fingerprint: chrome
       encryption: none
-      name: ❓Other_4
+      name: ❓Other_8
       network: ws
       port: "443"
       server: 188.114.98.0
@@ -160,11 +210,11 @@ proxies:
       ws-opts:
         headers:
             Host: ccs2g.pai50288.uk
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
         path: /pai50288
       xudp: true
     - client-fingerprint: chrome
-      name: ❓Other_5
+      name: ❓Other_9
       network: ws
       password: mitivpn
       port: "443"
@@ -175,5 +225,5 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
         path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
