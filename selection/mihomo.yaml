@@ -13,9 +13,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
       path: /
     xudp: true
     packet-encoding: xudp
@@ -26,6 +25,26 @@ proxies:
     name: 🇺🇸US_2
     network: ws
     port: 443
+    server: 146.75.59.186
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7dee06cc-4bc8-43ca-a6c2-59f81107f2e3
+    ws-opts:
+      headers:
+        Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+    xudp: true
+    packet-encoding: xudp
+    servername: firefox.com
+  - client-fingerprint: chrome
+    encryption: none
+    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+    name: 🇺🇸US_3
+    network: ws
+    port: 443
     server: 199.232.78.159
     tls: true
     type: vless
@@ -34,8 +53,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
     xudp: true
     packet-encoding: xudp
@@ -56,9 +75,8 @@ proxies:
     ws-opts:
       headers:
         Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
       path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2056
@@ -85,7 +103,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-    name: 🇺🇸US_3
+    name: 🇺🇸US_4
     network: ws
     port: 443
     server: wwww.qarvian.ir
@@ -96,12 +114,45 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.162 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/53.0.2785.143 Safari/537.36
       path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
     xudp: true
     packet-encoding: xudp
     servername: firefox.com
+  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
+    name: 🇩🇪DE_1
+    network: ws
+    port: 8180
+    server: dnld.chaqalli.com
+    type: vless
+    udp: true
+    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+    ws-opts:
+      headers:
+        Host: dnld.chaqalli.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    xudp: true
+    packet-encoding: xudp
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇹🇭TH_1
+    network: tcp
+    port: 56415
+    reality-opts:
+      public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+      short-id: "cbd39bea0805e2"
+    server: funagfrdfs.alixxplay.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    xudp: true
+    packet-encoding: xudp
+    servername: www.kaidee.com
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -125,7 +176,7 @@ proxies:
     client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: 🇫🇮FI_2
     network: tcp
     port: 443
     server: static.86.39.13.49.clients.your-server.de
@@ -136,29 +187,8 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: static.75.209.109.65.clients.your-server.de
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_2
-    network: ws
-    port: 443
-    server: 188.114.98.0
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
-    ws-opts:
-      headers:
-        Host: ccs2g.pai50288.uk
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /pai50288
-    xudp: true
-    packet-encoding: xudp
-    servername: ccs2g.pai50288.uk
   - client-fingerprint: chrome
-    name: ❓Other_3
+    name: ❓Other_1
     network: ws
     password: mitivpn
     port: 443
@@ -169,8 +199,8 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
       path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/--@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 proxy-groups:
   - name: 🚀 节点选择
