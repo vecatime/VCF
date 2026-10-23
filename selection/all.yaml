@@ -1,17 +1,8 @@
 proxies:
-    - encryption: none
-      name: ❓Other_1
-      network: tcp
-      port: "22224"
-      server: 15.224.143.133
-      type: vless
-      udp: true
-      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-      xudp: true
     - alpn:
         - http/1.1
       client-fingerprint: firefox
-      name: ❓Other_2
+      name: "\U0001F1E9\U0001F1EADE_1"
       network: tcp
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       port: "443"
@@ -39,7 +30,7 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: firefox
-      name: ❓Other_3
+      name: "\U0001F1E9\U0001F1EADE_2"
       network: tcp
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       port: "443"
@@ -47,30 +38,18 @@ proxies:
       skip-cert-verify: false
       type: trojan
       udp: true
-    - client-fingerprint: edge
+    - client-fingerprint: chrome
       encryption: none
-      name: ❓Other_4
+      name: ❓Other_1
       network: tcp
-      port: "8446"
+      port: "1222"
       reality-opts:
-        public-key: 7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04
-        short-id: 73da8baa63f8d537
-      server: sable56.fars-remen.ir
-      servername: storage-p2.googleapis.com
+        public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
+        short-id: a25d0f
+      server: mci1.amir12.ir
+      servername: play.google.com
       tls: true
       type: vless
       udp: true
-      uuid: 633c1bb0-60d5-41fb-a9c4-11f408b264ec
+      uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
       xudp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: firefox
-      name: ❓Other_5
-      network: tcp
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      port: "443"
-      server: de12.dedushka.top
-      skip-cert-verify: false
-      sni: de12.dedushka.top
-      type: trojan
-      udp: true
