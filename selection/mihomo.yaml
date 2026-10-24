@@ -5,6 +5,46 @@ proxies:
     name: 🇺🇸US_1
     network: ws
     port: 443
+    server: 199.232.78.160
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7dee06cc-4bc8-43ca-a6c2-59f81107f2e3
+    ws-opts:
+      headers:
+        Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/40.0.2214.111 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: firefox.com
+  - client-fingerprint: chrome
+    encryption: none
+    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+    name: 🇺🇸US_2
+    network: ws
+    port: 443
+    server: 146.75.59.186
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7dee06cc-4bc8-43ca-a6c2-59f81107f2e3
+    ws-opts:
+      headers:
+        Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.93 Safari/537.36
+      path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+    xudp: true
+    packet-encoding: xudp
+    servername: firefox.com
+  - client-fingerprint: chrome
+    encryption: none
+    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+    name: 🇺🇸US_3
+    network: ws
+    port: 443
     server: 199.232.78.159
     tls: true
     type: vless
@@ -13,8 +53,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
     xudp: true
     packet-encoding: xudp
@@ -37,7 +77,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-    name: 🇺🇸US_2
+    name: 🇺🇸US_4
     network: ws
     port: 443
     server: wwww.qarvian.ir
@@ -48,38 +88,15 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
     xudp: true
     packet-encoding: xudp
     servername: firefox.com
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    name: ❓Other_2
-    network: tcp
-    password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-    port: 443
-    server: de5.dedushka.top
-    skip-cert-verify: false
-    sni: de5.dedushka.top
-    type: trojan
-    udp: true
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    name: 🇩🇪DE_1
-    network: tcp
-    password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-    port: 443
-    server: de3.dedushka.top
-    skip-cert-verify: false
-    type: trojan
-    udp: true
-    sni: de3.dedushka.top
   - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: 🇩🇪DE_2
+    name: ❓Other_2
     network: ws
     port: 8180
     server: dnld.chaqalli.com
@@ -89,50 +106,98 @@ proxies:
     ws-opts:
       headers:
         Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/59.0.3071.125 Mobile Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
-  - client-fingerprint: chrome
+  - client-fingerprint: firefox
     encryption: none
+    flow: xtls-rprx-vision
     name: ❓Other_3
     network: tcp
-    port: 1222
+    port: 443
     reality-opts:
-      public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
-      short-id: "a25d0f"
-    server: mci1.amir12.ir
+      public-key: S8fcWoOddbw_d-s7yrgi6Udb69A2XnW2xfJ-Xk6ubko
+      short-id: "5ff4fb909a3dfebf"
+    server: lv5.himoy.space
     tls: true
     type: vless
     udp: true
-    uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
+    uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
     xudp: true
     packet-encoding: xudp
-    servername: play.google.com
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
+    servername: lv5.himoy.space
+  - client-fingerprint: chrome
     encryption: none
+    flow: xtls-rprx-vision
+    name: 🇹🇭TH_1
+    network: tcp
+    port: 56415
+    reality-opts:
+      public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+      short-id: "cbd39bea0805e2"
+    server: funagfrdfs.alixxplay.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    xudp: true
+    packet-encoding: xudp
+    servername: www.kaidee.com
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
     name: ❓Other_4
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: aow1gjMhnsFXqOuIulX3HBWiGI7m488euLPH6G5fcFA
+      short-id: "3446a8095e1788b4"
+    server: lv1.himoy.space
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+    xudp: true
+    packet-encoding: xudp
+    servername: lv1.himoy.space
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_5
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: DvPeuTyyvkarTBt9JFt_ejTP1xRgpYKM9SZnFNRV0kg
+      short-id: "802007e8b774f343"
+    server: nl3.himoy.space
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+    xudp: true
+    packet-encoding: xudp
+    servername: nl3.himoy.space
+  - client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_6
     network: ws
     port: 443
-    server: 188.114.98.0
+    server: cf.877774.xyz
     tls: true
     type: vless
     udp: true
-    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+    uuid: d342d11e-d224-4463-b982-532309285094
     ws-opts:
       headers:
-        Host: server5.9966338.xyz
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /drsukitgreiusweqa9otrh983
+        Host: ccc.010304.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+      path: /
     xudp: true
     packet-encoding: xudp
-    servername: server5.9966338.xyz
+    servername: ccc.010304.xyz
 proxy-groups:
   - name: 🚀 节点选择
     type: select
