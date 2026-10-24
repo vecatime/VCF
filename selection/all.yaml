@@ -14,7 +14,7 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: ""
       xudp: true
     - client-fingerprint: chrome
@@ -23,7 +23,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8US_2"
       network: ws
       port: "443"
-      server: 146.75.59.186
+      server: 199.232.78.159
       servername: firefox.com
       tls: true
       type: vless
@@ -31,8 +31,8 @@ proxies:
       uuid: 7dee06cc-4bc8-43ca-a6c2-59f81107f2e3
       ws-opts:
         headers:
-            Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+            Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
         path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
       xudp: true
     - client-fingerprint: firefox
@@ -64,13 +64,28 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+      xudp: true
+    - client-fingerprint: random
+      encryption: none
+      name: ❓Other_2
+      network: xhttp
+      port: "443"
+      server: tg1.cdnphotos.org
+      servername: tg1.cdnphotos.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: f04cc810-aaf2-4a7b-8cad-356cdd30d394
+      xhttp-opts:
+        mode: auto
+        path: /api/v1/
       xudp: true
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_2
+      name: ❓Other_3
       network: tcp
       port: "443"
       reality-opts:
@@ -78,6 +93,54 @@ proxies:
         short-id: 5ff4fb909a3dfebf
       server: lv5.himoy.space
       servername: lv5.himoy.space
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F9\U0001F1EDTH_1"
+      network: tcp
+      port: "56415"
+      reality-opts:
+        public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+        short-id: cbd39bea0805e2
+      server: funagfrdfs.alixxplay.com
+      servername: www.kaidee.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_4
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: aow1gjMhnsFXqOuIulX3HBWiGI7m488euLPH6G5fcFA
+        short-id: 3446a8095e1788b4
+      server: lv1.himoy.space
+      servername: lv1.himoy.space
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_5
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: DvPeuTyyvkarTBt9JFt_ejTP1xRgpYKM9SZnFNRV0kg
+        short-id: 802007e8b774f343
+      server: nl3.himoy.space
+      servername: nl3.himoy.space
       tls: true
       type: vless
       udp: true
