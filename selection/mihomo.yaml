@@ -13,8 +13,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/31.0.1650.57 Safari/537.36
       path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
     xudp: true
     packet-encoding: xudp
@@ -33,8 +33,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/36.0.1985.125 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
     xudp: true
     packet-encoding: xudp
@@ -68,17 +68,32 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
       path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
     xudp: true
     packet-encoding: xudp
     servername: firefox.com
+  - client-fingerprint: random
+    encryption: none
+    name: ❓Other_2
+    network: xhttp
+    port: 443
+    server: tg1.cdnphotos.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: f04cc810-aaf2-4a7b-8cad-356cdd30d394
+    xhttp-opts:
+      mode: auto
+      path: /api/v1/
+    xudp: true
+    packet-encoding: xudp
+    servername: tg1.cdnphotos.org
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_2
+    name: ❓Other_3
     network: tcp
     port: 443
     reality-opts:
@@ -95,7 +110,24 @@ proxies:
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_3
+    name: 🇱🇻LV_1
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: aow1gjMhnsFXqOuIulX3HBWiGI7m488euLPH6G5fcFA
+      short-id: "3446a8095e1788b4"
+    server: lv1.himoy.space
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+    xudp: true
+    packet-encoding: xudp
+    servername: lv1.himoy.space
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_4
     network: tcp
     port: 443
     reality-opts:
@@ -113,7 +145,7 @@ proxies:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: ❓Other_4
+    name: ❓Other_5
     network: ws
     port: 443
     server: 188.114.98.0
@@ -124,33 +156,12 @@ proxies:
     ws-opts:
       headers:
         Host: server5.9966338.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
       path: /drsukitgreiusweqa9otrh983
     xudp: true
     packet-encoding: xudp
     servername: server5.9966338.xyz
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_5
-    network: ws
-    port: 443
-    server: 188.114.98.0
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
-    ws-opts:
-      headers:
-        Host: ccs2g.pai50288.uk
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /pai50288
-    xudp: true
-    packet-encoding: xudp
-    servername: ccs2g.pai50288.uk
   - encryption: none
     name: ❓Other_6
     network: ws
@@ -162,9 +173,8 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
