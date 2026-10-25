@@ -17,7 +17,7 @@ proxies:
     packet-encoding: xudp
     servername: www.apple.com
   - encryption: none
-    name: 🇩🇪DE_1
+    name: ❓Other_2
     network: ws
     port: 80
     server: free.sahanwickramasinghe.me
@@ -27,32 +27,36 @@ proxies:
     ws-opts:
       headers:
         Host: free.sahanwickramasinghe.me
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
-  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: 🇩🇪DE_2
+  - client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_3
     network: ws
-    port: 8180
-    server: dnld.chaqalli.com
+    port: 443
+    server: cf.877774.xyz
+    tls: true
     type: vless
     udp: true
-    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+    uuid: d342d11e-d224-4463-b982-532309285094
     ws-opts:
       headers:
-        Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+        Host: ccc.010304.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/39.0.2171.95 Safari/537.36
+      path: /
     xudp: true
     packet-encoding: xudp
+    servername: ccc.010304.xyz
   - alpn:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: ❓Other_2
+    name: ❓Other_4
     network: ws
     port: 443
     server: 188.114.98.0
@@ -63,8 +67,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccs2g.pai50288.uk
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: /pai50288
     xudp: true
     packet-encoding: xudp
