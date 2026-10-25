@@ -1,40 +1,8 @@
 proxies:
-  - client-fingerprint: random
-    encryption: none
-    name: ❓Other_1
-    network: xhttp
-    port: 443
-    server: tg1.cdnphotos.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: f04cc810-aaf2-4a7b-8cad-356cdd30d394
-    xhttp-opts:
-      mode: auto
-      path: /api/v1/
-    xudp: true
-    packet-encoding: xudp
-    servername: tg1.cdnphotos.org
-  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: 🇩🇪DE_1
-    network: ws
-    port: 8180
-    server: dnld.chaqalli.com
-    type: vless
-    udp: true
-    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-    ws-opts:
-      headers:
-        Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.167 Safari/537.36
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_2
+    name: ❓Other_1
     network: tcp
     port: 443
     reality-opts:
@@ -67,24 +35,24 @@ proxies:
     servername: lv1.himoy.space
   - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_3
+    name: 🇵🇱PL_1
     network: tcp
-    port: 1222
+    port: 27591
     reality-opts:
-      public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
-      short-id: "a25d0f"
-    server: mci1.amir12.ir
+      public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
+      short-id: "6c5c7900406a1ae7"
+    server: pl1.h1cloud.net
     tls: true
     type: vless
     udp: true
-    uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
+    uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
     xudp: true
     packet-encoding: xudp
-    servername: play.google.com
+    servername: www.samsung.com
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_4
+    name: ❓Other_2
     network: tcp
     port: 443
     reality-opts:
@@ -98,27 +66,25 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: nl3.himoy.space
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
+  - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_5
+    name: ❓Other_3
     network: ws
     port: 443
-    server: 188.114.98.0
+    server: cf.877774.xyz
     tls: true
     type: vless
     udp: true
-    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+    uuid: d342d11e-d224-4463-b982-532309285094
     ws-opts:
       headers:
-        Host: ccs2g.pai50288.uk
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /pai50288
+        Host: ccc.010304.xyz
+        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Slackware/Chrome/12.0.742.100 Safari/534.30
+      path: /
     xudp: true
     packet-encoding: xudp
-    servername: ccs2g.pai50288.uk
+    servername: ccc.010304.xyz
 proxy-groups:
   - name: 🚀 节点选择
     type: select
