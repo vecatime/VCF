@@ -16,23 +16,22 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.apple.com
-  - client-fingerprint: chrome
+  - client-fingerprint: random
     encryption: none
-    flow: xtls-rprx-vision
-    name: 🇹🇭TH_1
-    network: tcp
-    port: 56415
-    reality-opts:
-      public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-      short-id: "cbd39bea0805e2"
-    server: funagfrdfs.alixxplay.com
+    name: ❓Other_1
+    network: xhttp
+    port: 443
+    server: tg1.cdnphotos.org
     tls: true
     type: vless
     udp: true
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    uuid: f04cc810-aaf2-4a7b-8cad-356cdd30d394
+    xhttp-opts:
+      mode: auto
+      path: /api/v1/
     xudp: true
     packet-encoding: xudp
-    servername: www.kaidee.com
+    servername: tg1.cdnphotos.org
   - client-fingerprint: chrome
     encryption: none
     name: 🇵🇱PL_1
@@ -52,7 +51,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇯🇵JP_1
+    name: ❓Other_2
     network: tcp
     port: 35544
     reality-opts:
@@ -66,25 +65,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: iosapps.itunes.apple.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_1
-    network: ws
-    port: 443
-    server: cf.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: d342d11e-d224-4463-b982-532309285094
-    ws-opts:
-      headers:
-        Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: ccc.010304.xyz
 proxy-groups:
   - name: 🚀 节点选择
     type: select
