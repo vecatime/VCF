@@ -1,6 +1,6 @@
 proxies:
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: ❓Other_1
       network: ws
       port: "80"
       server: free.sahanwickramasinghe.me
@@ -10,12 +10,26 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
         path: /
+      xudp: true
+    - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: ws
+      port: "8180"
+      server: dnld.chaqalli.com
+      type: vless
+      udp: true
+      uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+      ws-opts:
+        headers:
+            Host: ""
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
+        path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EE\U0001F1F3IN_1"
+      name: ❓Other_2
       network: ws
       port: "443"
       server: cf.877774.xyz
@@ -27,14 +41,14 @@ proxies:
       ws-opts:
         headers:
             Host: ccc.010304.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
         path: /
       xudp: true
     - alpn:
         - http/1.1
       client-fingerprint: chrome
       encryption: none
-      name: ❓Other_1
+      name: "\U0001F1FA\U0001F1F8US_1"
       network: ws
       port: "443"
       server: 188.114.98.0
@@ -46,6 +60,6 @@ proxies:
       ws-opts:
         headers:
             Host: ccs2g.pai50288.uk
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
         path: /pai50288
       xudp: true
