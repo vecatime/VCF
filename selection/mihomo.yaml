@@ -1,21 +1,4 @@
 proxies:
-  - client-fingerprint: ios
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇦🇺AU_1
-    network: tcp
-    port: 54528
-    reality-opts:
-      public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-      short-id: "54cca3c1c1c7"
-    server: funagfrdfs.alixxplay.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    xudp: true
-    packet-encoding: xudp
-    servername: www.apple.com
   - encryption: none
     name: ❓Other_1
     network: ws
@@ -27,13 +10,14 @@ proxies:
     ws-opts:
       headers:
         Host: free.sahanwickramasinghe.me
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/39.0.2171.95 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
   - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: 🇩🇪DE_1
+    name: ❓Other_2
     network: ws
     port: 8180
     server: dnld.chaqalli.com
@@ -43,15 +27,14 @@ proxies:
     ws-opts:
       headers:
         Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_2
+    name: 🇵🇱PL_1
     network: tcp
     port: 27591
     reality-opts:
@@ -65,46 +48,11 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.samsung.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_3
-    network: tcp
-    port: 1222
-    reality-opts:
-      public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
-      short-id: "a25d0f"
-    server: mci1.amir12.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-    xudp: true
-    packet-encoding: xudp
-    servername: play.google.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_4
-    network: ws
-    port: 443
-    server: cf.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: d342d11e-d224-4463-b982-532309285094
-    ws-opts:
-      headers:
-        Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/42.0.2311.135 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: ccc.010304.xyz
   - alpn:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: ❓Other_5
+    name: ❓Other_3
     network: ws
     port: 443
     server: 188.114.98.0
@@ -115,8 +63,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccs2g.pai50288.uk
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
       path: /pai50288
     xudp: true
     packet-encoding: xudp
