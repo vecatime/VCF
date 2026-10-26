@@ -10,7 +10,7 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: random
@@ -30,16 +30,34 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: ❓Other_2
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_1"
       network: tcp
-      port: "27591"
+      port: "35544"
       reality-opts:
-        public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-        short-id: 6c5c7900406a1ae7
-      server: pl1.h1cloud.net
-      servername: www.samsung.com
+        public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
+        short-id: 25c79e5856c7
+      server: funagfrdfs.alixxplay.com
+      servername: iosapps.itunes.apple.com
       tls: true
       type: vless
       udp: true
-      uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_2
+      network: ws
+      port: "443"
+      server: cf.877774.xyz
+      servername: ccc.010304.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d224-4463-b982-532309285094
+      ws-opts:
+        headers:
+            Host: ccc.010304.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+        path: /
       xudp: true
