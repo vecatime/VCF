@@ -1,20 +1,4 @@
 proxies:
-    - client-fingerprint: ios
-      encryption: none
-      flow: xtls-rprx-vision
-      name: ❓Other_1
-      network: tcp
-      port: "54528"
-      reality-opts:
-        public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-        short-id: 54cca3c1c1c7
-      server: funagfrdfs.alixxplay.com
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      xudp: true
     - encryption: none
       name: "\U0001F1E9\U0001F1EADE_1"
       network: ws
@@ -26,35 +10,6 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
         path: /
-      xudp: true
-    - client-fingerprint: random
-      encryption: none
-      name: ❓Other_2
-      network: xhttp
-      port: "443"
-      server: tg1.cdnphotos.org
-      servername: tg1.cdnphotos.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: f04cc810-aaf2-4a7b-8cad-356cdd30d394
-      xhttp-opts:
-        mode: auto
-        path: /api/v1/
-      xudp: true
-    - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-      name: "\U0001F1E9\U0001F1EADE_2"
-      network: ws
-      port: "8180"
-      server: dnld.chaqalli.com
-      type: vless
-      udp: true
-      uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
-        path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
