@@ -14,7 +14,7 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
         path: ""
       xudp: true
     - client-fingerprint: chrome
@@ -32,7 +32,7 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
         path: ""
       xudp: true
     - client-fingerprint: chrome
@@ -50,7 +50,7 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: ""
       xudp: true
     - client-fingerprint: chrome
@@ -68,8 +68,24 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
         path: ""
+      xudp: true
+    - client-fingerprint: ios
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1FAAU_1"
+      network: tcp
+      port: "54528"
+      reality-opts:
+        public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+        short-id: 54cca3c1c1c7
+      server: funagfrdfs.alixxplay.com
+      servername: www.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
       xudp: true
     - encryption: none
       name: ❓Other_1
@@ -82,23 +98,24 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
         path: /
       xudp: true
-    - client-fingerprint: random
+    - client-fingerprint: chrome
       encryption: none
+      flow: xtls-rprx-vision
       name: ❓Other_2
-      network: xhttp
+      network: tcp
       port: "443"
-      server: tg1.cdnphotos.org
-      servername: tg1.cdnphotos.org
+      reality-opts:
+        public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+        short-id: 88d9dc52ef39c8bd
+      server: 188.225.27.229
+      servername: bridge.rkitman.ru
       tls: true
       type: vless
       udp: true
-      uuid: f04cc810-aaf2-4a7b-8cad-356cdd30d394
-      xhttp-opts:
-        mode: auto
-        path: /api/v1/
+      uuid: 66dc1927-8528-4f1e-bb74-5a9c7aa8ea8c
       xudp: true
     - client-fingerprint: chrome
       encryption: none
@@ -147,6 +164,15 @@ proxies:
       udp: true
       uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
       xudp: true
+    - encryption: none
+      name: ❓Other_4
+      network: tcp
+      port: "8080"
+      server: milo.rubinaz.xyz
+      type: vless
+      udp: true
+      uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
+      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1E7\U0001F1ECBG_1"
       password: uvKNudV-N8AUCrykPiyznA
@@ -154,20 +180,35 @@ proxies:
       server: location8.cpanel-host10.ir
       type: ss
       udp: true
-    - client-fingerprint: unsafe
+    - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1"
-      network: ws
-      port: "443"
-      server: 104.18.45.38
-      servername: ccc.010304.xyz
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_5"
+      network: tcp
+      port: "30892"
+      reality-opts:
+        public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+        short-id: 3d31326f95
+      server: funagfrdfs.alixxplay.com
+      servername: us1p1.xn--ghq880n3na965a.com
       tls: true
       type: vless
       udp: true
-      uuid: d342d11e-d224-4463-b982-532309285094
-      ws-opts:
-        headers:
-            Host: ccc.010304.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
-        path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      xudp: true
+    - client-fingerprint: safari
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_1"
+      network: tcp
+      port: "46105"
+      reality-opts:
+        public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+        short-id: 28f5c1f8f98a
+      server: funagfrdfs.alixxplay.com
+      servername: www.lamer.com.sg
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
       xudp: true
