@@ -1,8 +1,15 @@
 proxies:
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8US_1"
+      password: shadowsocks
+      port: "443"
+      server: 156.146.38.169
+      type: ss
+      udp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1"
+      name: "\U0001F1FA\U0001F1F8US_2"
       network: tcp
       port: "443"
       reality-opts:
@@ -33,7 +40,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_2"
+      name: "\U0001F1FA\U0001F1F8US_3"
       network: tcp
       port: "18000"
       server: 67.220.95.3
@@ -43,10 +50,24 @@ proxies:
       udp: true
       uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
       xudp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_4"
+      network: tcp
+      port: "18000"
+      server: 67.220.85.46
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+      xudp: true
     - client-fingerprint: chrome
       encryption: none
       fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-      name: "\U0001F1FA\U0001F1F8US_3"
+      name: "\U0001F1FA\U0001F1F8US_5"
       network: ws
       port: "443"
       server: 199.232.78.160
@@ -58,13 +79,56 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: ""
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_6"
+      password: eDfN7SODQceIOmIAbtJJtK
+      port: "443"
+      server: 198.98.53.130
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+      name: "\U0001F1FA\U0001F1F8US_7"
+      network: ws
+      port: "443"
+      server: 146.75.59.186
+      servername: firefox.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
+      ws-opts:
+        headers:
+            Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: ""
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+      name: "\U0001F1FA\U0001F1F8US_8"
+      network: ws
+      port: "443"
+      server: 199.232.78.159
+      servername: cdn.akamai.steamstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
+      ws-opts:
+        headers:
+            Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
         path: ""
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_4"
+      name: "\U0001F1FA\U0001F1F8US_9"
       network: tcp
       port: "443"
       reality-opts:
@@ -81,7 +145,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_5"
+      name: "\U0001F1FA\U0001F1F8US_10"
       network: tcp
       port: "18000"
       server: 38.91.107.49
@@ -94,7 +158,7 @@ proxies:
     - client-fingerprint: ios
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_6"
+      name: "\U0001F1FA\U0001F1F8US_11"
       network: tcp
       port: "443"
       reality-opts:
@@ -110,7 +174,7 @@ proxies:
     - client-fingerprint: ios
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_7"
+      name: "\U0001F1FA\U0001F1F8US_12"
       network: tcp
       port: "443"
       reality-opts:
@@ -126,7 +190,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_8"
+      name: "\U0001F1FA\U0001F1F8US_13"
       network: tcp
       port: "23576"
       reality-opts:
@@ -142,7 +206,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_9"
+      name: "\U0001F1FA\U0001F1F8US_14"
       network: tcp
       port: "23576"
       reality-opts:
@@ -158,7 +222,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_10"
+      name: "\U0001F1FA\U0001F1F8US_15"
       network: tcp
       port: "23576"
       reality-opts:
@@ -175,7 +239,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_11"
+      name: "\U0001F1FA\U0001F1F8US_16"
       network: tcp
       port: "18000"
       server: 169.197.142.22
@@ -188,7 +252,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-      name: "\U0001F1FA\U0001F1F8US_12"
+      name: "\U0001F1FA\U0001F1F8US_17"
       network: ws
       port: "443"
       server: wwww.qarvian.ir
@@ -200,13 +264,13 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: ""
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_13"
+      name: "\U0001F1FA\U0001F1F8US_18"
       network: tcp
       port: "443"
       reality-opts:
@@ -219,20 +283,6 @@ proxies:
       udp: true
       uuid: 18805ff3-b420-45de-af18-93be14024ae8
       xudp: true
-    - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_1"
-      network: ws
-      port: "80"
-      server: 152.228.162.19
-      type: vless
-      udp: true
-      uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-      ws-opts:
-        headers:
-            Host: akamaized.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
-        path: /vless/
-      xudp: true
     - cipher: aes-256-gcm
       name: "\U0001F1E9\U0001F1EADE_1"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -243,92 +293,43 @@ proxies:
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_1"
       password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: "8080"
-      server: 193.29.139.197
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_2"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: "8080"
-      server: 82.38.31.149
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_3"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: "8080"
-      server: 82.38.31.215
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_4"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: "443"
-      server: 82.38.31.165
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_5"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "443"
       server: 82.38.31.162
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_6"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: "8080"
-      server: 193.29.139.225
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_7"
+      name: "\U0001F1F3\U0001F1F1NL_2"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.179
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_8"
-      password: QCXDxuDlTTMD7jtgHUjIoj
-      port: "8080"
-      server: 193.29.139.168
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_9"
+      name: "\U0001F1F3\U0001F1F1NL_3"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.203
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_10"
+      name: "\U0001F1F3\U0001F1F1NL_4"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.184
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_11"
+      name: ❓Other_1
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.176
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_12"
+      name: "\U0001F1F3\U0001F1F1NL_5"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.202
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_13"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: "8080"
-      server: 82.38.31.16
       type: ss
       udp: true
     - encryption: none
@@ -342,32 +343,32 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_14"
+      name: "\U0001F1F3\U0001F1F1NL_6"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.205
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_15"
+      name: "\U0001F1F3\U0001F1F1NL_7"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "8080"
       server: 82.38.31.61
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_16"
+      name: "\U0001F1F3\U0001F1F1NL_8"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "8080"
       server: 82.38.31.66
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_17"
+      name: "\U0001F1F3\U0001F1F1NL_9"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.218
@@ -376,7 +377,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_14"
+      name: "\U0001F1FA\U0001F1F8US_19"
       network: tcp
       port: "443"
       reality-opts:
@@ -391,7 +392,7 @@ proxies:
       xudp: true
     - client-fingerprint: random
       encryption: none
-      name: ❓Other_1
+      name: ❓Other_2
       network: xhttp
       port: "443"
       server: tg1.cdnphotos.org
@@ -404,29 +405,44 @@ proxies:
         mode: auto
         path: /api/v1/
       xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E6\U0001F1F2AM_1"
+      network: tcp
+      port: "55983"
+      reality-opts:
+        public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+        short-id: 0e
+      server: 77.91.68.70
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f667a096-5231-4cfb-8759-92bb32473139
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_3
+      network: tcp
+      port: "19825"
+      reality-opts:
+        public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+        short-id: 6ba85179e30d4fc2
+      server: 146.235.16.130
+      servername: sg2-8sb.6121999.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+      xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_18"
+      name: ❓Other_4
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "443"
       server: 82.38.31.149
       type: ss
       udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: ❓Other_2
-      network: tcp
-      port: "56415"
-      reality-opts:
-        public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-        short-id: cbd39bea0805e2
-      server: funagfrdfs.alixxplay.com
-      servername: www.kaidee.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      xudp: true
     - client-fingerprint: firefox
       encryption: none
       name: "\U0001F1EA\U0001F1EAEE_1"
@@ -442,21 +458,30 @@ proxies:
       udp: true
       uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
       xudp: true
-    - client-fingerprint: chrome
+    - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1"
+      name: "\U0001F1E7\U0001F1ECBG_1"
       network: tcp
-      port: "35544"
+      port: "45821"
       reality-opts:
-        public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
-        short-id: 25c79e5856c7
-      server: funagfrdfs.alixxplay.com
-      servername: iosapps.itunes.apple.com
+        public-key: RymFn9pFlHaMQpps5joHsmg0fOeWcaQiMOLR5IIfuWY
+        short-id: ""
+      server: nl1.cleanset.net
+      servername: www.samsung.com
       tls: true
       type: vless
       udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      uuid: f73538f3-737d-41d8-b1e7-8a6bd8d2e7c0
+      xudp: true
+    - encryption: none
+      name: "\U0001F1E8\U0001F1E6CA_2"
+      network: tcp
+      port: "8080"
+      server: milo.rubinaz.xyz
+      type: vless
+      udp: true
+      uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
       xudp: true
     - client-fingerprint: chrome
       encryption: none
@@ -474,72 +499,8 @@ proxies:
       udp: true
       uuid: b223d6cf-6f94-4889-8bcf-263c15881006
       xudp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: ❓Other_3
-      network: ws
-      password: humanity
-      port: "443"
-      server: 188.114.98.0
-      skip-cert-verify: false
-      sni: www.pleadcourt.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /assignment
-    - alpn:
-        - http/1.1
-      client-fingerprint: unsafe
-      name: "\U0001F1F3\U0001F1F1NL_19"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 188.114.97.6
-      skip-cert-verify: false
-      sni: www.pleadcourt.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
-        path: /assignment
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_2"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 188.114.98.0
-      skip-cert-verify: false
-      sni: www.calmlunch.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /assignment
-    - alpn:
-        - http/1.1
-      client-fingerprint: firefox
-      name: "\U0001F1F3\U0001F1F1NL_20"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 8.47.69.0
-      skip-cert-verify: false
-      sni: www.pleadcourt.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
-        path: /assignment
     - client-fingerprint: chrome
-      name: ❓Other_4
+      name: ❓Other_5
       network: ws
       password: humanity
       port: "443"
@@ -550,8 +511,22 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
         path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_1"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 188.114.97.6
+      skip-cert-verify: false
+      sni: www.calmlunch.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: /assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     - encryption: none
       name: "\U0001F1EC\U0001F1E7GB_1"
       network: ws
@@ -563,7 +538,7 @@ proxies:
       ws-opts:
         headers:
             Host: hhlfy.twiladaphne.ndjp.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
         path: /fp
       xudp: true
     - encryption: none
@@ -578,13 +553,13 @@ proxies:
       ws-opts:
         headers:
             Host: hhlfy.twiladaphne.ndjp.net
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
         path: /fp
       xudp: true
     - alpn:
         - http/1.1
       client-fingerprint: unsafe
-      name: "\U0001F1F3\U0001F1F1NL_21"
+      name: "\U0001F1F3\U0001F1F1NL_10"
       network: ws
       password: humanity
       port: "443"
@@ -595,39 +570,28 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
         path: /assignment
     - client-fingerprint: unsafe
-      name: "\U0001F1F3\U0001F1F1NL_22"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 154.81.141.42
-      skip-cert-verify: false
-      sni: www.pleadcourt.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
-        path: /assignment
-    - client-fingerprint: unsafe
-      name: "\U0001F1F3\U0001F1F1NL_23"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 104.27.201.80
-      skip-cert-verify: false
-      sni: www.pleadcourt.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
-        path: /assignment
-    - client-fingerprint: chrome
       encryption: none
       name: "\U0001F1E9\U0001F1EADE_3"
+      network: ws
+      port: "443"
+      server: 104.18.45.38
+      servername: ccc.010304.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d224-4463-b982-532309285094
+      ws-opts:
+        headers:
+            Host: ccc.010304.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_4"
       network: ws
       port: "443"
       server: cf.877774.xyz
@@ -639,6 +603,20 @@ proxies:
       ws-opts:
         headers:
             Host: ccc.010304.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
         path: /
       xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 45.80.111.7
+      skip-cert-verify: false
+      sni: www.calmlunch.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /assignment
