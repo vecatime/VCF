@@ -6,28 +6,6 @@ proxies:
     server: 156.146.38.169
     type: ss
     udp: true
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: 🇫🇷FR_1
-    network: ws
-    port: 443
-    server: 199.232.78.160
-    tls: true
-    type: vless
-    udp: true
-    uuid: XpnTeam-68
-    ws-opts:
-      headers:
-        Host: Appxdn.global.ssl.fastly.net
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile
-          Safari/537.36
-      path: /?TELEGRAM----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN----@GHOFLSHCAN
-    xudp: true
-    packet-encoding: xudp
-    servername: ssl.fastly.com
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -253,26 +231,12 @@ proxies:
     server: 185.176.204.18
     type: ss
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_1
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 193.29.139.197
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_2
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.149
-    type: ss
-    udp: true
   - alpn:
       - h2
     client-fingerprint: firefox
     encryption: none
     fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-    name: 🇫🇮FI_1
+    name: 🇩🇪DE_2
     network: ws
     port: 443
     server: 199.232.239.239
@@ -284,7 +248,7 @@ proxies:
       headers:
         Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2056
@@ -305,14 +269,14 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/43.0.2357.65 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: cdn.akamai.steamstatic.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_3
+    name: 🇳🇱NL_1
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.215
@@ -332,8 +296,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
       path: /
     xudp: true
     packet-encoding: xudp
@@ -343,13 +307,6 @@ proxies:
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 193.151.160.9
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_4
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 443
-    server: 82.38.31.165
     type: ss
     udp: true
   - client-fingerprint: chrome
@@ -366,8 +323,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
+        User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+          Chrome/v1.0.0 Safari/538.1
       path: /
     xudp: true
     packet-encoding: xudp
@@ -386,8 +343,9 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.109 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -406,106 +364,104 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
           Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: firefox.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_5
+    name: 🇳🇱NL_2
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 443
     server: 82.38.31.162
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_6
+    name: ❓Other_1
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 8080
     server: 193.29.139.225
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_7
+    name: 🇳🇱NL_3
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.179
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_8
-    password: QCXDxuDlTTMD7jtgHUjIoj
-    port: 8080
-    server: 193.29.139.168
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_9
+    name: 🇳🇱NL_4
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.203
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_10
+    name: 🇳🇱NL_5
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.184
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_11
+    name: 🇳🇱NL_6
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.176
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_12
+    name: ❓Other_2
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.202
     type: ss
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_13
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.16
-    type: ss
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    encryption: none
+    name: 🇳🇱NL_7
+    network: xhttp
+    port: 443
+    server: dey.lnmarketplace.net
+    tls: true
+    type: vless
     udp: true
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    xhttp-opts:
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      path: /kavir
+    xudp: true
+    packet-encoding: xudp
+    servername: dey.lnmarketplace.net
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_14
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.178
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_15
+    name: 🇳🇱NL_8
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.205
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_16
+    name: 🇳🇱NL_9
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 8080
     server: 82.38.31.61
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_17
+    name: 🇳🇱NL_10
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 8080
     server: 82.38.31.66
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_18
+    name: 🇳🇱NL_11
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.218
@@ -523,7 +479,7 @@ proxies:
     udp: true
   - client-fingerprint: random
     encryption: none
-    name: ❓Other_1
+    name: ❓Other_3
     network: xhttp
     port: 443
     server: tg1.cdnphotos.org
@@ -591,7 +547,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇸🇬SG_1
+    name: ❓Other_4
     network: tcp
     port: 19825
     reality-opts:
@@ -606,7 +562,7 @@ proxies:
     packet-encoding: xudp
     servername: sg2-8sb.6121999.dpdns.org
   - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: 🇩🇪DE_2
+    name: 🇩🇪DE_3
     network: ws
     port: 8180
     server: dnld.chaqalli.com
@@ -616,13 +572,13 @@ proxies:
     ws-opts:
       headers:
         Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_19
+    name: ❓Other_5
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 443
     server: 82.38.31.149
@@ -630,30 +586,7 @@ proxies:
     udp: true
   - client-fingerprint: chrome
     encryption: none
-    name: 🇵🇱PL_1
-    network: tcp
-    port: 27591
-    reality-opts:
-      public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-      short-id: "6c5c7900406a1ae7"
-    server: pl1.h1cloud.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-    xudp: true
-    packet-encoding: xudp
-    servername: www.samsung.com
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_20
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.28
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_3
+    name: 🇩🇪DE_4
     network: ws
     port: 465
     server: 91.107.180.176
@@ -664,8 +597,8 @@ proxies:
     ws-opts:
       headers:
         Host: hw7.divarkhaghazi.com.
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.102 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -673,7 +606,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_21
+    name: 🇳🇱NL_12
     network: tcp
     port: 23576
     reality-opts:
@@ -689,7 +622,7 @@ proxies:
     servername: fuck.rkn
   - client-fingerprint: chrome
     encryption: none
-    name: 🇫🇮FI_2
+    name: 🇫🇮FI_1
     network: ws
     port: 465
     server: hw3.divarkhaghazi.com
@@ -700,8 +633,8 @@ proxies:
     ws-opts:
       headers:
         Host: hw3.divarkhaghazi.com.
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -727,7 +660,7 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc_common3
-    name: ❓Other_2
+    name: ❓Other_6
     network: grpc
     port: 51671
     reality-opts:
@@ -741,11 +674,21 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.sony.com
+  - encryption: none
+    name: ❓Other_7
+    network: tcp
+    port: 8080
+    server: milo.rubinaz.xyz
+    type: vless
+    udp: true
+    uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
+    xudp: true
+    packet-encoding: xudp
   - alpn:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_4
+    name: 🇩🇪DE_5
     network: ws
     port: 465
     server: hw7.divarkhaghazi.com
@@ -756,8 +699,8 @@ proxies:
     ws-opts:
       headers:
         Host: hw7.divarkhaghazi.com.
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
       path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
     xudp: true
     packet-encoding: xudp
@@ -786,7 +729,7 @@ proxies:
     servername: www.cloudflare.com
   - client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_5
+    name: 🇩🇪DE_6
     network: ws
     port: 443
     server: cf.877774.xyz
@@ -797,8 +740,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.106 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -806,7 +749,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 🇳🇱NL_22
+    name: 🇳🇱NL_13
     network: ws
     password: humanity
     port: 443
@@ -818,23 +761,7 @@ proxies:
     ws-opts:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.94 Safari/537.36
-      path: /assignment
-  - client-fingerprint: chrome
-    name: 🇳🇱NL_23
-    network: ws
-    password: humanity
-    port: 443
-    server: 108.162.194.134
-    skip-cert-verify: false
-    sni: www.pleadcourt.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+          Gecko) Chrome/48.0.2564.116 Safari/537.36
       path: /assignment
   - encryption: none
     name: 🇬🇧GB_1
@@ -847,9 +774,8 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.99 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
@@ -866,7 +792,7 @@ proxies:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.102 Safari/537.36
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
@@ -882,15 +808,15 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
       path: /
     xudp: true
     packet-encoding: xudp
   - alpn:
       - http/1.1
     client-fingerprint: unsafe
-    name: 🇳🇱NL_24
+    name: 🇳🇱NL_14
     network: ws
     password: humanity
     port: 443
@@ -901,11 +827,12 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+          wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/62.0.3202.84 Mobile Safari/537.36
       path: /assignment
   - client-fingerprint: unsafe
-    name: 🇳🇱NL_25
+    name: 🇳🇱NL_15
     network: ws
     password: humanity
     port: 443
@@ -916,12 +843,13 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
       path: /assignment
   - client-fingerprint: unsafe
     encryption: none
-    name: 🇩🇪DE_6
+    name: 🇩🇪DE_7
     network: ws
     port: 443
     server: 104.18.45.38
@@ -932,14 +860,14 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/43.0.2357.65 Safari/537.36
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     xudp: true
     packet-encoding: xudp
     servername: ccc.010304.xyz
   - client-fingerprint: unsafe
-    name: 🇳🇱NL_26
+    name: 🇳🇱NL_16
     network: ws
     password: humanity
     port: 443
@@ -950,13 +878,13 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.93 Safari/537.36
       path: /assignment
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 🇳🇱NL_27
+    name: 🇳🇱NL_17
     network: ws
     password: humanity
     port: 443
@@ -967,11 +895,12 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/55.0.2883.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
-    name: 🇫🇷FR_2
+    name: 🇫🇷FR_1
     network: ws
     password: humanity
     port: 443
@@ -982,13 +911,30 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
       path: /assignment
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: 🇫🇷FR_3
+    name: 🇳🇱NL_18
+    network: ws
+    password: humanity
+    port: 443
+    server: 188.114.98.0
+    skip-cert-verify: false
+    sni: www.pleadcourt.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: /assignment
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 🇫🇷FR_2
     network: ws
     password: humanity
     port: 443
@@ -999,11 +945,11 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.77 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
-    name: 🇫🇷FR_4
+    name: 🇫🇷FR_3
     network: ws
     password: humanity
     port: 443
@@ -1014,11 +960,11 @@ proxies:
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/58.0.3029.81 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/68.0.3440.106 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
-    name: 🇫🇷FR_5
+    name: 🇫🇷FR_4
     network: ws
     password: humanity
     port: 443
@@ -1030,49 +976,8 @@ proxies:
     ws-opts:
       headers:
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
       path: /assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  - alpn:
-      - ""
-    alterId: "0"
-    cipher: auto
-    name: ❓Other_3
-    network: ws
-    port: 443
-    server: www.ubuntuupdates.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
-    ws-opts:
-      headers:
-        Host: www.ubuntuupdates.com
-      path: /truth?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-    xudp: true
-    packet-encoding: xudp
-    servername: www.ubuntuupdates.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_7
-    network: ws
-    port: 443
-    server: 172.64.152.241
-    tls: true
-    type: vless
-    udp: true
-    uuid: d342d11e-d224-4463-b982-532309285094
-    ws-opts:
-      headers:
-        Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/39.0.2171.95 Safari/537.36
-      path: /fp#TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 512
-    xudp: true
-    packet-encoding: xudp
-    servername: ccc.010304.xyz
   - client-fingerprint: chrome
     encryption: none
     name: 🇩🇪DE_8
@@ -1086,8 +991,29 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /fp#TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 512
+    xudp: true
+    packet-encoding: xudp
+    servername: ccc.010304.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇩🇪DE_9
+    network: ws
+    port: 443
+    server: 172.64.152.241
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d224-4463-b982-532309285094
+    ws-opts:
+      headers:
+        Host: ccc.010304.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
       path: /fp#TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
