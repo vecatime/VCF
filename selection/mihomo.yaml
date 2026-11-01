@@ -103,7 +103,7 @@ proxies:
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_7
+    name: ❓Other_1
     network: tcp
     port: 443
     reality-opts:
@@ -120,7 +120,7 @@ proxies:
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_8
+    name: ❓Other_2
     network: tcp
     port: 443
     reality-opts:
@@ -137,7 +137,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_9
+    name: 🇺🇸US_7
     network: tcp
     port: 23576
     reality-opts:
@@ -154,7 +154,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_10
+    name: 🇺🇸US_8
     network: tcp
     port: 23576
     reality-opts:
@@ -171,7 +171,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_11
+    name: 🇺🇸US_9
     network: tcp
     port: 23576
     reality-opts:
@@ -189,7 +189,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_12
+    name: 🇺🇸US_10
     network: tcp
     port: 18000
     server: 169.197.142.22
@@ -203,7 +203,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_13
+    name: 🇺🇸US_11
     network: tcp
     port: 443
     reality-opts:
@@ -217,23 +217,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.amazon.com
-  - encryption: none
-    name: 🇫🇷FR_1
-    network: ws
-    port: 80
-    server: 152.228.162.19
-    type: vless
-    udp: true
-    uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-    ws-opts:
-      headers:
-        Host: akamaized.net
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
-          Mobile Safari/537.36
-      path: /vless/
-    xudp: true
-    packet-encoding: xudp
   - cipher: aes-256-gcm
     name: 🇩🇪DE_1
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -248,26 +231,6 @@ proxies:
     server: 193.29.139.197
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-    name: 🇺🇸US_14
-    network: ws
-    port: 443
-    server: 199.232.78.159
-    tls: true
-    type: vless
-    udp: true
-    uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-    ws-opts:
-      headers:
-        Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    xudp: true
-    packet-encoding: xudp
-    servername: cdn.akamai.steamstatic.com
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_2
     password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -275,26 +238,6 @@ proxies:
     server: 82.38.31.149
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-    name: 🇺🇸US_15
-    network: ws
-    port: 443
-    server: 146.75.57.238
-    tls: true
-    type: vless
-    udp: true
-    uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-    ws-opts:
-      headers:
-        Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.87 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: cdn.akamai.steamstatic.com
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_3
     password: k1dBOmOB4oqi7Ump37a1bQ
@@ -302,28 +245,8 @@ proxies:
     server: 82.38.31.215
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-    name: 🇺🇸US_16
-    network: ws
-    port: 443
-    server: 199.232.78.160
-    tls: true
-    type: vless
-    udp: true
-    uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-    ws-opts:
-      headers:
-        Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: firefox.com
   - cipher: aes-256-gcm
-    name: 🇺🇸US_17
+    name: 🇺🇸US_12
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 193.151.160.9
@@ -336,47 +259,6 @@ proxies:
     server: 82.38.31.165
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-    name: 🇺🇸US_18
-    network: ws
-    port: 443
-    server: wwww.qarvian.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-    ws-opts:
-      headers:
-        Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    xudp: true
-    packet-encoding: xudp
-    servername: cdn.akamai.steamstatic.com
-  - client-fingerprint: chrome
-    encryption: none
-    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-    name: 🇺🇸US_19
-    network: ws
-    port: 443
-    server: 146.75.59.186
-    tls: true
-    type: vless
-    udp: true
-    uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-    ws-opts:
-      headers:
-        Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: firefox.com
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_5
     password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -506,7 +388,7 @@ proxies:
     udp: true
   - client-fingerprint: random
     encryption: none
-    name: ❓Other_1
+    name: ❓Other_3
     network: xhttp
     port: 443
     server: tg1.cdnphotos.org
@@ -521,7 +403,7 @@ proxies:
     packet-encoding: xudp
     servername: tg1.cdnphotos.org
   - cipher: chacha20-ietf-poly1305
-    name: 🇺🇸US_20
+    name: 🇺🇸US_13
     password: eDfN7SODQceIOmIAbtJJtK
     port: 443
     server: 198.98.53.130
@@ -531,7 +413,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_21
+    name: 🇺🇸US_14
     network: tcp
     port: 18000
     server: 38.110.1.246
@@ -543,7 +425,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
   - client-fingerprint: chrome
-    name: 🇺🇸US_22
+    name: 🇺🇸US_15
     network: tcp
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     port: 443
@@ -591,6 +473,22 @@ proxies:
     server: 82.38.31.149
     type: ss
     udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇵🇱PL_1
+    network: tcp
+    port: 27591
+    reality-opts:
+      public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
+      short-id: "6c5c7900406a1ae7"
+    server: pl1.h1cloud.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+    xudp: true
+    packet-encoding: xudp
+    servername: www.samsung.com
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_21
     password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -634,6 +532,24 @@ proxies:
     servername: deepl.com
   - client-fingerprint: chrome
     encryption: none
+    grpc-opts:
+      grpc-service-name: grpc_common3
+    name: ❓Other_4
+    network: grpc
+    port: 51671
+    reality-opts:
+      public-key: -5PowNUY37Pi01YKO9fjRTrum1m_9n6XauaPDpmOJzU
+      short-id: "2fed44d8c59f7e71"
+    server: 152.228.139.33
+    tls: true
+    type: vless
+    udp: true
+    uuid: 75cc7568-abb0-46a8-88be-8137d3c647d4
+    xudp: true
+    packet-encoding: xudp
+    servername: www.sony.com
+  - client-fingerprint: chrome
+    encryption: none
     http-opts:
       headers:
         Host:
@@ -667,8 +583,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.167 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/39.0.2171.95 Safari/537.36
       path: /fp#TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
@@ -688,8 +604,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: /fp#TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
@@ -709,8 +625,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -726,8 +642,8 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-          Chrome/12.0.742.100 Safari/534.30
+        User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
@@ -743,8 +659,9 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
@@ -760,14 +677,14 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.94 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
       path: /
     xudp: true
     packet-encoding: xudp
   - client-fingerprint: unsafe
     encryption: none
-    name: 🇺🇸US_23
+    name: 🇩🇪DE_6
     network: ws
     port: 443
     server: 104.18.45.38
@@ -778,8 +695,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.63 Safari/537.36
+        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     xudp: true
     packet-encoding: xudp
