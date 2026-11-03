@@ -1,4 +1,20 @@
 proxies:
+  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
+    name: ❓Other_1
+    network: ws
+    port: 8180
+    server: dnld.chaqalli.com
+    type: vless
+    udp: true
+    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+    ws-opts:
+      headers:
+        Host: dnld.chaqalli.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    xudp: true
+    packet-encoding: xudp
   - cipher: aes-256-gcm
     name: 🇩🇪DE_1
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -142,23 +158,6 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-      short-id: ""
-    server: 47.251.25.74
-    tls: true
-    type: vless
-    udp: true
-    uuid: 18805ff3-b420-45de-af18-93be14024ae8
-    xudp: true
-    packet-encoding: xudp
-    servername: www.amazon.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
     name: 🇺🇸US_8
     network: tcp
     port: 443
@@ -250,6 +249,23 @@ proxies:
     server: 82.38.31.218
     type: ss
     udp: true
+  - client-fingerprint: qq
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇮🇳IN_1
+    network: tcp
+    port: 40443
+    reality-opts:
+      public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+      short-id: "88b6"
+    server: 5.253.30.99
+    tls: true
+    type: vless
+    udp: true
+    uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+    xudp: true
+    packet-encoding: xudp
+    servername: deepl.com
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
@@ -433,13 +449,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.sony.com
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_21
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.203
-    type: ss
-    udp: true
   - client-fingerprint: chrome
     encryption: none
     http-opts:
@@ -448,7 +457,7 @@ proxies:
           - technolife.com
       path:
         - /
-    name: 🇦🇿AZ_1
+    name: ❓Other_3
     network: http
     port: 48312
     reality-opts:
@@ -464,7 +473,7 @@ proxies:
     servername: www.cloudflare.com
   - client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_2
+    name: ❓Other_4
     network: ws
     port: 443
     server: cf.877774.xyz
@@ -475,8 +484,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/56.0.2924.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -492,15 +501,15 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
           Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
     servername: hhlfy.twiladaphne.ndjp.net
   - encryption: none
-    name: 🇦🇿AZ_2
+    name: 🇦🇿AZ_1
     network: ws
     port: 2082
     server: 104.18.0.181
@@ -510,8 +519,8 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
@@ -527,14 +536,14 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.110 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
   - client-fingerprint: unsafe
     encryption: none
-    name: 🇩🇪DE_3
+    name: 🇩🇪DE_2
     network: ws
     port: 443
     server: 104.18.45.38
@@ -545,9 +554,30 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.102 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    xudp: true
+    packet-encoding: xudp
+    servername: ccc.010304.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇩🇪DE_3
+    network: ws
+    port: 443
+    server: 172.64.152.241
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d224-4463-b982-532309285094
+    ws-opts:
+      headers:
+        Host: ccc.010304.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.77 Safari/537.36
+      path: /fp#TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 512
     xudp: true
     packet-encoding: xudp
     servername: ccc.010304.xyz
@@ -564,30 +594,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /fp#TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 512
-    xudp: true
-    packet-encoding: xudp
-    servername: ccc.010304.xyz
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_5
-    network: ws
-    port: 443
-    server: 172.64.152.241
-    tls: true
-    type: vless
-    udp: true
-    uuid: d342d11e-d224-4463-b982-532309285094
-    ws-opts:
-      headers:
-        Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /fp#TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
