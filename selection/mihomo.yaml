@@ -1,4 +1,11 @@
 proxies:
+  - cipher: aes-256-gcm
+    name: 🇩🇪DE_1
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 185.176.204.18
+    type: ss
+    udp: true
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_1
     password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -6,23 +13,6 @@ proxies:
     server: 193.29.139.197
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-      short-id: "c39cc7310a"
-    server: 169.40.42.225
-    tls: true
-    type: vless
-    udp: true
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    xudp: true
-    packet-encoding: xudp
-    servername: yahoo.com
   - alpn:
       - ""
     alterId: "0"
@@ -42,7 +32,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_2
+    name: 🇺🇸US_1
     network: tcp
     port: 18000
     server: 67.220.95.3
@@ -57,7 +47,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_3
+    name: 🇺🇸US_2
     network: tcp
     port: 18000
     server: 67.220.85.46
@@ -72,7 +62,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_4
+    name: 🇺🇸US_3
     network: tcp
     port: 18000
     server: 38.91.107.49
@@ -86,7 +76,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_5
+    name: 🇺🇸US_4
     network: tcp
     port: 23576
     reality-opts:
@@ -103,13 +93,30 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_6
+    name: 🇺🇸US_5
     network: tcp
     port: 23576
     reality-opts:
       public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
       short-id: "01"
     server: 15.204.97.195
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    packet-encoding: xudp
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_6
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+    server: 15.204.97.216
     tls: true
     type: vless
     udp: true
@@ -139,23 +146,32 @@ proxies:
     network: tcp
     port: 443
     reality-opts:
-      public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-      short-id: ""
-    server: 47.251.25.74
+      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+      short-id: "c39cc7310a"
+    server: 169.40.42.225
     tls: true
     type: vless
     udp: true
-    uuid: 18805ff3-b420-45de-af18-93be14024ae8
+    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
     xudp: true
     packet-encoding: xudp
-    servername: www.amazon.com
-  - cipher: aes-256-gcm
-    name: 🇩🇪DE_1
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 185.176.204.18
-    type: ss
+    servername: yahoo.com
+  - encryption: none
+    name: 🇫🇷FR_1
+    network: ws
+    port: 80
+    server: 152.228.162.19
+    type: vless
     udp: true
+    uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+    ws-opts:
+      headers:
+        Host: akamaized.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /vless/
+    xudp: true
+    packet-encoding: xudp
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_2
     password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -233,49 +249,6 @@ proxies:
     server: 82.38.31.218
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    name: 🇨🇦CA_2
-    network: tcp
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    port: 443
-    server: 216.152.147.89
-    skip-cert-verify: false
-    sni: www.connectingpeoplewithgreatjobs.com
-    type: trojan
-    udp: true
-  - client-fingerprint: qq
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇮🇳IN_1
-    network: tcp
-    port: 40443
-    reality-opts:
-      public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
-      short-id: "88b6"
-    server: 5.253.30.99
-    tls: true
-    type: vless
-    udp: true
-    uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
-    xudp: true
-    packet-encoding: xudp
-    servername: deepl.com
-  - client-fingerprint: random
-    encryption: none
-    name: ❓Other_1
-    network: xhttp
-    port: 443
-    server: tg1.cdnphotos.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: f04cc810-aaf2-4a7b-8cad-356cdd30d394
-    xhttp-opts:
-      mode: auto
-      path: /api/v1/
-    xudp: true
-    packet-encoding: xudp
-    servername: tg1.cdnphotos.org
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
@@ -328,7 +301,7 @@ proxies:
     packet-encoding: xudp
     servername: yahoo.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇺🇸US_14
+    name: ❓Other_1
     password: eDfN7SODQceIOmIAbtJJtK
     port: 443
     server: 198.98.53.130
@@ -338,7 +311,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_15
+    name: 🇺🇸US_14
     network: tcp
     port: 18000
     server: 38.110.1.246
@@ -353,7 +326,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: ❓Other_2
+    name: 🇳🇱NL_11
     network: xhttp
     port: 443
     server: dey.lnmarketplace.net
@@ -369,21 +342,21 @@ proxies:
     packet-encoding: xudp
     servername: dey.lnmarketplace.net
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_11
+    name: 🇳🇱NL_12
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 443
     server: 82.38.31.149
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_12
+    name: 🇳🇱NL_13
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.184
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_13
+    name: ❓Other_2
     password: QCXDxuDlTTMD7jtgHUjIoj
     port: 8080
     server: 193.29.139.168
@@ -445,7 +418,7 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc_common3
-    name: ❓Other_3
+    name: 🇫🇷FR_2
     network: grpc
     port: 51671
     reality-opts:
@@ -468,6 +441,28 @@ proxies:
     udp: true
   - client-fingerprint: chrome
     encryption: none
+    http-opts:
+      headers:
+        Host:
+          - technolife.com
+      path:
+        - /
+    name: 🇦🇿AZ_1
+    network: http
+    port: 48312
+    reality-opts:
+      public-key: d9eM_jy8ztZrOf3DMq1m55VQSo7bnKcG1dRnO9ktJ2Y
+      short-id: "902c315efc"
+    server: tunell2027.crackerbinam.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: f47057d5-120d-4b42-b6d6-30469aef6813
+    xudp: true
+    packet-encoding: xudp
+    servername: www.cloudflare.com
+  - client-fingerprint: chrome
+    encryption: none
     name: 🇩🇪DE_2
     network: ws
     port: 443
@@ -479,8 +474,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/57.0.2987.133 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.186 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -496,14 +491,14 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-          like Gecko) Chrome/5.0.342.1 Safari/533.2
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
       path: /fp
     xudp: true
     packet-encoding: xudp
     servername: hhlfy.twiladaphne.ndjp.net
   - encryption: none
-    name: 🇦🇿AZ_1
+    name: 🇦🇿AZ_2
     network: ws
     port: 2082
     server: 104.18.0.181
@@ -513,8 +508,8 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.102 Safari/537.36
+        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
       path: /fp
     xudp: true
     packet-encoding: xudp
@@ -530,9 +525,8 @@ proxies:
     ws-opts:
       headers:
         Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -549,8 +543,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
       path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     xudp: true
     packet-encoding: xudp
@@ -568,8 +562,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.116 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.167 Safari/537.36
       path: /fp#TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
@@ -589,8 +583,8 @@ proxies:
     ws-opts:
       headers:
         Host: ccc.010304.xyz
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36
       path: /fp#TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 512
