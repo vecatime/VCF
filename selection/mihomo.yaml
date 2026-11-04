@@ -6,13 +6,6 @@ proxies:
     server: 185.176.204.18
     type: ss
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_1
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.215
-    type: ss
-    udp: true
   - alpn:
       - ""
     alterId: "0"
@@ -32,7 +25,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: ❓Other_1
+    name: 🇺🇸US_1
     network: tcp
     port: 18000
     server: 67.220.95.3
@@ -47,7 +40,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_1
+    name: 🇺🇸US_2
     network: tcp
     port: 18000
     server: 67.220.85.46
@@ -62,7 +55,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_2
+    name: 🇺🇸US_3
     network: tcp
     port: 18000
     server: 38.91.107.49
@@ -73,36 +66,58 @@ proxies:
     uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
     xudp: true
     packet-encoding: xudp
+  - alpn:
+      - ""
+    alterId: "0"
+    cipher: auto
+    name: 🇺🇸US_4
+    network: tcp
+    port: 18000
+    server: 169.197.142.22
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    xudp: true
+    packet-encoding: xudp
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_2
+    name: 🇳🇱NL_1
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 8080
     server: 82.38.31.149
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: 🇺🇸US_3
+    name: 🇺🇸US_5
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 193.151.160.9
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_3
+    name: 🇳🇱NL_2
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 443
     server: 82.38.31.165
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_4
+    name: 🇳🇱NL_3
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.202
     type: ss
     udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_4
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.178
+    type: ss
+    udp: true
   - cipher: aes-128-gcm
-    name: 🇺🇸US_4
+    name: 🇺🇸US_6
     password: shadowsocks
     port: 443
     server: 156.146.38.169
@@ -110,22 +125,22 @@ proxies:
     udp: true
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_5
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.205
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_6
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 8080
     server: 82.38.31.66
     type: ss
     udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_6
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.218
+    type: ss
+    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_5
+    name: 🇺🇸US_7
     network: tcp
     port: 23576
     reality-opts:
@@ -142,7 +157,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_6
+    name: 🇺🇸US_8
     network: tcp
     port: 23576
     reality-opts:
@@ -156,10 +171,27 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
+  - client-fingerprint: qq
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇮🇳IN_1
+    network: tcp
+    port: 40443
+    reality-opts:
+      public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+      short-id: "88b6"
+    server: 5.253.30.99
+    tls: true
+    type: vless
+    udp: true
+    uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+    xudp: true
+    packet-encoding: xudp
+    servername: deepl.com
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_7
+    name: 🇺🇸US_9
     network: tcp
     port: 443
     reality-opts:
@@ -176,7 +208,7 @@ proxies:
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_8
+    name: 🇺🇸US_10
     network: tcp
     port: 443
     reality-opts:
@@ -191,7 +223,7 @@ proxies:
     packet-encoding: xudp
     servername: yahoo.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇺🇸US_9
+    name: 🇺🇸US_11
     password: eDfN7SODQceIOmIAbtJJtK
     port: 443
     server: 198.98.53.130
@@ -200,7 +232,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_10
+    name: 🇺🇸US_12
     network: tcp
     port: 23576
     reality-opts:
@@ -218,7 +250,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_11
+    name: 🇺🇸US_13
     network: tcp
     port: 18000
     server: 38.110.1.246
@@ -229,29 +261,55 @@ proxies:
     uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
     xudp: true
     packet-encoding: xudp
-  - cipher: chacha20-ietf-poly1305
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    encryption: none
     name: 🇳🇱NL_7
+    network: xhttp
+    port: 443
+    server: dey.lnmarketplace.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    xhttp-opts:
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      path: /kavir
+    xudp: true
+    packet-encoding: xudp
+    servername: dey.lnmarketplace.net
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_8
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 443
     server: 82.38.31.149
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_8
+    name: 🇳🇱NL_9
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 443
     server: 82.38.31.162
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_9
+    name: 🇳🇱NL_10
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.179
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_10
+    name: 🇳🇱NL_11
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.176
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_12
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 8080
     server: 82.38.31.28
@@ -260,7 +318,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_11
+    name: 🇳🇱NL_13
     network: tcp
     port: 23576
     reality-opts:
@@ -278,7 +336,7 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc_common3
-    name: ❓Other_2
+    name: ❓Other_1
     network: grpc
     port: 51671
     reality-opts:
@@ -293,12 +351,34 @@ proxies:
     packet-encoding: xudp
     servername: www.sony.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_12
+    name: 🇳🇱NL_14
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.203
     type: ss
     udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    http-opts:
+      headers:
+        Host:
+          - technolife.com
+      path:
+        - /
+    name: 🇦🇿AZ_1
+    network: http
+    port: 48312
+    reality-opts:
+      public-key: d9eM_jy8ztZrOf3DMq1m55VQSo7bnKcG1dRnO9ktJ2Y
+      short-id: "902c315efc"
+    server: tunell2027.crackerbinam.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: f47057d5-120d-4b42-b6d6-30469aef6813
+    xudp: true
+    packet-encoding: xudp
+    servername: www.cloudflare.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
