@@ -10,8 +10,8 @@ proxies:
     ws-opts:
       headers:
         Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
@@ -36,8 +36,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/49.0.2623.112 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -56,9 +56,9 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
+          Mobile Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -77,8 +77,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/67.0.3396.99 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.63 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -180,7 +180,7 @@ proxies:
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_3
+    name: ❓Other_1
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.178
@@ -194,14 +194,14 @@ proxies:
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_4
+    name: 🇳🇱NL_3
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.205
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_5
+    name: 🇳🇱NL_4
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 8080
     server: 82.38.31.66
@@ -278,7 +278,7 @@ proxies:
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_13
+    name: ❓Other_2
     network: tcp
     port: 443
     reality-opts:
@@ -293,7 +293,7 @@ proxies:
     packet-encoding: xudp
     servername: yahoo.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇺🇸US_14
+    name: 🇺🇸US_13
     password: eDfN7SODQceIOmIAbtJJtK
     port: 443
     server: 198.98.53.130
@@ -302,7 +302,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_15
+    name: 🇺🇸US_14
     network: tcp
     port: 23576
     reality-opts:
@@ -320,7 +320,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_16
+    name: 🇺🇸US_15
     network: tcp
     port: 18000
     server: 38.110.1.246
@@ -331,41 +331,22 @@ proxies:
     uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
     xudp: true
     packet-encoding: xudp
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: 🇳🇱NL_6
-    network: xhttp
-    port: 443
-    server: dey.lnmarketplace.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-    xhttp-opts:
-      host: dey.lnmarketplace.net
-      mode: stream-one
-      path: /kavir
-    xudp: true
-    packet-encoding: xudp
-    servername: dey.lnmarketplace.net
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_7
+    name: 🇳🇱NL_5
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 443
     server: 82.38.31.162
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_8
+    name: 🇳🇱NL_6
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.179
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_9
+    name: 🇳🇱NL_7
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.176
@@ -374,7 +355,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_10
+    name: 🇳🇱NL_8
     network: tcp
     port: 23576
     reality-opts:
@@ -389,12 +370,34 @@ proxies:
     packet-encoding: xudp
     servername: fuck.rkn
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_11
+    name: 🇳🇱NL_9
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.203
     type: ss
     udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    http-opts:
+      headers:
+        Host:
+          - technolife.com
+      path:
+        - /
+    name: 🇦🇿AZ_1
+    network: http
+    port: 48312
+    reality-opts:
+      public-key: d9eM_jy8ztZrOf3DMq1m55VQSo7bnKcG1dRnO9ktJ2Y
+      short-id: "902c315efc"
+    server: tunell2027.crackerbinam.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: f47057d5-120d-4b42-b6d6-30469aef6813
+    xudp: true
+    packet-encoding: xudp
+    servername: www.cloudflare.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
