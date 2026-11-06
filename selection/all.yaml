@@ -10,7 +10,7 @@ proxies:
       ws-opts:
         headers:
             Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - encryption: none
@@ -24,7 +24,7 @@ proxies:
       ws-opts:
         headers:
             Host: akamaized.net
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
         path: /vless/
       xudp: true
     - client-fingerprint: chrome
@@ -261,22 +261,6 @@ proxies:
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
-    - client-fingerprint: qq
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1F3IN_1"
-      network: tcp
-      port: "40443"
-      reality-opts:
-        public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
-        short-id: 88b6
-      server: 5.253.30.99
-      servername: deepl.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -344,6 +328,23 @@ proxies:
       server: 82.38.31.179
       type: ss
       udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc_common3
+      name: ❓Other_2
+      network: grpc
+      port: "51671"
+      reality-opts:
+        public-key: -5PowNUY37Pi01YKO9fjRTrum1m_9n6XauaPDpmOJzU
+        short-id: 2fed44d8c59f7e71
+      server: 152.228.139.33
+      servername: www.sony.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 75cc7568-abb0-46a8-88be-8137d3c647d4
+      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_14"
       password: k1dBOmOB4oqi7Ump37a1bQ
