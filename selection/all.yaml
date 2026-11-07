@@ -13,16 +13,16 @@ proxies:
       network: ws
       port: "443"
       server: 199.232.249.131
-      servername: community.fastly.steamstatic.com
+      servername: cdn.akamai.steamstatic.com
       tls: true
       type: vless
       udp: true
       uuid: 33751cb1-43ea-458c-8dc5-0b8993746bce
       ws-opts:
         headers:
-            Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+            Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: ""
       xudp: true
     - client-fingerprint: chrome
       encryption: none
@@ -39,7 +39,7 @@ proxies:
       ws-opts:
         headers:
             Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: ""
       xudp: true
     - cipher: chacha20-ietf-poly1305
@@ -56,24 +56,10 @@ proxies:
       server: 193.29.139.234
       type: ss
       udp: true
-    - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_1"
-      network: ws
-      port: "80"
-      server: 152.228.162.19
-      type: vless
-      udp: true
-      uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-      ws-opts:
-        headers:
-            Host: akamaized.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /vless/
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_2"
+      name: "\U0001F1EB\U0001F1F7FR_1"
       network: tcp
       port: "443"
       reality-opts:
@@ -85,22 +71,6 @@ proxies:
       type: vless
       udp: true
       uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: ❓Other_1
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-        short-id: ""
-      server: 47.251.25.74
-      servername: www.amazon.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 18805ff3-b420-45de-af18-93be14024ae8
       xudp: true
     - client-fingerprint: chrome
       name: "\U0001F1FA\U0001F1F8US_3"
@@ -115,7 +85,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_2
+      name: ❓Other_1
       network: tcp
       port: "443"
       reality-opts:
@@ -131,7 +101,7 @@ proxies:
     - client-fingerprint: ios
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_3
+      name: ❓Other_2
       network: tcp
       port: "443"
       reality-opts:
@@ -154,6 +124,20 @@ proxies:
       sni: blog.searchnationwidecareerchangehelperandguidancetoday.com
       type: trojan
       udp: true
+    - encryption: none
+      name: "\U0001F1FA\U0001F1F8US_5"
+      network: ws
+      port: "80"
+      server: 38.107.232.36
+      type: vless
+      udp: true
+      uuid: 18cf8db1-9f86-43f7-baa0-382efb7f2dfa
+      ws-opts:
+        headers:
+            Host: ""
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /vless/
+      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_4"
       password: k1dBOmOB4oqi7Ump37a1bQ
@@ -162,7 +146,7 @@ proxies:
       type: ss
       udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5"
+      name: "\U0001F1FA\U0001F1F8US_6"
       network: tcp
       password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
       port: "443"
@@ -186,7 +170,7 @@ proxies:
       type: ss
       udp: true
     - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8US_6"
+      name: "\U0001F1FA\U0001F1F8US_7"
       password: shadowsocks
       port: "443"
       server: 156.146.38.169
@@ -230,7 +214,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_4
+      name: ❓Other_3
       network: tcp
       port: "443"
       reality-opts:
@@ -244,7 +228,7 @@ proxies:
       uuid: 63c5f8b3-3d3d-46a9-ae1f-58635cdaf891
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_7"
+      name: "\U0001F1FA\U0001F1F8US_8"
       network: tcp
       password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
       port: "443"
@@ -254,7 +238,7 @@ proxies:
       type: trojan
       udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_8"
+      name: "\U0001F1FA\U0001F1F8US_9"
       network: tcp
       password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
       port: "443"
@@ -264,7 +248,7 @@ proxies:
       type: trojan
       udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_9"
+      name: "\U0001F1FA\U0001F1F8US_10"
       network: tcp
       password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
       port: "443"
@@ -281,9 +265,19 @@ proxies:
       type: ss
       udp: true
     - client-fingerprint: chrome
+      name: "\U0001F1EA\U0001F1F8ES_1"
+      network: tcp
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: "443"
+      server: 66.163.118.40
+      skip-cert-verify: false
+      sni: cdn.discovergreatjobsandadvanceyourcareer.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_5
+      name: "\U0001F1FA\U0001F1F8US_11"
       network: tcp
       port: "443"
       reality-opts:
@@ -297,19 +291,9 @@ proxies:
       uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
       xudp: true
     - client-fingerprint: chrome
-      name: ❓Other_6
-      network: tcp
-      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-      port: "443"
-      server: 216.152.147.89
-      skip-cert-verify: false
-      sni: www.connectingpeoplewithgreatjobs.com
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_10"
+      name: "\U0001F1FA\U0001F1F8US_12"
       network: tcp
       port: "443"
       reality-opts:
@@ -325,7 +309,7 @@ proxies:
     - client-fingerprint: ios
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_11"
+      name: "\U0001F1FA\U0001F1F8US_13"
       network: tcp
       port: "443"
       reality-opts:
@@ -339,7 +323,7 @@ proxies:
       uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_12"
+      name: "\U0001F1FA\U0001F1F8US_14"
       password: eDfN7SODQceIOmIAbtJJtK
       port: "443"
       server: 198.98.53.130
@@ -348,7 +332,7 @@ proxies:
     - client-fingerprint: ios
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_13"
+      name: "\U0001F1FA\U0001F1F8US_15"
       network: tcp
       port: "443"
       reality-opts:
@@ -362,7 +346,7 @@ proxies:
       uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_14"
+      name: "\U0001F1FA\U0001F1F8US_16"
       network: tcp
       password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
       port: "443"
@@ -461,33 +445,43 @@ proxies:
       server: 178.83.185.156
       type: ss
       udp: true
+    - client-fingerprint: chrome
+      name: ❓Other_4
+      network: tcp
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: "443"
+      server: 66.163.118.244
+      skip-cert-verify: false
+      sni: api.discovergreatjobsandadvanceyourcareer.com
+      type: trojan
+      udp: true
     - cipher: chacha20-ietf-poly1305
-      name: ❓Other_7
+      name: "\U0001F1F3\U0001F1F1NL_21"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.179
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_21"
+      name: "\U0001F1F3\U0001F1F1NL_22"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.176
       type: ss
       udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1EDCH_1"
+      name: "\U0001F1EA\U0001F1F8ES_2"
       network: tcp
       password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
       port: "443"
-      server: 208.69.78.29
+      server: 66.163.118.62
       skip-cert-verify: false
-      sni: learn.yourultimateprofessionalcareerhub.com
+      sni: courses.discovergreatjobsandadvanceyourcareer.com
       type: trojan
       udp: true
     - client-fingerprint: ios
       encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_2"
+      name: "\U0001F1E7\U0001F1ECBG_1"
       network: tcp
       port: "1340"
       reality-opts:
@@ -501,7 +495,7 @@ proxies:
       uuid: fb1d2d8a-d9bd-496f-9d5f-f179cbd00123
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_22"
+      name: "\U0001F1F3\U0001F1F1NL_23"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.203
@@ -509,7 +503,7 @@ proxies:
       udp: true
     - client-fingerprint: ios
       encryption: none
-      name: ❓Other_8
+      name: ❓Other_5
       network: tcp
       port: "1320"
       reality-opts:
@@ -523,7 +517,7 @@ proxies:
       uuid: fb1d2d8a-d9bd-496f-9d5f-f179cbd00123
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_15"
+      name: "\U0001F1FA\U0001F1F8US_17"
       network: tcp
       password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
       port: "443"
