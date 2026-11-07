@@ -10,8 +10,8 @@ proxies:
     ws-opts:
       headers:
         Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/56.0.2924.87 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
@@ -28,8 +28,28 @@ proxies:
     uuid: 33751cb1-43ea-458c-8dc5-0b8993746bce
     ws-opts:
       headers:
+        Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
+      path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+    xudp: true
+    packet-encoding: xudp
+    servername: community.fastly.steamstatic.com
+  - client-fingerprint: chrome
+    encryption: none
+    fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+    name: 🇺🇸US_2
+    network: ws
+    port: 443
+    server: 199.232.249.131
+    tls: true
+    type: vless
+    udp: true
+    uuid: 33751cb1-43ea-458c-8dc5-0b8993746bce
+    ws-opts:
+      headers:
         Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
           Gecko) Chrome/51.0.2704.106 Safari/537.36
       path: /
     xudp: true
@@ -38,7 +58,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-    name: 🇺🇸US_2
+    name: 🇺🇸US_3
     network: ws
     port: 443
     server: 199.232.78.159
@@ -50,31 +70,53 @@ proxies:
       headers:
         Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
         User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.67 Safari/537.36
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
     servername: cdn.akamai.steamstatic.com
   - client-fingerprint: chrome
-    encryption: none
-    fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-    name: 🇺🇸US_3
-    network: ws
+    name: ❓Other_1
+    network: tcp
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     port: 443
-    server: 199.232.249.131
+    server: 66.163.118.40
+    skip-cert-verify: false
+    sni: cdn.discovergreatjobsandadvanceyourcareer.com
+    type: trojan
+    udp: true
+  - encryption: none
+    name: 🇩🇪DE_2
+    network: tcp
+    port: 2474
+    server: 167.233.129.126
+    type: vless
+    udp: true
+    uuid: 287db857-de04-4212-bd69-5d14083e340e
+    xudp: true
+    packet-encoding: xudp
+  - client-fingerprint: chrome
+    encryption: none
+    http-opts:
+      headers:
+        Host:
+          - technolife.com
+      path:
+        - /
+    name: 🇦🇿AZ_1
+    network: http
+    port: 48312
+    reality-opts:
+      public-key: d9eM_jy8ztZrOf3DMq1m55VQSo7bnKcG1dRnO9ktJ2Y
+      short-id: "902c315efc"
+    server: tunell2027.crackerbinam.org
     tls: true
     type: vless
     udp: true
-    uuid: 33751cb1-43ea-458c-8dc5-0b8993746bce
-    ws-opts:
-      headers:
-        Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-          Chrome/12.0.742.100 Safari/534.30
-      path: /
+    uuid: f47057d5-120d-4b42-b6d6-30469aef6813
     xudp: true
     packet-encoding: xudp
-    servername: community.fastly.steamstatic.com
+    servername: www.cloudflare.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
