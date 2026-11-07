@@ -1,6 +1,6 @@
 proxies:
   - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: ❓Other_1
+    name: 🇩🇪DE_1
     network: ws
     port: 8180
     server: dnld.chaqalli.com
@@ -10,64 +10,71 @@ proxies:
     ws-opts:
       headers:
         Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
-  - cipher: chacha20-ietf-poly1305
-    name: ❓Other_2
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.61
-    type: ss
-    udp: true
-  - client-fingerprint: edge
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇩🇪DE_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc
-      short-id: "1cfa55abe4d2dc7a"
-    server: 178.214.109.1
-    tls: true
-    type: vless
-    udp: true
-    uuid: 40a86b1b-239d-455e-b53f-4c270788ba6e
-    xudp: true
-    packet-encoding: xudp
-    servername: promo-digital.wb.ru
-  - cipher: chacha20-ietf-poly1305
-    name: ❓Other_3
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 443
-    server: 82.38.31.162
-    type: ss
-    udp: true
   - client-fingerprint: chrome
     encryption: none
-    http-opts:
-      headers:
-        Host:
-          - technolife.com
-      path:
-        - /
-    name: ❓Other_4
-    network: http
-    port: 48312
-    reality-opts:
-      public-key: d9eM_jy8ztZrOf3DMq1m55VQSo7bnKcG1dRnO9ktJ2Y
-      short-id: "902c315efc"
-    server: tunell2027.crackerbinam.org
+    fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+    name: 🇺🇸US_1
+    network: ws
+    port: 443
+    server: 199.232.249.131
     tls: true
     type: vless
     udp: true
-    uuid: f47057d5-120d-4b42-b6d6-30469aef6813
+    uuid: 33751cb1-43ea-458c-8dc5-0b8993746bce
+    ws-opts:
+      headers:
+        Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /
     xudp: true
     packet-encoding: xudp
-    servername: www.cloudflare.com
+    servername: cdn.akamai.steamstatic.com
+  - client-fingerprint: chrome
+    encryption: none
+    fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+    name: 🇺🇸US_2
+    network: ws
+    port: 443
+    server: 199.232.78.159
+    tls: true
+    type: vless
+    udp: true
+    uuid: 33751cb1-43ea-458c-8dc5-0b8993746bce
+    ws-opts:
+      headers:
+        Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: cdn.akamai.steamstatic.com
+  - client-fingerprint: chrome
+    encryption: none
+    fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+    name: 🇺🇸US_3
+    network: ws
+    port: 443
+    server: 199.232.249.131
+    tls: true
+    type: vless
+    udp: true
+    uuid: 33751cb1-43ea-458c-8dc5-0b8993746bce
+    ws-opts:
+      headers:
+        Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
+        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: community.fastly.steamstatic.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
