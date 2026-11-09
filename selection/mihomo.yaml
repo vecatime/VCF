@@ -5,26 +5,6 @@ proxies:
     name: 🇺🇸US_1
     network: ws
     port: 443
-    server: 199.232.78.160
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8fdeb819-df0c-456d-9a1d-e3a9950ece4d
-    ws-opts:
-      headers:
-        Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.109 Safari/537.36
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    xudp: true
-    packet-encoding: xudp
-    servername: cdn.akamai.steamstatic.com
-  - client-fingerprint: chrome
-    encryption: none
-    fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-    name: 🇺🇸US_2
-    network: ws
-    port: 443
     server: 199.232.78.159
     tls: true
     type: vless
@@ -33,34 +13,12 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.63 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
     servername: cdn.akamai.steamstatic.com
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers:
-        Host:
-          - technolife.com
-      path:
-        - /
-    name: 🇦🇿AZ_1
-    network: http
-    port: 48312
-    reality-opts:
-      public-key: d9eM_jy8ztZrOf3DMq1m55VQSo7bnKcG1dRnO9ktJ2Y
-      short-id: "902c315efc"
-    server: tunell2027.crackerbinam.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: f47057d5-120d-4b42-b6d6-30469aef6813
-    xudp: true
-    packet-encoding: xudp
-    servername: www.cloudflare.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
