@@ -1,6 +1,22 @@
 proxies:
-  - cipher: aes-256-gcm
+  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
     name: 🇩🇪DE_1
+    network: ws
+    port: 8180
+    server: dnld.chaqalli.com
+    type: vless
+    udp: true
+    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+    ws-opts:
+      headers:
+        Host: dnld.chaqalli.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.125 Safari/537.36
+      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    xudp: true
+    packet-encoding: xudp
+  - cipher: aes-256-gcm
+    name: 🇩🇪DE_2
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 185.176.204.18
@@ -96,16 +112,6 @@ proxies:
     server: 185.223.93.28
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    name: 🇪🇸ES_1
-    network: tcp
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    port: 443
-    server: 66.163.118.203
-    skip-cert-verify: false
-    sni: blog.discovergreatjobsandadvanceyourcareer.com
-    type: trojan
-    udp: true
   - alpn:
       - ""
     alterId: "0"
@@ -197,13 +203,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
-  - cipher: aes-128-gcm
-    name: 🇬🇧GB_1
-    password: shadowsocks
-    port: 443
-    server: 141.98.101.181
-    type: ss
-    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -221,13 +220,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
-  - cipher: aes-128-gcm
-    name: 🇺🇸US_9
-    password: shadowsocks
-    port: 443
-    server: 156.146.38.169
-    type: ss
-    udp: true
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_5
     password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -238,7 +230,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_10
+    name: 🇺🇸US_9
     network: tcp
     port: 23576
     reality-opts:
@@ -255,7 +247,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_11
+    name: 🇺🇸US_10
     network: tcp
     port: 23576
     reality-opts:
@@ -331,7 +323,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_12
+    name: 🇺🇸US_11
     network: tcp
     port: 443
     reality-opts:
@@ -348,7 +340,7 @@ proxies:
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_13
+    name: 🇺🇸US_12
     network: tcp
     port: 443
     reality-opts:
@@ -363,7 +355,7 @@ proxies:
     packet-encoding: xudp
     servername: yahoo.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇺🇸US_14
+    name: ❓Other_2
     password: eDfN7SODQceIOmIAbtJJtK
     port: 443
     server: 198.98.53.130
@@ -379,7 +371,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_15
+    name: 🇺🇸US_13
     network: tcp
     port: 23576
     reality-opts:
@@ -397,7 +389,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_16
+    name: 🇺🇸US_14
     network: tcp
     port: 18000
     server: 38.110.1.246
@@ -412,7 +404,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: ❓Other_2
+    name: ❓Other_3
     network: xhttp
     port: 443
     server: dey.lnmarketplace.net
@@ -466,7 +458,7 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc_common3
-    name: ❓Other_3
+    name: ❓Other_4
     network: grpc
     port: 51671
     reality-opts:
