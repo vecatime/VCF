@@ -45,6 +45,23 @@ proxies:
     uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
     xudp: true
     packet-encoding: xudp
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇪🇪EE_1
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+      short-id: "428ef87fd47a3a32"
+    server: 185.215.184.78
+    tls: true
+    type: vless
+    udp: true
+    uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+    xudp: true
+    packet-encoding: xudp
+    servername: dvizhok.su
   - alpn:
       - ""
     alterId: "0"
@@ -277,23 +294,13 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: yahoo.com
-  - client-fingerprint: ios
-    encryption: none
-    flow: xtls-rprx-vision
+  - cipher: chacha20-ietf-poly1305
     name: 🇺🇸US_12
-    network: tcp
+    password: eDfN7SODQceIOmIAbtJJtK
     port: 443
-    reality-opts:
-      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-      short-id: "c39cc7310a"
-    server: 169.40.42.163
-    tls: true
-    type: vless
+    server: 198.98.53.130
+    type: ss
     udp: true
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    xudp: true
-    packet-encoding: xudp
-    servername: yahoo.com
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_12
     password: k1dBOmOB4oqi7Ump37a1bQ
