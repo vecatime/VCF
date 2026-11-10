@@ -1,23 +1,6 @@
 proxies:
-  - encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-    name: 🇩🇪DE_1
-    network: ws
-    port: 8180
-    server: dnld.chaqalli.com
-    type: vless
-    udp: true
-    uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-    ws-opts:
-      headers:
-        Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
-          Mobile Safari/537.36
-      path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    xudp: true
-    packet-encoding: xudp
   - cipher: aes-256-gcm
-    name: 🇩🇪DE_2
+    name: 🇩🇪DE_1
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 185.176.204.18
@@ -47,6 +30,23 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_1
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+      short-id: ""
+    server: 47.251.25.74
+    tls: true
+    type: vless
+    udp: true
+    uuid: 18805ff3-b420-45de-af18-93be14024ae8
+    xudp: true
+    packet-encoding: xudp
+    servername: www.amazon.com
   - alpn:
       - ""
     alterId: "0"
@@ -85,6 +85,16 @@ proxies:
     port: 42564
     server: 185.223.93.28
     type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: 🇪🇸ES_1
+    network: tcp
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    port: 443
+    server: 66.163.118.203
+    skip-cert-verify: false
+    sni: blog.discovergreatjobsandadvanceyourcareer.com
+    type: trojan
     udp: true
   - alpn:
       - ""
@@ -381,6 +391,25 @@ proxies:
     uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
     xudp: true
     packet-encoding: xudp
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_2
+    network: xhttp
+    port: 443
+    server: dey.lnmarketplace.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    xhttp-opts:
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      path: /kavir
+    xudp: true
+    packet-encoding: xudp
+    servername: dey.lnmarketplace.net
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_14
     password: k1dBOmOB4oqi7Ump37a1bQ
@@ -420,7 +449,7 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc_common3
-    name: ❓Other_1
+    name: ❓Other_3
     network: grpc
     port: 51671
     reality-opts:
