@@ -29,19 +29,21 @@ proxies:
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
-    - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_1"
-      network: ws
-      port: "80"
-      server: 152.228.162.19
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_1
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+        short-id: ""
+      server: 47.251.25.74
+      servername: www.amazon.com
+      tls: true
       type: vless
       udp: true
-      uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-      ws-opts:
-        headers:
-            Host: akamaized.net
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /vless/
+      uuid: 18805ff3-b420-45de-af18-93be14024ae8
       xudp: true
     - alpn:
         - ""
@@ -282,7 +284,7 @@ proxies:
     - client-fingerprint: ios
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_12"
+      name: ❓Other_2
       network: tcp
       port: "443"
       reality-opts:
@@ -295,6 +297,13 @@ proxies:
       udp: true
       uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_12"
+      password: eDfN7SODQceIOmIAbtJJtK
+      port: "443"
+      server: 198.98.53.130
+      type: ss
+      udp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_12"
       password: k1dBOmOB4oqi7Ump37a1bQ
@@ -336,7 +345,7 @@ proxies:
         - h2
       client-fingerprint: chrome
       encryption: none
-      name: ❓Other_1
+      name: ❓Other_3
       network: xhttp
       port: "443"
       server: dey.lnmarketplace.net
@@ -389,7 +398,7 @@ proxies:
       encryption: none
       grpc-opts:
         grpc-service-name: grpc_common3
-      name: ❓Other_2
+      name: ❓Other_4
       network: grpc
       port: "51671"
       reality-opts:
