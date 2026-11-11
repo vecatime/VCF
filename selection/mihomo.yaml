@@ -41,8 +41,8 @@ proxies:
     ws-opts:
       headers:
         Host: akamaized.net
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
       path: /vless/
     xudp: true
     packet-encoding: xudp
@@ -169,6 +169,13 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
+  - cipher: aes-128-gcm
+    name: ❓Other_2
+    password: shadowsocks
+    port: 443
+    server: 141.98.101.181
+    type: ss
+    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -377,7 +384,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: ❓Other_2
+    name: ❓Other_3
     network: xhttp
     port: 443
     server: dey.lnmarketplace.net
@@ -394,34 +401,27 @@ proxies:
     servername: dey.lnmarketplace.net
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_13
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.184
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_14
     password: QCXDxuDlTTMD7jtgHUjIoj
     port: 8080
     server: 193.29.139.168
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_15
+    name: 🇳🇱NL_14
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 443
     server: 82.38.31.162
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_16
+    name: 🇳🇱NL_15
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.179
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_17
+    name: 🇳🇱NL_16
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.176
@@ -431,7 +431,7 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc_common3
-    name: ❓Other_3
+    name: ❓Other_4
     network: grpc
     port: 51671
     reality-opts:
@@ -445,6 +445,13 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.sony.com
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_17
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.203
+    type: ss
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
