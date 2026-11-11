@@ -41,8 +41,9 @@ proxies:
     ws-opts:
       headers:
         Host: akamaized.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/55.0.2883.87 Safari/537.36
+        User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+          wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/62.0.3202.84 Mobile Safari/537.36
       path: /vless/
     xudp: true
     packet-encoding: xudp
@@ -311,13 +312,6 @@ proxies:
     packet-encoding: xudp
     servername: yahoo.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇺🇸US_13
-    password: eDfN7SODQceIOmIAbtJJtK
-    port: 443
-    server: 198.98.53.130
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_12
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
@@ -327,7 +321,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_14
+    name: 🇺🇸US_13
     network: tcp
     port: 23576
     reality-opts:
@@ -345,7 +339,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_15
+    name: 🇺🇸US_14
     network: tcp
     port: 18000
     server: 38.110.1.246
@@ -428,6 +422,13 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.sony.com
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_18
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.203
+    type: ss
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
