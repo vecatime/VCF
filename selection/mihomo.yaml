@@ -10,8 +10,8 @@ proxies:
     ws-opts:
       headers:
         Host: dnld.chaqalli.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/32.0.1700.107 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
       path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     xudp: true
     packet-encoding: xudp
@@ -46,27 +46,28 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
-  - encryption: none
-    name: 🇫🇷FR_1
-    network: ws
-    port: 80
-    server: 152.228.162.19
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_2
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+      short-id: ""
+    server: 47.251.25.74
+    tls: true
     type: vless
     udp: true
-    uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-    ws-opts:
-      headers:
-        Host: akamaized.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
-      path: /vless/
+    uuid: 18805ff3-b420-45de-af18-93be14024ae8
     xudp: true
     packet-encoding: xudp
+    servername: www.amazon.com
   - alpn:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_2
+    name: 🇺🇸US_3
     network: tcp
     port: 18000
     server: 169.197.142.22
@@ -123,7 +124,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_3
+    name: 🇺🇸US_4
     network: tcp
     port: 18000
     server: 67.220.95.3
@@ -138,7 +139,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_4
+    name: 🇺🇸US_5
     network: tcp
     port: 18000
     server: 67.220.85.46
@@ -150,14 +151,14 @@ proxies:
     xudp: true
     packet-encoding: xudp
   - cipher: aes-256-gcm
-    name: 🇺🇸US_5
+    name: 🇺🇸US_6
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 185.215.132.18
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: 🇺🇸US_6
+    name: 🇺🇸US_7
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 193.151.160.9
@@ -167,7 +168,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_7
+    name: 🇺🇸US_8
     network: tcp
     port: 18000
     server: 38.91.107.49
@@ -213,7 +214,7 @@ proxies:
     packet-encoding: xudp
     servername: fuck.rkn
   - cipher: aes-128-gcm
-    name: 🇺🇸US_8
+    name: 🇺🇸US_9
     password: shadowsocks
     port: 443
     server: 156.146.38.169
@@ -229,7 +230,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_9
+    name: 🇺🇸US_10
     network: tcp
     port: 23576
     reality-opts:
@@ -246,7 +247,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_10
+    name: 🇺🇸US_11
     network: tcp
     port: 23576
     reality-opts:
@@ -322,7 +323,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_11
+    name: 🇺🇸US_12
     network: tcp
     port: 443
     reality-opts:
@@ -339,7 +340,7 @@ proxies:
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_12
+    name: 🇺🇸US_13
     network: tcp
     port: 443
     reality-opts:
@@ -354,7 +355,7 @@ proxies:
     packet-encoding: xudp
     servername: yahoo.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇺🇸US_13
+    name: 🇺🇸US_14
     password: eDfN7SODQceIOmIAbtJJtK
     port: 443
     server: 198.98.53.130
@@ -370,7 +371,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_14
+    name: 🇺🇸US_15
     network: tcp
     port: 23576
     reality-opts:
@@ -388,7 +389,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_15
+    name: 🇺🇸US_16
     network: tcp
     port: 18000
     server: 38.110.1.246
