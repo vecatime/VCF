@@ -41,8 +41,8 @@ proxies:
     ws-opts:
       headers:
         Host: akamaized.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
       path: /vless/
     xudp: true
     packet-encoding: xudp
@@ -296,7 +296,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_2
+    name: 🇺🇸US_11
     network: tcp
     port: 443
     reality-opts:
@@ -313,7 +313,7 @@ proxies:
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_11
+    name: 🇺🇸US_12
     network: tcp
     port: 443
     reality-opts:
@@ -328,7 +328,7 @@ proxies:
     packet-encoding: xudp
     servername: yahoo.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇺🇸US_12
+    name: 🇺🇸US_13
     password: eDfN7SODQceIOmIAbtJJtK
     port: 443
     server: 198.98.53.130
@@ -344,7 +344,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_13
+    name: 🇺🇸US_14
     network: tcp
     port: 23576
     reality-opts:
@@ -362,7 +362,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_14
+    name: 🇺🇸US_15
     network: tcp
     port: 18000
     server: 38.110.1.246
@@ -412,7 +412,7 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-service-name: grpc_common3
-    name: ❓Other_3
+    name: ❓Other_2
     network: grpc
     port: 51671
     reality-opts:
