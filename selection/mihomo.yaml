@@ -21,7 +21,7 @@ proxies:
       headers:
         Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
         User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -40,8 +40,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -60,9 +60,8 @@ proxies:
     ws-opts:
       headers:
         Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
       path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
     xudp: true
     packet-encoding: xudp
@@ -82,7 +81,7 @@ proxies:
       headers:
         Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+          like Gecko) Chrome/58.0.3029.81 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
@@ -119,24 +118,7 @@ proxies:
     packet-encoding: xudp
     servername: mother-earth.fyi
   - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
     name: 🇺🇸US_5
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-      short-id: ""
-    server: 47.251.25.74
-    tls: true
-    type: vless
-    udp: true
-    uuid: 18805ff3-b420-45de-af18-93be14024ae8
-    xudp: true
-    packet-encoding: xudp
-    servername: www.amazon.com
-  - client-fingerprint: chrome
-    name: 🇺🇸US_6
     network: tcp
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     port: 443
@@ -148,7 +130,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_7
+    name: 🇺🇸US_6
     network: tcp
     port: 443
     reality-opts:
@@ -162,6 +144,16 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.apple.com
+  - client-fingerprint: chrome
+    name: 🇪🇸ES_1
+    network: tcp
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    port: 443
+    server: 66.163.118.203
+    skip-cert-verify: false
+    sni: blog.discovergreatjobsandadvanceyourcareer.com
+    type: trojan
+    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -197,7 +189,7 @@ proxies:
     packet-encoding: xudp
     servername: anyfile2file.com
   - client-fingerprint: chrome
-    name: ❓Other_3
+    name: 🇺🇸US_7
     network: tcp
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     port: 443
@@ -223,34 +215,24 @@ proxies:
     server: 82.38.31.192
     type: ss
     udp: true
-  - encryption: none
-    name: ❓Other_4
-    network: ws
-    port: 80
-    server: 38.107.232.36
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇵🇱PL_1
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
+      short-id: "6c5c7900406a1ae7"
+    server: 201.58.139.66
+    tls: true
     type: vless
     udp: true
-    uuid: 18cf8db1-9f86-43f7-baa0-382efb7f2dfa
-    ws-opts:
-      headers:
-        Host: ""
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.63 Safari/537.36
-      path: /vless/
+    uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
     xudp: true
     packet-encoding: xudp
-  - client-fingerprint: chrome
-    name: 🇺🇸US_8
-    network: tcp
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    port: 443
-    server: 216.152.155.23
-    skip-cert-verify: false
-    sni: courses.nextjobopportunityandclaimyouridealrole.com
-    type: trojan
-    udp: true
+    servername: 57aac2t.pl7.h1clayd.click
   - cipher: aes-128-gcm
-    name: 🇺🇸US_9
+    name: 🇺🇸US_8
     password: shadowsocks
     port: 443
     server: 156.146.38.169
@@ -264,7 +246,7 @@ proxies:
     type: ss
     udp: true
   - client-fingerprint: chrome
-    name: 🇺🇸US_10
+    name: 🇺🇸US_9
     network: tcp
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     port: 443
@@ -274,17 +256,7 @@ proxies:
     type: trojan
     udp: true
   - client-fingerprint: chrome
-    name: 🇺🇸US_11
-    network: tcp
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    port: 443
-    server: 216.152.155.54
-    skip-cert-verify: false
-    sni: learn.nextjobopportunityandclaimyouridealrole.com
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: 🇺🇸US_12
+    name: 🇺🇸US_10
     network: tcp
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     port: 443
@@ -322,7 +294,7 @@ proxies:
     type: ss
     udp: true
   - client-fingerprint: chrome
-    name: ❓Other_5
+    name: ❓Other_3
     network: tcp
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     port: 443
@@ -331,6 +303,23 @@ proxies:
     sni: cdn.discovergreatjobsandadvanceyourcareer.com
     type: trojan
     udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_4
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
+      short-id: "896f52ba2cfca903"
+    server: 47.251.108.158
+    tls: true
+    type: vless
+    udp: true
+    uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
+    xudp: true
+    packet-encoding: xudp
+    servername: www.cloudflare.com
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_10
     password: k1dBOmOB4oqi7Ump37a1bQ
@@ -345,10 +334,37 @@ proxies:
     server: 82.38.31.218
     type: ss
     udp: true
+  - client-fingerprint: chrome
+    name: 🇨🇭CH_1
+    network: tcp
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    port: 443
+    server: 208.69.78.29
+    skip-cert-verify: false
+    sni: learn.yourultimateprofessionalcareerhub.com
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_11
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+      short-id: "c39cc7310a"
+    server: 169.40.42.35
+    tls: true
+    type: vless
+    udp: true
+    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+    xudp: true
+    packet-encoding: xudp
+    servername: yahoo.com
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_13
+    name: 🇺🇸US_12
     network: tcp
     port: 443
     reality-opts:
@@ -363,16 +379,23 @@ proxies:
     packet-encoding: xudp
     servername: yahoo.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇺🇸US_14
+    name: 🇺🇸US_13
     password: eDfN7SODQceIOmIAbtJJtK
     port: 443
     server: 198.98.53.130
     type: ss
     udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_12
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.178
+    type: ss
+    udp: true
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_15
+    name: 🇺🇸US_14
     network: tcp
     port: 443
     reality-opts:
@@ -390,7 +413,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇳🇱NL_12
+    name: 🇳🇱NL_13
     network: xhttp
     port: 443
     server: dey.lnmarketplace.net
@@ -406,7 +429,7 @@ proxies:
     packet-encoding: xudp
     servername: dey.lnmarketplace.net
   - client-fingerprint: chrome
-    name: 🇺🇸US_16
+    name: 🇺🇸US_15
     network: tcp
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     port: 443
@@ -418,7 +441,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_6
+    name: ❓Other_5
     network: tcp
     port: 443
     reality-opts:
@@ -435,7 +458,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_13
+    name: 🇳🇱NL_14
     network: tcp
     port: 443
     reality-opts:
@@ -450,14 +473,14 @@ proxies:
     packet-encoding: xudp
     servername: www.apple.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_14
+    name: 🇳🇱NL_15
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.184
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_15
+    name: 🇳🇱NL_16
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.191
@@ -471,53 +494,63 @@ proxies:
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_16
+    name: 🇳🇱NL_17
     password: QCXDxuDlTTMD7jtgHUjIoj
     port: 8080
     server: 193.29.139.168
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_17
+    name: 🇳🇱NL_18
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 443
     server: 82.38.31.162
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_18
+    name: 🇳🇱NL_19
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.201
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_19
+    name: 🇳🇱NL_20
     password: QCXDxuDlTTMD7jtgHUjIoj
     port: 8080
     server: 193.29.139.212
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_20
+    name: 🇳🇱NL_21
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 8080
     server: 178.83.185.156
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_21
+    name: 🇳🇱NL_22
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.179
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_22
+    name: 🇳🇱NL_23
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.176
     type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: ❓Other_6
+    network: tcp
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    port: 443
+    server: 66.163.118.62
+    skip-cert-verify: false
+    sni: courses.discovergreatjobsandadvanceyourcareer.com
+    type: trojan
     udp: true
   - client-fingerprint: chrome
     encryption: none
@@ -549,21 +582,14 @@ proxies:
     ws-opts:
       headers:
         Host: fs.qicai99.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.110 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: /fp=chrome
     xudp: true
     packet-encoding: xudp
     servername: fs.qicai99.com
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_23
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.203
-    type: ss
-    udp: true
   - client-fingerprint: chrome
-    name: 🇺🇸US_17
+    name: 🇺🇸US_16
     network: tcp
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     port: 443
@@ -589,8 +615,8 @@ proxies:
     ws-opts:
       headers:
         Host: fs.qicai99.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
       path: /
     xudp: true
     packet-encoding: xudp
