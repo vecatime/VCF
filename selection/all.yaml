@@ -40,24 +40,8 @@ proxies:
       ws-opts:
         headers:
             Host: akamaized.net
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /vless/
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: ❓Other_1
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-        short-id: ""
-      server: 47.251.25.74
-      servername: www.amazon.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 18805ff3-b420-45de-af18-93be14024ae8
       xudp: true
     - alpn:
         - ""
@@ -144,7 +128,7 @@ proxies:
       ws-opts:
         headers:
             Host: finalnsdger.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
         path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       xudp: true
     - alpn:
@@ -343,22 +327,6 @@ proxies:
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: ❓Other_2
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-        short-id: 93ae75024604f796
-      server: 83.217.201.82
-      servername: skvoz-dpi.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -508,7 +476,7 @@ proxies:
       encryption: none
       grpc-opts:
         grpc-service-name: grpc_common3
-      name: ❓Other_3
+      name: ❓Other_1
       network: grpc
       port: "51671"
       reality-opts:
@@ -549,7 +517,7 @@ proxies:
       ws-opts:
         headers:
             Host: fs.qicai99.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - client-fingerprint: chrome
@@ -566,7 +534,7 @@ proxies:
       ws-opts:
         headers:
             Host: fs.qicai99.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
@@ -583,7 +551,7 @@ proxies:
       ws-opts:
         headers:
             Host: fs.qicai99.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - alpn:
@@ -604,6 +572,6 @@ proxies:
       ws-opts:
         headers:
             Host: fs.qicai99.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /
       xudp: true
