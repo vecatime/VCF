@@ -29,6 +29,36 @@ proxies:
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
+    - encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_1"
+      network: ws
+      port: "80"
+      server: 152.228.162.19
+      type: vless
+      udp: true
+      uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+      ws-opts:
+        headers:
+            Host: akamaized.net
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /vless/
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_1
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+        short-id: ""
+      server: 47.251.25.74
+      servername: www.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 18805ff3-b420-45de-af18-93be14024ae8
+      xudp: true
     - alpn:
         - ""
       alterId: "0"
@@ -78,8 +108,22 @@ proxies:
       udp: true
       uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
       xudp: true
-    - cipher: aes-256-gcm
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
       name: "\U0001F1FA\U0001F1F8US_5"
+      network: tcp
+      port: "18000"
+      server: 67.220.85.46
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+      xudp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8US_6"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: "19999"
       server: 185.215.132.18
@@ -100,14 +144,14 @@ proxies:
       ws-opts:
         headers:
             Host: finalnsdger.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       xudp: true
     - alpn:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_6"
+      name: "\U0001F1FA\U0001F1F8US_7"
       network: tcp
       port: "18000"
       server: 38.91.107.49
@@ -120,7 +164,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_1"
+      name: "\U0001F1EB\U0001F1F7FR_2"
       network: tcp
       port: "23576"
       reality-opts:
@@ -189,7 +233,7 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8US_7"
+      name: "\U0001F1FA\U0001F1F8US_8"
       password: shadowsocks
       port: "443"
       server: 156.146.38.169
@@ -205,7 +249,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_8"
+      name: "\U0001F1FA\U0001F1F8US_9"
       network: tcp
       port: "23576"
       reality-opts:
@@ -221,7 +265,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_9"
+      name: "\U0001F1FA\U0001F1F8US_10"
       network: tcp
       port: "23576"
       reality-opts:
@@ -235,7 +279,7 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EB\U0001F1F7FR_2"
+      name: "\U0001F1EB\U0001F1F7FR_3"
       password: 29irqk0paakcx19v
       port: "8080"
       server: 51.83.61.102
@@ -299,10 +343,26 @@ proxies:
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_2
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+        short-id: 93ae75024604f796
+      server: 83.217.201.82
+      servername: skvoz-dpi.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
+      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_10"
+      name: ❓Other_3
       network: tcp
       port: "443"
       reality-opts:
@@ -448,7 +508,7 @@ proxies:
       encryption: none
       grpc-opts:
         grpc-service-name: grpc_common3
-      name: ❓Other_1
+      name: ❓Other_4
       network: grpc
       port: "51671"
       reality-opts:
@@ -489,12 +549,12 @@ proxies:
       ws-opts:
         headers:
             Host: fs.qicai99.com
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: ❓Other_2
+      name: "\U0001F1E9\U0001F1EADE_3"
       network: ws
       port: "443"
       server: cucc.cloudflare.seeck.cn
@@ -506,12 +566,12 @@ proxies:
       ws-opts:
         headers:
             Host: fs.qicai99.com
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_3"
+      name: "\U0001F1E9\U0001F1EADE_4"
       network: ws
       port: "443"
       server: 162.159.198.1
@@ -523,7 +583,7 @@ proxies:
       ws-opts:
         headers:
             Host: fs.qicai99.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
         path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - alpn:
@@ -532,7 +592,7 @@ proxies:
         - http/1.1
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_4"
+      name: "\U0001F1E9\U0001F1EADE_5"
       network: ws
       port: "443"
       server: fs.qicai99.com
@@ -544,6 +604,6 @@ proxies:
       ws-opts:
         headers:
             Host: fs.qicai99.com
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /
       xudp: true
