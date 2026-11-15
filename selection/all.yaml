@@ -29,6 +29,20 @@ proxies:
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
+    - encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_1"
+      network: ws
+      port: "80"
+      server: 152.228.162.19
+      type: vless
+      udp: true
+      uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+      ws-opts:
+        headers:
+            Host: akamaized.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /vless/
+      xudp: true
     - alpn:
         - ""
       alterId: "0"
@@ -114,7 +128,7 @@ proxies:
       ws-opts:
         headers:
             Host: finalnsdger.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
         path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       xudp: true
     - alpn:
@@ -134,7 +148,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_1"
+      name: "\U0001F1EB\U0001F1F7FR_2"
       network: tcp
       port: "23576"
       reality-opts:
@@ -249,13 +263,6 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: ❓Other_1
-      password: 29irqk0paakcx19v
-      port: "8080"
-      server: 51.83.61.102
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_7"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "8080"
@@ -346,6 +353,13 @@ proxies:
       uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
     - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_13"
+      password: eDfN7SODQceIOmIAbtJJtK
+      port: "443"
+      server: 198.98.53.130
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_14"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
@@ -355,7 +369,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_13"
+      name: "\U0001F1FA\U0001F1F8US_14"
       network: tcp
       port: "23576"
       reality-opts:
@@ -372,7 +386,7 @@ proxies:
         - h2
       client-fingerprint: chrome
       encryption: none
-      name: ❓Other_2
+      name: ❓Other_1
       network: xhttp
       port: "443"
       server: dey.lnmarketplace.net
@@ -385,22 +399,6 @@ proxies:
         host: dey.lnmarketplace.net
         mode: stream-one
         path: /kavir
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_14"
-      network: tcp
-      port: "28190"
-      reality-opts:
-        public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
-        short-id: ""
-      server: 159.89.87.21
-      servername: aws.amazon.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
       xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_15"
@@ -455,7 +453,7 @@ proxies:
       encryption: none
       grpc-opts:
         grpc-service-name: grpc_common3
-      name: ❓Other_3
+      name: ❓Other_2
       network: grpc
       port: "51671"
       reality-opts:
@@ -473,5 +471,12 @@ proxies:
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.203
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6CA_2"
+      password: 575hiopq2h28yao6
+      port: "8080"
+      server: 15.235.121.109
       type: ss
       udp: true
