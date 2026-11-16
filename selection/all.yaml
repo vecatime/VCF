@@ -38,7 +38,7 @@ proxies:
       ws-opts:
         headers:
             Host: usaslioijji.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
         path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
       xudp: true
     - cipher: chacha20-ietf-poly1305
@@ -100,7 +100,7 @@ proxies:
       ws-opts:
         headers:
             Host: akamaized.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
         path: /vless/
       xudp: true
     - client-fingerprint: chrome
@@ -219,7 +219,7 @@ proxies:
       ws-opts:
         headers:
             Host: finalnsdger.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
         path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       xudp: true
     - alpn:
@@ -395,6 +395,22 @@ proxies:
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_2
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+        short-id: 93ae75024604f796
+      server: 83.217.201.82
+      servername: skvoz-dpi.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
+      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1FA\U0001F1F8US_12"
       password: bQZl7HDxSabr1FurTYQHFU
@@ -468,7 +484,7 @@ proxies:
         - h2
       client-fingerprint: chrome
       encryption: none
-      name: ❓Other_2
+      name: ❓Other_3
       network: xhttp
       port: "443"
       server: dey.lnmarketplace.net
