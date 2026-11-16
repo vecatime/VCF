@@ -10,7 +10,7 @@ proxies:
       encryption: none
       grpc-opts:
         grpc-service-name: grpc_common3
-      name: "\U0001F1EB\U0001F1F7FR_1"
+      name: ❓Other_1
       network: grpc
       port: "51671"
       reality-opts:
@@ -38,7 +38,7 @@ proxies:
       ws-opts:
         headers:
             Host: usaslioijji.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
         path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
       xudp: true
     - cipher: chacha20-ietf-poly1305
@@ -94,22 +94,6 @@ proxies:
       server: 82.38.31.203
       type: ss
       udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_2"
-      network: tcp
-      port: "23576"
-      reality-opts:
-        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-        short-id: "01"
-      server: 15.204.97.219
-      servername: fuck.rkn
-      tls: true
-      type: vless
-      udp: true
-      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_5"
       password: k1dBOmOB4oqi7Ump37a1bQ
@@ -124,20 +108,6 @@ proxies:
       server: 193.29.139.168
       type: ss
       udp: true
-    - encryption: none
-      name: ❓Other_1
-      network: ws
-      port: "80"
-      server: 152.228.162.19
-      type: vless
-      udp: true
-      uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-      ws-opts:
-        headers:
-            Host: akamaized.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-        path: /vless/
-      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_7"
       password: k1dBOmOB4oqi7Ump37a1bQ
@@ -148,7 +118,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_2"
+      name: "\U0001F1EB\U0001F1F7FR_1"
       network: tcp
       port: "23576"
       reality-opts:
@@ -165,7 +135,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_3"
+      name: "\U0001F1FA\U0001F1F8US_2"
       network: tcp
       port: "18000"
       server: 169.197.142.22
@@ -190,26 +160,8 @@ proxies:
       udp: true
       uuid: baded307-189c-4ffc-a271-9acdab51a324
       xudp: true
-    - alpn:
-        - h2
-      client-fingerprint: firefox
-      encryption: none
-      name: ❓Other_2
-      network: xhttp
-      port: "443"
-      server: dey.lnmarketplace.net
-      servername: dey.lnmarketplace.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-      xhttp-opts:
-        host: dey.lnmarketplace.net
-        mode: stream-one
-        path: /kavir
-      xudp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8US_4"
+      name: "\U0001F1FA\U0001F1F8US_3"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: "19999"
       server: 193.151.160.9
@@ -230,7 +182,7 @@ proxies:
       uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_5"
+      name: "\U0001F1FA\U0001F1F8US_4"
       password: eDfN7SODQceIOmIAbtJJtK
       port: "443"
       server: 198.98.53.130
@@ -240,7 +192,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_6"
+      name: "\U0001F1FA\U0001F1F8US_5"
       network: tcp
       port: "18000"
       server: 67.220.85.46
@@ -253,7 +205,7 @@ proxies:
     - client-fingerprint: ios
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_7"
+      name: "\U0001F1FA\U0001F1F8US_6"
       network: tcp
       port: "443"
       reality-opts:
@@ -267,7 +219,7 @@ proxies:
       uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8US_8"
+      name: "\U0001F1FA\U0001F1F8US_7"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: "19999"
       server: 185.215.132.18
@@ -277,7 +229,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_9"
+      name: "\U0001F1FA\U0001F1F8US_8"
       network: tcp
       port: "18000"
       server: 38.91.107.49
@@ -327,7 +279,7 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - cipher: aes-128-gcm
-      name: ❓Other_3
+      name: "\U0001F1EC\U0001F1E7GB_1"
       password: shadowsocks
       port: "443"
       server: 141.98.101.181
@@ -350,7 +302,7 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8US_10"
+      name: "\U0001F1FA\U0001F1F8US_9"
       password: shadowsocks
       port: "443"
       server: 156.146.38.169
@@ -366,7 +318,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_11"
+      name: "\U0001F1FA\U0001F1F8US_10"
       network: tcp
       port: "23576"
       reality-opts:
@@ -382,7 +334,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_12"
+      name: "\U0001F1FA\U0001F1F8US_11"
       network: tcp
       port: "23576"
       reality-opts:
@@ -453,22 +405,13 @@ proxies:
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: ❓Other_4
-      network: tcp
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_12"
+      password: bQZl7HDxSabr1FurTYQHFU
       port: "443"
-      reality-opts:
-        public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-        short-id: 93ae75024604f796
-      server: 83.217.201.82
-      servername: skvoz-dpi.com
-      tls: true
-      type: vless
+      server: 216.105.168.18
+      type: ss
       udp: true
-      uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -485,13 +428,6 @@ proxies:
       udp: true
       uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_20"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: "8080"
-      server: 82.38.31.178
-      type: ss
-      udp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -529,25 +465,6 @@ proxies:
       server: 15.235.121.109
       type: ss
       udp: true
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_3"
-      network: ws
-      port: "443"
-      server: 172.67.156.121
-      servername: www.gptcloudai.com
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
-      ws-opts:
-        headers:
-            Host: www.gptcloudai.com
-        path: /truth
-      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1FF\U0001F1E6ZA_1"
       password: 3DsS0OglPsfUyTZz
