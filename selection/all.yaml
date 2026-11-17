@@ -81,20 +81,6 @@ proxies:
       server: 193.29.139.168
       type: ss
       udp: true
-    - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_1"
-      network: ws
-      port: "80"
-      server: 152.228.162.19
-      type: vless
-      udp: true
-      uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-      ws-opts:
-        headers:
-            Host: akamaized.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
-        path: /vless/
-      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_7"
       password: k1dBOmOB4oqi7Ump37a1bQ
@@ -105,7 +91,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_2
+      name: "\U0001F1FA\U0001F1F8US_2"
       network: tcp
       port: "443"
       reality-opts:
@@ -121,7 +107,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_2"
+      name: "\U0001F1EB\U0001F1F7FR_1"
       network: tcp
       port: "23576"
       reality-opts:
@@ -138,7 +124,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_2"
+      name: "\U0001F1FA\U0001F1F8US_3"
       network: tcp
       port: "18000"
       server: 169.197.142.22
@@ -152,7 +138,7 @@ proxies:
         - h2
       client-fingerprint: firefox
       encryption: none
-      name: ❓Other_3
+      name: ❓Other_2
       network: xhttp
       port: "443"
       server: dey.lnmarketplace.net
@@ -166,13 +152,6 @@ proxies:
         mode: stream-one
         path: /kavir
       xudp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8US_3"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: "19999"
-      server: 193.151.160.9
-      type: ss
-      udp: true
     - alpn:
         - ""
       alterId: "0"
@@ -456,6 +435,22 @@ proxies:
       type: vless
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_3
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+        short-id: 93ae75024604f796
+      server: 83.217.201.82
+      servername: skvoz-dpi.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
       xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_20"
