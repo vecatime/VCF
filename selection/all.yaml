@@ -81,6 +81,20 @@ proxies:
       server: 193.29.139.168
       type: ss
       udp: true
+    - encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_1"
+      network: ws
+      port: "80"
+      server: 152.228.162.19
+      type: vless
+      udp: true
+      uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+      ws-opts:
+        headers:
+            Host: akamaized.net
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: /vless/
+      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_7"
       password: k1dBOmOB4oqi7Ump37a1bQ
@@ -91,7 +105,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_1"
+      name: "\U0001F1EB\U0001F1F7FR_2"
       network: tcp
       port: "23576"
       reality-opts:
@@ -419,22 +433,6 @@ proxies:
       type: vless
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: ❓Other_3
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-        short-id: 93ae75024604f796
-      server: 83.217.201.82
-      servername: skvoz-dpi.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
       xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_20"
