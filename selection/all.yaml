@@ -67,6 +67,20 @@ proxies:
       server: 193.29.139.168
       type: ss
       udp: true
+    - encryption: none
+      name: ❓Other_2
+      network: ws
+      port: "80"
+      server: 152.228.162.19
+      type: vless
+      udp: true
+      uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+      ws-opts:
+        headers:
+            Host: akamaized.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+        path: /vless/
+      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_6"
       password: k1dBOmOB4oqi7Ump37a1bQ
@@ -74,6 +88,22 @@ proxies:
       server: 82.38.31.184
       type: ss
       udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_3
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+        short-id: ""
+      server: 47.251.25.74
+      servername: www.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 18805ff3-b420-45de-af18-93be14024ae8
+      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -357,7 +387,7 @@ proxies:
     - client-fingerprint: qq
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_2
+      name: ❓Other_4
       network: tcp
       port: "443"
       reality-opts:
@@ -415,6 +445,21 @@ proxies:
       type: vless
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F1\U0001F1F9LT_1"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+        short-id: a7d309e4c16b825f
+      server: 84.32.83.197
+      servername: api-dns-gw.galioncc.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
       xudp: true
     - client-fingerprint: chrome
       encryption: none
@@ -489,7 +534,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_2"
+      name: ❓Other_5
       network: ws
       port: "443"
       server: 172.67.156.121
