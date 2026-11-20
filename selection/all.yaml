@@ -1,4 +1,24 @@
 proxies:
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EADE_1"
+      network: tcp
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: "443"
+      server: 193.108.119.34
+      skip-cert-verify: false
+      sni: cdn.iloverussia2026.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1EDCH_1"
+      network: tcp
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: "443"
+      server: 208.69.78.29
+      skip-cert-verify: false
+      sni: learn.yourultimateprofessionalcareerhub.com
+      type: trojan
+      udp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_1"
       password: k1dBOmOB4oqi7Ump37a1bQ
@@ -114,6 +134,22 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI_1"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
+        short-id: baf023e1026a
+      server: webdisk.jaggyslawa.org
+      servername: www.mozilla.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 75113671-63e3-452d-87d3-261a37e8b472
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
       name: ❓Other_1
       network: tcp
       port: "443"
@@ -143,18 +179,8 @@ proxies:
       udp: true
       uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_4"
-      network: tcp
-      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-      port: "443"
-      server: 66.163.122.26
-      skip-cert-verify: false
-      sni: blog.searchnationwidecareerchangehelperandguidancetoday.com
-      type: trojan
-      udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_5"
+      name: "\U0001F1FA\U0001F1F8US_4"
       password: eDfN7SODQceIOmIAbtJJtK
       port: "443"
       server: 198.98.53.130
@@ -163,7 +189,7 @@ proxies:
     - client-fingerprint: ios
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_6"
+      name: "\U0001F1FA\U0001F1F8US_5"
       network: tcp
       port: "443"
       reality-opts:
@@ -179,7 +205,7 @@ proxies:
     - client-fingerprint: ios
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_7"
+      name: "\U0001F1FA\U0001F1F8US_6"
       network: tcp
       port: "443"
       reality-opts:
@@ -193,27 +219,33 @@ proxies:
       uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
     - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_7"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
+        short-id: ""
+      server: 47.253.226.114
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
+      xudp: true
+    - client-fingerprint: chrome
       name: "\U0001F1FA\U0001F1F8US_8"
       network: tcp
       password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
       port: "443"
-      server: 216.152.155.54
+      server: 216.152.155.158
       skip-cert-verify: false
-      sni: learn.nextjobopportunityandclaimyouridealrole.com
+      sni: resources.nextjobopportunityandclaimyouridealrole.com
       type: trojan
       udp: true
     - client-fingerprint: chrome
       name: "\U0001F1FA\U0001F1F8US_9"
-      network: tcp
-      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-      port: "443"
-      server: 216.152.156.49
-      skip-cert-verify: false
-      sni: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_10"
       network: tcp
       password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
       port: "443"
@@ -233,6 +265,16 @@ proxies:
       type: trojan
       udp: true
     - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_10"
+      network: tcp
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: "443"
+      server: 169.197.140.171
+      skip-cert-verify: false
+      sni: cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
       name: "\U0001F1FA\U0001F1F8US_11"
       network: tcp
       password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
@@ -243,7 +285,7 @@ proxies:
       type: trojan
       udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EADE_1"
+      name: "\U0001F1E9\U0001F1EADE_2"
       network: tcp
       password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
       port: "443"
@@ -260,7 +302,7 @@ proxies:
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E9\U0001F1EADE_2"
+      name: "\U0001F1E9\U0001F1EADE_3"
       password: 03y5gbnyl4o1hc2n
       port: "8080"
       server: 51.38.127.93
@@ -322,32 +364,22 @@ proxies:
       server: 82.38.31.66
       type: ss
       udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1NL_17"
-      network: tcp
-      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-      port: "443"
-      server: 66.163.127.154
-      skip-cert-verify: false
-      sni: www.indyourperfectremotetechjobfromthecomfortofhome.com
-      type: trojan
-      udp: true
     - cipher: aes-256-gcm
-      name: ❓Other_2
+      name: "\U0001F1EF\U0001F1F5JP_1"
       password: 3eOFeNssde7PYYMv
       port: "80"
       server: 84.247.155.196
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_18"
+      name: "\U0001F1F3\U0001F1F1NL_17"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.202
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_19"
+      name: "\U0001F1F3\U0001F1F1NL_18"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.218
@@ -356,7 +388,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_3
+      name: ❓Other_2
       network: tcp
       port: "443"
       reality-opts:
@@ -372,7 +404,7 @@ proxies:
     - client-fingerprint: qq
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_4
+      name: ❓Other_3
       network: tcp
       port: "443"
       reality-opts:
@@ -388,7 +420,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_5
+      name: ❓Other_4
       network: tcp
       port: "443"
       reality-opts:
@@ -402,28 +434,28 @@ proxies:
       uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_20"
+      name: "\U0001F1F3\U0001F1F1NL_19"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.215
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_21"
+      name: "\U0001F1F3\U0001F1F1NL_20"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.178
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_22"
+      name: "\U0001F1F3\U0001F1F1NL_21"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.201
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_23"
+      name: "\U0001F1F3\U0001F1F1NL_22"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 193.29.139.147
@@ -464,7 +496,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: ❓Other_6
+      name: ❓Other_5
       network: tcp
       port: "443"
       reality-opts:
@@ -477,6 +509,20 @@ proxies:
       udp: true
       uuid: 63c5f8b3-3d3d-46a9-ae1f-58635cdaf891
       xudp: true
+    - encryption: none
+      name: "\U0001F1FA\U0001F1F8US_14"
+      network: ws
+      port: "80"
+      server: 38.107.232.36
+      type: vless
+      udp: true
+      uuid: 18cf8db1-9f86-43f7-baa0-382efb7f2dfa
+      ws-opts:
+        headers:
+            Host: ""
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /vless/
+      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1E8\U0001F1E6CA_2"
       password: 575hiopq2h28yao6
@@ -488,7 +534,7 @@ proxies:
         - h2
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_14"
+      name: "\U0001F1FA\U0001F1F8US_15"
       network: xhttp
       port: "4343"
       server: 94.184.22.9
