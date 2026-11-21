@@ -96,20 +96,6 @@ proxies:
       server: 193.151.160.9
       type: ss
       udp: true
-    - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_3"
-      network: ws
-      port: "80"
-      server: ov-france1.09vpn.com
-      type: vless
-      udp: true
-      uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-      ws-opts:
-        headers:
-            Host: ov-france1.09vpn.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
-        path: /vless/
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -346,6 +332,22 @@ proxies:
       server: 193.29.139.235
       type: ss
       udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_2
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+        short-id: ""
+      server: 47.251.25.74
+      servername: www.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 18805ff3-b420-45de-af18-93be14024ae8
+      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_20"
       password: k1dBOmOB4oqi7Ump37a1bQ
@@ -392,10 +394,24 @@ proxies:
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
+    - encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_23"
+      network: ws
+      port: "80"
+      server: 163.172.214.188
+      type: vless
+      udp: true
+      uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
+      ws-opts:
+        headers:
+            Host: sc-thenetherlands1.09vpn.com
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: /vless/
+      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_23"
+      name: "\U0001F1F3\U0001F1F1NL_24"
       network: tcp
       port: "23576"
       reality-opts:
@@ -436,7 +452,7 @@ proxies:
       ws-opts:
         headers:
             Host: stb71e5.rumedia-cdn.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
         path: /cdn/v3/live?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       xudp: true
     - alpn:
@@ -456,7 +472,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_24"
+      name: "\U0001F1F3\U0001F1F1NL_25"
       network: tcp
       port: "23576"
       reality-opts:
@@ -472,7 +488,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_25"
+      name: "\U0001F1F3\U0001F1F1NL_26"
       network: tcp
       port: "23576"
       reality-opts:
@@ -527,7 +543,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_26"
+      name: "\U0001F1F3\U0001F1F1NL_27"
       network: tcp
       port: "23576"
       reality-opts:
@@ -567,7 +583,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_2"
+      name: ❓Other_3
       network: ws
       port: "443"
       server: 172.67.156.121
