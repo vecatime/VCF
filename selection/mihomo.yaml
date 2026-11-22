@@ -75,10 +75,26 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
+  - encryption: none
+    name: 🇫🇷FR_2
+    network: ws
+    port: 80
+    server: 152.228.162.19
+    type: vless
+    udp: true
+    uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+    ws-opts:
+      headers:
+        Host: akamaized.net
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /vless/
+    xudp: true
+    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇫🇷FR_2
+    name: 🇫🇷FR_3
     network: tcp
     port: 23576
     reality-opts:
@@ -99,6 +115,22 @@ proxies:
     server: 193.151.160.9
     type: ss
     udp: true
+  - encryption: none
+    name: 🇫🇷FR_4
+    network: ws
+    port: 80
+    server: ov-france1.09vpn.com
+    type: vless
+    udp: true
+    uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+    ws-opts:
+      headers:
+        Host: ov-france1.09vpn.com
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      path: /vless/
+    xudp: true
+    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -563,13 +595,6 @@ proxies:
     uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
     xudp: true
     packet-encoding: xudp
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇴NO_1
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-    port: 990
-    server: 185.213.23.63
-    type: ss
-    udp: true
   - alpn:
       - ""
     alterId: "0"
