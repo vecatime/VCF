@@ -99,22 +99,6 @@ proxies:
     server: 193.151.160.9
     type: ss
     udp: true
-  - encryption: none
-    name: 🇫🇷FR_3
-    network: ws
-    port: 80
-    server: ov-france1.09vpn.com
-    type: vless
-    udp: true
-    uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-    ws-opts:
-      headers:
-        Host: ov-france1.09vpn.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-          Gecko) Chrome/26.0.1410.64 Safari/537.31
-      path: /vless/
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -132,8 +116,25 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: yahoo.com
-  - cipher: chacha20-ietf-poly1305
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
     name: 🇺🇸US_3
+    network: tcp
+    port: 28190
+    reality-opts:
+      public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+      short-id: ""
+    server: 159.89.87.21
+    tls: true
+    type: vless
+    udp: true
+    uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
+    xudp: true
+    packet-encoding: xudp
+    servername: aws.amazon.com
+  - cipher: chacha20-ietf-poly1305
+    name: ❓Other_1
     password: eDfN7SODQceIOmIAbtJJtK
     port: 443
     server: 198.98.53.130
@@ -142,7 +143,7 @@ proxies:
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_4
+    name: ❓Other_2
     network: tcp
     port: 443
     reality-opts:
@@ -156,28 +157,11 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: yahoo.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_5
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
-      short-id: ""
-    server: 47.253.226.114
-    tls: true
-    type: vless
-    udp: true
-    uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
-    xudp: true
-    packet-encoding: xudp
-    servername: www.cloudflare.com
   - alpn:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_6
+    name: 🇺🇸US_4
     network: tcp
     port: 18000
     server: 67.220.95.3
@@ -192,7 +176,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_7
+    name: 🇺🇸US_5
     network: tcp
     port: 18000
     server: 67.220.85.46
@@ -207,7 +191,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_8
+    name: 🇺🇸US_6
     network: tcp
     port: 18000
     server: 38.91.107.49
@@ -219,7 +203,7 @@ proxies:
     xudp: true
     packet-encoding: xudp
   - cipher: aes-256-gcm
-    name: 🇺🇸US_9
+    name: 🇺🇸US_7
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 185.215.132.18
@@ -274,7 +258,7 @@ proxies:
     packet-encoding: xudp
     servername: fuck.rkn
   - cipher: aes-128-gcm
-    name: 🇺🇸US_10
+    name: 🇺🇸US_8
     password: shadowsocks
     port: 443
     server: 156.146.38.169
@@ -350,23 +334,6 @@ proxies:
     server: 193.29.139.235
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: ❓Other_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-      short-id: ""
-    server: 47.251.25.74
-    tls: true
-    type: vless
-    udp: true
-    uuid: 18805ff3-b420-45de-af18-93be14024ae8
-    xudp: true
-    packet-encoding: xudp
-    servername: www.amazon.com
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_21
     password: k1dBOmOB4oqi7Ump37a1bQ
@@ -377,7 +344,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_11
+    name: 🇺🇸US_9
     network: tcp
     port: 23576
     reality-opts:
@@ -429,7 +396,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_12
+    name: 🇺🇸US_10
     network: tcp
     port: 18000
     server: 169.197.142.22
@@ -499,7 +466,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_13
+    name: 🇺🇸US_11
     network: tcp
     port: 23576
     reality-opts:
@@ -516,7 +483,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_14
+    name: 🇺🇸US_12
     network: tcp
     port: 23576
     reality-opts:
@@ -550,7 +517,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_15
+    name: 🇺🇸US_13
     network: tcp
     port: 23576
     reality-opts:
@@ -568,7 +535,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_16
+    name: 🇺🇸US_14
     network: tcp
     port: 18000
     server: 38.110.1.246
@@ -579,6 +546,13 @@ proxies:
     uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
     xudp: true
     packet-encoding: xudp
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇴NO_1
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+    port: 990
+    server: 185.213.23.63
+    type: ss
+    udp: true
   - alpn:
       - ""
     alterId: "0"
@@ -603,7 +577,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇺🇸US_17
+    name: 🇺🇸US_15
     network: xhttp
     port: 4343
     server: 94.184.22.9
