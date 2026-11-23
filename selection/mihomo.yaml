@@ -400,6 +400,23 @@ proxies:
     server: 193.29.139.235
     type: ss
     udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_15
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+      short-id: ""
+    server: 47.251.25.74
+    tls: true
+    type: vless
+    udp: true
+    uuid: 18805ff3-b420-45de-af18-93be14024ae8
+    xudp: true
+    packet-encoding: xudp
+    servername: www.amazon.com
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_21
     password: k1dBOmOB4oqi7Ump37a1bQ
@@ -410,7 +427,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_15
+    name: 🇺🇸US_16
     network: tcp
     port: 23576
     reality-opts:
@@ -462,7 +479,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_16
+    name: 🇺🇸US_17
     network: tcp
     port: 18000
     server: 169.197.142.22
@@ -476,7 +493,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_17
+    name: 🇺🇸US_18
     network: tcp
     port: 23576
     reality-opts:
@@ -563,13 +580,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇴NO_1
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-    port: 990
-    server: 185.213.23.63
-    type: ss
-    udp: true
   - alpn:
       - ""
     alterId: "0"
