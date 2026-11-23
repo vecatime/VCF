@@ -123,10 +123,26 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
+  - encryption: none
+    name: 🇫🇷FR_2
+    network: ws
+    port: 80
+    server: 152.228.162.19
+    type: vless
+    udp: true
+    uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+    ws-opts:
+      headers:
+        Host: akamaized.net
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: /vless/
+    xudp: true
+    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇫🇷FR_2
+    name: 🇫🇷FR_3
     network: tcp
     port: 23576
     reality-opts:
@@ -140,6 +156,23 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE_2
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+      short-id: "88d9dc52ef39c8bd"
+    server: 188.225.27.229
+    tls: true
+    type: vless
+    udp: true
+    uuid: 66dc1927-8528-4f1e-bb74-5a9c7aa8ea8c
+    xudp: true
+    packet-encoding: xudp
+    servername: bridge.rkitman.ru
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -580,11 +613,18 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇴NO_1
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+    port: 990
+    server: 185.213.23.63
+    type: ss
+    udp: true
   - alpn:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇩🇪DE_2
+    name: 🇩🇪DE_3
     network: ws
     port: 443
     server: 172.67.156.121
