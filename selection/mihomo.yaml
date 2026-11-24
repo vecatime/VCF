@@ -383,23 +383,6 @@ proxies:
     server: 82.38.31.215
     type: ss
     udp: true
-  - encryption: none
-    name: ❓Other_1
-    network: ws
-    port: 80
-    server: 163.172.214.188
-    type: vless
-    udp: true
-    uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
-    ws-opts:
-      headers:
-        Host: sc-thenetherlands1.09vpn.com
-        User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
-          Safari/537.36
-      path: /vless/
-    xudp: true
-    packet-encoding: xudp
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_6
     password: QCXDxuDlTTMD7jtgHUjIoj
@@ -542,6 +525,22 @@ proxies:
     server: 82.38.31.203
     type: ss
     udp: true
+  - encryption: none
+    name: 🇫🇷FR_3
+    network: ws
+    port: 80
+    server: ov-france1.09vpn.com
+    type: vless
+    udp: true
+    uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+    ws-opts:
+      headers:
+        Host: ov-france1.09vpn.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /vless/
+    xudp: true
+    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
