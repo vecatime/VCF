@@ -117,22 +117,6 @@ proxies:
     server: 82.38.31.218
     type: ss
     udp: true
-  - encryption: none
-    name: 🇫🇷FR_1
-    network: ws
-    port: 80
-    server: 152.228.162.19
-    type: vless
-    udp: true
-    uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-    ws-opts:
-      headers:
-        Host: akamaized.net
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /vless/
-    xudp: true
-    packet-encoding: xudp
   - alpn:
       - ""
     alterId: "0"
@@ -314,7 +298,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇫🇷FR_2
+    name: 🇫🇷FR_1
     network: tcp
     port: 23576
     reality-opts:
@@ -348,7 +332,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇫🇷FR_3
+    name: 🇫🇷FR_2
     network: tcp
     port: 23576
     reality-opts:
@@ -555,6 +539,13 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇴NO_1
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+    port: 990
+    server: 185.213.23.63
+    type: ss
+    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
