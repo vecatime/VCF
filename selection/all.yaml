@@ -76,8 +76,22 @@ proxies:
       server: 156.146.38.169
       type: ss
       udp: true
-    - cipher: aes-256-gcm
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
       name: "\U0001F1FA\U0001F1F8US_7"
+      network: tcp
+      port: "18000"
+      server: 38.91.107.49
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+      xudp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8US_8"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: "19999"
       server: 193.151.160.9
@@ -87,7 +101,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_8"
+      name: "\U0001F1FA\U0001F1F8US_9"
       network: tcp
       port: "18000"
       server: 169.197.142.22
@@ -168,35 +182,35 @@ proxies:
       type: ss
       udp: true
     - cipher: aes-128-gcm
-      name: "\U0001F1F3\U0001F1F1NL_10"
+      name: ❓Other_1
       password: shadowsocks
       port: "443"
       server: 158.173.20.208
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_11"
+      name: "\U0001F1F3\U0001F1F1NL_10"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "443"
       server: 82.38.31.165
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_12"
+      name: "\U0001F1F3\U0001F1F1NL_11"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.184
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_13"
+      name: "\U0001F1F3\U0001F1F1NL_12"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.176
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_14"
+      name: "\U0001F1F3\U0001F1F1NL_13"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "8080"
       server: 82.38.31.46
@@ -210,47 +224,33 @@ proxies:
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_15"
+      name: "\U0001F1F3\U0001F1F1NL_14"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.215
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_16"
+      name: "\U0001F1F3\U0001F1F1NL_15"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "443"
       server: 82.38.31.162
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_17"
+      name: "\U0001F1F3\U0001F1F1NL_16"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.192
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_18"
+      name: "\U0001F1F3\U0001F1F1NL_17"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.203
       type: ss
       udp: true
-    - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_1"
-      network: ws
-      port: "80"
-      server: ov-france1.09vpn.com
-      type: vless
-      udp: true
-      uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-      ws-opts:
-        headers:
-            Host: ov-france1.09vpn.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
-        path: /vless/
-      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F4NO_1"
       password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
@@ -258,3 +258,22 @@ proxies:
       server: 185.213.23.63
       type: ss
       udp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_2"
+      network: ws
+      port: "443"
+      server: 172.67.156.121
+      servername: www.gptcloudai.com
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+      ws-opts:
+        headers:
+            Host: www.gptcloudai.com
+        path: /truth
+      xudp: true
