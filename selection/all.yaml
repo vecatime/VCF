@@ -1,25 +1,9 @@
 proxies:
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
-        short-id: ""
-      server: 47.253.226.114
-      servername: www.cloudflare.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
-      xudp: true
     - alpn:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_2"
+      name: "\U0001F1FA\U0001F1F8US_1"
       network: tcp
       port: "18000"
       server: 67.220.95.3
@@ -32,7 +16,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3"
+      name: "\U0001F1FA\U0001F1F8US_2"
       network: tcp
       port: "443"
       reality-opts:
@@ -48,7 +32,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_4"
+      name: "\U0001F1FA\U0001F1F8US_3"
       network: tcp
       port: "443"
       reality-opts:
@@ -65,7 +49,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_5"
+      name: "\U0001F1FA\U0001F1F8US_4"
       network: tcp
       port: "18000"
       server: 67.220.85.46
@@ -90,21 +74,21 @@ proxies:
       uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
       xudp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8US_6"
+      name: "\U0001F1FA\U0001F1F8US_5"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: "19999"
       server: 193.151.160.9
       type: ss
       udp: true
     - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8US_7"
+      name: "\U0001F1FA\U0001F1F8US_6"
       password: shadowsocks
       port: "443"
       server: 156.146.38.170
       type: ss
       udp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8US_8"
+      name: "\U0001F1FA\U0001F1F8US_7"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: "19999"
       server: 185.215.132.18
@@ -114,7 +98,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_9"
+      name: "\U0001F1FA\U0001F1F8US_8"
       network: tcp
       port: "18000"
       server: 38.91.107.49
@@ -125,7 +109,7 @@ proxies:
       uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
       xudp: true
     - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8US_10"
+      name: "\U0001F1FA\U0001F1F8US_9"
       password: shadowsocks
       port: "443"
       server: 156.146.38.169
@@ -134,7 +118,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_11"
+      name: "\U0001F1FA\U0001F1F8US_10"
       network: tcp
       port: "23576"
       reality-opts:
@@ -150,7 +134,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_12"
+      name: "\U0001F1FA\U0001F1F8US_11"
       network: tcp
       port: "23576"
       reality-opts:
@@ -166,7 +150,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_13"
+      name: "\U0001F1FA\U0001F1F8US_12"
       network: tcp
       port: "23576"
       reality-opts:
@@ -182,7 +166,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_14"
+      name: "\U0001F1FA\U0001F1F8US_13"
       network: tcp
       port: "23576"
       reality-opts:
@@ -199,7 +183,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_15"
+      name: "\U0001F1FA\U0001F1F8US_14"
       network: tcp
       port: "18000"
       server: 169.197.142.22
@@ -340,22 +324,15 @@ proxies:
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
-    - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_3"
-      network: ws
-      port: "80"
-      server: 152.228.162.19
-      type: vless
-      udp: true
-      uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-      ws-opts:
-        headers:
-            Host: akamaized.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: /vless/
-      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_9"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: "8080"
+      server: 82.38.31.218
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_10"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "8080"
       server: 82.38.31.46
@@ -369,7 +346,7 @@ proxies:
       type: ss
       udp: true
     - cipher: aes-128-gcm
-      name: "\U0001F1F3\U0001F1F1NL_10"
+      name: "\U0001F1F3\U0001F1F1NL_11"
       password: shadowsocks
       port: "443"
       server: 158.173.20.208
@@ -378,7 +355,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_11"
+      name: "\U0001F1F3\U0001F1F1NL_12"
       network: tcp
       port: "23576"
       reality-opts:
@@ -398,10 +375,24 @@ proxies:
       server: 185.176.204.18
       type: ss
       udp: true
+    - encryption: none
+      name: ❓Other_1
+      network: ws
+      port: "80"
+      server: ov-france1.09vpn.com
+      type: vless
+      udp: true
+      uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+      ws-opts:
+        headers:
+            Host: ov-france1.09vpn.com
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /vless/
+      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_12"
+      name: "\U0001F1F3\U0001F1F1NL_13"
       network: tcp
       port: "23576"
       reality-opts:
@@ -417,7 +408,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_13"
+      name: "\U0001F1F3\U0001F1F1NL_14"
       network: tcp
       port: "23576"
       reality-opts:
@@ -431,35 +422,35 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_14"
+      name: "\U0001F1F3\U0001F1F1NL_15"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "8080"
       server: 82.38.31.61
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_15"
+      name: "\U0001F1F3\U0001F1F1NL_16"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.192
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_16"
+      name: "\U0001F1F3\U0001F1F1NL_17"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "8080"
       server: 82.38.31.66
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_17"
+      name: "\U0001F1F3\U0001F1F1NL_18"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "443"
       server: 82.38.31.165
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_18"
+      name: "\U0001F1F3\U0001F1F1NL_19"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.205
@@ -468,7 +459,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_19"
+      name: "\U0001F1F3\U0001F1F1NL_20"
       network: tcp
       port: "23576"
       reality-opts:
@@ -480,22 +471,6 @@ proxies:
       type: vless
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-      xudp: true
-    - client-fingerprint: safari
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_20"
-      network: tcp
-      port: "9543"
-      reality-opts:
-        public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-        short-id: 123abcdf
-      server: 132.243.242.115
-      servername: storage.yandexcloud.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
       xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_21"
@@ -549,7 +524,7 @@ proxies:
     - client-fingerprint: ios
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_16"
+      name: "\U0001F1FA\U0001F1F8US_15"
       network: tcp
       port: "443"
       reality-opts:
@@ -565,7 +540,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_17"
+      name: "\U0001F1FA\U0001F1F8US_16"
       network: tcp
       port: "28190"
       reality-opts:
@@ -579,7 +554,7 @@ proxies:
       uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_18"
+      name: "\U0001F1FA\U0001F1F8US_17"
       password: eDfN7SODQceIOmIAbtJJtK
       port: "443"
       server: 198.98.53.130
@@ -589,7 +564,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_19"
+      name: "\U0001F1FA\U0001F1F8US_18"
       network: tcp
       port: "18000"
       server: 38.110.1.246
@@ -598,23 +573,4 @@ proxies:
       type: vmess
       udp: true
       uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-      xudp: true
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_2"
-      network: ws
-      port: "443"
-      server: 172.67.156.121
-      servername: www.gptcloudai.com
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
-      ws-opts:
-        headers:
-            Host: www.gptcloudai.com
-        path: /truth
       xudp: true
