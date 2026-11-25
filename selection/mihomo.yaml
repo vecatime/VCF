@@ -155,23 +155,8 @@ proxies:
     server: 185.215.132.18
     type: ss
     udp: true
-  - alpn:
-      - ""
-    alterId: "0"
-    cipher: auto
-    name: 🇺🇸US_12
-    network: tcp
-    port: 18000
-    server: 38.91.107.49
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    xudp: true
-    packet-encoding: xudp
   - cipher: aes-128-gcm
-    name: 🇺🇸US_13
+    name: 🇺🇸US_12
     password: shadowsocks
     port: 443
     server: 156.146.38.169
@@ -180,7 +165,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_14
+    name: 🇺🇸US_13
     network: tcp
     port: 23576
     reality-opts:
@@ -197,7 +182,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_15
+    name: 🇺🇸US_14
     network: tcp
     port: 23576
     reality-opts:
@@ -214,7 +199,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_16
+    name: 🇺🇸US_15
     network: tcp
     port: 23576
     reality-opts:
@@ -231,7 +216,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_17
+    name: 🇺🇸US_16
     network: tcp
     port: 23576
     reality-opts:
@@ -248,7 +233,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_18
+    name: 🇺🇸US_17
     network: tcp
     port: 28190
     reality-opts:
@@ -279,28 +264,11 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: ❓Other_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-      short-id: ""
-    server: 47.251.25.74
-    tls: true
-    type: vless
-    udp: true
-    uuid: 18805ff3-b420-45de-af18-93be14024ae8
-    xudp: true
-    packet-encoding: xudp
-    servername: www.amazon.com
   - alpn:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_19
+    name: 🇺🇸US_18
     network: tcp
     port: 18000
     server: 169.197.142.22
@@ -459,22 +427,6 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
-  - encryption: none
-    name: 🇫🇷FR_3
-    network: ws
-    port: 80
-    server: 152.228.162.19
-    type: vless
-    udp: true
-    uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-    ws-opts:
-      headers:
-        Host: akamaized.net
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /vless/
-    xudp: true
-    packet-encoding: xudp
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_13
     password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -541,22 +493,6 @@ proxies:
     server: 82.38.31.203
     type: ss
     udp: true
-  - encryption: none
-    name: 🇫🇷FR_4
-    network: ws
-    port: 80
-    server: ov-france1.09vpn.com
-    type: vless
-    udp: true
-    uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-    ws-opts:
-      headers:
-        Host: ov-france1.09vpn.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /vless/
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -643,8 +579,25 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
-  - cipher: chacha20-ietf-poly1305
+  - client-fingerprint: safari
+    encryption: none
+    flow: xtls-rprx-vision
     name: 🇳🇱NL_27
+    network: tcp
+    port: 9543
+    reality-opts:
+      public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
+      short-id: "123abcdf"
+    server: 132.243.242.115
+    tls: true
+    type: vless
+    udp: true
+    uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
+    xudp: true
+    packet-encoding: xudp
+    servername: storage.yandexcloud.net
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_28
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.202
