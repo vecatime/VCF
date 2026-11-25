@@ -1,9 +1,26 @@
 proxies:
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_1
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
+      short-id: ""
+    server: 47.253.226.114
+    tls: true
+    type: vless
+    udp: true
+    uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
+    xudp: true
+    packet-encoding: xudp
+    servername: www.cloudflare.com
   - alpn:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_1
+    name: 🇺🇸US_2
     network: tcp
     port: 18000
     server: 67.220.95.3
@@ -18,7 +35,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_2
+    name: 🇺🇸US_3
     network: tcp
     port: 18000
     server: 67.220.85.46
@@ -45,34 +62,19 @@ proxies:
     xudp: true
     packet-encoding: xudp
   - cipher: aes-256-gcm
-    name: 🇺🇸US_3
+    name: 🇺🇸US_4
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 193.151.160.9
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: 🇺🇸US_4
+    name: 🇺🇸US_5
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 185.215.132.18
     type: ss
     udp: true
-  - alpn:
-      - ""
-    alterId: "0"
-    cipher: auto
-    name: 🇺🇸US_5
-    network: tcp
-    port: 18000
-    server: 38.91.107.49
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -93,7 +95,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_1
+    name: 🇺🇸US_7
     network: tcp
     port: 443
     reality-opts:
@@ -111,7 +113,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_7
+    name: 🇺🇸US_8
     network: tcp
     port: 18000
     server: 169.197.142.22
@@ -256,13 +258,6 @@ proxies:
     server: 185.213.23.63
     type: ss
     udp: true
-  - cipher: aes-128-gcm
-    name: ❓Other_2
-    password: shadowsocks
-    port: 443
-    server: 158.173.20.208
-    type: ss
-    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -377,25 +372,8 @@ proxies:
     server: 82.38.31.203
     type: ss
     udp: true
-  - client-fingerprint: safari
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇳🇱NL_21
-    network: tcp
-    port: 9543
-    reality-opts:
-      public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-      short-id: "123abcdf"
-    server: 132.243.242.115
-    tls: true
-    type: vless
-    udp: true
-    uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
-    xudp: true
-    packet-encoding: xudp
-    servername: storage.yandexcloud.net
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_22
+    name: 🇳🇱NL_21
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.179
@@ -404,7 +382,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_8
+    name: 🇺🇸US_9
     network: tcp
     port: 23576
     reality-opts:
@@ -426,14 +404,7 @@ proxies:
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_23
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.176
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_24
+    name: 🇳🇱NL_22
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 443
     server: 82.38.31.162
@@ -442,7 +413,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_9
+    name: 🇺🇸US_10
     network: tcp
     port: 23576
     reality-opts:
@@ -459,7 +430,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_10
+    name: 🇺🇸US_11
     network: tcp
     port: 23576
     reality-opts:
@@ -474,14 +445,14 @@ proxies:
     packet-encoding: xudp
     servername: fuck.rkn
   - cipher: aes-128-gcm
-    name: 🇺🇸US_11
+    name: 🇺🇸US_12
     password: shadowsocks
     port: 443
     server: 156.146.38.170
     type: ss
     udp: true
   - cipher: aes-128-gcm
-    name: 🇺🇸US_12
+    name: 🇺🇸US_13
     password: shadowsocks
     port: 443
     server: 156.146.38.169
@@ -490,7 +461,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_25
+    name: 🇳🇱NL_23
     network: tcp
     port: 23576
     reality-opts:
@@ -505,7 +476,7 @@ proxies:
     packet-encoding: xudp
     servername: fuck.rkn
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_26
+    name: 🇳🇱NL_24
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.202
@@ -514,7 +485,7 @@ proxies:
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_3
+    name: 🇺🇸US_14
     network: tcp
     port: 443
     reality-opts:
@@ -531,7 +502,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_13
+    name: 🇺🇸US_15
     network: tcp
     port: 443
     reality-opts:
@@ -548,7 +519,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_14
+    name: 🇺🇸US_16
     network: tcp
     port: 28190
     reality-opts:
@@ -563,7 +534,7 @@ proxies:
     packet-encoding: xudp
     servername: aws.amazon.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇺🇸US_15
+    name: 🇺🇸US_17
     password: eDfN7SODQceIOmIAbtJJtK
     port: 443
     server: 198.98.53.130
@@ -572,7 +543,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_16
+    name: 🇺🇸US_18
     network: tcp
     port: 443
     reality-opts:
@@ -590,7 +561,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_17
+    name: 🇺🇸US_19
     network: tcp
     port: 18000
     server: 38.110.1.246
@@ -604,7 +575,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_27
+    name: 🇳🇱NL_25
     network: tcp
     port: 23576
     reality-opts:
