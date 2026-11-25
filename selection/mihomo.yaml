@@ -75,25 +75,10 @@ proxies:
     server: 185.215.132.18
     type: ss
     udp: true
-  - alpn:
-      - ""
-    alterId: "0"
-    cipher: auto
-    name: 🇺🇸US_6
-    network: tcp
-    port: 18000
-    server: 38.91.107.49
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_7
+    name: 🇺🇸US_6
     network: tcp
     port: 23576
     reality-opts:
@@ -111,7 +96,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_8
+    name: 🇺🇸US_7
     network: tcp
     port: 18000
     server: 169.197.142.22
@@ -256,22 +241,13 @@ proxies:
     server: 185.213.23.63
     type: ss
     udp: true
-  - encryption: none
+  - cipher: aes-128-gcm
     name: ❓Other_1
-    network: ws
-    port: 80
-    server: ov-france1.09vpn.com
-    type: vless
+    password: shadowsocks
+    port: 443
+    server: 158.173.20.208
+    type: ss
     udp: true
-    uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-    ws-opts:
-      headers:
-        Host: ov-france1.09vpn.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.118 Safari/537.36
-      path: /vless/
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -386,25 +362,8 @@ proxies:
     server: 82.38.31.203
     type: ss
     udp: true
-  - client-fingerprint: safari
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇳🇱NL_21
-    network: tcp
-    port: 9543
-    reality-opts:
-      public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-      short-id: "123abcdf"
-    server: 132.243.242.115
-    tls: true
-    type: vless
-    udp: true
-    uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
-    xudp: true
-    packet-encoding: xudp
-    servername: storage.yandexcloud.net
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_22
+    name: 🇳🇱NL_21
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.179
@@ -413,7 +372,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_9
+    name: 🇺🇸US_8
     network: tcp
     port: 23576
     reality-opts:
@@ -435,14 +394,14 @@ proxies:
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_23
+    name: 🇳🇱NL_22
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
     server: 82.38.31.176
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_24
+    name: 🇳🇱NL_23
     password: oZIoA69Q8yhcQV8ka3Pa3A
     port: 443
     server: 82.38.31.162
@@ -451,7 +410,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_10
+    name: 🇺🇸US_9
     network: tcp
     port: 23576
     reality-opts:
@@ -468,7 +427,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_11
+    name: 🇺🇸US_10
     network: tcp
     port: 23576
     reality-opts:
@@ -483,14 +442,14 @@ proxies:
     packet-encoding: xudp
     servername: fuck.rkn
   - cipher: aes-128-gcm
-    name: 🇺🇸US_12
+    name: 🇺🇸US_11
     password: shadowsocks
     port: 443
     server: 156.146.38.170
     type: ss
     udp: true
   - cipher: aes-128-gcm
-    name: 🇺🇸US_13
+    name: 🇺🇸US_12
     password: shadowsocks
     port: 443
     server: 156.146.38.169
@@ -499,7 +458,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_25
+    name: 🇳🇱NL_24
     network: tcp
     port: 23576
     reality-opts:
@@ -513,17 +472,10 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_26
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.202
-    type: ss
-    udp: true
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_14
+    name: 🇺🇸US_13
     network: tcp
     port: 443
     reality-opts:
@@ -540,7 +492,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_15
+    name: 🇺🇸US_14
     network: tcp
     port: 443
     reality-opts:
@@ -557,7 +509,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_16
+    name: 🇺🇸US_15
     network: tcp
     port: 28190
     reality-opts:
@@ -572,7 +524,7 @@ proxies:
     packet-encoding: xudp
     servername: aws.amazon.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇺🇸US_17
+    name: 🇺🇸US_16
     password: eDfN7SODQceIOmIAbtJJtK
     port: 443
     server: 198.98.53.130
@@ -599,7 +551,7 @@ proxies:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_18
+    name: 🇺🇸US_17
     network: tcp
     port: 18000
     server: 38.110.1.246
@@ -613,7 +565,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇳🇱NL_27
+    name: 🇳🇱NL_25
     network: tcp
     port: 23576
     reality-opts:
@@ -627,6 +579,26 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
+  - alpn:
+      - ""
+    alterId: "0"
+    cipher: auto
+    name: ❓Other_3
+    network: ws
+    port: 443
+    server: 172.67.156.121
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+    ws-opts:
+      headers:
+        Host: www.gptcloudai.com
+      path: /truth
+    xudp: true
+    packet-encoding: xudp
+    servername: www.gptcloudai.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
