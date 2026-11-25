@@ -58,25 +58,10 @@ proxies:
     server: 185.215.132.18
     type: ss
     udp: true
-  - alpn:
-      - ""
-    alterId: "0"
-    cipher: auto
-    name: 🇺🇸US_5
-    network: tcp
-    port: 18000
-    server: 38.91.107.49
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    xudp: true
-    packet-encoding: xudp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_6
+    name: 🇺🇸US_5
     network: tcp
     port: 23576
     reality-opts:
@@ -90,28 +75,11 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: ❓Other_1
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-      short-id: ""
-    server: 47.251.25.74
-    tls: true
-    type: vless
-    udp: true
-    uuid: 18805ff3-b420-45de-af18-93be14024ae8
-    xudp: true
-    packet-encoding: xudp
-    servername: www.amazon.com
   - alpn:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_7
+    name: 🇺🇸US_6
     network: tcp
     port: 18000
     server: 169.197.142.22
@@ -249,11 +217,11 @@ proxies:
     server: 82.38.31.46
     type: ss
     udp: true
-  - cipher: aes-128-gcm
-    name: ❓Other_2
-    password: shadowsocks
-    port: 443
-    server: 158.173.20.208
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇴NO_1
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+    port: 990
+    server: 185.213.23.63
     type: ss
     udp: true
   - client-fingerprint: chrome
@@ -363,13 +331,23 @@ proxies:
     server: 82.38.31.184
     type: ss
     udp: true
-  - cipher: chacha20-ietf-poly1305
+  - client-fingerprint: safari
+    encryption: none
+    flow: xtls-rprx-vision
     name: 🇳🇱NL_20
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.203
-    type: ss
+    network: tcp
+    port: 9543
+    reality-opts:
+      public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
+      short-id: "123abcdf"
+    server: 132.243.242.115
+    tls: true
+    type: vless
     udp: true
+    uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
+    xudp: true
+    packet-encoding: xudp
+    servername: storage.yandexcloud.net
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_21
     password: k1dBOmOB4oqi7Ump37a1bQ
@@ -380,7 +358,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_8
+    name: 🇺🇸US_7
     network: tcp
     port: 23576
     reality-opts:
@@ -418,7 +396,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_9
+    name: 🇺🇸US_8
     network: tcp
     port: 23576
     reality-opts:
@@ -435,7 +413,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_10
+    name: 🇺🇸US_9
     network: tcp
     port: 23576
     reality-opts:
@@ -450,14 +428,14 @@ proxies:
     packet-encoding: xudp
     servername: fuck.rkn
   - cipher: aes-128-gcm
-    name: 🇺🇸US_11
+    name: 🇺🇸US_10
     password: shadowsocks
     port: 443
     server: 156.146.38.170
     type: ss
     udp: true
   - cipher: aes-128-gcm
-    name: 🇺🇸US_12
+    name: 🇺🇸US_11
     password: shadowsocks
     port: 443
     server: 156.146.38.169
@@ -490,7 +468,7 @@ proxies:
   - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_13
+    name: 🇺🇸US_12
     network: tcp
     port: 443
     reality-opts:
@@ -507,7 +485,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_14
+    name: 🇺🇸US_13
     network: tcp
     port: 443
     reality-opts:
@@ -521,6 +499,23 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: yahoo.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_14
+    network: tcp
+    port: 28190
+    reality-opts:
+      public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+      short-id: ""
+    server: 159.89.87.21
+    tls: true
+    type: vless
+    udp: true
+    uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
+    xudp: true
+    packet-encoding: xudp
+    servername: aws.amazon.com
   - cipher: chacha20-ietf-poly1305
     name: 🇺🇸US_15
     password: eDfN7SODQceIOmIAbtJJtK
@@ -528,11 +523,28 @@ proxies:
     server: 198.98.53.130
     type: ss
     udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_16
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+      short-id: "c39cc7310a"
+    server: 169.40.42.168
+    tls: true
+    type: vless
+    udp: true
+    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+    xudp: true
+    packet-encoding: xudp
+    servername: yahoo.com
   - alpn:
       - ""
     alterId: "0"
     cipher: auto
-    name: 🇺🇸US_16
+    name: 🇺🇸US_17
     network: tcp
     port: 18000
     server: 38.110.1.246
