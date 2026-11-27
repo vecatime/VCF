@@ -115,13 +115,20 @@ proxies:
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
-    - cipher: aes-128-gcm
+    - encryption: none
       name: "\U0001F1F3\U0001F1F1NL_5"
-      password: shadowsocks
-      port: "443"
-      server: 158.173.20.208
-      type: ss
+      network: ws
+      port: "80"
+      server: 163.172.214.188
+      type: vless
       udp: true
+      uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
+      ws-opts:
+        headers:
+            Host: sc-thenetherlands1.09vpn.com
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /vless/
+      xudp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_6"
       password: k1dBOmOB4oqi7Ump37a1bQ
@@ -222,7 +229,7 @@ proxies:
       type: ss
       udp: true
     - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_3"
+      name: ❓Other_1
       network: ws
       port: "80"
       server: 152.228.162.19
@@ -232,7 +239,7 @@ proxies:
       ws-opts:
         headers:
             Host: akamaized.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
         path: /vless/
       xudp: true
     - cipher: aes-256-gcm
@@ -363,20 +370,6 @@ proxies:
       server: 82.38.31.35
       type: ss
       udp: true
-    - encryption: none
-      name: ❓Other_1
-      network: ws
-      port: "80"
-      server: ov-france1.09vpn.com
-      type: vless
-      udp: true
-      uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-      ws-opts:
-        headers:
-            Host: ov-france1.09vpn.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /vless/
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -656,7 +649,7 @@ proxies:
       ws-opts:
         headers:
             Host: freeceshi6.frii.site
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
         path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
       xudp: true
     - alpn:
