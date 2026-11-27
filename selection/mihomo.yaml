@@ -1,11 +1,4 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    name: ❓Other_1
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-    port: 990
-    server: 185.213.23.63
-    type: ss
-    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -40,6 +33,13 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
+  - cipher: aes-128-gcm
+    name: ❓Other_1
+    password: shadowsocks
+    port: 443
+    server: 158.173.20.208
+    type: ss
+    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -153,6 +153,13 @@ proxies:
     name: 🇳🇱NL_10
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
+    server: 82.38.31.192
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_11
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
     server: 82.38.31.218
     type: ss
     udp: true
@@ -198,13 +205,6 @@ proxies:
     packet-encoding: xudp
     servername: fuck.rkn
   - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_11
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.176
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_12
     password: k1dBOmOB4oqi7Ump37a1bQ
     port: 8080
@@ -246,13 +246,6 @@ proxies:
     server: 82.38.31.202
     type: ss
     udp: true
-  - cipher: aes-128-gcm
-    name: 🇬🇧GB_1
-    password: shadowsocks
-    port: 443
-    server: 141.98.101.178
-    type: ss
-    udp: true
   - cipher: chacha20-ietf-poly1305
     name: 🇳🇱NL_18
     password: k1dBOmOB4oqi7Ump37a1bQ
@@ -289,7 +282,7 @@ proxies:
     type: ss
     udp: true
   - cipher: aes-128-gcm
-    name: 🇬🇧GB_2
+    name: 🇬🇧GB_1
     password: shadowsocks
     port: 443
     server: 141.98.101.181
@@ -302,27 +295,11 @@ proxies:
     server: 82.38.31.205
     type: ss
     udp: true
-  - encryption: none
-    name: ❓Other_2
-    network: ws
-    port: 80
-    server: ov-france1.09vpn.com
-    type: vless
-    udp: true
-    uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-    ws-opts:
-      headers:
-        Host: ov-france1.09vpn.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /vless/
-    xudp: true
-    packet-encoding: xudp
   - cipher: chacha20-ietf-poly1305
-    name: ❓Other_3
-    password: qItG8SueYQcP
-    port: 443
-    server: 108.181.121.170
+    name: 🇳🇱NL_24
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.184
     type: ss
     udp: true
   - client-fingerprint: chrome
@@ -460,8 +437,15 @@ proxies:
     server: 193.151.160.9
     type: ss
     udp: true
-  - cipher: aes-256-gcm
+  - cipher: chacha20-ietf-poly1305
     name: 🇺🇸US_10
+    password: eDfN7SODQceIOmIAbtJJtK
+    port: 443
+    server: 198.98.53.130
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: 🇺🇸US_11
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 185.215.132.18
@@ -485,7 +469,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_11
+    name: 🇺🇸US_12
     network: tcp
     port: 28190
     reality-opts:
@@ -500,14 +484,14 @@ proxies:
     packet-encoding: xudp
     servername: aws.amazon.com
   - cipher: aes-128-gcm
-    name: 🇺🇸US_12
+    name: 🇺🇸US_13
     password: shadowsocks
     port: 443
     server: 156.146.38.170
     type: ss
     udp: true
   - cipher: aes-128-gcm
-    name: 🇺🇸US_13
+    name: 🇺🇸US_14
     password: shadowsocks
     port: 443
     server: 156.146.38.169
@@ -516,7 +500,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_14
+    name: 🇺🇸US_15
     network: tcp
     port: 23576
     reality-opts:
@@ -533,7 +517,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_15
+    name: 🇺🇸US_16
     network: tcp
     port: 23576
     reality-opts:
@@ -550,7 +534,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_16
+    name: 🇺🇸US_17
     network: tcp
     port: 23576
     reality-opts:
@@ -567,7 +551,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_17
+    name: 🇺🇸US_18
     network: tcp
     port: 23576
     reality-opts:
@@ -581,6 +565,26 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: fuck.rkn
+  - alpn:
+      - ""
+    alterId: "0"
+    cipher: auto
+    name: ❓Other_2
+    network: ws
+    port: 443
+    server: 172.67.156.121
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+    ws-opts:
+      headers:
+        Host: www.gptcloudai.com
+      path: /truth
+    xudp: true
+    packet-encoding: xudp
+    servername: www.gptcloudai.com
   - alpn:
       - http/1.1
     client-fingerprint: chrome
@@ -596,13 +600,19 @@ proxies:
     ws-opts:
       headers:
         Host: freeceshi6.frii.site
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/59.0.3071.125 Mobile Safari/537.36
+        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Slackware/Chrome/12.0.742.100 Safari/534.30
       path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
     xudp: true
     packet-encoding: xudp
     servername: freeceshi6.frii.site
+  - cipher: chacha20-ietf-poly1305
+    name: 🇺🇸US_19
+    password: bQZl7HDxSabr1FurTYQHFU
+    port: 443
+    server: 216.105.168.18
+    type: ss
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
