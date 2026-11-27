@@ -39,7 +39,7 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_3"
+      name: ❓Other_1
       network: ws
       port: "80"
       server: 163.172.214.188
@@ -49,11 +49,11 @@ proxies:
       ws-opts:
         headers:
             Host: sc-thenetherlands1.09vpn.com
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
         path: /vless/
       xudp: true
     - cipher: aes-128-gcm
-      name: "\U0001F1F3\U0001F1F1NL_4"
+      name: "\U0001F1F3\U0001F1F1NL_3"
       password: shadowsocks
       port: "443"
       server: 158.173.20.208
@@ -62,7 +62,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_5"
+      name: "\U0001F1F3\U0001F1F1NL_4"
       network: tcp
       port: "23576"
       reality-opts:
@@ -78,7 +78,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_6"
+      name: "\U0001F1F3\U0001F1F1NL_5"
       network: tcp
       port: "23576"
       reality-opts:
@@ -94,7 +94,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_7"
+      name: "\U0001F1F3\U0001F1F1NL_6"
       network: tcp
       port: "23576"
       reality-opts:
@@ -110,7 +110,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_8"
+      name: "\U0001F1F3\U0001F1F1NL_7"
       network: tcp
       port: "23576"
       reality-opts:
@@ -126,7 +126,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_9"
+      name: "\U0001F1F3\U0001F1F1NL_8"
       network: tcp
       port: "23576"
       reality-opts:
@@ -140,7 +140,7 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_10"
+      name: "\U0001F1F3\U0001F1F1NL_9"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "8080"
       server: 82.38.31.35
@@ -149,7 +149,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_11"
+      name: "\U0001F1F3\U0001F1F1NL_10"
       network: tcp
       port: "23576"
       reality-opts:
@@ -163,17 +163,24 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_12"
+      name: "\U0001F1F3\U0001F1F1NL_11"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.192
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_13"
+      name: "\U0001F1F3\U0001F1F1NL_12"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.178
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_13"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: "8080"
+      server: 82.38.31.179
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
@@ -181,6 +188,13 @@ proxies:
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.218
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_15"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: "8080"
+      server: 82.38.31.203
       type: ss
       udp: true
     - client-fingerprint: chrome
@@ -223,13 +237,6 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_15"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: "8080"
-      server: 82.38.31.176
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_16"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
@@ -238,34 +245,41 @@ proxies:
       udp: true
     - cipher: chacha20-ietf-poly1305
       name: "\U0001F1F3\U0001F1F1NL_17"
-      password: QCXDxuDlTTMD7jtgHUjIoj
-      port: "8080"
-      server: 193.29.139.168
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_18"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "8080"
       server: 82.38.31.46
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_19"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: "443"
-      server: 82.38.31.162
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_20"
+      name: "\U0001F1F3\U0001F1F1NL_18"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "443"
       server: 82.38.31.165
       type: ss
       udp: true
+    - encryption: none
+      name: ❓Other_2
+      network: ws
+      port: "80"
+      server: 152.228.162.19
+      type: vless
+      udp: true
+      uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+      ws-opts:
+        headers:
+            Host: akamaized.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /vless/
+      xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_21"
+      name: "\U0001F1F3\U0001F1F1NL_19"
+      password: QCXDxuDlTTMD7jtgHUjIoj
+      port: "8080"
+      server: 193.29.139.168
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_20"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
       server: 82.38.31.202
@@ -279,38 +293,38 @@ proxies:
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_22"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: "8080"
-      server: 82.38.31.179
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_23"
+      name: "\U0001F1F3\U0001F1F1NL_21"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "8080"
       server: 82.38.31.66
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_24"
+      name: "\U0001F1F3\U0001F1F1NL_22"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "8080"
       server: 82.38.31.61
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_25"
+      name: "\U0001F1F3\U0001F1F1NL_23"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "443"
       server: 193.29.139.235
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_26"
+      name: "\U0001F1F3\U0001F1F1NL_24"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: "443"
+      server: 82.38.31.162
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_25"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: "8080"
-      server: 82.38.31.203
+      server: 82.38.31.176
       type: ss
       udp: true
     - cipher: aes-128-gcm
@@ -318,6 +332,13 @@ proxies:
       password: shadowsocks
       port: "443"
       server: 141.98.101.181
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_26"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: "8080"
+      server: 82.38.31.184
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
@@ -338,16 +359,9 @@ proxies:
       ws-opts:
         headers:
             Host: ov-france1.09vpn.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /vless/
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_28"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: "8080"
-      server: 82.38.31.184
-      type: ss
-      udp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -364,27 +378,34 @@ proxies:
       udp: true
       uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
-    - client-fingerprint: chrome
+    - client-fingerprint: ios
       encryption: none
       flow: xtls-rprx-vision
       name: "\U0001F1FA\U0001F1F8US_2"
       network: tcp
       port: "443"
       reality-opts:
-        public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
-        short-id: ""
-      server: 47.253.226.114
-      servername: www.cloudflare.com
+        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+        short-id: c39cc7310a
+      server: 169.40.42.163
+      servername: yahoo.com
       tls: true
       type: vless
       udp: true
-      uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
+      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_3"
+      password: eDfN7SODQceIOmIAbtJJtK
+      port: "443"
+      server: 198.98.53.130
+      type: ss
+      udp: true
     - alpn:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_3"
+      name: "\U0001F1FA\U0001F1F8US_4"
       network: tcp
       port: "18000"
       server: 67.220.95.3
@@ -398,7 +419,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_4"
+      name: "\U0001F1FA\U0001F1F8US_5"
       network: tcp
       port: "18000"
       server: 67.220.85.46
@@ -411,34 +432,18 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_5"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-        short-id: c39cc7310a
-      server: 169.40.42.35
-      servername: yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-      xudp: true
-    - client-fingerprint: ios
-      encryption: none
-      flow: xtls-rprx-vision
       name: "\U0001F1FA\U0001F1F8US_6"
       network: tcp
-      port: "443"
+      port: "28190"
       reality-opts:
-        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-        short-id: c39cc7310a
-      server: 169.40.42.163
-      servername: yahoo.com
+        public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+        short-id: ""
+      server: 159.89.87.21
+      servername: aws.amazon.com
       tls: true
       type: vless
       udp: true
-      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+      uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
       xudp: true
     - alpn:
         - ""
@@ -475,15 +480,8 @@ proxies:
       server: 193.151.160.9
       type: ss
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_10"
-      password: eDfN7SODQceIOmIAbtJJtK
-      port: "443"
-      server: 198.98.53.130
-      type: ss
-      udp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8US_11"
+      name: "\U0001F1FA\U0001F1F8US_10"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: "19999"
       server: 185.215.132.18
@@ -503,31 +501,15 @@ proxies:
       udp: true
       uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
       xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_12"
-      network: tcp
-      port: "28190"
-      reality-opts:
-        public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
-        short-id: ""
-      server: 159.89.87.21
-      servername: aws.amazon.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
-      xudp: true
     - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8US_13"
+      name: "\U0001F1FA\U0001F1F8US_11"
       password: shadowsocks
       port: "443"
       server: 156.146.38.170
       type: ss
       udp: true
     - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8US_14"
+      name: "\U0001F1FA\U0001F1F8US_12"
       password: shadowsocks
       port: "443"
       server: 156.146.38.169
@@ -536,7 +518,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_15"
+      name: "\U0001F1FA\U0001F1F8US_13"
       network: tcp
       port: "443"
       reality-opts:
@@ -552,7 +534,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_16"
+      name: "\U0001F1FA\U0001F1F8US_14"
       network: tcp
       port: "23576"
       reality-opts:
@@ -565,10 +547,17 @@ proxies:
       udp: true
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_15"
+      password: bQZl7HDxSabr1FurTYQHFU
+      port: "443"
+      server: 216.105.168.18
+      type: ss
+      udp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_17"
+      name: "\U0001F1FA\U0001F1F8US_16"
       network: tcp
       port: "23576"
       reality-opts:
@@ -584,7 +573,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_18"
+      name: "\U0001F1FA\U0001F1F8US_17"
       network: tcp
       port: "23576"
       reality-opts:
@@ -600,7 +589,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_19"
+      name: "\U0001F1FA\U0001F1F8US_18"
       network: tcp
       port: "23576"
       reality-opts:
@@ -617,7 +606,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_20"
+      name: "\U0001F1FA\U0001F1F8US_19"
       network: tcp
       port: "18000"
       server: 169.197.142.22
@@ -627,24 +616,71 @@ proxies:
       udp: true
       uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
       xudp: true
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
+    - cipher: aes-128-gcm
+      name: "\U0001F1EC\U0001F1E7GB_3"
+      password: shadowsocks
+      port: "443"
+      server: 141.98.101.179
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_20"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+        short-id: c39cc7310a
+      server: 169.40.42.35
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EB\U0001F1F7FR_4"
+      password: ySGkGhr2sKHV
+      port: "443"
+      server: leviko-fr1459.shopingggg.ir
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
       name: "\U0001F1E9\U0001F1EADE_2"
       network: ws
-      port: "443"
-      server: 172.67.156.121
-      servername: www.gptcloudai.com
-      skip-cert-verify: false
+      port: "8443"
+      server: 172.64.154.113
+      servername: freeceshi6.frii.site
       tls: true
-      type: vmess
+      type: vless
       udp: true
-      uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+      uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
       ws-opts:
         headers:
-            Host: www.gptcloudai.com
-        path: /truth
+            Host: freeceshi6.frii.site
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /proxyip=ProxyIP.JP.CMLiussss.net?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: unsafe
+      encryption: none
+      name: "\U0001F1EC\U0001F1E7GB_4"
+      network: ws
+      port: "443"
+      server: 188.114.98.0
+      servername: freeceshi6.frii.site
+      tls: true
+      type: vless
+      udp: true
+      uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+      ws-opts:
+        headers:
+            Host: freeceshi6.frii.site
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
       xudp: true
     - alpn:
         - http/1.1
@@ -662,13 +698,32 @@ proxies:
       ws-opts:
         headers:
             Host: freeceshi6.frii.site
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
         path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_21"
-      password: bQZl7HDxSabr1FurTYQHFU
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_4"
+      network: ws
       port: "443"
-      server: 216.105.168.18
+      server: 172.67.156.121
+      servername: www.gptcloudai.com
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+      ws-opts:
+        headers:
+            Host: www.gptcloudai.com
+        path: /truth
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EE\U0001F1EAIE_1"
+      password: RoARJLTlMJOFVIuQ
+      port: "443"
+      server: 20.166.121.63
       type: ss
       udp: true
